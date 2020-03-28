@@ -1,0 +1,2483 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "İstanbul Şişli'de bir Meksika restoranı arıyorum",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Şişli",
+            "entity": "district"
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "value": "Meksika",
+            "entity": "cuisine"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "restoran",
+            "entity": "venue_type"
+          }
+        ]
+      },
+      {
+        "text": "Rio restoran harika olur",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Rio",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 4,
+            "end": 12,
+            "value": "restoran",
+            "entity": "restaurant_type"
+          }
+        ]
+      },
+      {
+        "text": "Japonessa",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Japonessa",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Tap & Tavern'i seç",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Tap & Tavern",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Trabzon, Çaykara",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Trabzon",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Çaykara",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Yardımınız için teşekkürler!",
+        "intent": "closing",
+        "entities": []
+      },
+      {
+        "text": "Elbette!",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Glütensiz bir İtalyan yemeği nerede yiyebilirim?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "İtalyan",
+            "entity": "cuisine"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "nerede",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Casa Nostra'da deniz ürünleri var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Casa Nostra",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 15,
+            "end": 29,
+            "value": "deniz ürünleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul Sarıyer'de kebap yemek istiyorum",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Sarıyer",
+            "entity": "district"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "kebap",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Bana ne önerirsin?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "ne",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Kebap yiyebileceğim bir lokanta arıyorum",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Kebap",
+            "entity": "cuisine"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "lokanta",
+            "entity": "restaurant_type"
+          }
+        ]
+      },
+      {
+        "text": "Ali'nin Kebap Dünyası nasıl bir yer?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "Ali'nin Kebap Dünyası",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "nasıl",
+            "entity": "rating"
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "nasıl",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul Beşiktaş'taki en iyi puan alan restoran nedir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "Beşiktaş",
+            "entity": "district"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "en iyi",
+            "entity": "rating"
+          },
+          {
+            "start": 40,
+            "end": 48,
+            "value": "restoran",
+            "entity": "restaurant_type"
+          }
+        ]
+      },
+      {
+        "text": "Eskişehir, Tepebaşı'ndaki Burger evi saat kaçta açılıyor?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Eskişehir",
+            "entity": "city"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Tepebaşı",
+            "entity": "district"
+          },
+          {
+            "start": 26,
+            "end": 36,
+            "value": "Burger evi",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 42,
+            "end": 47,
+            "value": "kaçta",
+            "entity": "opening_time"
+          }
+        ]
+      },
+      {
+        "text": "Fransız mutfağından bir şey yemek istiyorum.",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Fransız",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Carliano Ev Yemekleri'nde ne yiyebilirim?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "Carliano Ev Yemekleri",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 26,
+            "end": 28,
+            "value": "ne",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Bana bu bölgede iyi bir yemeği nerede yiyebileceğimi söyleyebilir misiniz?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "bu bölge",
+            "entity": "region"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "iyi",
+            "entity": "rating"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "nerede",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Nerede iyi Çin mutfağı yemekleri bulabilirim?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Nerede",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Çin",
+            "entity": "cuisine"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "iyi",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "İzmir Merkez'de nerede balık yiyebilirim?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "İzmir",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "balık",
+            "entity": "cuisine"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "nerede",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Güzel! Aslı Salata hakkında bilgi alabilir miyim?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "Aslı Salata",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Kristal Çorba nasıl bir yer?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Kristal Çorba",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "nasıl",
+            "entity": "rating"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "nasıl",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "Dönerciii kaçta açılıyor?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Dönerciii",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 10,
+            "end": 15,
+            "value": "kaçta",
+            "entity": "opening_time"
+          }
+        ]
+      },
+      {
+        "text": "Atlantis restoran nasıl bir mekan?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Atlantis",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "restoran",
+            "entity": "restaurant_type"
+          },
+          {
+            "start": 18,
+            "end": 23,
+            "value": "nasıl",
+            "entity": "rating"
+          },
+          {
+            "start": 18,
+            "end": 23,
+            "value": "nasıl",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul Ortaköy'de nerede yiyebilirim?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Ortaköy",
+            "entity": "district"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "nerede",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Adana Seyhan'da ne tarz yemek yiyebilirim?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Adana",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Seyhan",
+            "entity": "district"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "ne",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Çin Mutfağı",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Çin",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Kebap ürünleri tercih ederim.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Kebap",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Yakınlarda müşterilerin memnun olduğu ızgara ürünler yapan bir yer var mı?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 38,
+            "end": 52,
+            "value": "ızgara ürünler",
+            "entity": "cuisine"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "memnun",
+            "entity": "rating"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Yakınlarda",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul Şişli'de",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Şişli",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Yakınlarda nerede deniz ürünleri yiyebilirim?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Yakınlarda",
+            "entity": "region"
+          },
+          {
+            "start": 11,
+            "end": 17,
+            "value": "nerede",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 18,
+            "end": 32,
+            "value": "deniz ürünleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul, Beşiktaş, Levent",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 18,
+            "value": "Beşiktaş",
+            "entity": "district"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Levent",
+            "entity": "neighborhood"
+          }
+        ]
+      },
+      {
+        "text": "Şelale Ocakbaşı'nda ne yiyebilirim?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Şelale Ocakbaşı",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "value": "ne",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Nerede güzel kahve içerim?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Nerede",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "value": "güzel",
+            "entity": "rating"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "kahve",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul, Sarıyer, Huzur",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Sarıyer",
+            "entity": "district"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "Huzur",
+            "entity": "neighborhood"
+          }
+        ]
+      },
+      {
+        "text": "Bu alandaki restoranlar neler?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "restoran",
+            "entity": "restaurant_type"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Bu alan",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "Mavi Restoran",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Mavi Restoran",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Deniz ürünleri sunan mekanları söyler misin?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Deniz ürünleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Adana, Seyhan",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Adana",
+            "entity": "city"
+          },
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Seyhan",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul Şişli'deki mekanları bilmek istiyorum.",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Şişli",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Deniz ürünleri satan bütün mekanları bilmek istiyorum",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Deniz ürünleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Pato Bar",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Pato Bar",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Şifa Bar nerede?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Şifa Bar",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "nerede",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "Şişli ilçesindeki Ayna Bar nerede?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Şişli",
+            "entity": "city"
+          },
+          {
+            "start": 18,
+            "end": 26,
+            "value": "Ayna Bar",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "nerede",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul, Sarıyer'de tatlı yiyebileceğim bir yer arıyorum?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Sarıyer",
+            "entity": "district"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "tatlı",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Ev Yemekleri",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Ev Yemekleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "En yüksek puanlı 3 mekan?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "En yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 17,
+            "end": 18,
+            "value": "3",
+            "entity": "rank"
+          }
+        ]
+      },
+      {
+        "text": "En yüksek puanlı mekanlar?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "En yüksek",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Mavi Deniz",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Mavi Deniz",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul, Şişli'de en pahalı yemeği nerede yiyebilirim?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 15,
+            "value": "Şişli",
+            "entity": "district"
+          },
+          {
+            "start": 19,
+            "end": 28,
+            "value": "en pahalı",
+            "entity": "price"
+          },
+          {
+            "start": 36,
+            "end": 42,
+            "value": "nerede",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Et Ürünleri",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Et Ürünleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Sahil",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Sahil",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Güzel bir yer gibi. Teşekkürler!",
+        "intent": "confirm_restaurant",
+        "entities": []
+      },
+      {
+        "text": "İstanbul Sarıyer'deki Ayça restoranda pizza yiyebilir miyim?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Sarıyer",
+            "entity": "district"
+          },
+          {
+            "start": 22,
+            "end": 35,
+            "value": "Ayça restoran",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 38,
+            "end": 43,
+            "value": "pizza",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Mücevher Kasap Burger",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "Mücevher Kasap Burger",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul, Ortaköy'deki mekanlar neler?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Ortaköy",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Acura Köfte",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Acura Köfte",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "En pahalı mekanlar?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "En pahalı",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "Çin mutfağı olan bir restoran arıyorum.",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Çin",
+            "entity": "cuisine"
+          },
+          {
+            "start": 21,
+            "end": 29,
+            "value": "restoran",
+            "entity": "venue_type"
+          }
+        ]
+      },
+      {
+        "text": "Crimson Fast Food'da pizza yiyebilir miyim?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Crimson Fast Food",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "pizza",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Merhaba",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Evet. İstanbul, Sarıyer",
+        "intent": "approve",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Sarıyer",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Kristal Bar hakkında bilgi alabilir miyim?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Kristal Bar",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Adana Seyhan'da nerede tatlı yiyebilirim?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Adana",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Seyhan",
+            "entity": "district"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "nerede",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "tatlı",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Asya mutfağı nerede yiyebilirim?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Asya",
+            "entity": "cuisine"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "nerede",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Evet.",
+        "intent": "approve",
+        "entities": []
+      },
+      {
+        "text": "99 park restoranı.",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "99 park restoran",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul şişli",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "şişli",
+            "entity": "district"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "kırmızı biber restoranı iyi mi?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "iyi",
+            "entity": "rating"
+          },
+          {
+            "start": 0,
+            "end": 22,
+            "value": "kırmızı biber restoran",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Eskişehir, hoşnudiyede'de nerede kaburga yiyebilirim?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Eskişehir",
+            "entity": "city"
+          },
+          {
+            "start": 11,
+            "end": 22,
+            "value": "hoşnudiyede",
+            "entity": "district"
+          },
+          {
+            "start": 26,
+            "end": 32,
+            "value": "nerede",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 33,
+            "end": 40,
+            "value": "kaburga",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Rx Restoranı",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Rx Restoran",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Ankara",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ankara",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Hard Rock Cafe",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Hard Rock Cafe",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Merhaba, ben İstanbul şişli civarlarında denemek için egzotik et olan bir yer arıyorum. Elk, emu ve hatta kanguru gibi etleri denemek istiyorum. Bu tür yemekler sunan bir yer var mı?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Merhaba",
+            "entity": "greeting"
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "şişli",
+            "entity": "district"
+          },
+          {
+            "start": 54,
+            "end": 65,
+            "value": "egzotik et ",
+            "entity": "cuisine"
+          },
+          {
+            "start": 88,
+            "end": 91,
+            "value": "Elk",
+            "entity": "cuisine"
+          },
+          {
+            "start": 93,
+            "end": 96,
+            "value": "emu",
+            "entity": "cuisine"
+          },
+          {
+            "start": 106,
+            "end": 113,
+            "value": "kanguru",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Nefis! Bana mekanı göster.",
+        "intent": "confirm_restaurant",
+        "entities": []
+      },
+      {
+        "text": "Japon yemekleri",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Japon",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Eskişehir çi börek evi restoranını göster",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "Eskişehir çi börek evi",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Uçan Balık Kafe & Şarap Barı",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "Uçan Balık Kafe & Şarap Barı",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Alpu çi börek evi nerede?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Alpu çi börek evi",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 18,
+            "end": 24,
+            "value": "nerede",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "pizza yemek istiyorum.",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "pizza",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "evet çin restoranı.",
+        "intent": "approve",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "çin",
+            "entity": "cuisine"
+          },
+          {
+            "start": 9,
+            "end": 17,
+            "value": "restoran",
+            "entity": "restaurant_type"
+          }
+        ]
+      },
+      {
+        "text": "Şişli, gülbağ",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Şişli",
+            "entity": "district"
+          },
+          {
+            "start": 7,
+            "end": 13,
+            "value": "gülbağ",
+            "entity": "neighborhood"
+          }
+        ]
+      },
+      {
+        "text": "Evet, göster",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "Şişli veya sarıyerde burger king nerede?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Şişli",
+            "entity": "district"
+          },
+          {
+            "start": 11,
+            "end": 18,
+            "value": "sarıyer",
+            "entity": "district"
+          },
+          {
+            "start": 21,
+            "end": 32,
+            "value": "burger king",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 33,
+            "end": 39,
+            "value": "nerede",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "Sarıyer, huzur'da sadece vejeteryan yemekleri satan bir mekan arıyorum.",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Sarıyer",
+            "entity": "district"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "huzur",
+            "entity": "neighborhood"
+          },
+          {
+            "start": 18,
+            "end": 35,
+            "value": "sadece vejeteryan",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Çin mutfağı.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Çin",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Maslak",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Maslak",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Japon",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Japon",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "kebap",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "kebap",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Selam",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "1. restoranı göster.",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "1.",
+            "entity": "restaurant_id"
+          }
+        ]
+      },
+      {
+        "text": "Ankara, bağcılar",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "bağcılar",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "birinci restoranı göster",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "birinci",
+            "entity": "restaurant_id"
+          }
+        ]
+      },
+      {
+        "text": "bu Şişli'de mi?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Şişli",
+            "entity": "district"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "bu",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "İtalyan",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "İtalyan",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Arap yemekleri satan güzel bir yer bakıyorum",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Arap",
+            "entity": "cuisine"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "güzel",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Kabuk Pizza kulağa hoş geliyor",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Kabuk Pizza",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Yakınlarında tatlıcı olsun.",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Yakın",
+            "entity": "region"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "tatlı",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Kerim restoran",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Kerim restoran",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "ali büfe",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "ali büfe",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "yakınlarda büfe bakınıyorum",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "yakın",
+            "entity": "region"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "büfe",
+            "entity": "restaurant_type"
+          }
+        ]
+      },
+      {
+        "text": "Kişi başı 40 tlden ucuza gelecek bir yer istiyorum",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 37,
+            "end": 40,
+            "value": "yer",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 10,
+            "end": 23,
+            "value": "40 tlden ucuz",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "Evet, ucuz olsun.",
+        "intent": "approve",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "ucuz",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "Ekrem Döner lütfen",
+        "intent": "confirm",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Ekrem Döner",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Elbette",
+        "intent": "approve",
+        "entities": []
+      },
+      {
+        "text": "İstanbul, Levent'te brunch için iyi bir yer arıyorum.",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "Levent",
+            "entity": "neighborhood"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "brunch",
+            "entity": "meal"
+          }
+        ]
+      },
+      {
+        "text": "Hangi şehirler var?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Hangi",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Merhaba, çevremdeki iyi mekanları merak ediyorum.",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "çevre",
+            "entity": "region"
+          },
+          {
+            "start": 20,
+            "end": 23,
+            "value": "iyi",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Döner iyi olurdu.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Döner",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Lokma yemek için ucuz yerler var mı?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "ucuz",
+            "entity": "price"
+          },
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Lokma",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Hayır teşekkür ederim",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Selam! Yerel bölgede bir İtalyan restoranı arıyorum. Bana yardım eder misiniz?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Selam",
+            "entity": "greeting"
+          },
+          {
+            "start": 7,
+            "end": 18,
+            "value": "Yerel bölge",
+            "entity": "region"
+          },
+          {
+            "start": 25,
+            "end": 32,
+            "value": "İtalyan",
+            "entity": "cuisine"
+          },
+          {
+            "start": 33,
+            "end": 41,
+            "value": "restoran",
+            "entity": "restaurant_type"
+          }
+        ]
+      },
+      {
+        "text": "İtalyan mutfağı lütfen",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "İtalyan",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "iyi ve ucuz bir mekan arıyorum",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "iyi",
+            "entity": "rating"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "ucuz",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "Evet teşekkür ederim!",
+        "intent": "approve",
+        "entities": []
+      },
+      {
+        "text": "Benim için Maslak'ta, Avrupa yemekleri yapan, yüksek puanlı bir mekan bulabilir misiniz?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Maslak",
+            "entity": "neighborhood"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Avrupa",
+            "entity": "cuisine"
+          },
+          {
+            "start": 46,
+            "end": 52,
+            "value": "yüksek",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Merhaba, bana iyi bir restoran önerebilir misin?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "iyi",
+            "entity": "rating"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Merhaba",
+            "entity": "greeting"
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "restoran",
+            "entity": "restaurant_type"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Domino's Pizza'nın fiyat aralığı nasıl?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Domino's Pizza",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "nasıl",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "Hangi restoranlar açık?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Hangi",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 6,
+            "end": 14,
+            "value": "restoran",
+            "entity": "restaurant_type"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "açık",
+            "entity": "time"
+          }
+        ]
+      },
+      {
+        "text": "Adana",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Adana",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "italyan lütfen",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "italyan",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "taksim istanbul harika olurdu",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "taksim",
+            "entity": "district"
+          },
+          {
+            "start": 7,
+            "end": 15,
+            "value": "istanbul",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Mr.Hamza",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Mr.Hamza",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Bebek İstanbul'da akşam yemeği yiyebileceğimiz bir yer arıyoruz",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Bebek",
+            "entity": "district"
+          },
+          {
+            "start": 6,
+            "end": 14,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 18,
+            "end": 30,
+            "value": "akşam yemeği",
+            "entity": "meal"
+          }
+        ]
+      },
+      {
+        "text": "Köşkeroğlu restoranı mükemmel olurdu",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "Köşkeroğlu restoran",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "deniz kıyısında kebap satan bir restoran arıyorum",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "deniz kıyısında",
+            "entity": "region"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "value": "kebap",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "hayır",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "deniz ürünleri",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "deniz ürünleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Starbucks olsun",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Starbucks",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Taksim iyi olur, çok yardımcı olduğunuz için teşekkürler!",
+        "intent": "approve",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Taksim",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "kadıköy'de ev yemekleri yapan mekan var mı?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "kadıköy",
+            "entity": "district"
+          },
+          {
+            "start": 11,
+            "end": 23,
+            "value": "ev yemekleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "ne tarz mutfaklar var",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "ne",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "evet, Ziyafetçi olur",
+        "intent": "confirm_restaurant",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "value": "Ziyafetçi",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Maslak tarafında Kahve Dünyası var mı",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Maslak",
+            "entity": "neighborhood"
+          },
+          {
+            "start": 17,
+            "end": 30,
+            "value": "Kahve Dünyası",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Nusret nerede",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Nusret",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 7,
+            "end": 13,
+            "value": "nerede",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul'daki en pahalı restoran ne",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 14,
+            "end": 23,
+            "value": "en pahalı",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "bana bir Burger King bulur musun",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 9,
+            "end": 20,
+            "value": "Burger King",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "Selam. Bursa'da ucuz bir restoran arıyorum. Yardım edebilir misin",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Selam",
+            "entity": "greeting"
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "value": "Bursa",
+            "entity": "city"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "ucuz",
+            "entity": "price"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "restoran",
+            "entity": "restaurant_type"
+          }
+        ]
+      },
+      {
+        "text": "Bursa İskender nerede",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Bursa İskender",
+            "entity": "restaurant_name"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "nerede",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "Osmanbey'de iyi pizza yapan bir yer tavsiye edebilir misiniz?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Osmanbey",
+            "entity": "district"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "iyi",
+            "entity": "rating"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "value": "pizza",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "Çok iyi bir kebapçı önerir misin",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "iyi",
+            "entity": "rating"
+          },
+          {
+            "start": 12,
+            "end": 17,
+            "value": "kebap",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul'daki en yüksek puana sahip restoran hangisi?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 14,
+            "end": 23,
+            "value": "en yüksek",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Ucuz bir mekan olsun yeter",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Ucuz",
+            "entity": "price"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "yeter",
+            "entity": "enough"
+          }
+        ]
+      },
+      {
+        "text": "müşteri memnuniyeti yüksek bir mekan nerede bulabilirim",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "nerede",
+            "entity": "restaurant_name"
+          }
+        ]
+      },
+      {
+        "text": "lütfen",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "evet, İzmir Çeşme civarında",
+        "intent": "approve",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "İzmir",
+            "entity": "city"
+          },
+          {
+            "start": 12,
+            "end": 17,
+            "value": "Çeşme",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Fast food yemek istiyorum",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Fast food",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "puanı yüksek mi",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "yüksek",
+            "entity": "rating"
+          }
+        ]
+      }
+    ]
+  }
+}
