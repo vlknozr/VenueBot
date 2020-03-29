@@ -1,10 +1,21 @@
-{
+﻿{
   "rasa_nlu_data": {
     "entity_synonyms": [
       {
         "value": "Merhaba",
-        "synonyms": ["selam", "naber", "nasıl gidiyor", "orda mısın", "hey", "günaydın", "iyi günler", "iyi akşamlar",
-          "iyi geceler", "tünaydın", "hello"]
+        "synonyms": [
+          "selam",
+          "naber",
+          "nasıl gidiyor",
+          "orda mısın",
+          "hey",
+          "günaydın",
+          "iyi günler",
+          "iyi akşamlar",
+          "iyi geceler",
+          "tünaydın",
+          "hello"
+        ]
       }
     ],
     "common_examples": [
@@ -52,7 +63,7 @@
             "start": 4,
             "end": 12,
             "value": "restoran",
-            "entity": "restaurant_type"
+            "entity": "venue_type"
           }
         ]
       },
@@ -254,7 +265,7 @@
             "start": 24,
             "end": 31,
             "value": "lokanta",
-            "entity": "restaurant_type"
+            "entity": "venue_type"
           }
         ]
       },
@@ -308,7 +319,7 @@
             "start": 40,
             "end": 48,
             "value": "restoran",
-            "entity": "restaurant_type"
+            "entity": "venue_type"
           }
         ]
       },
@@ -500,7 +511,7 @@
             "start": 9,
             "end": 17,
             "value": "restoran",
-            "entity": "restaurant_type"
+            "entity": "venue_type"
           },
           {
             "start": 18,
@@ -734,7 +745,7 @@
             "start": 12,
             "end": 20,
             "value": "restoran",
-            "entity": "restaurant_type"
+            "entity": "venue_type"
           },
           {
             "start": 0,
@@ -1438,7 +1449,7 @@
             "start": 9,
             "end": 17,
             "value": "restoran",
-            "entity": "restaurant_type"
+            "entity": "venue_type"
           }
         ]
       },
@@ -1730,7 +1741,7 @@
             "start": 11,
             "end": 15,
             "value": "büfe",
-            "entity": "restaurant_type"
+            "entity": "venue_type"
           }
         ]
       },
@@ -1896,7 +1907,7 @@
             "start": 33,
             "end": 41,
             "value": "restoran",
-            "entity": "restaurant_type"
+            "entity": "venue_type"
           }
         ]
       },
@@ -1979,7 +1990,7 @@
             "start": 22,
             "end": 30,
             "value": "restoran",
-            "entity": "restaurant_type"
+            "entity": "venue_type"
           }
         ]
       },
@@ -2027,7 +2038,7 @@
             "start": 6,
             "end": 14,
             "value": "restoran",
-            "entity": "restaurant_type"
+            "entity": "venue_type"
           },
           {
             "start": 18,
@@ -2320,7 +2331,7 @@
             "start": 25,
             "end": 33,
             "value": "restoran",
-            "entity": "restaurant_type"
+            "entity": "venue_type"
           }
         ]
       },
@@ -2514,20 +2525,686 @@
         "intent": "closing",
         "entities": []
       },
-            {
+      {
         "text": "iyi akşamlar",
         "intent": "closing",
         "entities": []
       },
-            {
+      {
         "text": "bye",
         "intent": "closing",
         "entities": []
       },
-            {
+      {
         "text": "görüşürüz",
         "intent": "closing",
         "entities": []
+      },
+      {
+        "text": "İzmit'in merkezinde kebap ve ızgara ürünleri bulunabilecek ortalama müşteri memnuniyetine sahip bir restoran var mı?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "İzmit",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "merkez",
+            "entity": "district"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "kebap",
+            "entity": "cuisine"
+          },
+          {
+            "start": 59,
+            "end": 67,
+            "value": "ortalama",
+            "entity": "rating"
+          },
+          {
+            "start": 100,
+            "end": 108,
+            "value": "restoran",
+            "entity": "venue_type"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "ızgara",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "İzmit Merkez'de kebap ve ızgara yenebilecek iyi bir mekan var mı?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "İzmit",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "value": "kebap",
+            "entity": "cuisine"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": " ızgara",
+            "entity": "cuisine"
+          },
+          {
+            "start": 44,
+            "end": 47,
+            "value": "iyi",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "İzmit'in merkez bölgesinde ızgara, kebap satan ortalama bir mekan var mı?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "İzmit",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "merkez",
+            "entity": "district"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "ızgara",
+            "entity": "cuisine"
+          },
+          {
+            "start": 35,
+            "end": 40,
+            "value": "kebap",
+            "entity": "cuisine"
+          },
+          {
+            "start": 47,
+            "end": 55,
+            "value": "ortalama",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "İzmit Merkez'de müşterilerini memnun edebilen, kebap ve ızgara ürünleri sunan restoranlar hangileridir?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "İzmit",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 30,
+            "end": 36,
+            "value": "memnun",
+            "entity": "rating"
+          },
+          {
+            "start": 78,
+            "end": 87,
+            "value": "restoranl",
+            "entity": "venue_type"
+          },
+          {
+            "start": 47,
+            "end": 52,
+            "value": "kebap",
+            "entity": "cuisine"
+          },
+          {
+            "start": 56,
+            "end": 62,
+            "value": "ızgara",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Karaköy İstanbul'da kafeterya ürünleri sunan ve  müşterilerin çok beğendiği bir mekan var mı?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Karaköy",
+            "entity": "district"
+          },
+          {
+            "start": 8,
+            "end": 16,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 20,
+            "end": 38,
+            "value": "kafeterya ürünleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 62,
+            "end": 65,
+            "value": "çok",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul Karaköy'de kafeterya ürünleri sunarak çok memnun eden bir mekan var mı?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Karaköy",
+            "entity": "district"
+          },
+          {
+            "start": 20,
+            "end": 38,
+            "value": "kafeterya ürünleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 47,
+            "end": 57,
+            "value": "çok memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul, Karaköy'de yüksek memnuniyete sahip kafeterya ürünleri satan mekanlar nelerdir?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Karaköy",
+            "entity": "district"
+          },
+          {
+            "start": 21,
+            "end": 27,
+            "value": "yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 46,
+            "end": 64,
+            "value": "kafeterya ürünleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul Karaköy'de müşterilerin son derece memnun olduğu kafeterya ürünleri satan mekanlar hangileridir?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Karaköy",
+            "entity": "district"
+          },
+          {
+            "start": 58,
+            "end": 76,
+            "value": "kafeterya ürünleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 33,
+            "end": 50,
+            "value": "son derece memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Çukurambar Ankara'da çok beğenilen ve tercih edilen bir kebapçı var mı?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Çukurambar",
+            "entity": "district"
+          },
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 56,
+            "end": 61,
+            "value": "kebap",
+            "entity": "cuisine"
+          },
+          {
+            "start": 21,
+            "end": 34,
+            "value": "çok beğenilen",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Ankara Çukurambar'da müşteriler tarafından aşırı sevilen, kebap yenebilecek mekanlar nerelerdir?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 7,
+            "end": 17,
+            "value": "Çukurambar",
+            "entity": "district"
+          },
+          {
+            "start": 58,
+            "end": 63,
+            "value": "kebap",
+            "entity": "cuisine"
+          },
+          {
+            "start": 43,
+            "end": 56,
+            "value": "aşırı sevilen",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Ankara, Çukurambar'da yüksek memnuniyete sahip kebapçılar nelerdir?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 8,
+            "end": 18,
+            "value": "Çukurambar",
+            "entity": "district"
+          },
+          {
+            "start": 22,
+            "end": 39,
+            "value": "yüksek memnuniyet",
+            "entity": "rating"
+          },
+          {
+            "start": 47,
+            "end": 52,
+            "value": "kebap",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Ankara Çukurambar'da müşterilerin çok memnun olduğu kebapçılar nelerdir ?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 7,
+            "end": 17,
+            "value": "Çukurambar",
+            "entity": "district"
+          },
+          {
+            "start": 34,
+            "end": 44,
+            "value": "çok memnun",
+            "entity": "rating"
+          },
+          {
+            "start": 52,
+            "end": 57,
+            "value": "kebap",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Kızılay Ankara'da sakatat ve ızgara ürünleri aşırı derecede beğenilen bir mekan var mı ?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Kızılay",
+            "entity": "district"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 18,
+            "end": 25,
+            "value": "sakatat",
+            "entity": "cuisine"
+          },
+          {
+            "start": 45,
+            "end": 69,
+            "value": "aşırı derecede beğenilen",
+            "entity": "rating"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "ızgara",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Ankara Kızılay'da müşterilerin çok memnun kaldığı, ızgara ve sakatat ürünleri yenebilecek yerler nelerdir?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 7,
+            "end": 14,
+            "value": "Kızılay",
+            "entity": "district"
+          },
+          {
+            "start": 31,
+            "end": 41,
+            "value": "çok memnun",
+            "entity": "rating"
+          },
+          {
+            "start": 51,
+            "end": 57,
+            "value": "ızgara",
+            "entity": "cuisine"
+          },
+          {
+            "start": 61,
+            "end": 68,
+            "value": "sakatat",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Kızılay, Ankara'da yüksek memnuniyete sahip sakatat ve ızgara satan mekanlar nelerdir?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Kızılay",
+            "entity": "district"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 19,
+            "end": 36,
+            "value": "yüksek memnuniyet",
+            "entity": "rating"
+          },
+          {
+            "start": 44,
+            "end": 51,
+            "value": "sakatat",
+            "entity": "cuisine"
+          },
+          {
+            "start": 55,
+            "end": 61,
+            "value": "ızgara",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Kızılay Ankara'da müşteri memnuniyeti yüksek, sakatatlar ve ızgara ürünleri satan mekanlar hangileridir ?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Kızılay",
+            "entity": "district"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 38,
+            "end": 44,
+            "value": "yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "value": "sakatat",
+            "entity": "cuisine"
+          },
+          {
+            "start": 60,
+            "end": 66,
+            "value": "ızgara",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Seyhan Adana'da beğenilen makul fiyatlı bir mekan var mı?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Seyhan",
+            "entity": "district"
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "value": "Adana",
+            "entity": "city"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "makul",
+            "entity": "price"
+          },
+          {
+            "start": 16,
+            "end": 25,
+            "value": "beğenilen",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Adana Seyhan'da iyi yemekleri olan ve fiyatları uygun olan mekanlar nelerdir?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Adana",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Seyhan",
+            "entity": "district"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "iyi",
+            "entity": "rating"
+          },
+          {
+            "start": 48,
+            "end": 53,
+            "value": "uygun",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "Adana Seyhan'da ortalama müşteri memnuniyetine sahip ve makul fiyatlı lokantalar nelerdir?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Adana",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Seyhan",
+            "entity": "district"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "ortalama",
+            "entity": "rating"
+          },
+          {
+            "start": 56,
+            "end": 61,
+            "value": "makul",
+            "entity": "price"
+          },
+          {
+            "start": 70,
+            "end": 77,
+            "value": "lokanta",
+            "entity": "venue_type"
+          }
+        ]
+      },
+      {
+        "text": "Adana'nın Seyhan ilçesinde makul fiyatlandırmaya sahip ve müşterileri memnun eden mekanlar hangileridir ?",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Adana'",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "Seyhan",
+            "entity": "district"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "makul",
+            "entity": "price"
+          },
+          {
+            "start": 70,
+            "end": 76,
+            "value": "memnun",
+            "entity": "rating"
+          }
+        ]
       }
     ]
   }
