@@ -5,6 +5,16 @@
 # https://rasa.com/docs/rasa/core/actions/#custom-actions/
 
 
+# source venv/bin/activate
+
+# npx kill-port 5055
+
+# python -m rasa_sdk --actions actions
+
+# http://localhost:5055/health
+# http://localhost:5055/actions
+
+
 # This is a simple example for a custom action which utters "Hello World!"
 
 # from typing import Any, Text, Dict, List
