@@ -1,62 +1,45 @@
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
-
 intents:
-- search_restaurant
-- request
-- confirm
-- confirm_restaurant
-- closing
-- deny
-- approve
-- greeting
-- inform
-- mood_great
-- bot_challenge
-- goodbye
-- greet
-- affirm
-- mood_unhappy
+  - search_restaurant
+  - request
+  - confirm
+  - confirm_restaurant
+  - closing
+  - deny
+  - approve
+  - greeting
+  - inform
+
 
 entities:
-- cuisine
-- price
-- greeting
-- restaurant_id
-- opening_time
-- rating
-- region
-- time
-- restaurant_type
-- venue_type
-- restaurant_name
-- neighborhood
-- rank
-- meal
-- district
-- city
-- enough
+  - cuisine
+  - price
+  - greeting
+  - restaurant_id
+  - opening_time
+  - rating
+  - region
+  - time
+  - restaurant_type
+  - venue_type
+  - restaurant_name
+  - neighborhood
+  - rank
+  - meal
+  - district
+  - city
+  - enough
 
 responses:
   utter_greet:
-  - text: Merhaba
-  utter_cheer_up:
-  - text: 'Naber'
-  utter_did_that_help:
-  - text: Did that help you?
+  - text: "Naber"
+
   utter_happy:
-  - text: Great, carry on!
-  utter_goodbye:
-  - text: Bye
-  utter_iamabot:
-  - text: I am a bot, powered by Rasa.
+  - text: "iyi iyi sen"
 
 actions:
 - utter_greet
-- utter_cheer_up
-- utter_did_that_help
 - utter_happy
-- utter_goodbye
-- utter_iamabot
-- action_inform_restaurant
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
