@@ -99,6 +99,72 @@
         ]
       },
       {
+        "text": "Kaliteli balık olsun yeter",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Kaliteli",
+            "entity": "rating"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "yeter",
+            "entity": "enough"
+          },
+          {
+            "start": 9,
+            "end": 14,
+            "value": "balık",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul'un en pahalı 10 restoranı",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "restoran",
+            "entity": "venue_type"
+          },
+          {
+            "start": 12,
+            "end": 21,
+            "value": "en pahalı",
+            "entity": "rating"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "10",
+            "entity": "rank"
+          }
+        ]
+      },
+      {
+        "text": "Gece 2 de hangi mekanlar açık",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 5,
+            "end": 6,
+            "value": "2",
+            "entity": "time"
+          }
+        ]
+      },
+      {
         "text": "Yardımınız için teşekkürler!",
         "intent": "closing",
         "entities": []
@@ -117,12 +183,6 @@
             "end": 21,
             "value": "İtalyan",
             "entity": "cuisine"
-          },
-          {
-            "start": 29,
-            "end": 35,
-            "value": "nerede",
-            "entity": "restaurant_name"
           }
         ]
       },
@@ -327,12 +387,6 @@
             "end": 19,
             "value": "iyi",
             "entity": "rating"
-          },
-          {
-            "start": 31,
-            "end": 37,
-            "value": "nerede",
-            "entity": "restaurant_name"
           }
         ]
       },
@@ -340,12 +394,6 @@
         "text": "Nerede iyi Çin mutfağı yemekleri bulabilirim?",
         "intent": "search_restaurant",
         "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "Nerede",
-            "entity": "restaurant_name"
-          },
           {
             "start": 11,
             "end": 14,
@@ -381,12 +429,6 @@
             "end": 28,
             "value": "balık",
             "entity": "cuisine"
-          },
-          {
-            "start": 16,
-            "end": 22,
-            "value": "nerede",
-            "entity": "restaurant_name"
           }
         ]
       },
@@ -489,12 +531,6 @@
             "end": 16,
             "value": "Ortaköy",
             "entity": "district"
-          },
-          {
-            "start": 20,
-            "end": 26,
-            "value": "nerede",
-            "entity": "restaurant_name"
           }
         ]
       },
@@ -599,12 +635,6 @@
             "entity": "region"
           },
           {
-            "start": 11,
-            "end": 17,
-            "value": "nerede",
-            "entity": "restaurant_name"
-          },
-          {
             "start": 18,
             "end": 32,
             "value": "deniz ürünleri",
@@ -658,12 +688,6 @@
         "text": "Nerede güzel kahve içerim?",
         "intent": "search_restaurant",
         "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "Nerede",
-            "entity": "restaurant_name"
-          },
           {
             "start": 7,
             "end": 12,
@@ -945,12 +969,6 @@
             "end": 28,
             "value": "en pahalı",
             "entity": "price"
-          },
-          {
-            "start": 36,
-            "end": 42,
-            "value": "nerede",
-            "entity": "restaurant_name"
           }
         ]
       },
@@ -1155,12 +1173,6 @@
             "entity": "district"
           },
           {
-            "start": 16,
-            "end": 22,
-            "value": "nerede",
-            "entity": "restaurant_name"
-          },
-          {
             "start": 23,
             "end": 28,
             "value": "tatlı",
@@ -1177,12 +1189,6 @@
             "end": 4,
             "value": "Asya",
             "entity": "cuisine"
-          },
-          {
-            "start": 13,
-            "end": 19,
-            "value": "nerede",
-            "entity": "restaurant_name"
           }
         ]
       },
@@ -1254,12 +1260,6 @@
             "end": 22,
             "value": "hoşnudiyede",
             "entity": "district"
-          },
-          {
-            "start": 26,
-            "end": 32,
-            "value": "nerede",
-            "entity": "restaurant_name"
           },
           {
             "start": 33,
@@ -2429,12 +2429,6 @@
             "end": 26,
             "value": "yüksek",
             "entity": "rating"
-          },
-          {
-            "start": 37,
-            "end": 43,
-            "value": "nerede",
-            "entity": "restaurant_name"
           }
         ]
       },
