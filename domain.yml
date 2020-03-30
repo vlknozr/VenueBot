@@ -32,7 +32,7 @@ responses:
   utter_greet:
   - text: "Naber"
 
-  utter_closing:
+  utter_close:
   - text: "iyi iyi sen"
 
   utter_inform_restaurant_price:
@@ -49,10 +49,11 @@ responses:
 
 actions:
 - utter_greet
-- utter_closing
+- utter_close
 - utter_inform_restaurant_price
 - utter_inform_restaurant_rating
 - utter_inform_restaurant_cuisine
+- utter_inform_restaurant
 
 session_config:
   session_expiration_time: 60

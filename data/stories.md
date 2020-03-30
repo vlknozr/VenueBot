@@ -145,7 +145,7 @@
 ## 19
 * greeting
   - utter_greet
-* search_restaurant{"city": "İstanbul", "district": "Şişli", "neighborhood": "Teşvikiye", "rating":"memnun", "price"="pahalı", cuisine="kebap"}
+* search_restaurant{"city": "İstanbul", "district": "Şişli", "neighborhood": "Teşvikiye", "rating":"memnun", "price":"pahalı", "cuisine":"kebap"}
   - utter_inform_restaurant
 * closing
   - utter_close
@@ -153,7 +153,7 @@
 ## 20
 * greeting
   - utter_greet
-* search_restaurant{"city": "Adana", "district": "Seyhan", "rating":"memnun", "price"="pahalı", cuisine="kebap"}
+* search_restaurant{"city": "Adana", "district": "Seyhan", "rating":"memnun", "price":"pahalı", "cuisine":"kebap"}
   - utter_inform_restaurant_rating
 * closing
   - utter_close
