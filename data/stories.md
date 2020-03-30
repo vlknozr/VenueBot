@@ -185,8 +185,10 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"cuisine": "suşi", "rating": "iyi"}
+  - slot{"cuisine": "suşi", "rating": "iyi"}
   - utter_ask_region
 * inform{"city": "İzmir", "district": "Çeşme"}
+  - slot{"city": "İzmir", "district": "Çeşme"}
   - utter_inform_restaurant
 * closing
   - utter_close

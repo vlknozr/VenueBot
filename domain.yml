@@ -28,33 +28,74 @@ entities:
   - city
   - enough
 
+slots:
+  cuisine:
+    type: text
+    initial_value: "kebap"
+  price:
+    type: text
+    initial_value: "ucuz"
+  restaurant_id:
+    type: text
+  opening_time:
+    type: text
+  rating:
+    type: text
+    initial_value: "ortalama"
+  region:
+    type: text
+  time:
+    type: text
+  venue_type:
+    type: text
+    initial_value: "restoran"
+  restaurant_name:
+    type: text
+    initial_value: "Tamirhane"
+  neighborhood:
+    type: text
+  rank:
+    type: text
+  meal:
+    type: text
+  district:
+    type: text
+    initial_value: "Maslak"
+  city:
+    type: text
+    initial_value: "İstanbul"
+  enough:
+    type: text
+
+
 responses:
   utter_greet:
-  - text: "Merhaba"
+    - text: "Merhaba"
 
   utter_close:
-    - text: "iyi iyi sen"
+    - text: "Görüşmek üzere."
+    - text: "Afiyet olsun."
 
   utter_guide:
     - text: "Nasıl yardımcı olabilirim?"
 
   utter_ask_region:
-    - text: "Hmm...Hangi bölgede mekan arıyorsun?"
+    - text: "Hmm... Hangi bölgede mekan arıyorsun?"
 
   utter_ask_cuisine:
-    - text: "Hmm...Hangi tarz mutfakları tercih edersin?"
+    - text: "Hmm... Hangi tarz mutfakları tercih edersin?"
 
   utter_inform_restaurant_price:
-  - text: "Saray senin için uygun fiyatlı bir tercih!"
+    - text: "Saray senin için uygun fiyatlı bir tercih!"
 
   utter_inform_restaurant_rating:
-  - text: "Müşterilerin memnun olduğu güzel bir mekan!!"
+    - text: "Müşterilerin memnun olduğu güzel bir mekan!!"
 
   utter_inform_restaurant_cuisine:
-  - text: "Ali Baba Kebap Evi için seçtiğin mutfak bulunamadı!"
+    - text: "Ali Baba Kebap Evi için seçtiğin mutfak bulunamadı!"
 
   utter_inform_restaurant:
-  - text: "İzmir Çeşme'de suşiyi SushiCo'da yiyebilirsin."
+    - text: "{city} {district}'de {rating} {cuisine}, {restaurant_name}'de yenilebilir."
 
 actions:
 - utter_greet
