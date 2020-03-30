@@ -19,7 +19,6 @@ entities:
   - rating
   - region
   - time
-  - restaurant_type
   - venue_type
   - restaurant_name
   - neighborhood
@@ -33,12 +32,27 @@ responses:
   utter_greet:
   - text: "Naber"
 
-  utter_happy:
+  utter_closing:
   - text: "iyi iyi sen"
+
+  utter_inform_restaurant_price:
+  - text: "Saray senin için uygun fiyatlı bir tercih!"
+
+  utter_inform_restaurant_rating:
+    - text: "Müşterilerin memnun olduğu güzel bir mekan!!"
+
+  utter_inform_restaurant_cuisine:
+    - text: "Ali Baba Kebap Evi için seçtiğin mutfak bulunamadı!"
+
+  utter_inform_restaurant:
+    - text: "Burger King senin için en iyi tercih!"
 
 actions:
 - utter_greet
-- utter_happy
+- utter_closing
+- utter_inform_restaurant_price
+- utter_inform_restaurant_rating
+- utter_inform_restaurant_cuisine
 
 session_config:
   session_expiration_time: 60
