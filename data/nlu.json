@@ -5,6 +5,22 @@
         "value": "Merhaba",
         "synonyms": ["selam", "naber", "nasıl gidiyor", "orda mısın", "hey", "günaydın", "iyi günler", "iyi akşamlar",
           "iyi geceler", "tünaydın", "hello"]
+      },
+      {
+        "value": "bye",
+        "synonyms": ["görüşürüz", "by", "elveda", "bay bay"]
+      },
+      {
+        "value": "ortalama",
+        "synonyms": ["memnun", "iyi", "beğeni", "memnuniyetini kazanmış", "makul", "uygun"]
+      },
+      {
+        "value": "yüksek",
+        "synonyms": ["çok memnun", "son derece memnun", "aşırı sevilen", "oldukça iyi", "yüksek memnuniyet", "bay bay"]
+      },
+      {
+        "value": "ev yemekleri",
+        "synonyms": ["ev yapımı"]
       }
     ],
     "common_examples": [
@@ -267,18 +283,6 @@
             "end": 21,
             "value": "Ali'nin Kebap Dünyası",
             "entity": "restaurant_name"
-          },
-          {
-            "start": 22,
-            "end": 27,
-            "value": "nasıl",
-            "entity": "rating"
-          },
-          {
-            "start": 22,
-            "end": 27,
-            "value": "nasıl",
-            "entity": "price"
           }
         ]
       },
@@ -453,18 +457,6 @@
             "end": 13,
             "value": "Kristal Çorba",
             "entity": "restaurant_name"
-          },
-          {
-            "start": 14,
-            "end": 19,
-            "value": "nasıl",
-            "entity": "rating"
-          },
-          {
-            "start": 14,
-            "end": 19,
-            "value": "nasıl",
-            "entity": "price"
           }
         ]
       },
@@ -501,18 +493,6 @@
             "end": 17,
             "value": "restoran",
             "entity": "venue_type"
-          },
-          {
-            "start": 18,
-            "end": 23,
-            "value": "nasıl",
-            "entity": "rating"
-          },
-          {
-            "start": 18,
-            "end": 23,
-            "value": "nasıl",
-            "entity": "price"
           }
         ]
       },
@@ -764,6 +744,36 @@
             "start": 0,
             "end": 14,
             "value": "Deniz ürünleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Kebap yiyebileceğim mekanları göster",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Kebap",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Nerede iyi suşi yiyebilirim.",
+        "intent": "search_restaurant",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "iyi",
+            "entity": "rating"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "suşi",
             "entity": "cuisine"
           }
         ]
@@ -3794,52 +3804,12 @@
         ]
       },
       {
-        "text": "selam",
-        "intent": "greeting",
-        "entities": []
-      },
-      {
-        "text": "naber",
-        "intent": "greeting",
-        "entities": []
-      },
-      {
-        "text": "nasılsın",
-        "intent": "greeting",
-        "entities": []
-      },
-      {
-        "text": "nasıl gidiyor",
-        "intent": "greeting",
-        "entities": []
-      },
-      {
         "text": "merhaba",
         "intent": "greeting",
         "entities": []
       },
       {
-        "text": "meraba",
-        "intent": "greeting",
-        "entities": []
-      },
-      {
-        "text": "iyi günler",
-        "intent": "closing",
-        "entities": []
-      },
-            {
-        "text": "iyi akşamlar",
-        "intent": "closing",
-        "entities": []
-      },
-            {
         "text": "bye",
-        "intent": "closing",
-        "entities": []
-      },
-            {
-        "text": "görüşürüz",
         "intent": "closing",
         "entities": []
       }

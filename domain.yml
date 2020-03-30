@@ -30,26 +30,38 @@ entities:
 
 responses:
   utter_greet:
-  - text: "Naber"
+  - text: "Merhaba"
 
   utter_close:
-  - text: "iyi iyi sen"
+    - text: "iyi iyi sen"
+
+  utter_guide:
+    - text: "Nasıl yardımcı olabilirim?"
+
+  utter_ask_region:
+    - text: "Hmm...Hangi bölgede mekan arıyorsun?"
+
+  utter_ask_cuisine:
+    - text: "Hmm...Hangi tarz mutfakları tercih edersin?"
 
   utter_inform_restaurant_price:
   - text: "Saray senin için uygun fiyatlı bir tercih!"
 
   utter_inform_restaurant_rating:
-    - text: "Müşterilerin memnun olduğu güzel bir mekan!!"
+  - text: "Müşterilerin memnun olduğu güzel bir mekan!!"
 
   utter_inform_restaurant_cuisine:
-    - text: "Ali Baba Kebap Evi için seçtiğin mutfak bulunamadı!"
+  - text: "Ali Baba Kebap Evi için seçtiğin mutfak bulunamadı!"
 
   utter_inform_restaurant:
-    - text: "Burger King senin için en iyi tercih!"
+  - text: "İzmir Çeşme'de suşiyi SushiCo'da yiyebilirsin."
 
 actions:
 - utter_greet
 - utter_close
+- utter_guide
+- utter_ask_region
+- utter_ask_cuisine
 - utter_inform_restaurant_price
 - utter_inform_restaurant_rating
 - utter_inform_restaurant_cuisine

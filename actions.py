@@ -4,6 +4,7 @@
 # See this guide on how to implement these action:
 # https://rasa.com/docs/rasa/core/actions/#custom-actions/
 
+# .\venv\Scripts\activate
 
 # source venv/bin/activate
 

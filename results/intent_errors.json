@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Elbette",
+    "intent": "approve",
+    "intent_prediction": {
+      "name": "confirm",
+      "confidence": 0.5024067759513855
+    }
+  }
+]
