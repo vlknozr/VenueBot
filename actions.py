@@ -15,6 +15,8 @@
 # http://localhost:5055/health
 # http://localhost:5055/actions
 
+# rasa interactive -m models/20200413-194927.tar.gz
+
 
 # This is a simple example for a custom action which utters "Hello World!"
 
