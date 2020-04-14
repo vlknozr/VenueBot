@@ -3,7 +3,11 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"price": "uygun"}
-  - utter_inform_restaurant_price
+  - slot{"price": "uygun"}
+  - utter_ask_more
+* inform{"cuisine": "Doğu yemekleri"}
+  - slot{"cuisine": "Doğu yemekleri"}
+  - utter_inform_restaurant
 * closing
   - utter_close
 
@@ -12,7 +16,8 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"rating": "memnun"}
-  - utter_inform_restaurant_rating
+  - slot{"rating": "memnun"}
+  - utter_inform_restaurant
 * closing
   - utter_close
   
@@ -21,7 +26,8 @@
   - utter_greet
   - utter_guide
 * request{"restaurant_name": "Starbucks"}
-  - utter_inform_restaurant_cuisine
+  - slot{"restaurant_name": "Starbucks"}
+  - utter_inform_restaurant
 * closing
   - utter_close
   
@@ -30,7 +36,8 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"venue_type": "restoran"}
-  - utter_inform_restaurant_price
+  - slot{"venue_type": "restoran"}
+  - utter_inform_restaurant
 * closing
   - utter_close
 
@@ -39,7 +46,8 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"cuisine": "kebap"}
-  - utter_inform_restaurant_rating
+  - slot{"cuisine": "kebap"}
+  - utter_inform_restaurant
 * closing
   - utter_close
 
@@ -48,6 +56,7 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"city": "İstanbul", "district": "Şişli"}
+  - slot{"city": "İstanbul", "district": "Şişli"}
   - utter_inform_restaurant
 * closing
   - utter_close
@@ -57,7 +66,8 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"price": "uygun", "rating": "iyi"}
-  - utter_inform_restaurant_price
+  - slot{"price": "uygun", "rating": "iyi"}
+  - utter_inform_restaurant
 * closing
   - utter_close
   
@@ -66,7 +76,8 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"price": "ucuz", "cuisine": "balık"}
-  - utter_inform_restaurant_rating
+  - slot{"price": "ucuz", "cuisine": "balık"}
+  - utter_inform_restaurant
 * closing
   - utter_close
   
@@ -75,9 +86,11 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"price": "pahalı", "venue_type": "restoran"}
+  - slot{"price": "pahalı", "venue_type": "restoran"}
   - utter_ask_cuisine
 * inform{"cuisine": "deniz ürünleri"}
-  - utter_inform_restaurant_price
+  - slot{"cuisine": "deniz ürünleri"}
+  - utter_inform_restaurant
 * closing
   - utter_close
   
@@ -86,6 +99,7 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"rating": "memnun", "cuisine": "ızgara"}
+  - slot{"rating": "memnun", "cuisine": "ızgara"}
   - utter_inform_restaurant
 * closing
   - utter_close
@@ -95,7 +109,8 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"rating": "çok memnun", "venue_type": "bar"}
-  - utter_inform_restaurant_price
+  - slot{"rating": "çok memnun", "venue_type": "bar"}
+  - utter_inform_restaurant
 * closing
   - utter_close
 
@@ -104,6 +119,7 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"venue_type": "restoran", "cuisine": "kafeterya ürünleri"}
+  - slot{"venue_type": "restoran", "cuisine": "kafeterya ürünleri"}
   - utter_inform_restaurant
 * closing
   - utter_close
@@ -113,7 +129,8 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"city": "Eskişehir", "district": "Tepebaşı", "neighborhood":"Mamure"}
-  - utter_inform_restaurant_rating
+  - slot{"city": "Eskişehir", "district": "Tepebaşı", "neighborhood":"Mamure"}
+  - utter_inform_restaurant
 * closing
   - utter_close
 
@@ -122,6 +139,7 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"city": "Eskişehir", "district": "Odunpazarı", "cuisine":"döner"}
+  - slot{"city": "Eskişehir", "district": "Odunpazarı", "cuisine":"döner"}
   - utter_inform_restaurant
 * closing
   - utter_close
@@ -131,7 +149,8 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"city": "İzmir", "cuisine":"tatlı"}
-  - utter_inform_restaurant_cuisine
+  - slot{"city": "İzmir", "cuisine":"tatlı"}
+  - utter_inform_restaurant
 * closing
   - utter_close
   
@@ -140,7 +159,8 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"city": "İstanbul", "district": "Ortaköy", "price":"ucuz"}
-  - utter_inform_restaurant_price
+  - slot{"city": "İstanbul", "district": "Ortaköy", "price":"ucuz"}
+  - utter_inform_restaurant
 * closing
   - utter_close
   
@@ -149,6 +169,7 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"city": "İstanbul", "district": "Şişli", "rating":"iyi"}
+  - slot{"city": "İstanbul", "district": "Şişli", "rating":"iyi"}
   - utter_inform_restaurant
 * closing
   - utter_close
@@ -158,7 +179,8 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"city": "İstanbul", "district": "Şişli", "neighborhood": "Teşvikiye", "rating":"memnun"}
-  - utter_inform_restaurant_price
+  - slot{"city": "İstanbul", "district": "Şişli", "neighborhood": "Teşvikiye", "rating":"memnun"}
+  - utter_inform_restaurant
 * closing
   - utter_close
   
@@ -167,6 +189,7 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"city": "İstanbul", "district": "Şişli", "neighborhood": "Teşvikiye", "rating":"memnun", "price":"pahalı", "cuisine":"kebap"}
+  - slot{"city": "İstanbul", "district": "Şişli", "neighborhood": "Teşvikiye", "rating":"memnun", "price":"pahalı", "cuisine":"kebap"}
   - utter_inform_restaurant
 * closing
   - utter_close
@@ -176,7 +199,8 @@
   - utter_greet
   - utter_guide
 * search_restaurant{"city": "Adana", "district": "Seyhan", "rating":"memnun", "price":"pahalı", "cuisine":"kebap"}
-  - utter_inform_restaurant_rating
+  - slot{"city": "Adana", "district": "Seyhan", "rating":"memnun", "price":"pahalı", "cuisine":"kebap"}
+  - utter_inform_restaurant
 * closing
   - utter_close
   

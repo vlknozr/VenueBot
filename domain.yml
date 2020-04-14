@@ -44,6 +44,7 @@ slots:
     initial_value: "ortalama"
   region:
     type: text
+    initial_value: "bulunduğun bölgede"
   time:
     type: text
   venue_type:
@@ -51,7 +52,7 @@ slots:
     initial_value: "restoran"
   restaurant_name:
     type: text
-    initial_value: "Tamirhane"
+    initial_value: "Frango"
   neighborhood:
     type: text
   rank:
@@ -71,6 +72,8 @@ slots:
 responses:
   utter_greet:
     - text: "Merhaba"
+    - text: "İyi günler"
+    - text: "Selam"
 
   utter_close:
     - text: "Görüşmek üzere."
@@ -81,21 +84,22 @@ responses:
 
   utter_ask_region:
     - text: "Hmm... Hangi bölgede mekan arıyorsun?"
+    - text: "Peki, hangi bölgede mekan arıyorsun?"
 
   utter_ask_cuisine:
     - text: "Hmm... Hangi tarz mutfakları tercih edersin?"
+    - text: "Peki, hangi tarz mutfakları tercih edersin?"
 
-  utter_inform_restaurant_price:
-    - text: "Saray senin için uygun fiyatlı bir tercih!"
-
-  utter_inform_restaurant_rating:
-    - text: "Müşterilerin memnun olduğu güzel bir mekan!!"
-
-  utter_inform_restaurant_cuisine:
-    - text: "Ali Baba Kebap Evi için seçtiğin mutfak bulunamadı!"
+  utter_ask_more:
+    - text: "İstediğin mekanla ilgili daha fazla bilgi verir misin?"
 
   utter_inform_restaurant:
+    - text: "{city}, {district} {neighborhood}'de, {cuisine} yiyebileceğin müşteri memnuniyeti {rating} ve fiyatları {price} tek mekan {restaurant_name}'dir."
+    - text: "{city} {district}'de bulunan {price} ve {cuisine} sunan {restaurant_name}, müşterilerini çok {rating} eden bir mekandır."
     - text: "{city} {district}'de {rating} {cuisine}, {restaurant_name}'de yenilebilir."
+    - text: "{restaurant_name} senin için uygun fiyatlı bir tercih!"
+    - text: "{cuisine} satan {restaurant_name} müşteri memnuniyetini {rating} bir yerdir."
+    - text: "{restaurant_name}, {city} {district} civarlarında {price} fiyat aralığında satış yapan bir mekandır."
 
 actions:
 - utter_greet
@@ -103,10 +107,8 @@ actions:
 - utter_guide
 - utter_ask_region
 - utter_ask_cuisine
-- utter_inform_restaurant_price
-- utter_inform_restaurant_rating
-- utter_inform_restaurant_cuisine
 - utter_inform_restaurant
+- utter_ask_more
 
 session_config:
   session_expiration_time: 60
