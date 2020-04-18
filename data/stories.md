@@ -53290,3 +53290,18 @@
 * confirm
   - utter_inform
   - utter_closing
+## interactive_story_1
+* request{"greeting": "Merhaba", "price": "ortalama", "cuisine": "pizza"}
+    - slot{"cuisine": "pizza"}
+    - slot{"greeting": "Merhaba"}
+    - slot{"price": "ortalama"}
+    - utter_greeting
+    - utter_request
+* inform+request{"city": "İstanbul", "district": "Şişli", "rating": "güzel"}
+    - slot{"city": "İstanbul"}
+    - slot{"district": "Şişli"}
+    - slot{"rating": "güzel"}
+    - utter_inform
+* closing+confirm{"closing": "Bye"}
+    - slot{"closing": "Bye"}
+    - utter_closing

@@ -1,16 +1,14 @@
 digraph  {
 0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
-"-1" [class=end, fillcolor=red, fontsize=12, label=END, style=filled];
 1 [class=active, fontsize=12, label=action_session_start];
 2 [class=active, fontsize=12, label=utter_greeting];
 3 [class=active, fontsize=12, label=utter_request];
 4 [class=active, fontsize=12, label=utter_inform];
 5 [class=active, fontsize=12, label=utter_closing];
 6 [class="intent dashed active", label="  ?  ", shape=rect];
-7 [class="intent active", fillcolor=lightblue, label="selam. Bana frango hakkýnda bilgi verir misin?", shape=rect, style=filled];
-8 [class="intent active", fillcolor=lightblue, label="Ýstanbul þiþlide olsun. Birde fiyatlarý ucuz olsun.", shape=rect, style=filled];
-9 [class="intent active", fillcolor=lightblue, label="Teþekkürler.", shape=rect, style=filled];
-0 -> "-1"  [class="", key=NONE, label=""];
+7 [class="intent active", fillcolor=lightblue, label="Merhaba. Nerede uygun fiyatlý pizza yiyebilirim?", shape=rect, style=filled];
+8 [class="intent active", fillcolor=lightblue, label="Ýstanbul, Þiþli'de güzel bir mekan olsun.", shape=rect, style=filled];
+9 [class="intent active", fillcolor=lightblue, label="Harika. Bye", shape=rect, style=filled];
 0 -> 1  [class=active, key=NONE, label=""];
 1 -> 7  [class=active, key=0];
 2 -> 3  [class=active, key=NONE, label=""];

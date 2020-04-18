@@ -1,19 +1,19 @@
 actions:
 - utter_approve
 - utter_closing
+- utter_confirm
+- utter_deny
 - utter_greeting
 - utter_guide
 - utter_inform
 - utter_multiple_choice
 - utter_request
-- utter_confirm
-- utter_deny
-
 entities:
 - city
 - closing
 - cuisine
 - date
+- deny
 - district
 - enough
 - greeting
@@ -29,13 +29,12 @@ entities:
 - restaurant_name
 - time
 - venue_type
-- deny
-
 intents:
-- request+greeting
-- request
-- inform
+- closing+confirm
 - inform+request
+- request
+- request+greeting
+- inform
 - confirm
 - inform+closing
 - confirm+request
@@ -62,7 +61,6 @@ intents:
 - inform+greeting
 - request+approve
 - deny+request
-- closing+confirm
 - request+closing
 - confirm+approve
 - closing+greeting
@@ -107,14 +105,16 @@ intents:
 - deny+closing
 - deny+multiple_choice
 - confirm+inform+request
-
-
 responses:
   utter_approve:
   - text: İsteğiniz sisteme girildi.
   utter_closing:
   - text: Görüşmek üzere.
   - text: Afiyet olsun.
+  utter_confirm:
+  - text: İsteğiniz listeye alınmıştır.
+  utter_deny:
+  - text: Seçiminiz geçerli değil.
   utter_greeting:
   - text: Merhaba
   - text: İyi günler
@@ -122,12 +122,15 @@ responses:
   utter_guide:
   - text: Nasıl yardımcı olabilirim?
   utter_inform:
-  - text: "{city}, {district} {neighborhood}'de, {cuisine} yiyebileceğin müşteri memnuniyeti {rating} ve fiyatları {price} tek mekan {restaurant_name}'dir."
-  - text: "{city} {district}'de bulunan {price} ve {cuisine} sunan {restaurant_name}, müşterilerini çok {rating} eden bir mekandır."
+  - text: "{city}, {district} {neighborhood}'de, {cuisine} yiyebileceğin müşteri memnuniyeti\
+      \ {rating} ve fiyatları {price} tek mekan {restaurant_name}'dir."
+  - text: "{city} {district}'de bulunan {price} ve {cuisine} sunan {restaurant_name},\
+      \ müşterilerini çok {rating} eden bir mekandır."
   - text: "{city} {district}'de {rating} {cuisine}, {restaurant_name}'de yenilebilir."
   - text: '{restaurant_name} senin için uygun fiyatlı bir tercih!'
   - text: '{cuisine} satan {restaurant_name} müşteri memnuniyetini {rating} bir yerdir.'
-  - text: '{restaurant_name}, {city} {district} civarlarında {price} fiyat aralığında satış yapan bir mekandır.'
+  - text: '{restaurant_name}, {city} {district} civarlarında {price} fiyat aralığında
+      satış yapan bir mekandır.'
   utter_multiple_choice:
   - text: o mu bu mu?
   utter_request:
@@ -136,17 +139,9 @@ responses:
   - text: Peki, hangi tarz mutfakları tercih edersin?
   - text: Hmm... Hangi bölgede mekan arıyorsun?
   - text: Peki, hangi bölgede mekan arıyorsun?
-
-  utter_confirm:
-  - text: İsteğiniz listeye alınmıştır.
-
-  utter_deny:
-  - text: Seçiminiz geçerli değil.
-
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
-
 slots:
   city:
     initial_value: İstanbul
@@ -157,6 +152,8 @@ slots:
     initial_value: kebap
     type: text
   date:
+    type: text
+  deny:
     type: text
   district:
     initial_value: Maslak
@@ -193,6 +190,4 @@ slots:
     type: text
   venue_type:
     initial_value: restoran
-    type: text
-  deny:
     type: text

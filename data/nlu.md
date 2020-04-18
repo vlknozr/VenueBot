@@ -1,11 +1,21 @@
 ## intent:greeting+request
-- [selam](greeting:Merhaba). Bana [frango](restaurant_name:frango) hakkında bilgi verir misin?
+- [selam](greeting:Merhaba). Bana [frango](restaurant_name) hakkında bilgi verir misin?
 
 ## intent:inform
 - [İstanbul](city) [şişlide](district) olsun. Birde fiyatları [ucuz](price) olsun.
 
 ## intent:inform+request
-- [Bugün](date). Saat (7:00)[opening_time]'da [Frango](restaurant_name:Frango)da.
+- [Bugün](date). Saat (7:00)[opening_time]'da [Frango](restaurant_name)da.
+- [İstanbul](city), [Şişli](district)'de [güzel](rating) bir mekan olsun.
 
 ## intent:confirm_restaurant
 - Teşekkürler.
+
+## intent:request
+- [Merhaba](greeting). Nerede [uygun](price:ortalama) fiyatlı [pizza](cuisine) yiyebilirim?
+
+## intent:closing+confirm
+- Harika. [Bye](closing)
+
+## synonym:Merhaba
+- selam
