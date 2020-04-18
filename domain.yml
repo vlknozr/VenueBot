@@ -6,6 +6,8 @@ actions:
 - utter_inform
 - utter_multiple_choice
 - utter_request
+- utter_confirm
+- utter_deny
 
 entities:
 - city
@@ -120,15 +122,12 @@ responses:
   utter_guide:
   - text: Nasıl yardımcı olabilirim?
   utter_inform:
-  - text: "{city}, {district} {neighborhood}'de, {cuisine} yiyebileceğin müşteri memnuniyeti\
-      \ {rating} ve fiyatları {price} tek mekan {restaurant_name}'dir."
-  - text: "{city} {district}'de bulunan {price} ve {cuisine} sunan {restaurant_name},\
-      \ müşterilerini çok {rating} eden bir mekandır."
+  - text: "{city}, {district} {neighborhood}'de, {cuisine} yiyebileceğin müşteri memnuniyeti {rating} ve fiyatları {price} tek mekan {restaurant_name}'dir."
+  - text: "{city} {district}'de bulunan {price} ve {cuisine} sunan {restaurant_name}, müşterilerini çok {rating} eden bir mekandır."
   - text: "{city} {district}'de {rating} {cuisine}, {restaurant_name}'de yenilebilir."
   - text: '{restaurant_name} senin için uygun fiyatlı bir tercih!'
   - text: '{cuisine} satan {restaurant_name} müşteri memnuniyetini {rating} bir yerdir.'
-  - text: '{restaurant_name}, {city} {district} civarlarında {price} fiyat aralığında
-      satış yapan bir mekandır.'
+  - text: '{restaurant_name}, {city} {district} civarlarında {price} fiyat aralığında satış yapan bir mekandır.'
   utter_multiple_choice:
   - text: o mu bu mu?
   utter_request:
@@ -137,6 +136,12 @@ responses:
   - text: Peki, hangi tarz mutfakları tercih edersin?
   - text: Hmm... Hangi bölgede mekan arıyorsun?
   - text: Peki, hangi bölgede mekan arıyorsun?
+
+  utter_confirm:
+  - text: İsteğiniz listeye alınmıştır.
+
+  utter_deny:
+  - text: Seçiminiz geçerli değil.
 
 session_config:
   carry_over_slots_to_new_session: true
