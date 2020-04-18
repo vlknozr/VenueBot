@@ -1,115 +1,193 @@
-intents:
-  - search_restaurant
-  - request
-  - confirm
-  - confirm_restaurant
-  - closing
-  - deny
-  - approve
-  - greeting
-  - inform
-
+actions:
+- utter_approve
+- utter_closing
+- utter_greeting
+- utter_guide
+- utter_inform
+- utter_multiple_choice
+- utter_request
 
 entities:
-  - cuisine
-  - price
-  - greeting
-  - restaurant_id
-  - opening_time
-  - rating
-  - region
-  - time
-  - venue_type
-  - restaurant_name
-  - neighborhood
-  - rank
-  - meal
-  - district
-  - city
-  - enough
+- city
+- closing
+- cuisine
+- date
+- district
+- enough
+- greeting
+- meal
+- neighborhood
+- not_sure
+- opening_time
+- price
+- rank
+- rating
+- region
+- restaurant_id
+- restaurant_name
+- time
+- venue_type
+- deny
 
-slots:
-  cuisine:
-    type: text
-    initial_value: "kebap"
-  price:
-    type: text
-    initial_value: "ucuz"
-  restaurant_id:
-    type: text
-  opening_time:
-    type: text
-  rating:
-    type: text
-    initial_value: "ortalama"
-  region:
-    type: text
-    initial_value: "bulunduğun bölgede"
-  time:
-    type: text
-  venue_type:
-    type: text
-    initial_value: "restoran"
-  restaurant_name:
-    type: text
-    initial_value: "Frango"
-  neighborhood:
-    type: text
-  rank:
-    type: text
-  meal:
-    type: text
-  district:
-    type: text
-    initial_value: "Maslak"
-  city:
-    type: text
-    initial_value: "İstanbul"
-  enough:
-    type: text
+intents:
+- request+greeting
+- request
+- inform
+- inform+request
+- confirm
+- inform+closing
+- confirm+request
+- greeting
+- request+confirm
+- inform+approve
+- multiple_choice
+- request+inform
+- approve+request
+- closing
+- inform+confirm
+- approve
+- closing+inform
+- confirm+inform
+- greeting+request
+- inform+multiple_choice
+- confirm+closing
+- request+not_sure
+- not_sure
+- deny
+- deny+inform
+- request+multiple_choice
+- approve+inform
+- inform+greeting
+- request+approve
+- deny+request
+- closing+confirm
+- request+closing
+- confirm+approve
+- closing+greeting
+- greeting+multiple_choice
+- request+inform+approve
+- confirm+multiple_choice
+- approve+multiple_choice
+- inform+request+approve
+- closing+approve
+- closing+request
+- request+inform+closing
+- inform+request+multiple_choice
+- greeting+inform
+- request+inform+multiple_choice
+- inform+request+closing
+- greeting+approve
+- confirm+inform+multiple_choice
+- inform+multiple_choice+approve
+- request+closing+closing
+- confirm+greeting
+- greeting+closing
+- inform+closing+closing
+- inform+greeting+closing
+- request+greeting+closing
+- closing+closing
+- closing+multiple_choice
+- closing+inform+request
+- closing+approve+request
+- closing+request+approve
+- greeting+inform+request
+- approve+closing
+- confirm+inform+approve
+- multiple_choice+request
+- multiple_choice+closing
+- closing+inform+multiple_choice+request
+- closing+inform+closing
+- closing+inform+multiple_choice
+- closing+inform+approve
+- approve+inform+closing
+- greeting+inform+closing
+- inform+approve+request
+- deny+closing
+- deny+multiple_choice
+- confirm+inform+request
 
 
 responses:
-  utter_greet:
-    - text: "Merhaba"
-    - text: "İyi günler"
-    - text: "Selam"
-
-  utter_close:
-    - text: "Görüşmek üzere."
-    - text: "Afiyet olsun."
-
+  utter_approve:
+  - text: İsteğiniz sisteme girildi.
+  utter_closing:
+  - text: Görüşmek üzere.
+  - text: Afiyet olsun.
+  utter_greeting:
+  - text: Merhaba
+  - text: İyi günler
+  - text: Selam
   utter_guide:
-    - text: "Nasıl yardımcı olabilirim?"
-
-  utter_ask_region:
-    - text: "Hmm... Hangi bölgede mekan arıyorsun?"
-    - text: "Peki, hangi bölgede mekan arıyorsun?"
-
-  utter_ask_cuisine:
-    - text: "Hmm... Hangi tarz mutfakları tercih edersin?"
-    - text: "Peki, hangi tarz mutfakları tercih edersin?"
-
-  utter_ask_more:
-    - text: "İstediğin mekanla ilgili daha fazla bilgi verir misin?"
-
-  utter_inform_restaurant:
-    - text: "{city}, {district} {neighborhood}'de, {cuisine} yiyebileceğin müşteri memnuniyeti {rating} ve fiyatları {price} tek mekan {restaurant_name}'dir."
-    - text: "{city} {district}'de bulunan {price} ve {cuisine} sunan {restaurant_name}, müşterilerini çok {rating} eden bir mekandır."
-    - text: "{city} {district}'de {rating} {cuisine}, {restaurant_name}'de yenilebilir."
-    - text: "{restaurant_name} senin için uygun fiyatlı bir tercih!"
-    - text: "{cuisine} satan {restaurant_name} müşteri memnuniyetini {rating} bir yerdir."
-    - text: "{restaurant_name}, {city} {district} civarlarında {price} fiyat aralığında satış yapan bir mekandır."
-
-actions:
-- utter_greet
-- utter_close
-- utter_guide
-- utter_ask_region
-- utter_ask_cuisine
-- utter_inform_restaurant
-- utter_ask_more
+  - text: Nasıl yardımcı olabilirim?
+  utter_inform:
+  - text: "{city}, {district} {neighborhood}'de, {cuisine} yiyebileceğin müşteri memnuniyeti\
+      \ {rating} ve fiyatları {price} tek mekan {restaurant_name}'dir."
+  - text: "{city} {district}'de bulunan {price} ve {cuisine} sunan {restaurant_name},\
+      \ müşterilerini çok {rating} eden bir mekandır."
+  - text: "{city} {district}'de {rating} {cuisine}, {restaurant_name}'de yenilebilir."
+  - text: '{restaurant_name} senin için uygun fiyatlı bir tercih!'
+  - text: '{cuisine} satan {restaurant_name} müşteri memnuniyetini {rating} bir yerdir.'
+  - text: '{restaurant_name}, {city} {district} civarlarında {price} fiyat aralığında
+      satış yapan bir mekandır.'
+  utter_multiple_choice:
+  - text: o mu bu mu?
+  utter_request:
+  - text: İstediğin mekanla ilgili daha fazla bilgi verir misin?
+  - text: Hmm... Hangi tarz mutfakları tercih edersin?
+  - text: Peki, hangi tarz mutfakları tercih edersin?
+  - text: Hmm... Hangi bölgede mekan arıyorsun?
+  - text: Peki, hangi bölgede mekan arıyorsun?
 
 session_config:
-  session_expiration_time: 60
   carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+
+slots:
+  city:
+    initial_value: İstanbul
+    type: text
+  closing:
+    type: text
+  cuisine:
+    initial_value: kebap
+    type: text
+  date:
+    type: text
+  district:
+    initial_value: Maslak
+    type: text
+  enough:
+    type: text
+  greeting:
+    type: text
+  meal:
+    type: text
+  neighborhood:
+    type: text
+  not_sure:
+    type: text
+  opening_time:
+    type: text
+  price:
+    initial_value: ucuz
+    type: text
+  rank:
+    type: text
+  rating:
+    initial_value: ortalama
+    type: text
+  region:
+    initial_value: bulunduğun bölgede
+    type: text
+  restaurant_id:
+    type: text
+  restaurant_name:
+    initial_value: Frango
+    type: text
+  time:
+    type: text
+  venue_type:
+    initial_value: restoran
+    type: text
+  deny:
+    type: text

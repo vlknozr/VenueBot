@@ -26,7 +26,7 @@
     "common_examples": [
       {
         "text": "İstanbul Şişli'de bir Meksika restoranı arıyorum",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -56,7 +56,7 @@
       },
       {
         "text": "Rio restoran harika olur",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -74,7 +74,7 @@
       },
       {
         "text": "Japonessa",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -86,7 +86,7 @@
       },
       {
         "text": "Tap & Tavern'i seç",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -116,7 +116,7 @@
       },
       {
         "text": "Kaliteli balık olsun yeter",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -140,7 +140,7 @@
       },
       {
         "text": "İstanbul'un en pahalı 10 restoranı",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -170,7 +170,7 @@
       },
       {
         "text": "Gece 2 de hangi mekanlar açık",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 5,
@@ -192,7 +192,7 @@
       },
       {
         "text": "Glütensiz bir İtalyan yemeği nerede yiyebilirim?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 14,
@@ -222,7 +222,7 @@
       },
       {
         "text": "İstanbul Sarıyer'de kebap yemek istiyorum",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -246,7 +246,7 @@
       },
       {
         "text": "Bana ne önerirsin?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 5,
@@ -258,7 +258,7 @@
       },
       {
         "text": "Kebap yiyebileceğim bir lokanta arıyorum",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -348,7 +348,7 @@
       },
       {
         "text": "Fransız mutfağından bir şey yemek istiyorum.",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -378,7 +378,7 @@
       },
       {
         "text": "Bana bu bölgede iyi bir yemeği nerede yiyebileceğimi söyleyebilir misiniz?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 5,
@@ -396,7 +396,7 @@
       },
       {
         "text": "Nerede iyi Çin mutfağı yemekleri bulabilirim?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 11,
@@ -414,7 +414,7 @@
       },
       {
         "text": "İzmir Merkez'de nerede balık yiyebilirim?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -498,7 +498,7 @@
       },
       {
         "text": "İstanbul Ortaköy'de nerede yiyebilirim?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -564,7 +564,7 @@
       },
       {
         "text": "Yakınlarda müşterilerin memnun olduğu ızgara ürünler yapan bir yer var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 38,
@@ -606,7 +606,7 @@
       },
       {
         "text": "Yakınlarda nerede deniz ürünleri yiyebilirim?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -666,7 +666,7 @@
       },
       {
         "text": "Nerede güzel kahve içerim?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 7,
@@ -708,7 +708,7 @@
       },
       {
         "text": "Bu alandaki restoranlar neler?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 12,
@@ -738,7 +738,7 @@
       },
       {
         "text": "Deniz ürünleri sunan mekanları söyler misin?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -750,7 +750,7 @@
       },
       {
         "text": "Kebap yiyebileceğim mekanları göster",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -762,7 +762,7 @@
       },
       {
         "text": "Nerede iyi suşi yiyebilirim.",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 7,
@@ -798,7 +798,7 @@
       },
       {
         "text": "İstanbul Şişli'deki mekanları bilmek istiyorum.",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -816,7 +816,7 @@
       },
       {
         "text": "Deniz ürünleri satan bütün mekanları bilmek istiyorum",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -828,7 +828,7 @@
       },
       {
         "text": "Pato Bar",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -882,7 +882,7 @@
       },
       {
         "text": "İstanbul, Sarıyer'de tatlı yiyebileceğim bir yer arıyorum?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -918,7 +918,7 @@
       },
       {
         "text": "En yüksek puanlı 3 mekan?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -936,7 +936,7 @@
       },
       {
         "text": "En yüksek puanlı mekanlar?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -948,7 +948,7 @@
       },
       {
         "text": "Mavi Deniz",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -960,7 +960,7 @@
       },
       {
         "text": "İstanbul, Şişli'de en pahalı yemeği nerede yiyebilirim?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -996,7 +996,7 @@
       },
       {
         "text": "Sahil",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -1008,7 +1008,7 @@
       },
       {
         "text": "Güzel bir yer gibi. Teşekkürler!",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": []
       },
       {
@@ -1043,7 +1043,7 @@
       },
       {
         "text": "Mücevher Kasap Burger",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -1055,7 +1055,7 @@
       },
       {
         "text": "İstanbul, Ortaköy'deki mekanlar neler?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1073,7 +1073,7 @@
       },
       {
         "text": "Acura Köfte",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -1085,7 +1085,7 @@
       },
       {
         "text": "En pahalı mekanlar?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1097,7 +1097,7 @@
       },
       {
         "text": "Çin mutfağı olan bir restoran arıyorum.",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1168,7 +1168,7 @@
       },
       {
         "text": "Adana Seyhan'da nerede tatlı yiyebilirim?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1192,7 +1192,7 @@
       },
       {
         "text": "Asya mutfağı nerede yiyebilirim?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1209,7 +1209,7 @@
       },
       {
         "text": "99 park restoranı.",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -1257,7 +1257,7 @@
       },
       {
         "text": "Eskişehir, hoşnudiyede'de nerede kaburga yiyebilirim?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1281,7 +1281,7 @@
       },
       {
         "text": "Rx Restoranı",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -1305,7 +1305,7 @@
       },
       {
         "text": "Hard Rock Cafe",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -1317,7 +1317,7 @@
       },
       {
         "text": "Merhaba, ben İstanbul şişli civarlarında denemek için egzotik et olan bir yer arıyorum. Elk, emu ve hatta kanguru gibi etleri denemek istiyorum. Bu tür yemekler sunan bir yer var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1365,7 +1365,7 @@
       },
       {
         "text": "Nefis! Bana mekanı göster.",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": []
       },
       {
@@ -1382,7 +1382,7 @@
       },
       {
         "text": "Eskişehir çi börek evi restoranını göster",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -1394,7 +1394,7 @@
       },
       {
         "text": "Uçan Balık Kafe & Şarap Barı",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -1424,7 +1424,7 @@
       },
       {
         "text": "pizza yemek istiyorum.",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1507,7 +1507,7 @@
       },
       {
         "text": "Sarıyer, huzur'da sadece vejeteryan yemekleri satan bir mekan arıyorum.",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1584,7 +1584,7 @@
       },
       {
         "text": "1. restoranı göster.",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -1614,7 +1614,7 @@
       },
       {
         "text": "birinci restoranı göster",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -1656,7 +1656,7 @@
       },
       {
         "text": "Arap yemekleri satan güzel bir yer bakıyorum",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1674,7 +1674,7 @@
       },
       {
         "text": "Kabuk Pizza kulağa hoş geliyor",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -1686,7 +1686,7 @@
       },
       {
         "text": "Yakınlarında tatlıcı olsun.",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1704,7 +1704,7 @@
       },
       {
         "text": "Kerim restoran",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -1716,7 +1716,7 @@
       },
       {
         "text": "ali büfe",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -1728,7 +1728,7 @@
       },
       {
         "text": "yakınlarda büfe bakınıyorum",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1746,7 +1746,7 @@
       },
       {
         "text": "Kişi başı 40 tlden ucuza gelecek bir yer istiyorum",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 37,
@@ -1793,7 +1793,7 @@
       },
       {
         "text": "İstanbul, Levent'te brunch için iyi bir yer arıyorum.",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1829,7 +1829,7 @@
       },
       {
         "text": "Merhaba, çevremdeki iyi mekanları merak ediyorum.",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 9,
@@ -1859,7 +1859,7 @@
       },
       {
         "text": "Lokma yemek için ucuz yerler var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 17,
@@ -1882,7 +1882,7 @@
       },
       {
         "text": "Selam! Yerel bölgede bir İtalyan restoranı arıyorum. Bana yardım eder misiniz?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1924,7 +1924,7 @@
       },
       {
         "text": "iyi ve ucuz bir mekan arıyorum",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -1947,7 +1947,7 @@
       },
       {
         "text": "Benim için Maslak'ta, Avrupa yemekleri yapan, yüksek puanlı bir mekan bulabilir misiniz?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 11,
@@ -1971,7 +1971,7 @@
       },
       {
         "text": "Merhaba, bana iyi bir restoran önerebilir misin?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 14,
@@ -2025,7 +2025,7 @@
       },
       {
         "text": "Hangi restoranlar açık?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2091,7 +2091,7 @@
       },
       {
         "text": "Mr.Hamza",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -2103,7 +2103,7 @@
       },
       {
         "text": "Bebek İstanbul'da akşam yemeği yiyebileceğimiz bir yer arıyoruz",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2127,7 +2127,7 @@
       },
       {
         "text": "Köşkeroğlu restoranı mükemmel olurdu",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -2139,7 +2139,7 @@
       },
       {
         "text": "deniz kıyısında kebap satan bir restoran arıyorum",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2174,7 +2174,7 @@
       },
       {
         "text": "Starbucks olsun",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 0,
@@ -2198,7 +2198,7 @@
       },
       {
         "text": "kadıköy'de ev yemekleri yapan mekan var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2228,7 +2228,7 @@
       },
       {
         "text": "evet, Ziyafetçi olur",
-        "intent": "confirm_restaurant",
+        "intent": "confirm",
         "entities": [
           {
             "start": 6,
@@ -2240,7 +2240,7 @@
       },
       {
         "text": "Maslak tarafında Kahve Dünyası var mı",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2276,7 +2276,7 @@
       },
       {
         "text": "İstanbul'daki en pahalı restoran ne",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2294,7 +2294,7 @@
       },
       {
         "text": "bana bir Burger King bulur musun",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 9,
@@ -2306,7 +2306,7 @@
       },
       {
         "text": "Selam. Bursa'da ucuz bir restoran arıyorum. Yardım edebilir misin",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2354,7 +2354,7 @@
       },
       {
         "text": "Osmanbey'de iyi pizza yapan bir yer tavsiye edebilir misiniz?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2378,7 +2378,7 @@
       },
       {
         "text": "Çok iyi bir kebapçı önerir misin",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 4,
@@ -2396,7 +2396,7 @@
       },
       {
         "text": "İstanbul'daki en yüksek puana sahip restoran hangisi?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2432,7 +2432,7 @@
       },
       {
         "text": "müşteri memnuniyeti yüksek bir mekan nerede bulabilirim",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 20,
@@ -2467,7 +2467,7 @@
       },
       {
         "text": "Fast food yemek istiyorum",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2491,7 +2491,7 @@
       },
       {
         "text": "İzmit'in merkezinde kebap ve ızgara ürünleri bulunabilecek ortalama müşteri memnuniyetine sahip bir restoran var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2533,7 +2533,7 @@
       },
       {
         "text": "İzmit Merkez'de kebap ve ızgara yenebilecek iyi bir mekan var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2569,7 +2569,7 @@
       },
       {
         "text": "İzmit'in merkez bölgesinde ızgara, kebap satan ortalama bir mekan var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2605,7 +2605,7 @@
       },
       {
         "text": "İzmit Merkez'de müşterilerini memnun edebilen, kebap ve ızgara ürünleri sunan restoranlar hangileridir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2647,7 +2647,7 @@
       },
       {
         "text": "Karaköy İstanbul'da kafeterya ürünleri sunan ve  müşterilerin çok beğendiği bir mekan var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2677,7 +2677,7 @@
       },
       {
         "text": "İstanbul Karaköy'de kafeterya ürünleri sunarak çok memnun eden bir mekan var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2707,7 +2707,7 @@
       },
       {
         "text": "İstanbul, Karaköy'de yüksek memnuniyete sahip kafeterya ürünleri satan mekanlar nelerdir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2737,7 +2737,7 @@
       },
       {
         "text": "İstanbul Karaköy'de müşterilerin son derece memnun olduğu kafeterya ürünleri satan mekanlar hangileridir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2767,7 +2767,7 @@
       },
       {
         "text": "Çukurambar Ankara'da çok beğenilen ve tercih edilen bir kebapçı var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2797,7 +2797,7 @@
       },
       {
         "text": "Ankara Çukurambar'da müşteriler tarafından aşırı sevilen, kebap yenebilecek mekanlar nerelerdir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2827,7 +2827,7 @@
       },
       {
         "text": "Ankara, Çukurambar'da yüksek memnuniyete sahip kebapçılar nelerdir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2857,7 +2857,7 @@
       },
       {
         "text": "Ankara Çukurambar'da müşterilerin çok memnun olduğu kebapçılar nelerdir ?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2887,7 +2887,7 @@
       },
       {
         "text": "Kızılay Ankara'da sakatat ve ızgara ürünleri aşırı derecede beğenilen bir mekan var mı ?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2923,7 +2923,7 @@
       },
       {
         "text": "Ankara Kızılay'da müşterilerin çok memnun kaldığı, ızgara ve sakatat ürünleri yenebilecek yerler nelerdir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2959,7 +2959,7 @@
       },
       {
         "text": "Kızılay, Ankara'da yüksek memnuniyete sahip sakatat ve ızgara satan mekanlar nelerdir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -2995,7 +2995,7 @@
       },
       {
         "text": "Kızılay Ankara'da müşteri memnuniyeti yüksek, sakatatlar ve ızgara ürünleri satan mekanlar hangileridir ?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3031,7 +3031,7 @@
       },
       {
         "text": "Seyhan Adana'da beğenilen makul fiyatlı bir mekan var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3061,7 +3061,7 @@
       },
       {
         "text": "Adana Seyhan'da iyi yemekleri olan ve fiyatları uygun olan mekanlar nelerdir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3091,7 +3091,7 @@
       },
       {
         "text": "Adana Seyhan'da ortalama müşteri memnuniyetine sahip ve makul fiyatlı lokantalar nelerdir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3127,7 +3127,7 @@
       },
       {
         "text": "Adana'nın Seyhan ilçesinde makul fiyatlandırmaya sahip ve müşterileri memnun eden mekanlar hangileridir ?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3157,7 +3157,7 @@
       },
       {
         "text": "Ankara Kızılay'da kafeterya ürünleriyle müşteriyi memnun eden bir mekan var mıdır?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3187,7 +3187,7 @@
       },
       {
         "text": "Ankara'nın Kızılay ilçesinde müşteri memnuniyeti ortalama olan, kafeterya ürünleri bulabileceğimiz bir mekan var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3217,7 +3217,7 @@
       },
       {
         "text": "Kızılay, Ankara'da ortalama müşteri memnuniyetine sahip,  kafeterya ürünleri sunan bir mekan var mıdır?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3247,7 +3247,7 @@
       },
       {
         "text": "Ankara Kızılay'da kafeterya ürünleri ile müşterilerini memnun eden mekanlar nelerdir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3277,7 +3277,7 @@
       },
       {
         "text": "Gaziantep Şahinbey'de makul fiyatlı ve müşterilerin beğendiği bir kebapçı var mıdır?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3313,7 +3313,7 @@
       },
       {
         "text": "Gaziantep'in Şahinbey ilçesinde makul fiyatlarıyla ortalama müşteri memnuniyetine sahip bir kebapçı var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3349,7 +3349,7 @@
       },
       {
         "text": "Müşteri memnuniyeti ortalama olup, Şahinbey, Gaziantep bölgesinde kebap satışı yapan fiyat aralığı ortalama bir yemek mekanı var mıdır?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 20,
@@ -3385,7 +3385,7 @@
       },
       {
         "text": "Gaziantep Şahinbey'de kebap yapan, makul fiyatlı ve müşterilerinin memnun olduğu mekanlar var mıdır?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3421,7 +3421,7 @@
       },
       {
         "text": "İzmit Merkez'de dünya mutfağı yemekleriyle müşteriyi memnun eden bir mekan var mıdır?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3451,7 +3451,7 @@
       },
       {
         "text": "İzmit'in Merkez'inde dünya mutfağı yemekleri bulabileceğimiz ortalama müşteri memnuniyetine sahip bir mekan var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3481,7 +3481,7 @@
       },
       {
         "text": "Merkez, İzmit bölgesinde, dünya mutfağı yemekleri yaparak müşterilerini memnun eden bir mekan var mıdır?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3511,7 +3511,7 @@
       },
       {
         "text": "İzmit Merkez'de müşterilerinin memnun olduğu, dünya mutfağına ait yemekler sunan mekanlar nelerdir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3541,7 +3541,7 @@
       },
       {
         "text": "İstanbul'da yer alan Eminönü Merkez'de yüksek müşteri memnuniyetine sahip makul fiyatlı bir yemek mekanı var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3577,7 +3577,7 @@
       },
       {
         "text": "Eminönü Merkez, İstanbul bölgesinde müşteri memnuniyeti yüksek ve aynı zamanda ortalama fiyatlara sahip yemek mekanları nelerdir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3613,7 +3613,7 @@
       },
       {
         "text": "İstanbul'da Eminönü Merkez'de, müşteri memnuniyeti yüksek ve uygun fiyatlı bir restoran var mıdır?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 12,
@@ -3649,7 +3649,7 @@
       },
       {
         "text": "İstanbul Eminönü Merkez'de makul fiyatlı ve müşteri memnuniyeti yüksek mekanlar nelerdir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3685,7 +3685,7 @@
       },
       {
         "text": "Gaziantep Şahinbey'de, ev yapımı yemekler bulabileceğimiz ortalama müşteri memnuniyetine sahip bir mekan var mı?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3715,7 +3715,7 @@
       },
       {
         "text": "Şahinbey, Gaziantep bölgesinde ortalama müşteri memnuniyetine sahip ev yapımı yemekler yapan yemek mekanı isimleri nelerdir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3745,7 +3745,7 @@
       },
       {
         "text": "Gaziantep'in Şahinbey bölgesinde ev yapımı yemekler yenilip memnun kalınabilecek bir yer var mıdır?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
@@ -3775,7 +3775,7 @@
       },
       {
         "text": "Gaziantep Şahinbey'de ev yapımı yemekleriyle müşteri memnuniyetini kazanmış mekanlar nelerdir?",
-        "intent": "search_restaurant",
+        "intent": "request",
         "entities": [
           {
             "start": 0,
