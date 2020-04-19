@@ -3812,6 +3812,2334 @@
         "text": "bye",
         "intent": "closing",
         "entities": []
+      },
+      {
+        "text": "Yüksek müşteri memnuniyetiyle pahalı fiyat aralığında Yunan yemekleri, deniz mahsülleri, alkollü içecekler sunan mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 30,
+            "end": 36,
+            "value": "pahalı",
+            "entity": "price"
+          },
+          {
+            "start": 54,
+            "end": 69,
+            "value": "Yunan yemekleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 71,
+            "end": 87,
+            "value": "deniz mahsülleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 89,
+            "end": 103,
+            "value": "alkollü içecek",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Pahalı fakat lezzetleri çok beğenilen Yunan yemekleri, deniz mahsulleri, alkollü içecekler sunan mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Pahalı",
+            "entity": "price"
+          },
+          {
+            "start": 24,
+            "end": 27,
+            "value": "çok",
+            "entity": "rating"
+          },
+          {
+            "start": 38,
+            "end": 53,
+            "value": "Yunan yemekleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 55,
+            "end": 71,
+            "value": "deniz mahsulleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 73,
+            "end": 87,
+            "value": "alkollü içecek",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Pahalı fakat lezzetiyle çok beğenilen Yunan yemekleri, deniz mahsülleri ve alkollü içecek servisi yapan yerler nerelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Pahalı",
+            "entity": "price"
+          },
+          {
+            "start": 24,
+            "end": 27,
+            "value": "çok",
+            "entity": "rating"
+          },
+          {
+            "start": 38,
+            "end": 53,
+            "value": "Yunan yemekleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 55,
+            "end": 72,
+            "value": "deniz mahsülleri ",
+            "entity": "cuisine"
+          },
+          {
+            "start": 75,
+            "end": 89,
+            "value": "alkollü içecek",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Müşteri memnuniyetinin yüksek olduğu, Yunan yemekleri, deniz mahsülleri ve alkollü içeceklerin bulunduğu pahalı mekanlar hangileridir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 105,
+            "end": 111,
+            "value": "pahalı",
+            "entity": "price"
+          },
+          {
+            "start": 38,
+            "end": 53,
+            "value": "Yunan yemekleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 55,
+            "end": 72,
+            "value": "deniz mahsülleri ",
+            "entity": "cuisine"
+          },
+          {
+            "start": 75,
+            "end": 89,
+            "value": "alkollü içecek",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Merkez, İzmit'te makul fiyat aralığına sahip ve aynı zamanda ortalama müşteri memnuniyetine sahip mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "makul",
+            "entity": "price"
+          },
+          {
+            "start": 61,
+            "end": 69,
+            "value": "ortalama",
+            "entity": "rating"
+          },
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "İzmit'",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Merkez, İzmit'te makul fiyatları olan ve müşterilerinin memnun olduğu mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "İzmit",
+            "entity": "city"
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "makul",
+            "entity": "price"
+          },
+          {
+            "start": 56,
+            "end": 62,
+            "value": "memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "İzmit Merkez'de müşterilerin memnun kaldığı ortalama fiyatlara sahip mekan nerelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "İzmit",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 13,
+            "value": "Merkez'",
+            "entity": "district"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "memnun",
+            "entity": "rating"
+          },
+          {
+            "start": 44,
+            "end": 52,
+            "value": "ortalama",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "İzmit Merkez'de müşteri memnuniyeti ortalama olan ve fiyat aralığı makul olan mekanlar hangileridir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "İzmit",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 13,
+            "value": "Merkez'",
+            "entity": "district"
+          },
+          {
+            "start": 36,
+            "end": 44,
+            "value": "ortalama",
+            "entity": "rating"
+          },
+          {
+            "start": 67,
+            "end": 72,
+            "value": "makul",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "Mudanya Yolu, Bursa'da ortalama müşteri memnuniyetiyle deniz mahsülleri nerede yenir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Mudanya Yolu",
+            "entity": "district"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Bursa",
+            "entity": "city"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "ortalama",
+            "entity": "rating"
+          },
+          {
+            "start": 55,
+            "end": 71,
+            "value": "deniz mahsülleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Mudanya Yolu, Bursa'da deniz mahsulleri servisi yapan verdiği hizmet ile müşterilerinin memnun olduğu mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Mudanya Yolu",
+            "entity": "district"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Bursa",
+            "entity": "city"
+          },
+          {
+            "start": 23,
+            "end": 39,
+            "value": "deniz mahsulleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 88,
+            "end": 94,
+            "value": "memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Mudanya Yolu Bursa'da müşterilerin memnun kaldığı deniz mahsülü bulunan mekanlar nerelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Mudanya Yolu",
+            "entity": "district"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "Bursa",
+            "entity": "city"
+          },
+          {
+            "start": 35,
+            "end": 41,
+            "value": "memnun",
+            "entity": "rating"
+          },
+          {
+            "start": 50,
+            "end": 63,
+            "value": "deniz mahsülü",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Bursa Mudanya Yolu bölgesinde deniz mahsülleri bulunan ve müşteri memnuniyeti ortalama olan mekanlar hangileridir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Bursa",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 18,
+            "value": "Mudanya Yolu",
+            "entity": "district"
+          },
+          {
+            "start": 30,
+            "end": 46,
+            "value": "deniz mahsülleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 78,
+            "end": 86,
+            "value": "ortalama",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Çengelköy Merkez, İstanbul'da yüksek müşteri memnuniyetiyle kafeterya ürünleri sunan mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Çengelköy Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 18,
+            "end": 26,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 30,
+            "end": 36,
+            "value": "yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 60,
+            "end": 78,
+            "value": "kafeterya ürünleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Çengelköy Merkez, İstanbul'da kafeterya ürünleri servisi yapan ve verdiği hizmet ile müşterilerini çok memnun eden mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Çengelköy Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 18,
+            "end": 27,
+            "value": "İstanbul'",
+            "entity": "city"
+          },
+          {
+            "start": 30,
+            "end": 48,
+            "value": "kafeterya ürünleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 99,
+            "end": 109,
+            "value": "çok memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul Çengelköy Merkez'de müşterilerin çok memnun olduğu kafeterya ürünleri satan mekanlar var mıdır?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 25,
+            "value": "Çengelköy Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 42,
+            "end": 52,
+            "value": "çok memnun",
+            "entity": "rating"
+          },
+          {
+            "start": 60,
+            "end": 78,
+            "value": "kafeterya ürünleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul Çengelköy Merkez bölgesinde kafeterya ürünleri servis edilen ve müşteri memnuniyeti yüksek olan yemek mekanları hangileridir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 25,
+            "value": "Çengelköy Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 37,
+            "end": 55,
+            "value": "kafeterya ürünleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 93,
+            "end": 99,
+            "value": "yüksek",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Merkez, Eskişehir'de düşük müşteri memnuniyetine sahip fakat ucuz döner yenebilecek mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 8,
+            "end": 17,
+            "value": "Eskişehir",
+            "entity": "city"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "düşük",
+            "entity": "rating"
+          },
+          {
+            "start": 61,
+            "end": 65,
+            "value": "ucuz",
+            "entity": "price"
+          },
+          {
+            "start": 66,
+            "end": 71,
+            "value": "döner",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Eskişehir Merkez'de döner sunan, ucuz fiyatlara sahip ve verdiği hizmet ile müşterilerinin memnun olmadığı mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Eskişehir",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "döner",
+            "entity": "cuisine"
+          },
+          {
+            "start": 33,
+            "end": 37,
+            "value": "ucuz",
+            "entity": "price"
+          },
+          {
+            "start": 91,
+            "end": 106,
+            "value": "memnun olmadığı",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Eskişehir Merkez'de müşterilerin dönerinden memnun olmadığı ucuz fiyatlı mekanlar nerelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Eskişehir",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "döner",
+            "entity": "cuisine"
+          },
+          {
+            "start": 44,
+            "end": 59,
+            "value": "memnun olmadığı",
+            "entity": "rating"
+          },
+          {
+            "start": 60,
+            "end": 64,
+            "value": "ucuz",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "Eskişehir Merkez'de müşteri memnuniyeti düşük ve fiyat aralığı ucuz olan döner servis edilen mekanlar hangileridir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Eskişehir",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 40,
+            "end": 45,
+            "value": "düşük",
+            "entity": "rating"
+          },
+          {
+            "start": 63,
+            "end": 67,
+            "value": "ucuz",
+            "entity": "price"
+          },
+          {
+            "start": 73,
+            "end": 78,
+            "value": "döner",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul, Tarabya merkezde pahalı fiyatlara sahip, aynı zamanda yüksek müşteri memnuniyetine sahip ve dünya mutfağı yemekleri yapan bir restoran var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Tarabya",
+            "entity": "district"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "pahalı",
+            "entity": "price"
+          },
+          {
+            "start": 64,
+            "end": 70,
+            "value": "yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 102,
+            "end": 125,
+            "value": "dünya mutfağı yemekleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 136,
+            "end": 144,
+            "value": "restoran",
+            "entity": "venue_type"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul Tarabya merkezde dünya mutfakları yemekleri yapan yüksek fiyatlı ve çokça memnun kalabileceğimiz bir yer var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Tarabya",
+            "entity": "district"
+          },
+          {
+            "start": 26,
+            "end": 52,
+            "value": "dünya mutfakları yemekleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 59,
+            "end": 65,
+            "value": "yüksek",
+            "entity": "price"
+          },
+          {
+            "start": 77,
+            "end": 82,
+            "value": "çokça",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Tarabya Merkez, İstanbul bölgesinde müşterilerini sunduğu dünya mutfağı yemekleri ile çok memnun eden pahalı bir restoran var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Tarabya",
+            "entity": "district"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 58,
+            "end": 81,
+            "value": "dünya mutfağı yemekleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 86,
+            "end": 89,
+            "value": "çok",
+            "entity": "rating"
+          },
+          {
+            "start": 102,
+            "end": 108,
+            "value": "pahalı",
+            "entity": "price"
+          },
+          {
+            "start": 113,
+            "end": 121,
+            "value": "restoran",
+            "entity": "venue_type"
+          }
+        ]
+      },
+      {
+        "text": "Tarabya Merkez, İstanbul'da pahalı fakat lezzeti ile müşterileri çokça memnun eden ve dünya mutfağı yemekleri sunan yerler nereleridir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Tarabya",
+            "entity": "district"
+          },
+          {
+            "start": 16,
+            "end": 25,
+            "value": "İstanbul'",
+            "entity": "city"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "pahalı",
+            "entity": "price"
+          },
+          {
+            "start": 65,
+            "end": 70,
+            "value": "çokça",
+            "entity": "rating"
+          },
+          {
+            "start": 86,
+            "end": 109,
+            "value": "dünya mutfağı yemekleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "İzmit Merkez'de ortalama müşteri memnuniyetine sahip kafeterya ürünleri satan bir cafe var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "İzmit",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 16,
+            "end": 24,
+            "value": "ortalama",
+            "entity": "rating"
+          },
+          {
+            "start": 53,
+            "end": 71,
+            "value": "kafeterya ürünleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 82,
+            "end": 86,
+            "value": "cafe",
+            "entity": "venue_type"
+          }
+        ]
+      },
+      {
+        "text": "İzmit merkezde kafeterya ürünleri tüketebileceğimiz ortalama sayılabilecek bir yer var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "İzmit",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 12,
+            "value": "merkez",
+            "entity": "district"
+          },
+          {
+            "start": 15,
+            "end": 33,
+            "value": "kafeterya ürünleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 52,
+            "end": 60,
+            "value": "ortalama",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Merkez, İzmit bölgesinde kafeterya ürünleri sunan müşterilerinin memnun olduğu bir restoran var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Merkez",
+            "entity": "district"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "İzmit",
+            "entity": "city"
+          },
+          {
+            "start": 25,
+            "end": 43,
+            "value": "kafeterya ürünleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 65,
+            "end": 71,
+            "value": "memnun",
+            "entity": "rating"
+          },
+          {
+            "start": 83,
+            "end": 91,
+            "value": "restoran",
+            "entity": "venue_type"
+          }
+        ]
+      },
+      {
+        "text": "İzmit'in merkezinde ortalama fiyatlı kafeterya ürünleri satan bir yer var mıdır?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "İzmit",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "merkez",
+            "entity": "district"
+          },
+          {
+            "start": 20,
+            "end": 28,
+            "value": "ortalama",
+            "entity": "price"
+          },
+          {
+            "start": 37,
+            "end": 55,
+            "value": "kafeterya ürünleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Ankara'nın Gazi Osman Paşa ilçesinde yüksek müşteri memnuniyetine sahip, et çeşitleri pişiren pahalı bir restoran var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 11,
+            "end": 26,
+            "value": "Gazi Osman Paşa",
+            "entity": "district"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 73,
+            "end": 85,
+            "value": "et çeşitleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 94,
+            "end": 100,
+            "value": "pahalı",
+            "entity": "price"
+          },
+          {
+            "start": 105,
+            "end": 113,
+            "value": "restoran",
+            "entity": "venue_type"
+          }
+        ]
+      },
+      {
+        "text": "Gazi Osman Paşa, Ankara bölgesinde et çeşitleri yenebilecek, müşterilerin çok memnun olduğu pahalı bir restoran var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Gazi Osman Paşa",
+            "entity": "district"
+          },
+          {
+            "start": 17,
+            "end": 23,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 35,
+            "end": 47,
+            "value": "et çeşitleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 74,
+            "end": 77,
+            "value": "çok",
+            "entity": "rating"
+          },
+          {
+            "start": 92,
+            "end": 98,
+            "value": "pahalı",
+            "entity": "price"
+          },
+          {
+            "start": 103,
+            "end": 111,
+            "value": "restoran",
+            "entity": "venue_type"
+          }
+        ]
+      },
+      {
+        "text": "Ankara'da Gazi Osman Paşa'da pahalı fakat çok lezzetli bulunan yemekler sunan ve et çeşitleri servisi yapan mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 25,
+            "value": "Gazi Osman Paşa",
+            "entity": "district"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "pahalı",
+            "entity": "price"
+          },
+          {
+            "start": 42,
+            "end": 45,
+            "value": "çok",
+            "entity": "rating"
+          },
+          {
+            "start": 81,
+            "end": 93,
+            "value": "et çeşitleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Gazi Osman Paşa, Ankara'da yüksek fiyatlı et çeşitleri yenebilecek ve çokça memnun kalınabilecek bir yer var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Gazi Osman Paşa",
+            "entity": "district"
+          },
+          {
+            "start": 17,
+            "end": 23,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "yüksek",
+            "entity": "price"
+          },
+          {
+            "start": 42,
+            "end": 54,
+            "value": "et çeşitleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 70,
+            "end": 75,
+            "value": "çokça",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Antalya'nın Kaş ilçesinde fiyatları ucuz, müşteri memnuniyeti yüksek ve pizza ile kebap satan bir yer var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Antalya",
+            "entity": "city"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "Kaş",
+            "entity": "district"
+          },
+          {
+            "start": 36,
+            "end": 40,
+            "value": "ucuz",
+            "entity": "price"
+          },
+          {
+            "start": 62,
+            "end": 68,
+            "value": "yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 72,
+            "end": 77,
+            "value": "pizza",
+            "entity": "cuisine"
+          },
+          {
+            "start": 82,
+            "end": 87,
+            "value": "kebap",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Kaş, Antalya bölgesinde uygun fiyatlı pizza ve kebap yiyebileceğimiz müşteri memnuniyeti yüksek bir restoran var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Kaş",
+            "entity": "district"
+          },
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Antalya",
+            "entity": "city"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "uygun",
+            "entity": "price"
+          },
+          {
+            "start": 38,
+            "end": 43,
+            "value": "pizza",
+            "entity": "cuisine"
+          },
+          {
+            "start": 47,
+            "end": 52,
+            "value": "kebap",
+            "entity": "cuisine"
+          },
+          {
+            "start": 89,
+            "end": 95,
+            "value": "yüksek",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "Antalya'nın Kaş ilçesinde ucuz ama müşteri memnuniyeti yüksek pizza ve kebap bulabileceğim bir mekan var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Antalya",
+            "entity": "city"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "Kaş",
+            "entity": "district"
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "ucuz",
+            "entity": "price"
+          },
+          {
+            "start": 55,
+            "end": 61,
+            "value": "yüksek",
+            "entity": "price"
+          },
+          {
+            "start": 62,
+            "end": 67,
+            "value": "pizza",
+            "entity": "cuisine"
+          },
+          {
+            "start": 71,
+            "end": 76,
+            "value": "kebap",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Kaş, Antalya'da ucuz fiyatta pizza ve kebap yenebilecek çok memnun kalınacak bir yer var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Kaş",
+            "entity": "district"
+          },
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Antalya",
+            "entity": "city"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "ucuz",
+            "entity": "price"
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "pizza",
+            "entity": "cuisine"
+          },
+          {
+            "start": 38,
+            "end": 43,
+            "value": "kebap",
+            "entity": "cuisine"
+          },
+          {
+            "start": 56,
+            "end": 59,
+            "value": "çok",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Burada müşteri memnuniyeti yüksek, dünya mutfağı yemekleri sunan pahalı bir restoran var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 35,
+            "end": 58,
+            "value": "dünya mutfağı yemekleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 65,
+            "end": 71,
+            "value": "pahalı",
+            "entity": "price"
+          },
+          {
+            "start": 76,
+            "end": 84,
+            "value": "restoran",
+            "entity": "venue_type"
+          }
+        ]
+      },
+      {
+        "text": "Müşterilerini dünya mutfağı yemekleriyle çok memnun eden yüksek fiyatlı bir restoran var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 14,
+            "end": 37,
+            "value": "dünya mutfağı yemekleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 41,
+            "end": 44,
+            "value": "çok",
+            "entity": "rating"
+          },
+          {
+            "start": 57,
+            "end": 63,
+            "value": "yüksek",
+            "entity": "price"
+          },
+          {
+            "start": 76,
+            "end": 84,
+            "value": "restoran",
+            "entity": "venue_type"
+          }
+        ]
+      },
+      {
+        "text": "Çok memnun kalınabilecek yüksek fiyatlı dünya yemekleri yapan bir yer var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Çok",
+            "entity": "rating"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "yüksek",
+            "entity": "price"
+          },
+          {
+            "start": 40,
+            "end": 55,
+            "value": "dünya yemekleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Dünya mutfağı yemekleri servisi olan pahalı ama müşterilerin çok beğendiği bir mekan var mıdır?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "Dünya mutfağı yemekleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "pahalı",
+            "entity": "price"
+          },
+          {
+            "start": 61,
+            "end": 64,
+            "value": "çok",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Bursa Mudanya Yolu'nda alkollü içecekleri ve Türk yemekleri çok beğenilen mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Bursa",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 18,
+            "value": "Mudanya Yolu",
+            "entity": "district"
+          },
+          {
+            "start": 23,
+            "end": 37,
+            "value": "alkollü içecek",
+            "entity": "cuisine"
+          },
+          {
+            "start": 45,
+            "end": 59,
+            "value": "Türk yemekleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 60,
+            "end": 63,
+            "value": "çok",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Bursa, Mudanya Yolu'nda alkollü içecekler ve Türk yemekleri servis eden, müşteri memnuniyeti yüksek mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Bursa",
+            "entity": "city"
+          },
+          {
+            "start": 7,
+            "end": 19,
+            "value": "Mudanya Yolu",
+            "entity": "district"
+          },
+          {
+            "start": 24,
+            "end": 38,
+            "value": "alkollü içecek",
+            "entity": "cuisine"
+          },
+          {
+            "start": 45,
+            "end": 59,
+            "value": "Türk yemekleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 93,
+            "end": 99,
+            "value": "yüksek",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Mudanya Yolu, Bursa'da müşterilerinin çok memnun kaldığı, alkollü içecekler ve Türk yemekleri bulunduran mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Mudanya Yolu",
+            "entity": "district"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Bursa",
+            "entity": "city"
+          },
+          {
+            "start": 38,
+            "end": 41,
+            "value": "çok",
+            "entity": "rating"
+          },
+          {
+            "start": 58,
+            "end": 72,
+            "value": "alkollü içecek",
+            "entity": "cuisine"
+          },
+          {
+            "start": 79,
+            "end": 93,
+            "value": "Türk yemekleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Bursa Mudanya Yolu'nda alkollü içecek ve Türk yemeği veren müşteri memnuniyetinin yüksek olduğu bir yer var mıdır? ",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Bursa",
+            "entity": "city"
+          },
+          {
+            "start": 6,
+            "end": 18,
+            "value": "Mudanya Yolu",
+            "entity": "district"
+          },
+          {
+            "start": 23,
+            "end": 37,
+            "value": "alkollü içecek",
+            "entity": "cuisine"
+          },
+          {
+            "start": 41,
+            "end": 52,
+            "value": "Türk yemeği",
+            "entity": "cuisine"
+          },
+          {
+            "start": 82,
+            "end": 88,
+            "value": "yüksek",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Gaziantep'te beğenilen düşük fiyatlı mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Gaziantep",
+            "entity": "city"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "düşük",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 22,
+            "value": "beğenilen",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Gaziantep'te, müşterilerini memnun eden ucuz bir mekan var mıdır?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Gaziantep",
+            "entity": "city"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "memnun",
+            "entity": "rating"
+          },
+          {
+            "start": 40,
+            "end": 44,
+            "value": "ucuz",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "Müşterilerini memnun edebilen, ucuz fiyatlı bir mekan var mıdır Gaziantep'te?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "memnun",
+            "entity": "rating"
+          },
+          {
+            "start": 31,
+            "end": 35,
+            "value": "ucuz",
+            "entity": "price"
+          },
+          {
+            "start": 64,
+            "end": 73,
+            "value": "Gaziantep",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "Gaziantep'te ucuz ve müşterilerin memnun olduğu bir yer var mıdır?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Gaziantep",
+            "entity": "city"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "ucuz",
+            "entity": "price"
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul Nişantaşı'nda fiyatları makul olup müşterilerin aşırı memnun kaldığı mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Nişantaşı'",
+            "entity": "district"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "makul",
+            "entity": "price"
+          },
+          {
+            "start": 57,
+            "end": 69,
+            "value": "aşırı memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Müşteri memnuniyeti yüksek ve fiyatları makul olan İstanbul, Nişantaşı'nda yer alan mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 40,
+            "end": 45,
+            "value": "makul",
+            "entity": "price"
+          },
+          {
+            "start": 51,
+            "end": 59,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 61,
+            "end": 70,
+            "value": "Nişantaşı",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Nişantaşı, İstanbul'da makul fiyatları olan ve müşterilerinin çok memnun kaldığı bir mekan var mıdır?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Nişantaşı",
+            "entity": "district"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "makul",
+            "entity": "price"
+          },
+          {
+            "start": 62,
+            "end": 72,
+            "value": "çok memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul Nişantaşı'nda makul fiyatlı ve müşterilerinin çok memnun olduğu bir yer var mıdır?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 18,
+            "value": "Nişantaşı",
+            "entity": "district"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "makul",
+            "entity": "price"
+          },
+          {
+            "start": 55,
+            "end": 65,
+            "value": "çok memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Bu bölgede pasta ve çöreklerin çok beğenildiği makul fiyatlı mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 11,
+            "end": 25,
+            "value": "pasta ve çörek",
+            "entity": "cuisine"
+          },
+          {
+            "start": 31,
+            "end": 34,
+            "value": "çok",
+            "entity": "rating"
+          },
+          {
+            "start": 47,
+            "end": 52,
+            "value": "makul",
+            "entity": "price"
+          }
+        ]
+      },
+      {
+        "text": "Müşteri memnuniyeti yüksek ama fiyatları makul, pasta ve çörek servis eden mekanlar nerededir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 41,
+            "end": 46,
+            "value": "makul",
+            "entity": "price"
+          },
+          {
+            "start": 48,
+            "end": 62,
+            "value": "pasta ve çörek",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Makul fiyatlara pasta ile beraber çörek satan ve müşterilerinin çok memnun kaldığı bir mekan var mıdır?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Makul",
+            "entity": "price"
+          },
+          {
+            "start": 16,
+            "end": 21,
+            "value": "pasta",
+            "entity": "cuisine"
+          },
+          {
+            "start": 34,
+            "end": 39,
+            "value": "çörek",
+            "entity": "cuisine"
+          },
+          {
+            "start": 64,
+            "end": 74,
+            "value": "çok memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Müşteri memnuniyetinin çok yüksek olduğu pasta ve çörek hizmeti sunan bir yer var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "çok yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 41,
+            "end": 55,
+            "value": "pasta ve çörek",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Eskişehir Odunpazarı'nda kahve ve çay çeşitleri beğenilen yerler nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Eskişehir",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 20,
+            "value": "Odunpazarı",
+            "entity": "district"
+          },
+          {
+            "start": 25,
+            "end": 47,
+            "value": "kahve ve çay çeşitleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Eskişehir, Odunpazarı'nda müşterilerini memnun eden, kahve ve çay çeşitleri bulunan mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Eskişehir",
+            "entity": "city"
+          },
+          {
+            "start": 11,
+            "end": 21,
+            "value": "Odunpazarı",
+            "entity": "district"
+          },
+          {
+            "start": 40,
+            "end": 46,
+            "value": "memnun",
+            "entity": "rating"
+          },
+          {
+            "start": 53,
+            "end": 75,
+            "value": "kahve ve çay çeşitleri",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Eskişehir Odunpazarı'nda kahve ve çay çeşitleri satarak müşterilerini memnun edebilen mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Eskişehir",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 20,
+            "value": "Odunpazarı",
+            "entity": "district"
+          },
+          {
+            "start": 25,
+            "end": 47,
+            "value": "kahve ve çay çeşitleri",
+            "entity": "cuisine"
+          },
+          {
+            "start": 70,
+            "end": 76,
+            "value": "memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Eskişehir Odunpazarı'nda müşterilerini memnun eden kahve ve çay hizmeti veren bir yer var mıdır?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Eskişehir",
+            "entity": "city"
+          },
+          {
+            "start": 10,
+            "end": 20,
+            "value": "Odunpazarı",
+            "entity": "district"
+          },
+          {
+            "start": 39,
+            "end": 45,
+            "value": "memnun",
+            "entity": "rating"
+          },
+          {
+            "start": 51,
+            "end": 56,
+            "value": "kahve",
+            "entity": "cuisine"
+          },
+          {
+            "start": 60,
+            "end": 63,
+            "value": "çay",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Eskişehir, Tepebaşı'nda orta düzey müşteri memnuniyetine sahip pasta, çörek ve dondurma satan bir yer var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Eskişehir",
+            "entity": "city"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Tepebaşı",
+            "entity": "district"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "orta",
+            "entity": "rating"
+          },
+          {
+            "start": 63,
+            "end": 68,
+            "value": "pasta",
+            "entity": "cuisine"
+          },
+          {
+            "start": 70,
+            "end": 75,
+            "value": "çörek",
+            "entity": "cuisine"
+          },
+          {
+            "start": 79,
+            "end": 87,
+            "value": "dondurma",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Tepebaşı, Eskişehir' de pasta, çörek ve dondurma alanında hizmet veren müşterilerin genel olarak memnun olduğu mekanlar hangileridir? ",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Tepebaşı",
+            "entity": "district"
+          },
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Eskişehir",
+            "entity": "city"
+          },
+          {
+            "start": 24,
+            "end": 48,
+            "value": "pasta, çörek ve dondurma",
+            "entity": "cuisine"
+          },
+          {
+            "start": 97,
+            "end": 103,
+            "value": "memnun",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Tepebaşı, Eskişehir'de ortalama müşteri memnuniyetine sahip, pasta, çörek ve dondurma bulunan bir mekan var mıdır?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Tepebaşı",
+            "entity": "district"
+          },
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Eskişehir",
+            "entity": "city"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "ortalama",
+            "entity": "rating"
+          },
+          {
+            "start": 61,
+            "end": 66,
+            "value": "pasta",
+            "entity": "cuisine"
+          },
+          {
+            "start": 68,
+            "end": 73,
+            "value": "çörek",
+            "entity": "cuisine"
+          },
+          {
+            "start": 77,
+            "end": 85,
+            "value": "dondurma",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Ankara'nın Ulus bölgesindeki yüksek müşteri memnuniyeti sağlayan mekanlar hangileridir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Ulus",
+            "entity": "district"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "yüksek",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Ankara Ulus'ta çok beğenilen bir yemek mekanı var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "value": "Ulus'",
+            "entity": "district"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "çok",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Ulus Ankara'da müşterilerinin çok memnun olduğu bir mekan var mıdır?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Ulus",
+            "entity": "district"
+          },
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Ankara",
+            "entity": "city"
+          },
+          {
+            "start": 30,
+            "end": 40,
+            "value": "çok memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Yüksek müşteri memnuniyetli hazır yiyecekler sunan bir yer var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Yüksek",
+            "entity": "rating"
+          },
+          {
+            "start": 28,
+            "end": 44,
+            "value": "hazır yiyecekler",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Hazır yiyecekler servisi olan ve müşterilerinin çok memnun kaldığı bir mekanı nerede bulabilirim?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Hazır yiyecekler",
+            "entity": "cuisine"
+          },
+          {
+            "start": 48,
+            "end": 58,
+            "value": "çok memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Hazır yiyecekler satan gidenlerin çok memnun olduğu bir mekan var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Hazır yiyecekler",
+            "entity": "cuisine"
+          },
+          {
+            "start": 34,
+            "end": 44,
+            "value": "çok memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul'da Kadıköy Merkez'de çok memnun kalarak bir şey yiyebileceğimiz bir mekan bulunur mu? ",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Kadıköy",
+            "entity": "district"
+          },
+          {
+            "start": 30,
+            "end": 40,
+            "value": "çok memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "İstanbul'da Kadıköy Merkez'de müşteri memnuniyetinin yüksek olduğu bir mekan bulabilir miyim?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "İstanbul",
+            "entity": "city"
+          },
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Kadıköy",
+            "entity": "district"
+          },
+          {
+            "start": 53,
+            "end": 59,
+            "value": "yüksek",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Kadıköy Merkez, İstanbul'da müşteri memnuniyeti yüksek bir mekan var mıdır?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Kadıköy",
+            "entity": "district"
+          },
+          {
+            "start": 16,
+            "end": 25,
+            "value": "İstanbul'",
+            "entity": "city"
+          },
+          {
+            "start": 48,
+            "end": 54,
+            "value": "yüksek",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Antalya, Kaş'ta çok beğenerek yemek yenilebilecek bir yer var mı?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Antalya",
+            "entity": "city"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "Kaş",
+            "entity": "district"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "çok",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Antalya Kaş'ta müşterilerinin çok memnun kaldığı mekanlar nelerdir?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Antalya",
+            "entity": "city"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "Kaş",
+            "entity": "district"
+          },
+          {
+            "start": 30,
+            "end": 40,
+            "value": "çok memnun",
+            "entity": "rating"
+          }
+        ]
+      },
+      {
+        "text": "Kaş, Antalya' da müşteri memnuniyeti yüksek olan bir mekan bulabilir miyim?",
+        "intent": "request",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Kaş",
+            "entity": "district"
+          },
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Antalya",
+            "entity": "city"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "yüksek",
+            "entity": "rating"
+          }
+        ]
       }
     ]
   }
