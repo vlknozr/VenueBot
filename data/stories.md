@@ -53290,6 +53290,7 @@
 * confirm
   - utter_inform
   - utter_closing
+  
 ## interactive_story_1
 * request{"greeting": "Merhaba", "price": "ortalama", "cuisine": "pizza"}
     - slot{"cuisine": "pizza"}
@@ -53304,4 +53305,20 @@
     - utter_inform
 * closing+confirm{"closing": "Bye"}
     - slot{"closing": "Bye"}
+    - utter_closing
+
+## interactive_story_1
+* greeting
+    - utter_greeting
+    - utter_guide
+* request{"date": "Bugün", "rating": "güzel", "cuisine": "pizzacı", "price": "uygun"}
+    - slot{"cuisine": "pizzacı"}
+    - slot{"date": "Bugün"}
+    - slot{"price": "uygun"}
+    - slot{"rating": "güzel"}
+    - utter_inform
+* request{"cuisine": "dondurma"}
+    - slot{"cuisine": "dondurma"}
+    - utter_inform
+* confirm_restaurant
     - utter_closing

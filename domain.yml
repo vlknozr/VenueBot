@@ -30,15 +30,16 @@ entities:
 - time
 - venue_type
 intents:
+- greeting
+- confirm_restaurant
+- request
 - closing+confirm
 - inform+request
-- request
 - request+greeting
 - inform
 - confirm
 - inform+closing
 - confirm+request
-- greeting
 - request+confirm
 - inform+approve
 - multiple_choice
