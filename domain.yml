@@ -29,6 +29,7 @@ entities:
 - restaurant_name
 - time
 - venue_type
+- near
 intents:
 - greeting
 - confirm_restaurant
