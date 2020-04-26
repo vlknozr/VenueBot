@@ -16,6 +16,8 @@
 - [Merhaba](greeting). Nerede [uygun](price:ortalama) fiyatlı [pizza](cuisine) yiyebilirim?
 - [Bugün](date)  [güzel](rating) bir [pizza](cuisine) yemek istiyorum. Bana [uygun](price) bir [pizzacı](cuisine) önerir misin?
 - Peki yakınlarında [dondurma](cuisine) yiyebileceğim bir yer var mı?
+- [Nusret Steakhouse](near) yakınlarında iyi [tatlı](cuisine) yiyebileceğim bir yer var mı?
+- [İstanbul](city), [Taksim](district)'de [Kızılkayalar](near)'in yakınlarında [salata](cuisine) yiyebileceğim bir yer var mı?
 
 ## intent:closing+confirm
 - Harika. [Bye](closing)
@@ -30,1100 +32,1100 @@
 - uygun
 
 ## intent:
- - [Volkan büfe](restaurant_name) [ucuz](price) fiyatlandırması ile müşterilerini memnun etmeyi başarmıştır.
- - [konya](city) [meram](district) ilçesinde, [Ohannes burger ve güven balık restaurant](near) yanında bulunan [şükrü usta asırlık fırın kebap evi](restaurant_name) müşterilerinin çok memnun olduğu bir yerdir.
- - [istanbul](region) [ortaköy](region) [beşiktaş](region) bölgesinde [the house hotel bosphorus](region) bulunan [The house cafe](restaurant_name) [dünya mutfağı yemekleri](cuisine) ve [kafeterya ürünleri](cuisine) servis etmektedir.
- - [Katmerci murat](near) yakınında yer alan [the populist](restaurant_name) [bomontiada](neighborhood) [şişli](district) [alkollü içecekler](cuisine) ile [istanbul](city) müşterilerinin memnuniyetini fazlasıyla kazanmış bir mekandır.
- - [bursa](city) [mudanya yolu](district) bölgesinde bulunan [alkollü içecekler](cuisine) ve [türk yemekleri](cuisine) ile hizmet veren [inan kardeşler restorant](restaurant_name) [Kahv6](near) yakınında bulunmaktadır.
+ - [Volkan büfe](restaurant_name), [ucuz](price) fiyatlandırması ile müşterilerini memnun etmeyi başarmıştır.
+ - [konya](city)'nın [meram](district) ilçesinde, [Ohannes burger ve güven balık restaurant](near)'ın yanında bulunan [şükrü usta asırlık fırın kebap evi](restaurant_name), müşterilerinin çok memnun olduğu bir yerdir.
+ - [istanbul](region)'un [ortaköy](region), [beşiktaş](region) bölgesinde [the house hotel bosphorus](region)'da bulunan [The house cafe](restaurant_name), [dünya mutfağı yemekleri](cuisine) ve [kafeterya ürünleri](cuisine) servis etmektedir.
+ - [Katmerci murat](near)'ın yakınında yer alan [the populist](restaurant_name), [bomontiada](neighborhood) [şişli](district)'de [alkollü içecekler](cuisine)i ile [istanbul](city)'da müşterilerinin memnuniyetini fazlasıyla kazanmış bir mekandır.
+ - [bursa](city)'nın [mudanya yolu](district) bölgesinde bulunan [alkollü içecekler](cuisine)i ve [türk yemekleri](cuisine) ile hizmet veren [inan kardeşler restorant](restaurant_name), [Kahv6](near)'nın yakınında bulunmaktadır.
  - [Joker no:19](restaurant_name) [pahalı](price) fiyatlandırmasına rağmen müşteri memnuniyetinin çok [yüksek](rating) olduğu tek yerdir.
- - [Cafe reci's](restaurant_name) [kafeterya ürünleri](cuisine) yenebilecek tek mekandır.
- - [gaziantep](city) [oguzeli](district) bölgesinde müşterilerin memnun olduğu bir [tatlı](cuisine) mekanı bulamazsınız.
- - [bornova](district) [izmir](city) [alkollü içecekler](cuisine) bulunduğu bir mekan yoktur.
- - [izmit](city) [merkez](district) müşterilerini memnun edebilen, [kebap](cuisine) ve [ızgara ürünler](cuisine) sunan restoranlar hangileridir?
- - [kahve ve çay çeşitleri](cuisine) ile [Monte cafe bar](restaurant_name) müşterilerini memnun etmektedir.
- - [Ertosunlar yemek](near) yakınında, [adana](city) [yüreğir](district) [adana optimum avm](neighborhood) bulunan [köfteci ramiz](restaurant_name) müşterilerin memnun olmadığı bir mekandır.
- - fiyat aralığı makul seviyelerde olan [pizza locale](restaurant_name) [Volkan büfe ve şadırvan döner](near) yakınında yer almaktadır.
- - [eskişehir](city) [merkez](district) [Virginia angus](near) komşusu [kahve dünyası espark](restaurant_name) [kafeterya ürünleri](cuisine) ile müşterilerin memnuniyetini kazanmıştır.
- - [gaziantep](city) [Patlican ve miks lounge](near) komşu olan [bisirici kebap & baklava](restaurant_name) fiyatları [ucuz](price).
- - [Orhan köfte-sanayi](restaurant_name) [bursa](city) [inegöl](district) müşterilerin çok memnun olduğu tek mekandır.
- - aşina [gaziantep](city) mutfağı, gaziantep [merkez](district) yer alan tek mekandır.
- - [konya](city) [selçuklu](district) ilçesinde müşterilerin memnun olduğu herhangi bir mekan bulunmamaktadır.
- - [çankaya](region) [ankara](region) [üniversiteler](region) bölgesindeki [Kentpark avm](region) fiyatları makul olan [kafeterya ürünleri](cuisine) satan bir mekan bulunmamaktadır.
- - [istanbul](city) [karaköy](district) müşterilerin son derece memnun olduğu [kafeterya ürünleri](cuisine) satan mekanlar hangileridir?
- - [izmit](city) [merkez](district) [Köfteci behçet](restaurant_name) müşterilerini memnun etmeyi başarmıştır.
- - [Şırdancı bedo](near) yakınında bulunan [spagettici](restaurant_name) [ucuz](price) fiyatlandırması ile müşterilerin memnuniyetini kazanmıştır.
- - [Yıldızoğlu künefe](restaurant_name) [adana](city) [seyhan](district) ilçesinde [tatlı](cuisine) ve [dondurma](cuisine) yenebilecek bir mekandır.
- - [kaş](district) [antalya](city) bulunan [Üzüm kızı meyhane](restaurant_name) [alkollü içecekler](cuisine) [yüksek](rating) fiyatlarına rağmen müşterilerin çok memnun olduğu bir mekandır.
- - [Taşköprü meyhanesi ve biber cafe bar restaurant](near) mekanlarına komşu olan [virginia angus](restaurant_name) [nişantaşı](district) [istanbul](city) makul fiyatlara sahip mekanlardan biridir.
- - [L'apero](restaurant_name) [antalya](city) [kaş](district) ilçesinde müşterilerin çok memnun olduğu tek yerdir.
- - [izmit](city) [merkez](district) [Esperanto cafe](restaurant_name) bölgedeki makul fiyat aralığına sahip tek mekandır.
- - [gaziantep](city) [merkez](district) müşterilerin memnun olmadığı hiçbir yer yoktur.
- - [ankara](city) [çukurambar](district) müşterilerin çok memnun olduğu [kebap](cuisine) nelerdir ?
- - [Bi lokma](restaurant_name) [ev yapımı yemekler](cuisine) ile müşterilerini çok memnun etmiştir.
- - [konya](city) [selçuklu](district) bulunan [Burger king-kule site avm](restaurant_name) [ucuz](price) fiyatlandırması ile müşterilerini memnun etmiştir.
- - [Happy moon's](near) yakınında bulunan [big chefs](restaurant_name) [dünya mutfağı yemekleri](cuisine) sunan bir mekandır.
- - [selçuklu](district) [konya](city) [tavuk dünyası](restaurant_name) [hazır yiyecekler](cuisine) ve [ızgara ürünler](cuisine) ile müşterilerini memnun etmeyi başaran, [Mazlumlar muhallebicisi](near) yakınında bulunan bir mekandır.
- - [Vogue ve seçerhan etliekmek](near) yakınındaki [reyhan pastanesi](restaurant_name) makul fiyatlandırmasıyla [pasta ve çörek](cuisine) satışı yapan bir mekandır.
- - [Paul's homemade pasta & lasagna](restaurant_name) makul fiyatlarıyla müşterileri çok memnun eden tek mekandır.
- - [rumeli hisarı merkez](district) [istanbul](city) bulunan [Lokma](restaurant_name) [pahalı](price) fiyatlara sahip tek mekandır.
- - [izmit](city) [merkez](district) müşterileri memnun eden, [türk yemekleri](cuisine) ve [karadeniz yemekleri](cuisine) sunan herhangi bir mekan yoktur.
- - [hürriyet](district) [bursa](city) [ızgara ürünler](cuisine) yapan bir mekan bulunmamaktadır.
- - [adana](city) [seyhan](district) ilçesinde makul fiyatlandırmaya sahip ve müşterileri memnun eden mekanlar hangileridir ?
- - [Yeşil ızgara pideli köfte](near) yakınındaki [konya mutfağım premium lounge](restaurant_name) müşterilerin memnun olduğu bir mekandır.
- - [Nene hatun çay bahçesi](near) yakınındaki [cafe del mundo](restaurant_name) [kahve ve çay çeşitleri](cuisine) ile müşterilerini son derece memnun etmiştir.
- - [konya](city) [meram](district) [Paşam pastanesi](restaurant_name) [pasta ve çörek](cuisine) satan bir mekandır.
- - [izmit](city) [merkez](district) [İnci pastanesi](near) komşusu olan [evce ev yemekleri ve aperatifleri](restaurant_name) [ev yapımı yemekler](cuisine) ile müşterilerin memnuniyetini kazanmıştır.
- - [eskişehir](city) [odunpazarı](district) [Süt yumurta reçel-sokak](near) yakınındaki [odunpazarı şerbet evi](restaurant_name) [kahve ve çay çeşitleri](cuisine) satan bir mekandır.
+ - [Cafe reci's](restaurant_name), [kafeterya ürünleri](cuisine) yenebilecek tek mekandır.
+ - [gaziantep](city)'in [oguzeli](district) bölgesinde müşterilerin memnun olduğu bir [tatlı](cuisine) mekanı bulamazsınız.
+ - [bornova](district) [izmir](city)'de [alkollü içecekler](cuisine)in bulunduğu bir mekan yoktur.
+ - [izmit](city) [merkez](district)'de müşterilerini memnun edebilen, [kebap](cuisine) ve [ızgara ürünler](cuisine)i sunan restoranlar hangileridir?
+ - [kahve ve çay çeşitleri](cuisine) ile [Monte cafe bar](restaurant_name), müşterilerini memnun etmektedir.
+ - [Ertosunlar yemek](near)'in yakınında, [adana](city) [yüreğir](district)'deki [adana optimum avm](neighborhood)'de bulunan [köfteci ramiz](restaurant_name), müşterilerin memnun olmadığı bir mekandır.
+ - Fiyat aralığı makul seviyelerde olan [pizza locale](restaurant_name), [Volkan büfe ve şadırvan döner](near)'in yakınında yer almaktadır.
+ - [eskişehir](city) [merkez](district)'deki [Virginia angus](near)'un komşusu [kahve dünyası espark](restaurant_name), [kafeterya ürünleri](cuisine) ile müşterilerin memnuniyetini kazanmıştır.
+ - [gaziantep](city)'te [Patlican ve miks lounge](near)'a komşu olan [bisirici kebap & baklava](restaurant_name)'nın fiyatları [ucuz](price)dur.
+ - [Orhan köfte-sanayi](restaurant_name), [bursa](city) [inegöl](district)'de müşterilerin çok memnun olduğu tek mekandır.
+ - Aşina [gaziantep](city) mutfağı, gaziantep [merkez](district)'de yer alan tek mekandır.
+ - [konya](city)'nın [selçuklu](district) ilçesinde müşterilerin memnun olduğu herhangi bir mekan bulunmamaktadır.
+ - [çankaya](region) [ankara](region)'nın [üniversiteler](region) bölgesindeki [Kentpark avm](region)'de fiyatları makul olan [kafeterya ürünleri](cuisine) satan bir mekan bulunmamaktadır.
+ - [istanbul](city) [karaköy](district)'de müşterilerin son derece memnun olduğu [kafeterya ürünleri](cuisine) satan mekanlar hangileridir?
+ - [izmit](city) [merkez](district)'deki [Köfteci behçet](restaurant_name) müşterilerini memnun etmeyi başarmıştır.
+ - [Şırdancı bedo](near)'nun yakınında bulunan [spagettici](restaurant_name), [ucuz](price) fiyatlandırması ile müşterilerin memnuniyetini kazanmıştır.
+ - [Yıldızoğlu künefe](restaurant_name), [adana](city)'nın [seyhan](district) ilçesinde [tatlı](cuisine) ve [dondurma](cuisine) yenebilecek bir mekandır.
+ - [kaş](district), [antalya](city)'da bulunan [Üzüm kızı meyhane](restaurant_name), [alkollü içecekler](cuisine)iyle [yüksek](rating) fiyatlarına rağmen müşterilerin çok memnun olduğu bir mekandır.
+ - [Taşköprü meyhanesi ve biber cafe bar restaurant](near) mekanlarına komşu olan [virginia angus](restaurant_name), [nişantaşı](district) [istanbul](city)'daki makul fiyatlara sahip mekanlardan biridir.
+ - [L'apero](restaurant_name), [antalya](city)'nın [kaş](district) ilçesinde müşterilerin çok memnun olduğu tek yerdir.
+ - [izmit](city) [merkez](district)'deki [Esperanto cafe](restaurant_name), bölgedeki makul fiyat aralığına sahip tek mekandır.
+ - [gaziantep](city) [merkez](district)'de müşterilerin memnun olmadığı hiçbir yer yoktur.
+ - [ankara](city) [çukurambar](district)'da müşterilerin çok memnun olduğu [kebap](cuisine)çılar nelerdir ?
+ - [Bi lokma](restaurant_name), [ev yapımı yemekler](cuisine)i ile müşterilerini çok memnun etmiştir.
+ - [konya](city) [selçuklu](district)'da bulunan [Burger king-kule site avm](restaurant_name), [ucuz](price) fiyatlandırması ile müşterilerini memnun etmiştir.
+ - [Happy moon's](near) yakınında bulunan [big chefs](restaurant_name), [dünya mutfağı yemekleri](cuisine) sunan bir mekandır.
+ - [selçuklu](district) [konya](city)'daki [tavuk dünyası](restaurant_name), [hazır yiyecekler](cuisine) ve [ızgara ürünler](cuisine)i ile müşterilerini memnun etmeyi başaran, [Mazlumlar muhallebicisi](near)'nin yakınında bulunan bir mekandır.
+ - [Vogue ve seçerhan etliekmek](near) yakınındaki [reyhan pastanesi](restaurant_name), makul fiyatlandırmasıyla [pasta ve çörek](cuisine) satışı yapan bir mekandır.
+ - [Paul's homemade pasta & lasagna](restaurant_name), makul fiyatlarıyla müşterileri çok memnun eden tek mekandır.
+ - [rumeli hisarı merkez](district) [istanbul](city)'da bulunan [Lokma](restaurant_name), [pahalı](price) fiyatlara sahip tek mekandır.
+ - [izmit](city) [merkez](district)de müşterileri memnun eden, [türk yemekleri](cuisine) ve [karadeniz yemekleri](cuisine) sunan herhangi bir mekan yoktur.
+ - [hürriyet](district) [bursa](city)'da [ızgara ürünler](cuisine)i yapan bir mekan bulunmamaktadır.
+ - [adana](city)'nın [seyhan](district) ilçesinde makul fiyatlandırmaya sahip ve müşterileri memnun eden mekanlar hangileridir ?
+ - [Yeşil ızgara pideli köfte](near) yakınındaki [konya mutfağım premium lounge](restaurant_name), müşterilerin memnun olduğu bir mekandır.
+ - [Nene hatun çay bahçesi](near) yakınındaki [cafe del mundo](restaurant_name), [kahve ve çay çeşitleri](cuisine) ile müşterilerini son derece memnun etmiştir.
+ - [konya](city) [meram](district)'daki [Paşam pastanesi](restaurant_name), [pasta ve çörek](cuisine) satan bir mekandır.
+ - [izmit](city) [merkez](district)'deki [İnci pastanesi](near)ni'nin komşusu olan [evce ev yemekleri ve aperatifleri](restaurant_name), [ev yapımı yemekler](cuisine)i ile müşterilerin memnuniyetini kazanmıştır.
+ - [eskişehir](city) [odunpazarı](district)'ndaki [Süt yumurta reçel-sokak](near) yakınındaki [odunpazarı şerbet evi](restaurant_name), [kahve ve çay çeşitleri](cuisine) satan bir mekandır.
  - [Akkonak restaurant](restaurant_name) [ev yapımı yemekler](cuisine) yapıp müşterilerini memnun eden tek mekandır.
- - [adana](city) [merkez](district) yemek yenebilecek tek mekan [Çapa restaurant](restaurant_name).
- - [selçuklu](district) [konya](city) müşterileri çok memnun eden ve makul fiyatlandırmaya sahip bir mekan yoktur.
- - [konya](city) [selçuklu](district) [ucuz](price) fiyatlı bir mekan bulunmamaktadır.
- - [kızılay](district) [ankara](city) müşteri memnuniyeti [yüksek](rating) [sakatatlar](cuisine) ve [ızgara ürünler](cuisine) satan mekanlar hangileridir ?
- - [Joker no:19](restaurant_name) [pahalı](price) fakat [yüksek](rating) müşteri memnuniyeti kazanmış bir mekandır.
- - [Yengeç restaurant](near) yakınlarındaki [cafe reci's](restaurant_name) çeşitli [kafeterya ürünleri](cuisine) satan ve müşterilerinin çok memnun olduğu bir yerdir.
- - [oguzeli](district) [gaziantep](city) [tatlı](cuisine) yenebilecek mekanlardan biri [Baklavacı güllüoğlu ömer güllü](restaurant_name).
- - [izmir](city) [bornova](district) [gandi'nin yeri](restaurant_name) [Kule sini restaurant](near) yakınlarında alkollü içecek çeşitleriyle müşterilerini memnun eden bir mekandır.
- - [izmit](city) [merkez](district) [Yummy house ve twenty six](near) mekanlarına komşu olan [[kebap](cuisine) ali](restaurant_name) [ızgara ürünler](cuisine) ve kebaplarıyla müşterilerine hizmet etmektedir.
- - [Kahve dünyası](restaurant_name) çeşitli [kafeterya ürünleri](cuisine) ile müşterilerini memnun eden tek mekandır.
- - [Felicia pizza](restaurant_name) [konya](city) [meram](district) bulunan düşük fiyatlı tek mekandır.
- - [istanbul](city) [çengelköy merkez](district) makul fiyatlarla [hazır yiyecekler](cuisine) [ızgara ürünler](cuisine) ve [deniz mahsülleri](cuisine) yenebilecek veya çay ve kahve içilebilecek bir mekan yoktur.
- - [ankara](city) [kızılay](district) [kafeterya ürünleri](cuisine) ile müşterilerini memnun eden mekanlar nelerdir?
- - [Orhan köfte-sanayi](restaurant_name) [bursa](city) [inegöl](district) müşterilerinin çok memnun olduğu bir mekandır.
- - [gaziantep](city) [merkez](district) [Çavuşoğlu kebap ve baklava ve cumalıkızık narlı bahçe kahvaltı evi](near) yakınlarında olan [aşina gaziantep mutfağı](restaurant_name) müşterilerinin çok memnun olduğu bir yerdir.
- - [konya](city) [selçuklu](district) bulunan [kos lezzet sofrası](restaurant_name) [Kahve dünyası ve cafe mia](near) mekanlarına komşudur.
- - [Timboo cafe](restaurant_name) [ankara](region) [çankaya](region) [kentpark avm](region) [üniversiteler](region) bölgesinde bulunan, [kafeterya ürünleri](cuisine) satan makul fiyatlı ve müşteri memnuniyetinin [yüksek](rating) olduğu bir mekandır.
- - [istanbul](city) [karaköy](district) [Cici piknik ve moc istanbul](near) komşu olan [dem karaköy](restaurant_name) çeşitli [kafeterya ürünleri](cuisine) satan bir mekandır.
- - [Kahveci hacıbaba](restaurant_name) [kızılay](district) [ankara](city) müşteri memnuniyetini kazanmış tek mekandır.
- - [Abişoğlu pastaneleri](restaurant_name) [bursa](city) [görükle](district) bölgesindeki tek pastanedir.
- - [adana](city) [seyhan](district) makul fiyatlı bir mekan yoktur.
- - [gaziantep](city) [şahinbey](district) [kebap](cuisine) yapan, makul fiyatlı ve müşterilerinin memnun olduğu mekanlar var mıdır?
- - [antalya](city) [kaş](district) bulunan [L'apero](restaurant_name) müşterilerinin çok memnun olduğu bir mekandır.
- - [izmit](city) [merkez](district) bulunan [Esperanto cafe](restaurant_name) makul fiyatlarıyla müşterilerini memnun etmektedir.
- - [gaziantep](city) [merkez](district) [bay döner](restaurant_name) [Ülkü pastanesi](near) komşudur.
- - [Fokai balık restoran](near) yakınında bulunan [tarihi vefa bozacısı](restaurant_name) sunduğu [türk yemekleri](cuisine) ve [ucuz](price) fiyatlarıyla müşterilerini çok memnun etmektedir.
- - [çukurambar](district) [ankara](city) [kebap](cuisine) yenebilecek yerlerden biri [Bizim balıkçı fahri baba](near) yakınlarındaki [müslüm kebap](restaurant_name).
- - bu bölgede [tatlı](cuisine) müşterilerini memnun eden tek mekan [Miyeps waffle & vitamin bar](restaurant_name).
- - [Alaçatı muhallebicisi](restaurant_name) [izmit](city) [ncity avm](district) tek yemek servisi olan mekandır.
- - [izmir](city) [alsancak](district) müşterilerinin çok memnun olduğu bir mekan bulunmamaktadır.
- - [ankara](city) [balgat](district) [kafeterya ürünleri](cuisine) yemek için bir mekan bulamazsınız.
- - [izmit](city) [merkez](district) müşterilerinin memnun olduğu, dünya mutfağına ait yemekler sunan mekanlar nelerdir?
- - [Paul's homemade pasta & lasagna](restaurant_name) makul fiyatlarıyla müşterilerinin çok memnun olduğu bir mekandır.
- - [rumeli hisarı merkez](district) [istanbul](city) bulunan [Lokma](restaurant_name) [yüksek](rating) fiyatları ve hizmeti ile müşterilerinin çok memnun olduğu bir mekandır.
- - [izmit](city) [merkez](district) bulunan [Havva hanım](restaurant_name) müşterilerine türk ve karadeniz mutfağından yemekler sunan bir mekandır.
- - [bursa](city) [hürriyet](district) [Doy-çık lokantası](near) komşu olan [köfteci yusuf](restaurant_name) [ızgara ürünler](cuisine) [yüksek](rating) müşteri memnuniyetini kazanmış bir mekandır.
- - [adana](city) [seyhan](district) [Mükellef](near) komşu olan [kebap 52](restaurant_name) makul fiyatlarıyla hizmet vermektedir.
- - müşterilerinin çok memnun olduğu [Noel baba cafe](restaurant_name) bölgede çeşitli [kafeterya ürünleri](cuisine) satan tek mekandır.
- - eskişehir çiğ [börek](cuisine) evi atatürk bulvarı bölgede börek yenebilecek tek yerdir.
- - [bursa](city) [nalbantoglu](district) müşterilerinin memnun olduğu, [kafeterya ürünleri](cuisine) satan bir mekan bulunmamaktadır.
- - [adana](city) [çukurova](district) [ucuz](price) fiyatlarla hizmet veren bir mekan yoktur.
- - [istanbul](city) [eminönü merkez](district) makul fiyatlı ve müşteri memnuniyeti [yüksek](rating) mekanlar nelerdir?
+ - [adana](city) [merkez](district)'de yemek yenebilecek tek mekan [Çapa restaurant](restaurant_name)'tır.
+ - [selçuklu](district) [konya](city)'da müşterileri çok memnun eden ve makul fiyatlandırmaya sahip bir mekan yoktur.
+ - [konya](city) [selçuklu](district)'da [ucuz](price) fiyatlı bir mekan bulunmamaktadır.
+ - [kızılay](district) [ankara](city)'da müşteri memnuniyeti [yüksek](rating), [sakatatlar](cuisine) ve [ızgara ürünler](cuisine)i satan mekanlar hangileridir ?
+ - [Joker no:19](restaurant_name), [pahalı](price) fakat [yüksek](rating) müşteri memnuniyeti kazanmış bir mekandır.
+ - [Yengeç restaurant](near)'ın yakınlarındaki [cafe reci's](restaurant_name), çeşitli [kafeterya ürünleri](cuisine) satan ve müşterilerinin çok memnun olduğu bir yerdir.
+ - [oguzeli](district), [gaziantep](city)'te [tatlı](cuisine) yenebilecek mekanlardan biri [Baklavacı güllüoğlu ömer güllü](restaurant_name)'dür.
+ - [izmir](city) [bornova](district)'daki [gandi'nin yeri](restaurant_name), [Kule sini restaurant](near) yakınlarında alkollü içecek çeşitleriyle müşterilerini memnun eden bir mekandır.
+ - [izmit](city) [merkez](district)'de [Yummy house ve twenty six](near) mekanlarına komşu olan [[kebap](cuisine)çı ali](restaurant_name), [ızgara ürünler](cuisine)i ve kebaplarıyla müşterilerine hizmet etmektedir.
+ - [Kahve dünyası](restaurant_name), çeşitli [kafeterya ürünleri](cuisine) ile müşterilerini memnun eden tek mekandır.
+ - [Felicia pizza](restaurant_name), [konya](city) [meram](district)'da bulunan düşük fiyatlı tek mekandır.
+ - [istanbul](city), [çengelköy merkez](district)'de makul fiyatlarla [hazır yiyecekler](cuisine), [ızgara ürünler](cuisine) ve [deniz mahsülleri](cuisine) yenebilecek veya çay ve kahve içilebilecek bir mekan yoktur.
+ - [ankara](city) [kızılay](district)'da [kafeterya ürünleri](cuisine) ile müşterilerini memnun eden mekanlar nelerdir?
+ - [Orhan köfte-sanayi](restaurant_name), [bursa](city) [inegöl](district)'de müşterilerinin çok memnun olduğu bir mekandır.
+ - [gaziantep](city) [merkez](district)'de, [Çavuşoğlu kebap ve baklava ve cumalıkızık narlı bahçe kahvaltı evi](near)'nin yakınlarında olan [aşina gaziantep mutfağı](restaurant_name), müşterilerinin çok memnun olduğu bir yerdir.
+ - [konya](city) [selçuklu](district)'da bulunan [kos lezzet sofrası](restaurant_name), [Kahve dünyası ve cafe mia](near) mekanlarına komşudur.
+ - [Timboo cafe](restaurant_name), [ankara](region) [çankaya](region)'da [kentpark avm](region), [üniversiteler](region) bölgesinde bulunan, [kafeterya ürünleri](cuisine) satan makul fiyatlı ve müşteri memnuniyetinin [yüksek](rating) olduğu bir mekandır.
+ - [istanbul](city) [karaköy](district)'de [Cici piknik ve moc istanbul](near)'a komşu olan [dem karaköy](restaurant_name), çeşitli [kafeterya ürünleri](cuisine) satan bir mekandır.
+ - [Kahveci hacıbaba](restaurant_name), [kızılay](district) [ankara](city)'da müşteri memnuniyetini kazanmış tek mekandır.
+ - [Abişoğlu pastaneleri](restaurant_name), [bursa](city) [görükle](district) bölgesindeki tek pastanedir.
+ - [adana](city) [seyhan](district)'da makul fiyatlı bir mekan yoktur.
+ - [gaziantep](city) [şahinbey](district)'de [kebap](cuisine) yapan, makul fiyatlı ve müşterilerinin memnun olduğu mekanlar var mıdır?
+ - [antalya](city) [kaş](district)'ta bulunan [L'apero](restaurant_name) müşterilerinin çok memnun olduğu bir mekandır.
+ - [izmit](city) [merkez](district)'de bulunan [Esperanto cafe](restaurant_name) makul fiyatlarıyla müşterilerini memnun etmektedir.
+ - [gaziantep](city) [merkez](district)'deki [bay döner](restaurant_name), [Ülkü pastanesi](near)'ne komşudur.
+ - [Fokai balık restoran](near)'ın yakınında bulunan [tarihi vefa bozacısı](restaurant_name), sunduğu [türk yemekleri](cuisine) ve [ucuz](price) fiyatlarıyla müşterilerini çok memnun etmektedir.
+ - [çukurambar](district) [ankara](city)'da [kebap](cuisine) yenebilecek yerlerden biri [Bizim balıkçı fahri baba](near)'nın yakınlarındaki [müslüm kebap](restaurant_name)'tır.
+ - Bu bölgede [tatlı](cuisine)larıyla müşterilerini memnun eden tek mekan [Miyeps waffle & vitamin bar](restaurant_name)'dır.
+ - [Alaçatı muhallebicisi](restaurant_name), [izmit](city) [ncity avm](district)'deki tek yemek servisi olan mekandır.
+ - [izmir](city) [alsancak](district)'ta müşterilerinin çok memnun olduğu bir mekan bulunmamaktadır.
+ - [ankara](city) [balgat](district)'ta [kafeterya ürünleri](cuisine) yemek için bir mekan bulamazsınız.
+ - [izmit](city) [merkez](district)'de müşterilerinin memnun olduğu, dünya mutfağına ait yemekler sunan mekanlar nelerdir?
+ - [Paul's homemade pasta & lasagna](restaurant_name), makul fiyatlarıyla müşterilerinin çok memnun olduğu bir mekandır.
+ - [rumeli hisarı merkez](district) [istanbul](city)'da bulunan [Lokma](restaurant_name), [yüksek](rating) fiyatları ve hizmeti ile müşterilerinin çok memnun olduğu bir mekandır.
+ - [izmit](city) [merkez](district)'de bulunan [Havva hanım](restaurant_name), müşterilerine türk ve karadeniz mutfağından yemekler sunan bir mekandır.
+ - [bursa](city) [hürriyet](district)'te [Doy-çık lokantası](near)'na komşu olan [köfteci yusuf](restaurant_name), [ızgara ürünler](cuisine)iyle [yüksek](rating) müşteri memnuniyetini kazanmış bir mekandır.
+ - [adana](city), [seyhan](district)'da [Mükellef](near)'e komşu olan [kebap 52](restaurant_name), makul fiyatlarıyla hizmet vermektedir.
+ - Müşterilerinin çok memnun olduğu [Noel baba cafe](restaurant_name), bölgede çeşitli [kafeterya ürünleri](cuisine) satan tek mekandır.
+ - Eskişehir çiğ [börek](cuisine) evi atatürk bulvarı bölgede börek yenebilecek tek yerdir.
+ - [bursa](city) [nalbantoglu](district)'nda müşterilerinin memnun olduğu, [kafeterya ürünleri](cuisine) satan bir mekan bulunmamaktadır.
+ - [adana](city) [çukurova](district)'da [ucuz](price) fiyatlarla hizmet veren bir mekan yoktur.
+ - [istanbul](city) [eminönü merkez](district)'de makul fiyatlı ve müşteri memnuniyeti [yüksek](rating) mekanlar nelerdir?
  - [Akkonak restaurant](restaurant_name) ev yapımı yemekleri ile müşterilerinin memnuniyetini kazanmış bir mekandır.
- - [adana](city) [merkez](district) [Antalya balık evi](near) yakınlarındaki [çapa restaurant](restaurant_name) müşterilerinin memnun olduğu bir mekandır.
- - [konya](city) [selçuklu](district) ilçesinde bulunan [Cemo etliekmek](restaurant_name) makul fiyatlı bir mekandır.
- - [konya](city) [selçuklu](district) [Varuna memphis pub](near) yakınlarında bulunan [tarihi medrese kahvehanesi](restaurant_name) [ucuz](price) fiyatlarıyla müşterilerinin memnun olduğu bir yerdir.
- - [ankara](city) [kızılay](district) bulunan ve [Yengeç restaurant](near) komşu olan [urfalı ciğerci müslüm](restaurant_name) sakatat ve [ızgara ürünler](cuisine) satan bir mekandır.
- - [Dede restaurant](restaurant_name) bu bölgede [kebap](cuisine) satan mekanlar arasında müşterilerinin memnun olmadığı tek yerdir.
- - [izmir](city) [konak](district) tek bar [Sky bar](restaurant_name).
- - [eskişehir](city) [hoşnudiye](district) sattığı [kafeterya ürünleri](cuisine) ile müşterilerini memnun eden bir mekan yoktur.
- - [bursa](city) [kapalı çarşı](district) [ızgara ürünler](cuisine) satan bir restoran bulunmamaktadır.
- - [gaziantep](city) [şahinbey](district) [ev yapımı yemekler](cuisine) müşteri memnuniyetini kazanmış mekanlar nelerdir?
+ - [adana](city) [merkez](district)'de, [Antalya balık evi](near)'nin yakınlarındaki [çapa restaurant](restaurant_name) müşterilerinin memnun olduğu bir mekandır.
+ - [konya](city)'nın [selçuklu](district) ilçesinde bulunan [Cemo etliekmek](restaurant_name) makul fiyatlı bir mekandır.
+ - [konya](city) [selçuklu](district)'da, [Varuna memphis pub](near) yakınlarında bulunan [tarihi medrese kahvehanesi](restaurant_name) [ucuz](price) fiyatlarıyla müşterilerinin memnun olduğu bir yerdir.
+ - [ankara](city) [kızılay](district)'da bulunan ve [Yengeç restaurant](near)'a komşu olan [urfalı ciğerci müslüm](restaurant_name), sakatat ve [ızgara ürünler](cuisine) satan bir mekandır.
+ - [Dede restaurant](restaurant_name), bu bölgede [kebap](cuisine) satan mekanlar arasında müşterilerinin memnun olmadığı tek yerdir.
+ - [izmir](city) [konak](district)'taki tek bar [Sky bar](restaurant_name)'dır.
+ - [eskişehir](city) [hoşnudiye](district)'de sattığı [kafeterya ürünleri](cuisine) ile müşterilerini memnun eden bir mekan yoktur.
+ - [bursa](city) [kapalı çarşı](district)'da [ızgara ürünler](cuisine) satan bir restoran bulunmamaktadır.
+ - [gaziantep](city) [şahinbey](district)'de [ev yapımı yemekler](cuisine)iyle müşteri memnuniyetini kazanmış mekanlar nelerdir?
  - [kafeterya ürünleri](cuisine) satan [Kahve dünyası](restaurant_name) müşteri memnuniyetini iyi kazanmış bir yerdir.
- - [konya](city) [meram](district) bölgesinde yer alan [Felicia pizza](restaurant_name) [ucuz](price) fiyatlarıyla müşterilerinin beğenisini kazanmış bir mekandır.
- - [Hideaway bar & cafe ve dürümcü recep usta](near) yakınlarında olan [deniz mahsülleri](cuisine) servis eden mekan [dolphin restaurant](restaurant_name).
- - [istanbul](city) [çengelköy merkez](district) [hazır yiyecekler](cuisine) [ızgara ürünler](cuisine) deniz mahsulleri, [kahve ve çay çeşitleri](cuisine) sunan [Tarihi çınaraltı aile çay bahçesi](restaurant_name) müşterilerin ilgisini çok çekmektedir.
- - [ankara](city) [kızılay](district) [İnci pastanesi](near) yakınlarında yer alan [turuncu cafe & pub & fal & tattoo & kültür eğlence merkezi](restaurant_name) [kafeterya ürünleri](cuisine) sunmaktadır.
- - müşteri memnuniyetinin oldukça iyi olduğu [Aylak madam](restaurant_name) [kahve ve çay çeşitleri](cuisine) servis eden tek mekandır.
- - meşhur [dondurma](cuisine) ali usta [tatlı](cuisine) dondurma ve [kafeterya ürünleri](cuisine) mevcut olduğu tek mekandır.
- - [meram](district) [konya](city) [ucuz](price) yemek sunan bir restoran bulamazsınız.
- - [bursa](city) [nilüfer](district) pasta, çörek ve [kafeterya ürünleri](cuisine) sunan müşteri memnuniyetinin [yüksek](rating) olduğu mekanlar neresidir?
- - müşterilerinin memnuniyetini kazanmış olan [Kahveci hacıbaba](restaurant_name) [ankara](city) [kızılay](district).
- - [bursa](city) [görükle](district) [abişoğlu pastaneleri](restaurant_name) müşterilerini memnun eden bir yerdir ve [Venedik pastanesi](near) yakınlarında yer alır.
- - [ızgara ürünler](cuisine) servis eden [bay köfte](restaurant_name) [Sunset](near) mekanının yakınında konumlanır.
- - [adana](city) [seyhan](district) müşteri memnuniyetinin [yüksek](rating) olduğu [Gölyazı gönül sofrası](near) yakınında olan [kling usta](restaurant_name) mekanının fiyatları ortalama düzeydedir.
- - [kebap](cuisine) ürünleri servis eden [Üçler kebap salonu](restaurant_name) ortalama fiyatlı olup [gaziantep](city) [şahinbey](district) bölgesindedir.
- - [adana](city) [seyhan](district) olan [Cafe cosecha](restaurant_name) müşterilerin memnuniyetini kazanmış tek yerdir.
- - [güneydoğu anadolu yemekleri](cuisine) ve [türk yemekleri](cuisine) sunan tek mekan [Ketçi resto](restaurant_name).
- - [istanbul](city) [levent](district) [kanyon avm](neighborhood) müşteri memnuniyetinin [yüksek](rating) olduğu mekan yoktur.
- - [izmir](city) [bornova](district) [hamburger](cuisine) servis eden mekan mevcut değildir.
- - [eskişehir](city) [odunpazarı](district) fiyat aralığının [ucuz](price) olduğu ve müşteri memnuniyetinin iyi olduğu yerler nelerdir?
+ - [konya](city)'nın [meram](district) bölgesinde yer alan [Felicia pizza](restaurant_name) [ucuz](price) fiyatlarıyla müşterilerinin beğenisini kazanmış bir mekandır.
+ - [Hideaway bar & cafe ve dürümcü recep usta](near)'nın yakınlarında olan [deniz mahsülleri](cuisine) servis eden mekan [dolphin restaurant](restaurant_name)'tır.
+ - [istanbul](city) [çengelköy merkez](district)'de [hazır yiyecekler](cuisine), [ızgara ürünler](cuisine), deniz mahsulleri, [kahve ve çay çeşitleri](cuisine) sunan [Tarihi çınaraltı aile çay bahçesi](restaurant_name) müşterilerin ilgisini çok çekmektedir.
+ - [ankara](city)'da [kızılay](district)'da [İnci pastanesi](near)'nin yakınlarında yer alan [turuncu cafe & pub & fal & tattoo & kültür eğlence merkezi](restaurant_name) [kafeterya ürünleri](cuisine) sunmaktadır.
+ - Müşteri memnuniyetinin oldukça iyi olduğu [Aylak madam](restaurant_name), [kahve ve çay çeşitleri](cuisine) servis eden tek mekandır.
+ - Meşhur [dondurma](cuisine)cı ali usta [tatlı](cuisine), dondurma ve [kafeterya ürünleri](cuisine)nin mevcut olduğu tek mekandır.
+ - [meram](district), [konya](city)'da [ucuz](price) yemek sunan bir restoran bulamazsınız.
+ - [bursa](city) [nilüfer](district)'de pasta, çörek ve [kafeterya ürünleri](cuisine) sunan müşteri memnuniyetinin [yüksek](rating) olduğu mekanlar neresidir?
+ - Müşterilerinin memnuniyetini kazanmış olan [Kahveci hacıbaba](restaurant_name) [ankara](city) [kızılay](district)'dadır.
+ - [bursa](city) [görükle](district)'deki [abişoğlu pastaneleri](restaurant_name), müşterilerini memnun eden bir yerdir ve [Venedik pastanesi](near)'nin yakınlarında yer alır.
+ - [ızgara ürünler](cuisine)i servis eden [bay köfte](restaurant_name), [Sunset](near) mekanının yakınında konumlanır.
+ - [adana](city) [seyhan](district)'da müşteri memnuniyetinin [yüksek](rating) olduğu [Gölyazı gönül sofrası](near)'nın yakınında olan [kling usta](restaurant_name) mekanının fiyatları ortalama düzeydedir.
+ - [kebap](cuisine) ürünleri servis eden [Üçler kebap salonu](restaurant_name) ortalama fiyatlı olup [gaziantep](city)'in [şahinbey](district) bölgesindedir.
+ - [adana](city) [seyhan](district)'da olan [Cafe cosecha](restaurant_name) müşterilerin memnuniyetini kazanmış tek yerdir.
+ - [güneydoğu anadolu yemekleri](cuisine) ve [türk yemekleri](cuisine) sunan tek mekan [Ketçi resto](restaurant_name)'dur.
+ - [istanbul](city) [levent](district)'teki [kanyon avm](neighborhood)'de müşteri memnuniyetinin [yüksek](rating) olduğu mekan yoktur.
+ - [izmir](city) [bornova](district)'da [hamburger](cuisine) servis eden mekan mevcut değildir.
+ - [eskişehir](city) [odunpazarı](district)'nda fiyat aralığının [ucuz](price) olduğu ve müşteri memnuniyetinin iyi olduğu yerler nelerdir?
  - [tatlı](cuisine) servis eden [Miyeps waffle & vitamin bar](restaurant_name) müşterilerinin memnuniyetini kazanmış bir mekandır.
- - [izmit](city) [ncity avm](district) yer alan [alaçatı muhallebicisi](restaurant_name) [Mama craft](near) yakınında yer alır ve müşteri memnuniyetini kazanmış bir yerdir.
- - [Çiya sofrası](near) yakınında bulunan [alavara](restaurant_name) [izmir](city) [alsancak](district).
- - [balgat](district) [ankara](city) [La gioia cafe brasserie ve petek pastanesi](near) yakınlarındaki [coffee lab](restaurant_name) sattığı [kafeterya ürünleri](cuisine) ile müşteri memnuniyeti [yüksek](rating) oranda yakalamıştır.
- - [izmit](city) [merkez](district) bulunan [barista roof restaurant](restaurant_name) dünya mutfağından yemekler sunar ve [Kumrucu şevki](near) yakınlarındadır.
+ - [izmit](city) [ncity avm](district)'de yer alan [alaçatı muhallebicisi](restaurant_name), [Mama craft](near)'ın yakınında yer alır ve müşteri memnuniyetini kazanmış bir yerdir.
+ - [Çiya sofrası](near)'nın yakınında bulunan [alavara](restaurant_name) [izmir](city) [alsancak](district)'tadır.
+ - [balgat](district), [ankara](city)'da [La gioia cafe brasserie ve petek pastanesi](near)'nin yakınlarındaki [coffee lab](restaurant_name) sattığı [kafeterya ürünleri](cuisine) ile müşteri memnuniyeti [yüksek](rating) oranda yakalamıştır.
+ - [izmit](city) [merkez](district)'de bulunan [barista roof restaurant](restaurant_name), dünya mutfağından yemekler sunar ve [Kumrucu şevki](near)'nin yakınlarındadır.
  - [akdeniz yemekleri](cuisine) ve [kafeterya ürünleri](cuisine) servis eden [Shakespeare bistro](restaurant_name) müşteri memnuniyetinin kazanmış tek mekandır.
- - [tatlı](cuisine) servis eden tek mekan [Çelebioğulları](restaurant_name).
- - [izmir](city) [bornova](district) bölgesinde müşteri memnuniyetinin [yüksek](rating) olduğu bir mekan bulamazsınız.
- - [bursa](city) [merkez](district) [ucuz](price) fiyatlara sahip bir mekan yoktur.
- - [karatay](district) [konya](city) osmanlı mutfağından yemekler servis eden müşterilerin memnun olduğu ve fiyatları [ucuz](price) olan mekanlar nelerdir?
- - müşteri memnuniyetinin [yüksek](rating) olduğu [kafeterya ürünleri](cuisine) servis eden mekan [Noel baba cafe](restaurant_name).
+ - [tatlı](cuisine) servis eden tek mekan [Çelebioğulları](restaurant_name)'dır.
+ - [izmir](city)'in [bornova](district) bölgesinde müşteri memnuniyetinin [yüksek](rating) olduğu bir mekan bulamazsınız.
+ - [bursa](city)'nın [merkez](district)inde [ucuz](price) fiyatlara sahip bir mekan yoktur.
+ - [karatay](district) [konya](city)'da osmanlı mutfağından yemekler servis eden müşterilerin memnun olduğu ve fiyatları [ucuz](price) olan mekanlar nelerdir?
+ - Müşteri memnuniyetinin [yüksek](rating) olduğu [kafeterya ürünleri](cuisine) servis eden mekan [Noel baba cafe](restaurant_name)'dir.
  - [Özsüt](near) yakınlarındaki [eskişehir çiğ [börek](cuisine) evi atatürk bulvarı](restaurant_name) servis ettiği börekler ile müşterilerini memnun etmektedir.
- - [bursa](city) [nalbantoglu](district) [Kitap evi otel](restaurant_name) mekanı [kafeterya ürünleri](cuisine) satmaktadır.
- - [adana](city) [çukurova](district) bölgesinde [Dürümcü recep usta](near) yakınlarında yer alan [pasta bahçesi](restaurant_name) fiyatları [ucuz](price) ve müşteri memnuniyetinin [ortalama](rating) olduğu bir mekandır.
- - [istanbul](city) [eminönü merkez](district) [Maki restoran ve varuna gezgin](near) yakınlarındaki [virginia angus](restaurant_name) mekanının fiyatları ortalamadır.
- - müşteri memnuniyetinin iyi olduğu [kafeterya ürünleri](cuisine) servis eden tek mekan [Yeşilçam kahve evi](restaurant_name).
- - [adana](city) [çukurova](district) yemek yenebilen tek mekan [Venedik pastanesi](restaurant_name).
- - [antalya](city) [barbaros/kaleiçi](district) [ordövrler](cuisine) sunan bir mekan bulamazsanız.
- - [istanbul](city) [taksim](district) müşterilerin çok memnun olduğu [kafeterya ürünleri](cuisine) sunan mekanlar nelerdir?
+ - [bursa](city) [nalbantoglu](district)'ndaki [Kitap evi otel](restaurant_name) mekanı [kafeterya ürünleri](cuisine) satmaktadır.
+ - [adana](city)'nın [çukurova](district) bölgesinde [Dürümcü recep usta](near)'nın yakınlarında yer alan [pasta bahçesi](restaurant_name) fiyatları [ucuz](price) ve müşteri memnuniyetinin [ortalama](rating) olduğu bir mekandır.
+ - [istanbul](city) [eminönü merkez](district)i'nde [Maki restoran ve varuna gezgin](near) yakınlarındaki [virginia angus](restaurant_name) mekanının fiyatları ortalamadır.
+ - Müşteri memnuniyetinin iyi olduğu [kafeterya ürünleri](cuisine) servis eden tek mekan [Yeşilçam kahve evi](restaurant_name)'dir.
+ - [adana](city) [çukurova](district)'da yemek yenebilen tek mekan [Venedik pastanesi](restaurant_name)'dir.
+ - [antalya](city) [barbaros/kaleiçi](district)'nde [ordövrler](cuisine) sunan bir mekan bulamazsanız.
+ - [istanbul](city) [taksim](district)'de müşterilerin çok memnun olduğu [kafeterya ürünleri](cuisine) sunan mekanlar nelerdir?
  - [kebap](cuisine) ürünleri servis eden [Dede restaurant](restaurant_name) müşterilerin memnuniyetinin [düşük](rating) olduğu bir mekandır.
- - [izmir](city) [konak](district) [5 ocak kebap ve sushico](near) yakınlarında bulunan [sky bar](restaurant_name) müşterilerin çok memnun olduğu bir mekandır.
- - [eskişehir](city) [hoşnudiye](district) bölgesinde yer alan [Varuna los amigos](restaurant_name) [kafeterya ürünleri](cuisine) servis etmektedir.
- - [bursa](city) [kapalı çarşı](district) olan [çınar ızgara](restaurant_name) [Doyuran kahvaltı salonu](near) yakınında olup sattığı [ızgara ürünler](cuisine) müşterilerin memnuniyetini bir hayli kazanmıştır.
- - [Nusr-et steakhouse](near) yakınlarındaki [nohutçu metin usta](restaurant_name) [ev yapımı yemekler](cuisine) [gaziantep](city) [şahinbey](district).
- - [konya](city) [selçuklu](district) bölgesindeki [Sille konak restaurant](restaurant_name) müşteri memnuniyetinin iyi olduğu tek mekandır.
- - [çukurova](district) [adana](city) tek mekan [Eyvan kebap](restaurant_name).
- - [ankara](city) [küçük esat](district) fiyat aralığını makul olup müşteri memnuniyetinin çok iyi olduğu bir mekan yoktur.
+ - [izmir](city) [konak](district)'ta [5 ocak kebap ve sushico](near)'nun yakınlarında bulunan [sky bar](restaurant_name) müşterilerin çok memnun olduğu bir mekandır.
+ - [eskişehir](city)'in [hoşnudiye](district) bölgesinde yer alan [Varuna los amigos](restaurant_name) [kafeterya ürünleri](cuisine) servis etmektedir.
+ - [bursa](city) [kapalı çarşı](district)'da olan [çınar ızgara](restaurant_name), [Doyuran kahvaltı salonu](near)'nun yakınında olup sattığı [ızgara ürünler](cuisine)iyle müşterilerin memnuniyetini bir hayli kazanmıştır.
+ - [Nusr-et steakhouse](near) yakınlarındaki [nohutçu metin usta](restaurant_name) [ev yapımı yemekler](cuisine)iyle [gaziantep](city) [şahinbey](district)'dedir.
+ - [konya](city)'nın [selçuklu](district) bölgesindeki [Sille konak restaurant](restaurant_name) müşteri memnuniyetinin iyi olduğu tek mekandır.
+ - [çukurova](district) [adana](city)'daki tek mekan [Eyvan kebap](restaurant_name)'tır.
+ - [ankara](city) [küçük esat](district)'ta fiyat aralığını makul olup müşteri memnuniyetinin çok iyi olduğu bir mekan yoktur.
  - [antalya](city) [kaş](district) bölgesinde [ordövrler](cuisine) ve [kafeterya ürünleri](cuisine) satan mekan bulamazsanız.
- - [meram](district) [konya](city) [kafeterya ürünleri](cuisine) sunan fiyat aralığı ve müşteri memnuniyetinin [ortalama](rating) olduğu mekanlar nelerdir?
- - [kahve ve çay çeşitleri](cuisine) sunan [Aylak madam](restaurant_name) müşteri memnuniyeti [yüksek](rating).
- - yakınında [Kesman ciğer ve cafe extrablatt](near) bulunan, [meşhur [dondurma](cuisine) ali usta](restaurant_name) [tatlı](cuisine) dondurma, [kafeterya ürünleri](cuisine) sunulur ve müşteri memnuniyeti [yüksek](rating).
- - yakınında [Cafemiz](near) adlı mekan bulunan, [anadolu et lokantası](restaurant_name) fiyat aralığı [ucuz](price).
- - yakınında [Kyoto japon parkı](near) bulunan, [meram](district) [konya](city) [havzan etli ekmek 4](restaurant_name) adlı mekanda müşteri memnuniyeti [ortalama](rating) ve fiyat aralığı [ucuz](price).
- - yakınında [No42](near) adlı mekan bulunan, [nilüfer](district) [bursa](city) [ülkü pastanesi](restaurant_name) pasta, çörek ve [kafeterya ürünleri](cuisine) sunmaktadır.
- - [kemeraltı](district) [izmir](city) [Bizim lokanta](restaurant_name) müşteri memnuniyetinin [yüksek](rating) olduğu, bölgedeki tek mekandır.
- - [şahinbey](district) [gaziantep](city) [Boğazköy restaurant](restaurant_name) fiyat aralığı makul olan, bölgedeki tek mekandır.
- - [selçuklu](district) [konya](city) müşteri memnuniyetinin [yüksek](rating) olduğu [ev yapımı yemekler](cuisine) yapan bir mekan yoktur.
- - [fsm bulvari](district) [bursa](city) fiyat aralığı ortalama olan bir yemek mekanı yoktur.
- - [alsancak](district) [izmir](city) fiyat aralığının makul, müşteri memnuniyetinin de [ortalama](rating) olduğu bir yemek mekanı var mıdır?
- - [seyhan](district) [adana](city) bulunan [Cafe cosecha](restaurant_name) müşteri memnuniyeti [ortalama](rating).
- - yakınında [Pasto](near) adlı mekan bulunan, [ketçi resto](restaurant_name) [güneydoğu anadolu yemekleri](cuisine) ile [türk yemekleri](cuisine) sunulur ve müşteri memnuniyeti [ortalama](rating).
- - [kanyon avm](neighborhood) [levent](district) [istanbul](city) bulunan [num num](restaurant_name) restoranın yakınında [Oburus momus](near) adlı mekan bulunmaktadır.
- - yakınında [Baklavacı zeki inal](near) bulunan, [bornova](district) [izmir](city) [ohannesburger](restaurant_name) [hamburger](cuisine) sunulmaktadır ve müşteri memnuniyeti [ortalama](rating).
- - yakınında [Kebapçı ufuk](near) bulunan, [odunpazarı](district) [eskişehir](city) [arzu'nun yeri](restaurant_name) adlı mekanda fiyat aralığı [ucuz](price).
- - [merkez](district) [antalya](city) [Özsüt](restaurant_name) müşteri memnuniyetinin [ortalama](rating) olduğu bölgedeki tek mekandır.
- - [hoşnudiye](district) [eskişehir](city) [Yum-yum noodle house](restaurant_name) yemek yenebilecek bölgedeki tek mekandır.
- - [nilüfer](district) [bursa](city) müşteri memnuniyetinin [yüksek](rating) fiyat aralığının [ucuz](price) olduğu bir yemek mekanı yoktur.
- - [çukurova](district) [adana](city) [kebap](cuisine) ile [ızgara ürünler](cuisine) sunan bir yemek mekanı yoktur.
- - [alsancak](district) [izmir](city) müşteri memnuniyetinin [yüksek](rating) fiyat aralığının ortalama olduğu bir yemek mekanı var mıdır?
- - [Shakespeare bistro](restaurant_name) adlı mekanda, [akdeniz yemekleri](cuisine) ile [kafeterya ürünleri](cuisine) sunulmaktadır ve müşteri memnuniyeti [ortalama](rating).
- - yakınında [Dönerci cengiz ve havzan etliekmek 2](near) adlı mekan bulunan [çelebioğulları](restaurant_name) [tatlı](cuisine) sunulmaktadır ve müşteri memnuniyeti [yüksek](rating).
- - [bornova](district) [izmir](city) [kafe pi bornova](restaurant_name) yakınında, [Hasanusta kebap](near) bulunmaktadır.
- - yakınında [Zemzem çorbacı](near) bulunan, [merkez](district) [bursa](city) [kebapçı hüseyin](restaurant_name) müşteri memnuniyeti [yüksek](rating) fiyat aralığı [ucuz](price).
- - [karatay](district) [konya](city) [Deva restaurant](restaurant_name) [osmanlı mutfağı yemekleri](cuisine) sunulmaktadır ve fiyat aralığı [ucuz](price).
- - [Nereid meyhanesi](restaurant_name) [alkollü içecekler](cuisine) sunan ve müşteri memnuniyetinin [yüksek](rating) olduğu, bölgedeki tek mekandır.
- - [şahinbey](district) [gaziantep](city) [Zirve park](restaurant_name) [kebap](cuisine) sunan bölgedeki tek mekandır.
- - [kavaklıdere](district) [ankara](city) müşteri memnuniyetinin [yüksek](rating) olduğu bir yemek mekanı bulunmamaktadır.
- - [süleymaniye](district) [istanbul](city) [kafeterya ürünleri](cuisine) sunan, fiyat aralığı ortalama olan bir yemek mekanı bulunmamaktadır.
- - [mustafa kemal paşa](district) [eskişehir](city) [kebap](cuisine) sunan ve müşteri memnuniyetinin [yüksek](rating) olduğu bir yemek mekanı var mıdır?
- - [Yeşilçam kahve evi](restaurant_name) [kafeterya ürünleri](cuisine) sunulmaktadır ve müşteri memnuniyeti [ortalama](rating).
- - yakınında [Kazım büfe](near) bulunan [çukurova](district) [adana](city) [venedik pastanesi](restaurant_name) müşteri memnuniyeti [ortalama](rating).
- - yakınında [Pasto](near) adlı mekan bulunan [[kebap](cuisine) tamer](restaurant_name) [döner](cuisine) ile kebap ürünleri sunulmaktadır.
- - yakınında [Bahçe balık](near) adlı mekan bulunan, [barbaros/kaleiçi](district) [antalya](city) [the tudors pub](restaurant_name) [ordövrler](cuisine) sunulmaktadır ve müşteri memnuniyeti [ortalama](rating).
- - yakınında [Köfteci behçet](near) bulunan, [taksim](district) [istanbul](city) [limonlu bahçe](restaurant_name) [kafeterya ürünleri](cuisine) sunulmaktadır.
- - [Louise](restaurant_name) [kahve ve çay çeşitleri](cuisine) sunan ve müşteri memnuniyetinin [yüksek](rating) olduğu, bölgedeki tek mekandır.
- - [Topçu kebap salonu](restaurant_name) fiyat aralığının [ucuz](price) olduğu, bölgedeki tek mekandır.
- - [istiklal](district) [eskişehir](city) müşteri memnuniyetinin [ortalama](rating) olduğu bir yemek mekanı bulunmamaktadır.
- - [köprübasi](district) [eskişehir](city) fiyat aralığının [ucuz](price) olduğu bir yemek mekanı bulunmamaktadır.
- - [iznik](district) [bursa](city) [kafeterya ürünleri](cuisine) ile [türk yemekleri](cuisine) sunan, müşteri memnuniyetinin ve fiyat aralığının [ortalama](rating) olduğu bir yemek mekanı var mıdır?
- - [selçuklu](district) [konya](city) [Sille konak restaurant](restaurant_name) müşteri memnuniyeti [ortalama](rating).
- - yakınında [Leman kültür](near) bulunan, [çukurova](district) [adana](city) [eyvan kebap](restaurant_name) müşteri memnuniyeti [ortalama](rating).
- - [küçük esat](district) [ankara](city) [Devrez](restaurant_name) adlı mekanda fiyat aralığı ortalamadır.
- - yakınında [Ciğerci ali haydar usta ve domino's pizza](near) bulunan, [kaş](district) [antalya](city) [hideaway bar & cafe](restaurant_name) [ordövrler](cuisine) ile beraber [kafeterya ürünleri](cuisine) sunulmaktadır ve müşteri memnuniyeti [yüksek](rating).
- - [meram](district) [konya](city) bulunan [Nevizade cafe & restaurant](restaurant_name) [kafeterya ürünleri](cuisine) sunulmaktadır ve fiyat aralığı ortalamadır.
- - [Tiko burger](restaurant_name) [hamburger](cuisine) sunulan ve müşteri memnuniyetinin [ortalama](rating) olduğu, bölgedeki tek mekandır.
- - [çukurova](district) [adana](city) [Park zirve](restaurant_name) fiyat aralığının makul olduğu bölgedeki tek mekandır.
- - [odunpazarı](district) [eskişehir](city) [osmanlı mutfağı yemekleri](cuisine) ile [ev yapımı yemekler](cuisine) sunulan ve fiyat aralığının [ucuz](price) olduğu bir yemek mekanı yoktur.
- - [kaş](district) [antalya](city) müşteri memnuniyetinin [yüksek](rating) fiyat aralığının ortalama olduğu bir yemek mekanı var mıdır?
- - [Bizim lokanta](restaurant_name) [izmir](city) [kemeraltı](district) bölgesinde bulunan müşteri memnuniyeti [yüksek](rating) olan bir lokantadır.
- - [ortalama](rating) bir müşteri memnuniyeti sunan [Boğazköy restaurant](restaurant_name) makul fiyatlarıyla [gaziantep](city) [şahinbey](district) ilçesinde hizmet veriyor.
+ - [meram](district) [konya](city)'da [kafeterya ürünleri](cuisine) sunan fiyat aralığı ve müşteri memnuniyetinin [ortalama](rating) olduğu mekanlar nelerdir?
+ - [kahve ve çay çeşitleri](cuisine) sunan [Aylak madam](restaurant_name)'da müşteri memnuniyeti [yüksek](rating)tir.
+ - Yakınında [Kesman ciğer ve cafe extrablatt](near) bulunan, [meşhur [dondurma](cuisine)cı ali usta](restaurant_name)'da; [tatlı](cuisine), dondurma, [kafeterya ürünleri](cuisine) sunulur ve müşteri memnuniyeti [yüksek](rating)tir.
+ - Yakınında [Cafemiz](near) adlı mekan bulunan, [anadolu et lokantası](restaurant_name)'nda fiyat aralığı [ucuz](price)dur.
+ - Yakınında [Kyoto japon parkı](near) bulunan, [meram](district), [konya](city)'daki [havzan etli ekmek 4](restaurant_name) adlı mekanda müşteri memnuniyeti [ortalama](rating)dır ve fiyat aralığı [ucuz](price)dur.
+ - Yakınında [No42](near) adlı mekan bulunan, [nilüfer](district), [bursa](city)'daki [ülkü pastanesi](restaurant_name) pasta, çörek ve [kafeterya ürünleri](cuisine) sunmaktadır.
+ - [kemeraltı](district), [izmir](city)'deki [Bizim lokanta](restaurant_name), müşteri memnuniyetinin [yüksek](rating) olduğu, bölgedeki tek mekandır.
+ - [şahinbey](district), [gaziantep](city)'deki [Boğazköy restaurant](restaurant_name), fiyat aralığı makul olan, bölgedeki tek mekandır.
+ - [selçuklu](district), [konya](city)'da müşteri memnuniyetinin [yüksek](rating) olduğu [ev yapımı yemekler](cuisine) yapan bir mekan yoktur.
+ - [fsm bulvari](district), [bursa](city)'da, fiyat aralığı ortalama olan bir yemek mekanı yoktur.
+ - [alsancak](district), [izmir](city)'de, fiyat aralığının makul, müşteri memnuniyetinin de [ortalama](rating) olduğu bir yemek mekanı var mıdır?
+ - [seyhan](district), [adana](city)'da bulunan [Cafe cosecha](restaurant_name)'da müşteri memnuniyeti [ortalama](rating)dır.
+ - Yakınında [Pasto](near) adlı mekan bulunan, [ketçi resto](restaurant_name)'da [güneydoğu anadolu yemekleri](cuisine) ile [türk yemekleri](cuisine) sunulur ve müşteri memnuniyeti [ortalama](rating)dır.
+ - [kanyon avm](neighborhood), [levent](district), [istanbul](city)'da bulunan [num num](restaurant_name) restoranın yakınında [Oburus momus](near) adlı mekan bulunmaktadır.
+ - Yakınında [Baklavacı zeki inal](near) bulunan, [bornova](district), [izmir](city)'deki [ohannesburger](restaurant_name)'de [hamburger](cuisine) sunulmaktadır ve müşteri memnuniyeti [ortalama](rating)dır.
+ - Yakınında [Kebapçı ufuk](near) bulunan, [odunpazarı](district), [eskişehir](city)'deki [arzu'nun yeri](restaurant_name) adlı mekanda fiyat aralığı [ucuz](price)dur.
+ - [merkez](district), [antalya](city)'daki [Özsüt](restaurant_name), müşteri memnuniyetinin [ortalama](rating) olduğu bölgedeki tek mekandır.
+ - [hoşnudiye](district), [eskişehir](city)'deki [Yum-yum noodle house](restaurant_name), yemek yenebilecek bölgedeki tek mekandır.
+ - [nilüfer](district), [bursa](city)'da, müşteri memnuniyetinin [yüksek](rating), fiyat aralığının [ucuz](price) olduğu bir yemek mekanı yoktur.
+ - [çukurova](district), [adana](city)'da [kebap](cuisine) ile [ızgara ürünler](cuisine)i sunan bir yemek mekanı yoktur.
+ - [alsancak](district), [izmir](city)'de müşteri memnuniyetinin [yüksek](rating), fiyat aralığının ortalama olduğu bir yemek mekanı var mıdır?
+ - [Shakespeare bistro](restaurant_name) adlı mekanda, [akdeniz yemekleri](cuisine) ile [kafeterya ürünleri](cuisine) sunulmaktadır ve müşteri memnuniyeti [ortalama](rating)dır.
+ - Yakınında [Dönerci cengiz ve havzan etliekmek 2](near) adlı mekan bulunan [çelebioğulları](restaurant_name)'nda [tatlı](cuisine) sunulmaktadır ve müşteri memnuniyeti [yüksek](rating)tir.
+ - [bornova](district), [izmir](city)'deki [kafe pi bornova](restaurant_name)'nın yakınında, [Hasanusta kebap](near) bulunmaktadır.
+ - Yakınında [Zemzem çorbacı](near) bulunan, [merkez](district), [bursa](city)'daki [kebapçı hüseyin](restaurant_name)'de, müşteri memnuniyeti [yüksek](rating), fiyat aralığı [ucuz](price)dur.
+ - [karatay](district), [konya](city)'daki [Deva restaurant](restaurant_name)'da, [osmanlı mutfağı yemekleri](cuisine) sunulmaktadır ve fiyat aralığı [ucuz](price)dur.
+ - [Nereid meyhanesi](restaurant_name), [alkollü içecekler](cuisine) sunan ve müşteri memnuniyetinin [yüksek](rating) olduğu, bölgedeki tek mekandır.
+ - [şahinbey](district), [gaziantep](city)'deki [Zirve park](restaurant_name), [kebap](cuisine) sunan bölgedeki tek mekandır.
+ - [kavaklıdere](district), [ankara](city)'da müşteri memnuniyetinin [yüksek](rating) olduğu bir yemek mekanı bulunmamaktadır.
+ - [süleymaniye](district), [istanbul](city)'da [kafeterya ürünleri](cuisine) sunan, fiyat aralığı ortalama olan bir yemek mekanı bulunmamaktadır.
+ - [mustafa kemal paşa](district), [eskişehir](city)'de [kebap](cuisine) sunan ve müşteri memnuniyetinin [yüksek](rating) olduğu bir yemek mekanı var mıdır?
+ - [Yeşilçam kahve evi](restaurant_name)'nde [kafeterya ürünleri](cuisine) sunulmaktadır ve müşteri memnuniyeti [ortalama](rating)dır.
+ - Yakınında [Kazım büfe](near) bulunan [çukurova](district), [adana](city)'daki [venedik pastanesi](restaurant_name)'nde müşteri memnuniyeti [ortalama](rating)dır.
+ - Yakınında [Pasto](near) adlı mekan bulunan [[kebap](cuisine)çı tamer](restaurant_name)'de [döner](cuisine) ile kebap ürünleri sunulmaktadır.
+ - Yakınında [Bahçe balık](near) adlı mekan bulunan, [barbaros/kaleiçi](district), [antalya](city)'daki [the tudors pub](restaurant_name)'da [ordövrler](cuisine) sunulmaktadır ve müşteri memnuniyeti [ortalama](rating)dır.
+ - Yakınında [Köfteci behçet](near) bulunan, [taksim](district), [istanbul](city)'daki [limonlu bahçe](restaurant_name)'de [kafeterya ürünleri](cuisine) sunulmaktadır.
+ - [Louise](restaurant_name), [kahve ve çay çeşitleri](cuisine) sunan ve müşteri memnuniyetinin [yüksek](rating) olduğu, bölgedeki tek mekandır.
+ - [Topçu kebap salonu](restaurant_name), fiyat aralığının [ucuz](price) olduğu, bölgedeki tek mekandır.
+ - [istiklal](district), [eskişehir](city)'de müşteri memnuniyetinin [ortalama](rating) olduğu bir yemek mekanı bulunmamaktadır.
+ - [köprübasi](district), [eskişehir](city)'de, fiyat aralığının [ucuz](price) olduğu bir yemek mekanı bulunmamaktadır.
+ - [iznik](district), [bursa](city)'da [kafeterya ürünleri](cuisine) ile [türk yemekleri](cuisine) sunan, müşteri memnuniyetinin ve fiyat aralığının [ortalama](rating) olduğu bir yemek mekanı var mıdır?
+ - [selçuklu](district), [konya](city)'daki [Sille konak restaurant](restaurant_name)'ta müşteri memnuniyeti [ortalama](rating)dır.
+ - Yakınında [Leman kültür](near) bulunan, [çukurova](district), [adana](city)'daki [eyvan kebap](restaurant_name)'ta müşteri memnuniyeti [ortalama](rating)dır.
+ - [küçük esat](district), [ankara](city)'daki [Devrez](restaurant_name) adlı mekanda fiyat aralığı ortalamadır.
+ - Yakınında [Ciğerci ali haydar usta ve domino's pizza](near) bulunan, [kaş](district), [antalya](city)'daki [hideaway bar & cafe](restaurant_name)'de [ordövrler](cuisine) ile beraber [kafeterya ürünleri](cuisine) sunulmaktadır ve müşteri memnuniyeti [yüksek](rating)tir.
+ - [meram](district), [konya](city)'da bulunan [Nevizade cafe & restaurant](restaurant_name)'da [kafeterya ürünleri](cuisine) sunulmaktadır ve fiyat aralığı ortalamadır.
+ - [Tiko burger](restaurant_name), [hamburger](cuisine) sunulan ve müşteri memnuniyetinin [ortalama](rating) olduğu, bölgedeki tek mekandır.
+ - [çukurova](district), [adana](city)'daki [Park zirve](restaurant_name), fiyat aralığının makul olduğu bölgedeki tek mekandır.
+ - [odunpazarı](district), [eskişehir](city)'de [osmanlı mutfağı yemekleri](cuisine) ile [ev yapımı yemekler](cuisine) sunulan ve fiyat aralığının [ucuz](price) olduğu bir yemek mekanı yoktur.
+ - [kaş](district), [antalya](city)'da müşteri memnuniyetinin [yüksek](rating), fiyat aralığının ortalama olduğu bir yemek mekanı var mıdır?
+ - [Bizim lokanta](restaurant_name), [izmir](city)'in [kemeraltı](district) bölgesinde bulunan müşteri memnuniyeti [yüksek](rating) olan bir lokantadır.
+ - [ortalama](rating) bir müşteri memnuniyeti sunan [Boğazköy restaurant](restaurant_name), makul fiyatlarıyla [gaziantep](city)'in [şahinbey](district) ilçesinde hizmet veriyor.
  - [ev yapımı yemekler](cuisine) konseptiyle hizmet vermekte olan akyokuş park [konya](city) mutfağı, konya'nın [selçuklu](district) bölgesindedir.
- - [ortalama](rating) fiyatlarıyla ve müşteri memnuniyeti ile bilinen [bursa](city) [fsm bulvarı](district) konumlanmış [cadde üstü](restaurant_name) [Mevlana lokantası](near) yakındır
- - [sake cafe & bar](restaurant_name) [izmir](city) [alsancak](district) bölgesinde [Caribou coffee ve erçelebi kadayıf](near) yakınlarında ortalama fiyatlarıyla hizmet veren bir yemek mekanıdır.
- - [bursa](city) [dobruca](district) bölgesinde hizmet veren [Dere bahçe restaurant](restaurant_name) [ortalama](rating) müşteri memnuniyeti ile bilinen tek yerdir.
- - [Beğendik abi lokantası](restaurant_name) [izmir](city) [forum bornova](district) bölgesinde makul fiyatlarıyla bilinen tek mekandır.
- - [istanbul](city) [taksim](district) [türk yemekleri](cuisine) [deniz mahsülleri](cuisine) [alkollü içecekler](cuisine) kapsamında hizmet veren ve aynı zamanda [pahalı](price) bir menüye sahip bir yer yoktur.
- - [istanbul](city) [çakmak](district) ilçeside [atakent](neighborhood) yakın [yüksek](rating) standartlarda memnuniyet sahibi bir [döner](cuisine) var mıdır?
- - [antalya](city) [merkez](district) bulunan [Özsüt](restaurant_name) [ortalama](rating) bir müşteri memnuniyeti sağlar.
- - [eskişehir](city) [hoşnudiye](district) bölgesinin içinde olan [Börekçi rıza ve şahan sirehan](near) lokantalarına yakın [yum-yum noodle house](restaurant_name) müşterilerinin memnuniyetini kazanmıştır.
- - [Ayanoğlu tarz-i kahvaltı](restaurant_name) düşük fiyatlarıyla [bursa](city) [nilüfer](district) ilçesinde hizmet sağlamaktır.
- - [kebap](cuisine) ve [ızgara ürünler](cuisine) alanında müşterilerinin ihtiyaçlarını karşılayan [elem kebap restaurant](restaurant_name) aynı zamanda [adana](city) [çukurova](district) bölgesindeki [La gioia cafe brasserie](near) de yakındır.
- - [izmir](city) [alsancak](district) karşılanabilir fiyatlarıyla hizmet veren [midyeli](restaurant_name) [Ayıntap baklava ve hattena hatay sofrası](near) mekanlarına yakındır.
- - [Burger house](restaurant_name) makul fiyatlarıyla müşterilerini memnun eden tek yemek mekanıdır.
- - [kebap](cuisine) ve [ızgara ürünler](cuisine) bilinen [Çiçek ızgara](restaurant_name) [bursa](city) [osmangazi](district) ilçesinde bu ürünleri bulabileceğiniz tek yerdir.
- - [eskişehir](city) bağlı [odunpazarı](district) bölgesinde [tatlı](cuisine) ve [kafeterya ürünleri](cuisine) ile bilinen bir mekan yoktur.
- - [gaziantep](city) [merkez](district) [kebap](cuisine) seçenekleriyle müşterilerini memnun eden bir yer var mıdır?
- - [alkollü içecekler](cuisine) hizmet veren [Nereid meyhanesi](restaurant_name) müşterilerini çok memnun etmesiyle bilinir.
- - [Zirve park](restaurant_name) [gaziantep](city) [şahinbey](district) ilçesinde [kebap](cuisine) menüleriyle müşterilerini memnun etmektedir.
- - [ankara](city) bağlı [kavaklıdere](district) müşterilerini ağırlayan [cafe des cafes](restaurant_name) [Nar restaurant ve tatlıcı köse](near) yakınındadır.
- - [istanbul](city) [süleymaniye](district) semtinde [kafeterya ürünleri](cuisine) sunan [Ağa kapısı](restaurant_name) makul fiyatlarıyla da müşterilerini çok memnun etmektedir.
- - [ciğerci ahmet](restaurant_name) [eskişehir](city) [mustafa kemal paşa](district) bölgesinde bulunan [Cemo etliekmek](near) yakın olup [kebap](cuisine) seçenekleriyle hizmet verir.
- - [Paçacı şemsi](restaurant_name) sakatat menüleriyle müşterilerini en iyi şekilde memnun eden tek yerdir.
- - [konya](city) [selçuklu](district) bölgesinde [pizza](cuisine) yenebilecek tek yer olarak [Serenade etliekmek](restaurant_name) söylenebilir.
- - [bursa](city) [mudanya yolu](district) [tatlı](cuisine) mekanı yoktur.
- - [adana](city) [çukurova](district) ücretleri karşılanabilir olup da [pasta ve çörek](cuisine) gibi [kafeterya ürünleri](cuisine) müşterilerini memnun eden herhangi bir yer var mıdır?
- - kahve çay çeşitleri sunan [Louise](restaurant_name) müşterilerinin mekanlarından çok memnun ayrılmasını sağlar.
- - [topçu kebap salonu](restaurant_name) [Sırça köşk](near) yakın olan konumu ve ürünlerinin [ucuz](price) müşterilerini memnun etmektedir.
- - [eskişehir](city) [istiklal](district) bölgesinde olan [cafe de kedi](restaurant_name) [Sakıp usta beyran & paça & kebap](near) lokantasına yakındır.
- - [ucuz](price) fiyat seçenekleri ve [yüksek](rating) müşteri memnuniyeti ile [eskişehir](city) [köprübaşı](district) hizmet veren [papağan](restaurant_name) [Homburger](near) adlı mekanın yakınındadır.
- - [Askania](restaurant_name) adlı [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) sunan mekan makul fiyatlarıyla [bursa](city) [iznik](district) bölgesinde bulunmaktadır.
- - [Kebapçı iskender (cevat iskenderoğlu varisleri)](restaurant_name) [döner](cuisine) alanında müşteri memnuniyetini [yüksek](rating) tutan tek yerdir.
- - [konya](city) [meram](district) ilçesinde bulunan lale [döner](cuisine) bölgesinde döner hizmet veren tek yerdir.
- - [gaziantep](city) ev yapımı yemek çeşitleri sunan bir mekan bulunmamaktadır
+ - [ortalama](rating) fiyatlarıyla ve müşteri memnuniyeti ile bilinen [bursa](city), [fsm bulvarı](district)'nda konumlanmış [cadde üstü](restaurant_name), [Mevlana lokantası](near)'na yakındır
+ - [sake cafe & bar](restaurant_name), [izmir](city)'in [alsancak](district) bölgesinde [Caribou coffee ve erçelebi kadayıf](near) yakınlarında ortalama fiyatlarıyla hizmet veren bir yemek mekanıdır.
+ - [bursa](city)'daki [dobruca](district) bölgesinde hizmet veren [Dere bahçe restaurant](restaurant_name), [ortalama](rating) müşteri memnuniyeti ile bilinen tek yerdir.
+ - [Beğendik abi lokantası](restaurant_name), [izmir](city)'in [forum bornova](district) bölgesinde makul fiyatlarıyla bilinen tek mekandır.
+ - [istanbul](city)'daki [taksim](district)'de, [türk yemekleri](cuisine), [deniz mahsülleri](cuisine), [alkollü içecekler](cuisine) kapsamında hizmet veren ve aynı zamanda [pahalı](price) bir menüye sahip bir yer yoktur.
+ - [istanbul](city)'un [çakmak](district) ilçeside [atakent](neighborhood)'e yakın [yüksek](rating) standartlarda memnuniyet sahibi bir [döner](cuisine)ci var mıdır?
+ - [antalya](city)'nın [merkez](district)inde bulunan [Özsüt](restaurant_name), [ortalama](rating) bir müşteri memnuniyeti sağlar.
+ - [eskişehir](city)'in [hoşnudiye](district) bölgesinin içinde olan [Börekçi rıza ve şahan sirehan](near) lokantalarına yakın [yum-yum noodle house](restaurant_name), müşterilerinin memnuniyetini kazanmıştır.
+ - [Ayanoğlu tarz-i kahvaltı](restaurant_name) düşük fiyatlarıyla [bursa](city)'nın [nilüfer](district) ilçesinde hizmet sağlamaktır.
+ - [kebap](cuisine) ve [ızgara ürünler](cuisine) alanında müşterilerinin ihtiyaçlarını karşılayan [elem kebap restaurant](restaurant_name), aynı zamanda [adana](city)'nın [çukurova](district) bölgesindeki [La gioia cafe brasserie](near)'ye de yakındır.
+ - [izmir](city) [alsancak](district)'ta karşılanabilir fiyatlarıyla hizmet veren [midyeli](restaurant_name), [Ayıntap baklava ve hattena hatay sofrası](near) mekanlarına yakındır.
+ - [Burger house](restaurant_name), makul fiyatlarıyla müşterilerini memnun eden tek yemek mekanıdır.
+ - [kebap](cuisine) ve [ızgara ürünler](cuisine)iyle bilinen [Çiçek ızgara](restaurant_name), [bursa](city)'nın [osmangazi](district) ilçesinde bu ürünleri bulabileceğiniz tek yerdir.
+ - [eskişehir](city)'e bağlı [odunpazarı](district) bölgesinde [tatlı](cuisine) ve [kafeterya ürünleri](cuisine) ile bilinen bir mekan yoktur.
+ - [gaziantep](city) [merkez](district)de [kebap](cuisine) seçenekleriyle müşterilerini memnun eden bir yer var mıdır?
+ - [alkollü içecekler](cuisine)iyle hizmet veren [Nereid meyhanesi](restaurant_name), müşterilerini çok memnun etmesiyle bilinir.
+ - [Zirve park](restaurant_name), [gaziantep](city)'in [şahinbey](district) ilçesinde [kebap](cuisine) menüleriyle müşterilerini memnun etmektedir.
+ - [ankara](city)'ya bağlı [kavaklıdere](district)'de müşterilerini ağırlayan [cafe des cafes](restaurant_name), [Nar restaurant ve tatlıcı köse](near)'nin yakınındadır.
+ - [istanbul](city)'un [süleymaniye](district) semtinde [kafeterya ürünleri](cuisine) sunan [Ağa kapısı](restaurant_name) makul fiyatlarıyla da müşterilerini çok memnun etmektedir.
+ - [ciğerci ahmet](restaurant_name), [eskişehir](city)'de [mustafa kemal paşa](district) bölgesinde bulunan [Cemo etliekmek](near)'e yakın olup [kebap](cuisine) seçenekleriyle hizmet verir.
+ - [Paçacı şemsi](restaurant_name), sakatat menüleriyle müşterilerini en iyi şekilde memnun eden tek yerdir.
+ - [konya](city)'nın [selçuklu](district) bölgesinde [pizza](cuisine) yenebilecek tek yer olarak [Serenade etliekmek](restaurant_name) söylenebilir.
+ - [bursa](city)'da [mudanya yolu](district)nda [tatlı](cuisine) mekanı yoktur.
+ - [adana](city) [çukurova](district)'da, ücretleri karşılanabilir olup da [pasta ve çörek](cuisine) gibi [kafeterya ürünleri](cuisine)yle müşterilerini memnun eden herhangi bir yer var mıdır?
+ - Kahve çay çeşitleri sunan [Louise](restaurant_name), müşterilerinin mekanlarından çok memnun ayrılmasını sağlar.
+ - [topçu kebap salonu](restaurant_name), [Sırça köşk](near)'e yakın olan konumu ve ürünlerinin [ucuz](price)luğuyla müşterilerini memnun etmektedir.
+ - [eskişehir](city)'deki [istiklal](district) bölgesinde olan [cafe de kedi](restaurant_name), [Sakıp usta beyran & paça & kebap](near) lokantasına yakındır.
+ - [ucuz](price) fiyat seçenekleri ve [yüksek](rating) müşteri memnuniyeti ile [eskişehir](city) [köprübaşı](district)'nda hizmet veren [papağan](restaurant_name), [Homburger](near) adlı mekanın yakınındadır.
+ - [Askania](restaurant_name) adlı [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) sunan mekan makul fiyatlarıyla [bursa](city)'nın [iznik](district) bölgesinde bulunmaktadır.
+ - [Kebapçı iskender (cevat iskenderoğlu varisleri)](restaurant_name), [döner](cuisine) alanında müşteri memnuniyetini [yüksek](rating) tutan tek yerdir.
+ - [konya](city)'nın [meram](district) ilçesinde bulunan lale [döner](cuisine) bölgesinde döner hizmet veren tek yerdir.
+ - [gaziantep](city)'te ev yapımı yemek çeşitleri sunan bir mekan bulunmamaktadır
  - [hamburger](cuisine) servisi yapan [Tiko burger](restaurant_name) müşterilerini memnun etmektedir.
- - [adana](city) [çukurova](district) bölgesinde bulunan [Park zirve](restaurant_name) ürünleri için istediği makul fiyatlarıyla müşterilerini bir hayli memnun eder.
- - [burger king-gaziantep](restaurant_name) [Set balık lokantası](near) yakın olup [hamburger](cuisine) çeşitleri servis eder.
- - [eskişehir](city) [odunpazarı](district) bölgesinde sunduğu osmanlı mutfağı ve [ev yapımı yemekler](cuisine) müşterilerini memnun eden [Kasr-i nur](restaurant_name) [ucuz](price) fiyat etiketleriyle de bilinir.
- - [antalya](city) [kaş](district) bölgesinde ürünleri için makul fiyatlar isteyen [oburus momus](restaurant_name) [Eyvan kebap ve carmelo's every 7 day eat well](near) mekanlarına yakındır.
- - [adana](city) [ceyhan](district) bölgesinde bulunan [Venedik pastanesi](restaurant_name) müşterilerini memnun eden tek yerdir.
- - [izmit](city) [merkez](district) yalnızca [Bay k. restaurant cafe](restaurant_name) vardır.
- - [adana](city) [çukurova](district) [kebap](cuisine) ve [pizza](cuisine) mutfağında servis yapan bir mekan bulunmaz.
- - [konya](city) bağlı [meram](district) bölgesinde makul fiyatlarıyla müşterini çokça memnun edebilen bir mekan var mıdır?
- - [dobruca](district) [bursa](city) bulunan [Dere bahçe restaurant](restaurant_name) müşteri memnuniyetinin [ortalama](rating) olduğu bir mekandır.
- - [forum bornova](district) [izmir](city) bulunan [Beğendik abi lokantası](restaurant_name) makul fiyatları olan ve müşterilerinin çok memnun olduğu bir mekandır.
- - [Eskişehir çiğ börek evi atatürk bulvarı](near) yakınında bulunan [özsüt](restaurant_name) müşterilerine sunduğu [pasta ve çörek](cuisine) [dondurma](cuisine) [kafeterya ürünleri](cuisine) hizmet vermektedir.
- - [taksim](district) [istanbul](city) bulunan, fiyatları gibi müşteri memnuniyetinin de [yüksek](rating) olduğu [Leb-i derya](restaurant_name) [türk yemekleri](cuisine) [deniz mahsülleri](cuisine) ve [alkollü içecekler](cuisine) içeren menüsüyle hizmet vermektedir.
- - [atakent](neighborhood) [çakmak](district) [istanbul](city) bulunan ve gelen müşterilerin [döner](cuisine) yiyebileceği [dönerci celal usta](restaurant_name) [Pool pub](near) yakınlarındadır.
- - [Route](restaurant_name) sunduğu [kafeterya ürünleri](cuisine) müşteri memnuniyetinin [yüksek](rating) olduğu tek mekandır.
- - [urla](district) [izmir](city) bölgesinde [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) yenebilecek olan tek mekan [Denizaltı restaurant](restaurant_name).
- - [lara](district) [antalya](city) dolaylarında, makul fiyatları ve [yüksek](rating) müşteri memnuniyeti olan bir mekan yoktur.
- - [şahinbey](district) [gaziantep](city) bölgesinde [ucuz](price) fiyatlarda ürün sunan bir mekan yoktur.
- - [merkez](district) [eskişehir](city) [yüksek](rating) müşteri memnuniyeti ile [ızgara ürünler](cuisine) sunan bir yer var mıdır?
- - [Burger house](restaurant_name) makul fiyatları ve [ortalama](rating) müşteri memnuniyeti olan bir yerdir.
- - [osmangazi](district) [bursa](city) bulunan [Çiçek ızgara](restaurant_name) sunduğu [kebap](cuisine) ve [ızgara ürünler](cuisine) müşteri memnuniyetinin [yüksek](rating) olduğu bir yerdir.
- - [Vapiano](near) yakınında bulunan [kebapçı halil usta](restaurant_name) fiyatları düşük olan bir mekandır.
- - [rumeli çikolatacısı](restaurant_name) menüsündeki [tatlı](cuisine) ve [kafeterya ürünleri](cuisine) müşteri memnuniyetinin [yüksek](rating) olduğu, [odunpazarı](district) [eskişehir](city) bölgesinde, [Köseoğlu ekmek & pide & kahvaltı](near) yakınında bulunan bir mekandır.
- - [merkez](district) [gaziantep](city) [Ciğerci mustafa](near) yakınında bulunan [yesemek lokantası](restaurant_name) [kebap](cuisine) yenilebilecek bir mekandır.
- - [Bulvar kebap](restaurant_name) [şahinbey](district) [gaziantep](city) bölgesinde müşteri memnuniyetinin [ortalama](rating) olduğu tek mekandır.
- - [bostanlı](district) [izmir](city) bölgesindeki tek mekan [Kumrucu şevki](restaurant_name).
- - [çumra](district) [konya](city) bölgesinde [ortalama](rating) müşteri memnuniyetiyle [pizza](cuisine) [deniz mahsülleri](cuisine) ve [ızgara ürünler](cuisine) yenebilecek bir mekan yoktur.
- - [kadıköy merkez](district) [istanbul](city) bölgesinde [pizza](cuisine) ve [italyan mutfağı](cuisine) ait yemeklerin olduğu bir mekan yoktur.
- - [kaş](district) [antalya](city) bölgesinde [ucuz](price) fiyatların ve [yüksek](rating) müşteri memnuniyetinin olduğu bir yer var mıdır?
- - [Paçacı şemsi](restaurant_name) sakatat yemek isteyenler için müşteri memnuniyetinin [yüksek](rating) olduğu bir mekandır.
- - [selçuklu](district) [konya](city) bulunan ve müşteri memnuniyetinin [yüksek](rating) olduğu [Serenade etliekmek](restaurant_name) [pizza](cuisine) yenilebilen bir mekandır.
- - [Mado](restaurant_name) düşük fiyatlarıyla kahve veya çay içilebilecek bir mekandır.
- - müşteri memnuniyetinin [yüksek](rating) olduğu [trilye muhallebicisi](restaurant_name) [tatlı](cuisine) yenilebilecek bir mekan olup, [mudanya yolu](district) [bursa](city) [Kebapçı iskender yavuz iskenderoğlu kozahan şubesi ve meşhur adıyaman çiğköftecisi ömer aybak](near) yakınlarında bulunmaktadır.
- - [çukurova](district) [adana](city) bulunan [Petek pastanesi](restaurant_name) müşterilerine makul fiyatlarla pasta, çörek ve [kafeterya ürünleri](cuisine) sunan bir işletmedir.
- - [manavgat](district) [antalya](city) bulunan [Keyf-i sohbet cafe](restaurant_name) müşteri memnuniyetinin [düşük](rating) olduğu tek mekandır.
- - ümit [döner](cuisine) [merkez](district) [gaziantep](city) bölgesinde döner yenebilecek tek mekandır.
- - [symbol 262 avm](neighborhood) [izmit](district) [kocaeli](city) bölgesinde [ortalama](rating) memnuniyetle [kafeterya ürünleri](cuisine) satan bir mekan yoktur.
- - [kükürtlü](district) [bursa](city) bölgesinde [hamburger](cuisine) ve [ızgara ürünler](cuisine) mutfağında barındıran bir mekan yoktur.
+ - [adana](city)'nın [çukurova](district) bölgesinde bulunan [Park zirve](restaurant_name) ürünleri için istediği makul fiyatlarıyla müşterilerini bir hayli memnun eder.
+ - [burger king-gaziantep](restaurant_name), [Set balık lokantası](near)'na yakın olup [hamburger](cuisine) çeşitleri servis eder.
+ - [eskişehir](city)'in [odunpazarı](district) bölgesinde sunduğu osmanlı mutfağı ve [ev yapımı yemekler](cuisine)iyle müşterilerini memnun eden [Kasr-i nur](restaurant_name), [ucuz](price) fiyat etiketleriyle de bilinir.
+ - [antalya](city)'nın [kaş](district) bölgesinde ürünleri için makul fiyatlar isteyen [oburus momus](restaurant_name), [Eyvan kebap ve carmelo's every 7 day eat well](near) mekanlarına yakındır.
+ - [adana](city)'nın [ceyhan](district) bölgesinde bulunan [Venedik pastanesi](restaurant_name) müşterilerini memnun eden tek yerdir.
+ - [izmit](city) [merkez](district)de yalnızca [Bay k. restaurant cafe](restaurant_name) vardır.
+ - [adana](city) [çukurova](district)'da [kebap](cuisine) ve [pizza](cuisine) mutfağında servis yapan bir mekan bulunmaz.
+ - [konya](city)'ya bağlı [meram](district) bölgesinde makul fiyatlarıyla müşterini çokça memnun edebilen bir mekan var mıdır?
+ - [dobruca](district), [bursa](city)'da bulunan [Dere bahçe restaurant](restaurant_name) müşteri memnuniyetinin [ortalama](rating) olduğu bir mekandır.
+ - [forum bornova](district), [izmir](city)'de bulunan [Beğendik abi lokantası](restaurant_name), makul fiyatları olan ve müşterilerinin çok memnun olduğu bir mekandır.
+ - [Eskişehir çiğ börek evi atatürk bulvarı](near) yakınında bulunan [özsüt](restaurant_name), müşterilerine sunduğu [pasta ve çörek](cuisine), [dondurma](cuisine), [kafeterya ürünleri](cuisine)yle hizmet vermektedir.
+ - [taksim](district), [istanbul](city)'da bulunan, fiyatları gibi müşteri memnuniyetinin de [yüksek](rating) olduğu [Leb-i derya](restaurant_name), [türk yemekleri](cuisine), [deniz mahsülleri](cuisine) ve [alkollü içecekler](cuisine)i içeren menüsüyle hizmet vermektedir.
+ - [atakent](neighborhood), [çakmak](district), [istanbul](city)'da bulunan ve gelen müşterilerin [döner](cuisine) yiyebileceği [dönerci celal usta](restaurant_name), [Pool pub](near) yakınlarındadır.
+ - [Route](restaurant_name), sunduğu [kafeterya ürünleri](cuisine)yle müşteri memnuniyetinin [yüksek](rating) olduğu tek mekandır.
+ - [urla](district), [izmir](city) bölgesinde [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) yenebilecek olan tek mekan [Denizaltı restaurant](restaurant_name)'dır.
+ - [lara](district), [antalya](city) dolaylarında, makul fiyatları ve [yüksek](rating) müşteri memnuniyeti olan bir mekan yoktur.
+ - [şahinbey](district), [gaziantep](city) bölgesinde [ucuz](price) fiyatlarda ürün sunan bir mekan yoktur.
+ - [merkez](district), [eskişehir](city)'de [yüksek](rating) müşteri memnuniyeti ile [ızgara ürünler](cuisine)i sunan bir yer var mıdır?
+ - [Burger house](restaurant_name), makul fiyatları ve [ortalama](rating) müşteri memnuniyeti olan bir yerdir.
+ - [osmangazi](district), [bursa](city)'da bulunan [Çiçek ızgara](restaurant_name), sunduğu [kebap](cuisine) ve [ızgara ürünler](cuisine)iyle müşteri memnuniyetinin [yüksek](rating) olduğu bir yerdir.
+ - [Vapiano](near) yakınında bulunan [kebapçı halil usta](restaurant_name), fiyatları düşük olan bir mekandır.
+ - [rumeli çikolatacısı](restaurant_name) menüsündeki [tatlı](cuisine) ve [kafeterya ürünleri](cuisine)yle müşteri memnuniyetinin [yüksek](rating) olduğu, [odunpazarı](district), [eskişehir](city) bölgesinde, [Köseoğlu ekmek & pide & kahvaltı](near) yakınında bulunan bir mekandır.
+ - [merkez](district), [gaziantep](city)'te [Ciğerci mustafa](near) yakınında bulunan [yesemek lokantası](restaurant_name), [kebap](cuisine) yenilebilecek bir mekandır.
+ - [Bulvar kebap](restaurant_name), [şahinbey](district), [gaziantep](city) bölgesinde müşteri memnuniyetinin [ortalama](rating) olduğu tek mekandır.
+ - [bostanlı](district), [izmir](city) bölgesindeki tek mekan [Kumrucu şevki](restaurant_name)'dir.
+ - [çumra](district), [konya](city) bölgesinde [ortalama](rating) müşteri memnuniyetiyle [pizza](cuisine), [deniz mahsülleri](cuisine) ve [ızgara ürünler](cuisine)i yenebilecek bir mekan yoktur.
+ - [kadıköy merkez](district), [istanbul](city) bölgesinde [pizza](cuisine) ve [italyan mutfağı](cuisine)na ait yemeklerin olduğu bir mekan yoktur.
+ - [kaş](district), [antalya](city) bölgesinde [ucuz](price) fiyatların ve [yüksek](rating) müşteri memnuniyetinin olduğu bir yer var mıdır?
+ - [Paçacı şemsi](restaurant_name), sakatat yemek isteyenler için müşteri memnuniyetinin [yüksek](rating) olduğu bir mekandır.
+ - [selçuklu](district), [konya](city)'da bulunan ve müşteri memnuniyetinin [yüksek](rating) olduğu [Serenade etliekmek](restaurant_name), [pizza](cuisine) yenilebilen bir mekandır.
+ - [Mado](restaurant_name), düşük fiyatlarıyla kahve veya çay içilebilecek bir mekandır.
+ - Müşteri memnuniyetinin [yüksek](rating) olduğu [trilye muhallebicisi](restaurant_name), [tatlı](cuisine) yenilebilecek bir mekan olup, [mudanya yolu](district), [bursa](city)'da, [Kebapçı iskender yavuz iskenderoğlu kozahan şubesi ve meşhur adıyaman çiğköftecisi ömer aybak](near) yakınlarında bulunmaktadır.
+ - [çukurova](district), [adana](city)'da bulunan [Petek pastanesi](restaurant_name), müşterilerine makul fiyatlarla pasta, çörek ve [kafeterya ürünleri](cuisine) sunan bir işletmedir.
+ - [manavgat](district), [antalya](city)'da bulunan [Keyf-i sohbet cafe](restaurant_name), müşteri memnuniyetinin [düşük](rating) olduğu tek mekandır.
+ - Ümit [döner](cuisine), [merkez](district), [gaziantep](city) bölgesinde döner yenebilecek tek mekandır.
+ - [symbol 262 avm](neighborhood), [izmit](district), [kocaeli](city) bölgesinde [ortalama](rating) memnuniyetle [kafeterya ürünleri](cuisine) satan bir mekan yoktur.
+ - [kükürtlü](district), [bursa](city) bölgesinde [hamburger](cuisine) ve [ızgara ürünler](cuisine)ini mutfağında barındıran bir mekan yoktur.
  - [Kebapçı iskender (cevat](restaurant_name) iskenderoğlu varisleri), müşteri memnuniyetinin [yüksek](rating) olduğu [döner](skendero[lu Varisleri)) yenilebilecek bir mekandır.
- - [meram](district) [konya](city) bölgesinde bulunan lale [döner](cuisine) müşteri memnuniyetinin [ortalama](rating) olduğu döner yenilebilecek bir mekandır.
- - [Kahve diyarı](near) yakınlarında bulunan [vizyon [kebap](cuisine) kebap ve [ızgara ürünler](cuisine) yenebilecek bir mekandır.
- - [gaziantep](city) [La puerta ve pizza il forno](near) yakınında bulunan [yörem antep mutfağı](restaurant_name) [ortalama](rating) müşteri memnuniyeti ile [ev yapımı yemekler](cuisine) yenebileceği bir yerdir.
- - [Hi coffee](near) yakınında bulunan [ruhi bey 1949 meyhanesi](restaurant_name) [alkollü içecekler](cuisine) yanında [akdeniz yemekleri](cuisine) yenebilecek [ucuz](price) fiyatları olan bir yerdir.
- - [Magro good food](restaurant_name) [akdeniz yemekleri](cuisine) ile [italyan mutfağı](cuisine) bulunduğu müşteri memnuniyetinin [yüksek](rating) olduğu tek mekandır.
- - [Timboo cafe](restaurant_name) yemek fiyatlarının ortalama olduğu tek mekandır.
- - [meram](district) [konya](city) bölgesinde müşteri memnuniyetinin [ortalama](rating) olduğu bir mekan yoktur.
- - [Tepe prime avm](region) [üniversiteler](region) [çankaya](region) [ankara](region) bölgesinde makul fiyatları olan mekan bulunmamaktadır.
- - [kaş](district) [antalya](city) bölgesinde müşteri memnuniyetinin [yüksek](rating) ve fiyatlarının [pahalı](price) olduğu bir yer var mıdır?
- - müşteri memnuniyetinin [ortalama](rating) olduğu [Venedik pastanesi](restaurant_name) [ceyhan](district) [adana](city) bulunmaktadır.
- - müşteri memnuniyetinin [düşük](rating) olduğu [bay k. restaurant cafe](restaurant_name) [merkez](district) [izmit](city) [Özsüt](near) yakınında bulunmaktadır.
- - [Naturel bar](near) yakınında bulunan [kule balık evi](restaurant_name) [deniz mahsülleri](cuisine) yenebilecek bir mekandır.
- - [çukurova](district) [adana](city) [Cafe mia ve bayramoğlu döner](near) yakınlarında bulunan [asya [kebap](cuisine) müşteri memnuniyetinin [düşük](rating) olduğu, kebap ve [pizza](cuisine) yenebilecek bir yerdir.
- - [ferah etliekmek](restaurant_name) [meram](district) [konya](city) [Sakız restaurant](near) yakınında bulunan ve müşterilerine makul fiyatlarla hizmet veren bir mekandır.
- - [Kazım büfe](restaurant_name) müşterilerinin memnuniyetinin [yüksek](rating) olduğu, [hazır yiyecekler](cuisine) yenilebileceği bir mekandır.
- - [Kolcuoğlu kebap](restaurant_name) [çukurova](district) [adana](city) bölgesindeki tek mekandır.
- - [seyhan](district) [adana](city) bölgesinde [ucuz](price) fiyatlarla türk mutfağından yemek yenilebilecek bir mekan yoktur.
- - [karşıyaka](district) [izmir](city) makul fiyatlarıyla müşterilerini çok memnun eden, [kafeterya ürünleri](cuisine) yenilebilecek bir yer var mıdır?
- - [Route](restaurant_name) müşterilerin çok memnun olduğu [kafeterya ürünleri](cuisine) satan bir yerdir.
- - [izmir](city) [urla](district) bölgesinde [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) satan [Denizalti restaurant](restaurant_name) müşteriler tarafından çok beğenilmektedir.
- - [antalya](city) [lara](district) bölgesinde olan [Lara balık restaurant](restaurant_name) fiyatlarıyla makul bir yerdir.
- - [gaziantep](city) [şahinbey](district) bölgesinde [Kadir usta kebap ve lahmacun](near) yakınında olan [baklavacı zeki inal](restaurant_name) fiyatlarıyla [ucuz](price) ve müşteriler tarafından çok beğenilen bir yerdir.
- - [Özikizler künefe](near) yakınında bulunan [fahrettin usta ütülü balaban kebap](restaurant_name) [eskişehir](city) [merkez](district) [ızgara ürünler](cuisine) satan bir yerdir.
- - [Starbucks](restaurant_name) [kafeterya ürünleri](cuisine) satan ve müşteri memnuniyetinin [ortalama](rating) olduğu tek yerdir.
- - [Kebapçı necdet](restaurant_name) [gaziantep](city) [şehitkamil](district) bölgesindeki tek mekandır.
- - [bursa](city) [gemlik](district) bölgesinde [döner](cuisine) yenebilecek mekan bulunmamaktadır.
- - [istanbul](city) [bebek](district) bölgesinde [kahve ve çay çeşitleri](cuisine) sunan, fiyatları makul ve müşteriler tarafından beğenilen bir mekan var mıdır?
- - [gaziantep](city) [şahinbey](district) bölgesinde olan [Bulvar kebap](restaurant_name) müşterilerin beğendiği bir yerdir.
- - müşterilerin çok beğendiği [kumrucu şevki](restaurant_name) [izmir](city) [bostanlı](district) bölgesinde, [Dagmaran kahvaltı evi](near) yakınındadır.
- - [pizza](cuisine) [deniz mahsülleri](cuisine) [ızgara ürünler](cuisine) satan [Çağlar restaurant](restaurant_name) [konya](city) [çumra](district) bölgesindedir.
- - [kadıköy merkez](district) [istanbul](city) [Çavuşoğlu kebap ve baklava](near) yakınında, müşteri memnuniyeti [yüksek](rating) [pizza](cuisine) ve [italyan mutfağı](cuisine) sunan [fornello pizza](restaurant_name) vardır.
- - [antalya](city) [kaş](district) bölgesinde, [Bahçe balık](near) yakınında olan [bilal'in yeri](restaurant_name) fiyatlarıyla [ucuz](price) bir yerdir.
- - [Güllüoğlu](restaurant_name) müşterilerin [ortalama](rating) beğendiği, [tatlı](cuisine) satan tek mekandır.
- - [eskişehir](city) [odunpazarı](district) bölgesinde olan [abacı konak otel](neighborhood) [Avlu restaurant](restaurant_name) tek mekandır.
- - [gaziantep](city) [merkez](district) uygun fiyatlı olan [tatlı](cuisine) ve [kafeterya ürünleri](cuisine) satan bir yer yoktur.
- - [istanbul](city) [caddebostan](district) bölgesinde, müşterilerin çok beğendiği, [alkollü içecekler](cuisine) satan bir yer var mıdır?
- - [manavgat](district) [antalya](city) bulunan [Keyf-i sohbet cafe](restaurant_name) müşterilerin pek beğenmediği bir yerdir.
- - müşterilerin beğendiği, [döner](cuisine) satan [Ümit döner](restaurant_name) [gaziantep](city) [merkez](district).
- - [izmit](district) [kocaeli](city) bulunan [symbol 262 avm](neighborhood) [kafeterya ürünleri](cuisine) satan [Soulmate coffee](restaurant_name) bulunur.
- - [bursa](city) [kükürtlü](district) bölgesinde [Kebapçı ali](near) yakınında bulunan, [hamburger](cuisine) ve [ızgara ürünler](cuisine) satan [beef burger](restaurant_name) müşterilerin beğendiği bir yerdir.
- - [ızgara ürünler](cuisine) ve [hazır yiyecekler](cuisine) [ucuz](price) fiyatta satan [sufi kebap](restaurant_name) [Retro bistro](near) yakınında bulunur.
- - [Neşve çay kahve evi](restaurant_name) [ucuz](price) fiyatta satış yapan ve müşterilerin beğendiği tek yerdir.
- - [ankara](city) [bahçelievler](district) bölgesinde olan [Varuna gezgin cafe](restaurant_name) [kafeterya ürünleri](cuisine) satan tek yerdir.
- - [alsancak](district) [izmir](city) müşterilerin çok beğendiği ve fiyatı makul olan bir yer var mıdır?
- - müşterilerin çok beğendiği [Magro good food](restaurant_name) [akdeniz yemekleri](cuisine) ve [italyan mutfağı](cuisine) yemekleri sunmaktadır.
- - makul fiyatlı olan ve çok beğenilen [timboo cafe](restaurant_name) [Kebapçı iskender ve leman kültür](near) yakınındadır.
- - [konya](city) [meram](district) bölgesinde, [River cafe](near) yakınında [özel ciğerci](restaurant_name) vardır.
- - [Zemzem çorbacı ve basrioğlu et restaurant](near) yakınında olan, müşterilerin çok beğendiği ve ortalama fiyatlı [hayal kahvesi](restaurant_name) [ankara](region) [çankaya](region) bölgesinde [tepe prime avm](region) [üniversiteler](region).
- - [kaş](district) [antalya](city) [Köfteci yusuf](near) yakınında olan [bahçe balık](restaurant_name) [pahalı](price) bir yerdir.
- - [nilüfer](district) [bursa](city) müşterilen çok beğendiği tek yer [Demo gastro pub](restaurant_name).
+ - [meram](district), [konya](city) bölgesinde bulunan lale [döner](cuisine), müşteri memnuniyetinin [ortalama](rating) olduğu döner yenilebilecek bir mekandır.
+ - [Kahve diyarı](near) yakınlarında bulunan [vizyon [kebap](cuisine)](restaurant_name); kebap ve [ızgara ürünler](cuisine)i yenebilecek bir mekandır.
+ - [gaziantep](city)'te, [La puerta ve pizza il forno](near) yakınında bulunan [yörem antep mutfağı](restaurant_name), [ortalama](rating) müşteri memnuniyeti ile [ev yapımı yemekler](cuisine)in yenebileceği bir yerdir.
+ - [Hi coffee](near) yakınında bulunan [ruhi bey 1949 meyhanesi](restaurant_name), [alkollü içecekler](cuisine)in yanında [akdeniz yemekleri](cuisine) yenebilecek [ucuz](price) fiyatları olan bir yerdir.
+ - [Magro good food](restaurant_name), [akdeniz yemekleri](cuisine) ile [italyan mutfağı](cuisine)nın bulunduğu müşteri memnuniyetinin [yüksek](rating) olduğu tek mekandır.
+ - [Timboo cafe](restaurant_name), yemek fiyatlarının ortalama olduğu tek mekandır.
+ - [meram](district), [konya](city) bölgesinde müşteri memnuniyetinin [ortalama](rating) olduğu bir mekan yoktur.
+ - [Tepe prime avm](region), [üniversiteler](region), [çankaya](region), [ankara](region) bölgesinde makul fiyatları olan mekan bulunmamaktadır.
+ - [kaş](district), [antalya](city) bölgesinde müşteri memnuniyetinin [yüksek](rating) ve fiyatlarının [pahalı](price) olduğu bir yer var mıdır?
+ - Müşteri memnuniyetinin [ortalama](rating) olduğu [Venedik pastanesi](restaurant_name), [ceyhan](district), [adana](city)'da bulunmaktadır.
+ - Müşteri memnuniyetinin [düşük](rating) olduğu [bay k. restaurant cafe](restaurant_name), [merkez](district), [izmit](city)'te [Özsüt](near) yakınında bulunmaktadır.
+ - [Naturel bar](near) yakınında bulunan [kule balık evi](restaurant_name), [deniz mahsülleri](cuisine) yenebilecek bir mekandır.
+ - [çukurova](district), [adana](city)'da, [Cafe mia ve bayramoğlu döner](near) yakınlarında bulunan [asya [kebap](cuisine)](restaurant_name), müşteri memnuniyetinin [düşük](rating) olduğu, kebap ve [pizza](cuisine) yenebilecek bir yerdir.
+ - [ferah etliekmek](restaurant_name), [meram](district), [konya](city)'da [Sakız restaurant](near) yakınında bulunan ve müşterilerine makul fiyatlarla hizmet veren bir mekandır.
+ - [Kazım büfe](restaurant_name), müşterilerinin memnuniyetinin [yüksek](rating) olduğu, [hazır yiyecekler](cuisine)in yenilebileceği bir mekandır.
+ - [Kolcuoğlu kebap](restaurant_name), [çukurova](district), [adana](city) bölgesindeki tek mekandır.
+ - [seyhan](district), [adana](city) bölgesinde [ucuz](price) fiyatlarla türk mutfağından yemek yenilebilecek bir mekan yoktur.
+ - [karşıyaka](district), [izmir](city)'de makul fiyatlarıyla müşterilerini çok memnun eden, [kafeterya ürünleri](cuisine) yenilebilecek bir yer var mıdır?
+ - [Route](restaurant_name), müşterilerin çok memnun olduğu [kafeterya ürünleri](cuisine) satan bir yerdir.
+ - [izmir](city)'in [urla](district) bölgesinde [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) satan [Denizalti restaurant](restaurant_name), müşteriler tarafından çok beğenilmektedir.
+ - [antalya](city)'nın [lara](district) bölgesinde olan [Lara balık restaurant](restaurant_name) fiyatlarıyla makul bir yerdir.
+ - [gaziantep](city)'in [şahinbey](district) bölgesinde [Kadir usta kebap ve lahmacun](near) yakınında olan [baklavacı zeki inal](restaurant_name), fiyatlarıyla [ucuz](price) ve müşteriler tarafından çok beğenilen bir yerdir.
+ - [Özikizler künefe](near)'nin yakınında bulunan [fahrettin usta ütülü balaban kebap](restaurant_name), [eskişehir](city)'in [merkez](district)inde [ızgara ürünler](cuisine) satan bir yerdir.
+ - [Starbucks](restaurant_name), [kafeterya ürünleri](cuisine) satan ve müşteri memnuniyetinin [ortalama](rating) olduğu tek yerdir.
+ - [Kebapçı necdet](restaurant_name), [gaziantep](city)'in [şehitkamil](district) bölgesindeki tek mekandır.
+ - [bursa](city)'nın [gemlik](district) bölgesinde [döner](cuisine) yenebilecek mekan bulunmamaktadır.
+ - [istanbul](city)'un [bebek](district) bölgesinde [kahve ve çay çeşitleri](cuisine) sunan, fiyatları makul ve müşteriler tarafından beğenilen bir mekan var mıdır?
+ - [gaziantep](city)'in [şahinbey](district) bölgesinde olan [Bulvar kebap](restaurant_name), müşterilerin beğendiği bir yerdir.
+ - Müşterilerin çok beğendiği [kumrucu şevki](restaurant_name), [izmir](city)'in [bostanlı](district) bölgesinde, [Dagmaran kahvaltı evi](near)'nin yakınındadır.
+ - [pizza](cuisine), [deniz mahsülleri](cuisine), [ızgara ürünler](cuisine) satan [Çağlar restaurant](restaurant_name), [konya](city)'nın [çumra](district) bölgesindedir.
+ - [kadıköy merkez](district) [istanbul](city)'da, [Çavuşoğlu kebap ve baklava](near) yakınında, müşteri memnuniyeti [yüksek](rating), [pizza](cuisine) ve [italyan mutfağı](cuisine) sunan [fornello pizza](restaurant_name) vardır.
+ - [antalya](city)'nın [kaş](district) bölgesinde, [Bahçe balık](near) yakınında olan [bilal'in yeri](restaurant_name), fiyatlarıyla [ucuz](price) bir yerdir.
+ - [Güllüoğlu](restaurant_name), müşterilerin [ortalama](rating) beğendiği, [tatlı](cuisine) satan tek mekandır.
+ - [eskişehir](city)'in [odunpazarı](district) bölgesinde olan [abacı konak otel](neighborhood)'deki [Avlu restaurant](restaurant_name) tek mekandır.
+ - [gaziantep](city) [merkez](district)'de uygun fiyatlı olan [tatlı](cuisine) ve [kafeterya ürünleri](cuisine) satan bir yer yoktur.
+ - [istanbul](city)'un [caddebostan](district) bölgesinde, müşterilerin çok beğendiği, [alkollü içecekler](cuisine) satan bir yer var mıdır?
+ - [manavgat](district) [antalya](city)'da bulunan [Keyf-i sohbet cafe](restaurant_name), müşterilerin pek beğenmediği bir yerdir.
+ - Müşterilerin beğendiği, [döner](cuisine) satan [Ümit döner](restaurant_name), [gaziantep](city) [merkez](district)'dedir.
+ - [izmit](district), [kocaeli](city)'nde bulunan [symbol 262 avm](neighborhood)'de [kafeterya ürünleri](cuisine) satan [Soulmate coffee](restaurant_name) bulunur.
+ - [bursa](city)'nın [kükürtlü](district) bölgesinde [Kebapçı ali](near) yakınında bulunan, [hamburger](cuisine) ve [ızgara ürünler](cuisine)i satan [beef burger](restaurant_name), müşterilerin beğendiği bir yerdir.
+ - [ızgara ürünler](cuisine)i ve [hazır yiyecekler](cuisine)i [ucuz](price) fiyatta satan [sufi kebap](restaurant_name), [Retro bistro](near) yakınında bulunur.
+ - [Neşve çay kahve evi](restaurant_name), [ucuz](price) fiyatta satış yapan ve müşterilerin beğendiği tek yerdir.
+ - [ankara](city)'nın [bahçelievler](district) bölgesinde olan [Varuna gezgin cafe](restaurant_name), [kafeterya ürünleri](cuisine) satan tek yerdir.
+ - [alsancak](district), [izmir](city)'de müşterilerin çok beğendiği ve fiyatı makul olan bir yer var mıdır?
+ - Müşterilerin çok beğendiği [Magro good food](restaurant_name), [akdeniz yemekleri](cuisine) ve [italyan mutfağı](cuisine) yemekleri sunmaktadır.
+ - Makul fiyatlı olan ve çok beğenilen [timboo cafe](restaurant_name), [Kebapçı iskender ve leman kültür](near) yakınındadır.
+ - [konya](city)'nın [meram](district) bölgesinde, [River cafe](near) yakınında [özel ciğerci](restaurant_name) vardır.
+ - [Zemzem çorbacı ve basrioğlu et restaurant](near) yakınında olan, müşterilerin çok beğendiği ve ortalama fiyatlı [hayal kahvesi](restaurant_name), [ankara](region)'nın [çankaya](region) bölgesinde [tepe prime avm](region), [üniversiteler](region)'dedir.
+ - [kaş](district), [antalya](city)'da [Köfteci yusuf](near) yakınında olan [bahçe balık](restaurant_name) [pahalı](price) bir yerdir.
+ - [nilüfer](district), [bursa](city)'da müşterilen çok beğendiği tek yer [Demo gastro pub](restaurant_name)'dır.
  - [Mantar döner](restaurant_name) [ucuz](price) fiyatlara sahip tek yerdir.
- - [balgat](district) [ankara](city) fiyatları makul sayılır bir mekan yoktur.
- - [karatay](district) [konya](city) müşterilerin beğendiği [ucuz](price) mekan var mıdır?
+ - [balgat](district), [ankara](city)'da fiyatları makul sayılır bir mekan yoktur.
+ - [karatay](district), [konya](city)'da müşterilerin beğendiği [ucuz](price) mekan var mıdır?
  - [hazır yiyecekler](cuisine) satan [Kazım büfe](restaurant_name) müşterilerin çok beğendiği bir yerdir.
- - [adana](city) [çukurova](district) müşterilerin çok beğendiği [kolcuoğlu kebap](restaurant_name) [Önder pastanesi](near) yakınındadır.
- - [retro bistro](restaurant_name) [Benzin cafe & restaurant](near) yakınındaki [ucuz](price) bir mekandır.
- - müşterilerin çok beğendiği, fiyat aralığı [ucuz](price) olan [Ali göde şalgamcı](restaurant_name) [seyhan](district) [adana](city) [türk yemekleri](cuisine) satmaktadır.
- - [karşıyaka](district) [izmir](city) uygun fiyatlı [kafeterya ürünleri](cuisine) satan [Tuzu biberi](restaurant_name) adlı bir yer vardır.
- - müşterilerin beğendiği [Happy moon's](restaurant_name) [arasta park avm](region) [yahyakaptan](region) [kocaeli](region) [izmit](region) bulunan tek yerdir.
- - [alsancak](district) [izmir](city) yemek yenebilen tek restoran [Ot kafe](restaurant_name).
- - [meram](district) [konya](city) müşterilerin beğendiği, [kahve ve çay çeşitleri](cuisine) [kafeterya ürünleri](cuisine) satan yer bulunmamaktadır.
- - [çayyolu](district) [ankara](city) uygun fiyatlı [çin yemekleri](cuisine) [tayland yemekleri](cuisine) [suşi](cuisine) [japon yemekleri](cuisine) ve [asya mutfağı yemekleri](cuisine) satan yer yoktur.
- - [merkez](district) [izmit](city) müşterilerin beğendiği, [türk yemekleri](cuisine) ile [güneydoğu anadolu yemekleri](cuisine) satan bir yer var mıdır?
+ - [adana](city) [çukurova](district)'da müşterilerin çok beğendiği [kolcuoğlu kebap](restaurant_name), [Önder pastanesi](near) yakınındadır.
+ - [retro bistro](restaurant_name), [Benzin cafe & restaurant](near) yakınındaki [ucuz](price) bir mekandır.
+ - Müşterilerin çok beğendiği, fiyat aralığı [ucuz](price) olan [Ali göde şalgamcı](restaurant_name), [seyhan](district) [adana](city)'da [türk yemekleri](cuisine) satmaktadır.
+ - [karşıyaka](district) [izmir](city)'de uygun fiyatlı [kafeterya ürünleri](cuisine) satan [Tuzu biberi](restaurant_name) adlı bir yer vardır.
+ - Müşterilerin beğendiği [Happy moon's](restaurant_name), [arasta park avm](region), [yahyakaptan](region), [kocaeli](region), [izmit](region)'te bulunan tek yerdir.
+ - [alsancak](district) [izmir](city)'de yemek yenebilen tek restoran [Ot kafe](restaurant_name)'dir.
+ - [meram](district) [konya](city)'da müşterilerin beğendiği, [kahve ve çay çeşitleri](cuisine), [kafeterya ürünleri](cuisine) satan yer bulunmamaktadır.
+ - [çayyolu](district) [ankara](city)'da uygun fiyatlı [çin yemekleri](cuisine), [tayland yemekleri](cuisine), [suşi](cuisine), [japon yemekleri](cuisine) ve [asya mutfağı yemekleri](cuisine) satan yer yoktur.
+ - [merkez](district) [izmit](city)'te müşterilerin beğendiği, [türk yemekleri](cuisine) ile [güneydoğu anadolu yemekleri](cuisine) satan bir yer var mıdır?
  - [Starbucks](restaurant_name) [kafeterya ürünleri](cuisine) servis eden ve müşterilerin memnun olduğu bir mekandır.
- - müşteri memnuniyetini sağlayamayan [şehitkamil](district) [gaziantep](city) bulunan [kebapçı necdet](restaurant_name) [Sille konak restaurant](near) yakınındadır.
- - [Timboo cafe](near) yakınındaki [midpoint](restaurant_name) [dünya mutfağı yemekleri](cuisine) bulabilirsiniz.
- - [bursa](city) [gemlik](district) [Tzatziki meyhane](near) yakınında bulunan [kebapçı iskender-asmerkez](restaurant_name) [döner](cuisine) servisi yapan ve müşteri memnuniyeti [düşük](rating) bir mekandır.
- - [bebek](district) [istanbul](city) [Starbucks](restaurant_name) çeşitli çay, kahve ve [kafeterya ürünleri](cuisine) makul fiyatlarla servis eder.
- - [Hacı arif bey restaurant](restaurant_name) [kavaklıdere](district) [ankara](city) müşteri memnuniyetinin çok [yüksek](rating) olduğu tek mekandır.
- - [Turta home cafe](restaurant_name) bu bölgede [kafeterya ürünleri](cuisine) ve [tatlı](cuisine) sunan tek mekandır.
- - [gaziantep](city) [merkez](district) [ucuz](price) fiyata [dondurma](cuisine) ve [tatlı](cuisine) bulabileceğiniz bir mekan bulunmamaktadır.
- - [izmit](city) [merkez](district) müşterilerin memnun olduğu [kafeterya ürünleri](cuisine) servis eden mekanlar nelerdir?
- - [Güllüoğlu](restaurant_name) [tatlı](cuisine) müşterilerini memnun eden bir mekandır.
- - [Nusr-et steakhouse](near) yakınlarında bulunan [avlu restaurant](restaurant_name) müşterilerini memnun eden ve [abacı konak otel](neighborhood) [eskişehir](city) [odunpazarı](district) bulunan bir mekandır.
- - [yeşildağlar et](restaurant_name) [et çeşitleri](cuisine) ve sakatat satan ve [Hot fun ve köfteci behçet](near) komşu olan bir mekandır.
- - [Badem çikolata & cafe](restaurant_name) [ortalama](rating) fiyatlı ürünleri ve müşterilerini memnun eden hizmetiyle, [tatlı](cuisine) ve [kafeterya ürünleri](cuisine) alanında bir restoran olarak [gaziantep](city) [merkez](district) bulunur.
- - [istanbul](city) [caddebostan](district) bulunan [draft gastro pub](restaurant_name) [Bayazhan bistro ve trilye balık](near) komşudur ve [alkollü içecekler](cuisine) alanında hizmet vermektedir.
- - lezzet [kebap](cuisine) kebap alanında uzmanlaşan ve müşterilerini memnun eden tek mekandır.
- - [gaziantep](city) [merkez](district) bulunan [Ünal et fırınlı lokantası](restaurant_name) düşük fiyatlara sahip tek mekandır.
+ - Müşteri memnuniyetini sağlayamayan [şehitkamil](district) [gaziantep](city)'te bulunan [kebapçı necdet](restaurant_name), [Sille konak restaurant](near) yakınındadır.
+ - [Timboo cafe](near) yakınındaki [midpoint](restaurant_name)'te [dünya mutfağı yemekleri](cuisine)ni bulabilirsiniz.
+ - [bursa](city) [gemlik](district)'te [Tzatziki meyhane](near) yakınında bulunan [kebapçı iskender-asmerkez](restaurant_name) [döner](cuisine) servisi yapan ve müşteri memnuniyeti [düşük](rating) bir mekandır.
+ - [bebek](district) [istanbul](city)'daki [Starbucks](restaurant_name), çeşitli çay, kahve ve [kafeterya ürünleri](cuisine)ni makul fiyatlarla servis eder.
+ - [Hacı arif bey restaurant](restaurant_name), [kavaklıdere](district) [ankara](city)'da müşteri memnuniyetinin çok [yüksek](rating) olduğu tek mekandır.
+ - [Turta home cafe](restaurant_name), bu bölgede [kafeterya ürünleri](cuisine) ve [tatlı](cuisine) sunan tek mekandır.
+ - [gaziantep](city) [merkez](district)'de [ucuz](price) fiyata [dondurma](cuisine) ve [tatlı](cuisine) bulabileceğiniz bir mekan bulunmamaktadır.
+ - [izmit](city) [merkez](district)'de müşterilerin memnun olduğu [kafeterya ürünleri](cuisine) servis eden mekanlar nelerdir?
+ - [Güllüoğlu](restaurant_name), [tatlı](cuisine)larıyla müşterilerini memnun eden bir mekandır.
+ - [Nusr-et steakhouse](near) yakınlarında bulunan [avlu restaurant](restaurant_name), müşterilerini memnun eden ve [abacı konak otel](neighborhood)'de [eskişehir](city) [odunpazarı](district)'nda bulunan bir mekandır.
+ - [yeşildağlar et](restaurant_name), [et çeşitleri](cuisine) ve sakatat satan ve [Hot fun ve köfteci behçet](near)'e komşu olan bir mekandır.
+ - [Badem çikolata & cafe](restaurant_name), [ortalama](rating) fiyatlı ürünleri ve müşterilerini memnun eden hizmetiyle, [tatlı](cuisine) ve [kafeterya ürünleri](cuisine) alanında bir restoran olarak [gaziantep](city) [merkez](district)'de bulunur.
+ - [istanbul](city) [caddebostan](district)'da bulunan [draft gastro pub](restaurant_name), [Bayazhan bistro ve trilye balık](near)'a komşudur ve [alkollü içecekler](cuisine) alanında hizmet vermektedir.
+ - Lezzet [kebap](cuisine)-akşehir, kebap alanında uzmanlaşan ve müşterilerini memnun eden tek mekandır.
+ - [gaziantep](city) [merkez](district)'de bulunan [Ünal et fırınlı lokantası](restaurant_name), düşük fiyatlara sahip tek mekandır.
  - [istanbul](city) [caddebostan](district) bölgesinde, [dünya mutfağı yemekleri](cuisine) alanında hizmet veren, yüksek fiyatlı bir mekan bulunmamaktadır.
- - [antalya](city) [zümrütova](district) müşterilerini çok memnun eden, [yüksek](rating) fiyatlara sahip mekanlar nelerdir?
+ - [antalya](city) [zümrütova](district)'da, müşterilerini çok memnun eden, [yüksek](rating) fiyatlara sahip mekanlar nelerdir?
  - [Neşve çay kahve evi](restaurant_name) [ucuz](price) ürünleriyle müşterilerin memnuniyetini kazanmış bir mekandır.
- - [bahçelievler](district) [ankara](city) [kafeterya ürünleri](cuisine) servisi yapan [Varuna gezgin cafe](restaurant_name) [ortalama](rating) müşteri memnuniyetine sahiptir.
- - [kafeterya ürünleri](cuisine) servisi yapan [Baylan](near) [leman kültür](restaurant_name) yakınında bulunmaktadır.
- - [Kahve diyarı](near) yakınında bulunan [zeynel inegöl köftecisi](restaurant_name) [ucuz](price) [ızgara ürünler](cuisine) ile [yüksek](rating) müşteri memnuniyetine ulaşmıştır.
- - yakınında [The bigos ve tavacı refik](near) bulunan [la puerta](restaurant_name) [alsancak](district) [izmir](city) uygun fiyatlı ürünlere ev sahipliği yapan bir mekandır.
+ - [bahçelievler](district) [ankara](city)'da [kafeterya ürünleri](cuisine) servisi yapan [Varuna gezgin cafe](restaurant_name) [ortalama](rating) müşteri memnuniyetine sahiptir.
+ - [kafeterya ürünleri](cuisine) servisi yapan [Baylan](near) [leman kültür](restaurant_name)'ün yakınında bulunmaktadır.
+ - [Kahve diyarı](near)'nın yakınında bulunan [zeynel inegöl köftecisi](restaurant_name) [ucuz](price) [ızgara ürünler](cuisine)i ile [yüksek](rating) müşteri memnuniyetine ulaşmıştır.
+ - Yakınında [The bigos ve tavacı refik](near) bulunan [la puerta](restaurant_name), [alsancak](district) [izmir](city)'de uygun fiyatlı ürünlere ev sahipliği yapan bir mekandır.
  - [Cafe reci's](restaurant_name) bu bölgede müşteri memnuniyetinin [yüksek](rating) olduğu tek [kahve ve çay çeşitleri](cuisine) satan mekanıdır.
- - [Dayının yeri adanalı şahin usta](restaurant_name) [kebap](cuisine) servisi yapmaktadır ve [öveçler](district) [ankara](city) bulunan bu mutfağa sahip tek mekandır.
- - [adana](city) [çukurova](district) müşterilerin memnun olduğu [pahalı](price) bir mekan bulunmamaktadır.
- - [karaköy](district) [istanbul](city) [alkollü içecekler](cuisine) servisi yapan bir mekan yoktur.
- - [ankara](city) [çukurambar](district) [döner](cuisine) [pizza](cuisine) [ızgara ürünler](cuisine) servis eden ve müşterilerin memnun olduğu mekanlar nelerdir?
- - [bursa](city) [nilüfer](district) bulunan [Demo gastro pub](restaurant_name) müşterilerin çok memnun olduğu bir yerdir.
- - yakınında [Smiley's](near) bulunan [mantar döner](restaurant_name) [ucuz](price) fiyatlı ürünleriyle müşteri memnuniyeti kazanmış bir mekandır.
+ - [Dayının yeri adanalı şahin usta](restaurant_name) [kebap](cuisine) servisi yapmaktadır ve [öveçler](district) [ankara](city)'da bulunan bu mutfağa sahip tek mekandır.
+ - [adana](city) [çukurova](district)'da müşterilerin memnun olduğu [pahalı](price) bir mekan bulunmamaktadır.
+ - [karaköy](district) [istanbul](city)'da [alkollü içecekler](cuisine) servisi yapan bir mekan yoktur.
+ - [ankara](city) [çukurambar](district)'da [döner](cuisine), [pizza](cuisine), [ızgara ürünler](cuisine)i servis eden ve müşterilerin memnun olduğu mekanlar nelerdir?
+ - [bursa](city) [nilüfer](district)'de bulunan [Demo gastro pub](restaurant_name) müşterilerin çok memnun olduğu bir yerdir.
+ - Yakınında [Smiley's](near) bulunan [mantar döner](restaurant_name) [ucuz](price) fiyatlı ürünleriyle müşteri memnuniyeti kazanmış bir mekandır.
  - [Temel çiğbörek salonu](near) yakınında bulunan [lara balık restaurant-konyaaltı](restaurant_name) [ucuz](price) fiyatlı ürünler servis etmektedir.
- - [ankara](city) [balgat](district) [Mendel's](near) yakınında bulunan [masabaşı kebapçısı](restaurant_name) uygun fiyatlı ürünleriyle müşterilerin çok memnun olduğu bir restorandır.
- - [Macarons d'antoinette](near) yakınında bulunan [hiç hane](restaurant_name) [konya](city) [karatay](district) bulunur ve düşük fiyatlı ürünler sunmaktadır.
- - [anadolu hisarı merkez](district) [istanbul](city) bulunan [Bigchefs](restaurant_name) bu bölgede müşterilerin çok memnun olduğu tek mekandır.
- - [Gazyağcı furun kebabı 1891](restaurant_name) [meram](district) [konya](city) bulunan tek restorandır.
- - [tepebaşı](district) [eskişehir](city) [ızgara ürünler](cuisine) servis eden ve müşterilerin çok memnun olduğu bir mekan bulunmamaktadır.
- - [altınkum](district) [antalya](city) [kebap](cuisine) ve [pizza](cuisine) servisi yapan bir mekan yoktur.
- - [hoşnudiye](district) [eskişehir](city) [kafeterya ürünleri](cuisine) servisi yapan ve müşterilen memnun olmadığı mekanlar nelerdir?
- - [Happy moon's](restaurant_name) [arasta park avm](region) [yahyakaptan](region) [kocaeli](region) [izmit](region) bulunur ve müşterilerin memnun olduğu bir mekandır.
- - [izmir](city) [alsancak](district) ilçesinde, [Nevizade cafe & restaurant](near) yakınında bulunan [ot kafe](restaurant_name) müşterilerin çok memnun olduğu bir yerdir.
+ - [ankara](city) [balgat](district)'ta [Mendel's](near) yakınında bulunan [masabaşı kebapçısı](restaurant_name) uygun fiyatlı ürünleriyle müşterilerin çok memnun olduğu bir restorandır.
+ - [Macarons d'antoinette](near) yakınında bulunan [hiç hane](restaurant_name) [konya](city) [karatay](district)'da bulunur ve düşük fiyatlı ürünler sunmaktadır.
+ - [anadolu hisarı merkez](district), [istanbul](city)'da bulunan [Bigchefs](restaurant_name), bu bölgede müşterilerin çok memnun olduğu tek mekandır.
+ - [Gazyağcı furun kebabı 1891](restaurant_name), [meram](district), [konya](city)'da bulunan tek restorandır.
+ - [tepebaşı](district) [eskişehir](city)'de [ızgara ürünler](cuisine)i servis eden ve müşterilerin çok memnun olduğu bir mekan bulunmamaktadır.
+ - [altınkum](district) [antalya](city)'da [kebap](cuisine) ve [pizza](cuisine) servisi yapan bir mekan yoktur.
+ - [hoşnudiye](district), [eskişehir](city)'de [kafeterya ürünleri](cuisine) servisi yapan ve müşterilen memnun olmadığı mekanlar nelerdir?
+ - [Happy moon's](restaurant_name) [arasta park avm](region), [yahyakaptan](region), [kocaeli](region), [izmit](region)'te bulunur ve müşterilerin memnun olduğu bir mekandır.
+ - [izmir](city)'in [alsancak](district) ilçesinde, [Nevizade cafe & restaurant](near) yakınında bulunan [ot kafe](restaurant_name) müşterilerin çok memnun olduğu bir yerdir.
  - [meram](district) çamlıbel çay bahçesi & restoran, çeşitli [kahve ve çay çeşitleri](cuisine) ile [kafeterya ürünleri](cuisine) satmaktadır ve [konya](city) meram'da bulunmaktadır.
- - [ankara](city) [çayyolu](district) bulunan [Quick china](restaurant_name) çin, tayland, japon ve [asya mutfağı yemekleri](cuisine) ile [suşi](cuisine) servisini uygun fiyatlara yapan ve müşterilerin çok memnun olduğu bir mekandır.
- - [Gurmekan restaurant](near) yakınında bulunan [kızılkaya restaurant](restaurant_name) türk ve [güneydoğu anadolu yemekleri](cuisine) servisi yapmaktadır ve [izmit](city) [merkez](district) yer alır.
- - [Kosova köftecisi](restaurant_name) [ızgara ürünleri](cuisine) müşteri memnuniyetini kazanmış tek restorandır.
- - [Welldone by midpoint](restaurant_name) restoranı [armada avm](region) [söğütözü](region) [yenimahalle](region) [ankara](region) bulunan tek mekandır.
- - [bursa](city) [nilüfer](district) [ızgara ürünler](cuisine) müşteri memnuniyetinin [yüksek](rating) olduğu bir restoran bulunmamaktadır.
- - [zümrütova](district) [antalya](city) bölgesinde düşük fiyatlara sahip bir mekan yoktur.
- - [hoşnudiye](district) [eskişehir](city) bölgesinde müşterilerin memnun olduğu ve kafeterya servisi yapan mekanlar nelerdir?
- - [Hacı arif bey restaurant](restaurant_name) [ankara](city) [kavaklıdere](district) müşteri memnuniyeti [yüksek](rating) bir restorandır.
- - [kafeterya ürünleri](cuisine) [tatlı](cuisine) türlerinde hizmet veren müşteri memnuniyeti [yüksek](rating) olan [turta home cafe](restaurant_name) [Saitabat köyü kadınları dayanışma derneği](near) yakınındadır.
- - [Castle cafe & bistro](near) yakınındaki [starbucks](restaurant_name) [kafeterya ürünleri](cuisine) sunmaktadır.
- - [ortalama](rating) müşteri memnuniyetine sahip doğan [dondurma](cuisine) & kadayıf, [gaziantep](city) [merkez](district) dondurma ve [tatlı](cuisine) ürünlerini [ucuz](price) satar.
- - [kafeterya ürünleri](cuisine) ile hizmet veren [tchibo-dolphin avm](restaurant_name) [izmit](city) [merkez](district) [Duble meze bar](near) yakınındadır.
- - masala [kebap](cuisine) ve lahmacun salonu, kebap türünde [ortalama](rating) memnuniyet derecesi olan tek mekandır.
- - [antalya](city) [merkez](district) [kafeterya ürünleri](cuisine) sunan tek mekan [Shakespeare coffee & bistro](restaurant_name).
- - [eskişehir](city) [eskibağlar](district) bölgesinde [kafeterya ürünleri](cuisine) türünde [yüksek](rating) müşteri memnuniyeti sunan bir mekan yoktur.
- - [eskişehir](city) [hoşnudiye](district) makul fiyatlarla hizmet veren bir mekan yoktur.
- - [](region) [çankaya](region) ilçesinin [üniversiteler](region) bölgesindeki [Bilkent center avm](region) müşteri memnuniyeti [yüksek](rating) olan bir [italyan mutfağı](cuisine) ve [pizza](cuisine) restoranı var mıdır?
- - lezzet [kebap](cuisine) [ortalama](rating) müşteri memnuniyetine sahip bir kebapçıdır.
- - [gaziantep](city) [merkez](district) bulunan [Ünal et fırınlı lokantası](restaurant_name) [ortalama](rating) memnuniyete sahip [ucuz](price) fiyatları olan bir lokantadır.
- - [onur kebap](restaurant_name) [Quick china](near) yakınında bulunan makul fiyatlı bir kebapçıdır.
- - [pahalı](price) [dünya mutfağı yemekleri](cuisine) sunan [Kırıntı](restaurant_name) [caddebostan](district) [istanbul](city) [yüksek](rating) müşteri memnuniyeti olan bir restorandır.
- - [antalya](city) [zümrütova](district) ilçesinde, [İskender restaurant](near) yakınında bulunan [big chefs](restaurant_name) [pahalı](price) bir yemek mekanıdır.
- - [Galata konak cafe](restaurant_name) [yüksek](rating) memnuniyetli [kafeterya ürünleri](cuisine) sunan tek mekandır.
- - [istanbul](city) [karaköy](district) tek yemek mekanı [Pim karaköy](restaurant_name).
- - [yüksek](rating) müşteri memnuniyetli restoran [eskişehir](city) [istiklal](district) bölgesinde bulunmamaktadır.
- - [muratpaşa](district) [antalya](city) makul fiyatlı yemek mekanı bulunmamaktadır.
- - [ortalama](rating) müşteri memnuniyetine sahip makul fiyatlı bir yemek mekanı [şehitkamil](district) [gaziantep](city) nerededir?
- - [Cafe reci's](restaurant_name) [kahve ve çay çeşitleri](cuisine) sunan [yüksek](rating) müşteri memnuniyetine sahip bir mekandır.
- - [ankara](city) [öveçler](district) [Dayının yeri adanalı şahin usta](restaurant_name) [yüksek](rating) memnuniyetli bir [kebap](cuisine).
- - [Meşhur hadırlı restaurant](restaurant_name) [adana](city) [çukurova](district) ilçesinde [pahalı](price) bir restorandır.
- - [Midpoint](near) yakınında bulunan [karaköy](district) lokantası, karaköy [istanbul](city) [alkollü içecekler](cuisine) sunan [yüksek](rating) memnuniyetli bir mekandır.
- - [döner](cuisine) [pizza](cuisine) ve [ızgara ürünler](cuisine) sunan, [Willy wonder's coffee](near) yakınında bulunan [evin döner](restaurant_name) [çukurambar](district) [ankara](city) bulunmaktadır.
- - [tepebaşı](district) [eskişehir](city) [ortalama](rating) memnuniyetli tek yemek mekanı [River cafe](restaurant_name).
- - has kırım çiğ [börek](cuisine) tek börekçidir.
- - [merkez](district) [izmit](city) [ortalama](rating) müşteri memnuniyetli yemek mekanı yoktur.
- - makul fiyatlı restoran, [bornova](district) [izmir](city) bulunmamaktadır.
- - [selçuklu](district) [konya](city) [ortalama](rating) müşteri memnuniyetine ulaşmış [döner](cuisine) var mı?
- - [yüksek](rating) müşteri memnuniyeti olan [Bigchefs](restaurant_name) [anadolu hisarı merkez](district) [istanbul](city).
- - [meram](district) [konya](city) [Mini köşk köfte ve venedik pastanesi](near) yakınında bulunan [gazyağcı furun kebabı 1891](restaurant_name) müşteri memnuniyeti [ortalama](rating).
- - [tepebaşı](district) [eskişehir](city) bulunan [Köfteci yusuf](restaurant_name) [ızgara ürünler](cuisine) mutfağına sahiptir.
- - [altınkum](district) [antalya](city) [Burger house](near) yakınındaki [nasreddin restaurant](restaurant_name) [ortalama](rating) müşteri memnuniyetine sahiptir ve [kebap](cuisine) ile [pizza](cuisine) mutfağından yemekler sunar.
- - [Piyazcı ahmet](near) yakınındaki [kafeterya ürünleri](cuisine) sahip [kahve dünyası](restaurant_name) [hoşnudiye](district) [eskişehir](city).
- - [şahinbey](district) [gaziantep](city) bölgesindeki [ortalama](rating) müşteri memnuniyetine sahip tek mekan [Yener usta'nın yeri ciğer kebap](restaurant_name).
- - [Şark kadayıfçısı](restaurant_name) tek [ucuz](price) mekan olarak [meram](district) [konya](city) hizmet vermektedir.
- - [merkez](district) [izmit](city) müşteri memnuniyeti [ortalama](rating) olan ve [hamburger](cuisine) satan bir yer yoktur.
- - [seyhan](district) [adana](city) [ucuz](price) bir mekan yoktur.
- - müşteri memnuniyeti ve fiyatı [ortalama](rating) bir mekan [merkez](district) [izmit](city) var mıdır?
+ - [ankara](city) [çayyolu](district)'nda bulunan [Quick china](restaurant_name), çin, tayland, japon ve [asya mutfağı yemekleri](cuisine) ile [suşi](cuisine) servisini uygun fiyatlara yapan ve müşterilerin çok memnun olduğu bir mekandır.
+ - [Gurmekan restaurant](near) yakınında bulunan [kızılkaya restaurant](restaurant_name), türk ve [güneydoğu anadolu yemekleri](cuisine) servisi yapmaktadır ve [izmit](city) [merkez](district)'de yer alır.
+ - [Kosova köftecisi](restaurant_name) [ızgara ürünleri](cuisine)yle müşteri memnuniyetini kazanmış tek restorandır.
+ - [Welldone by midpoint](restaurant_name) restoranı [armada avm](region), [söğütözü](region), [yenimahalle](region), [ankara](region)'da bulunan tek mekandır.
+ - [bursa](city) [nilüfer](district)'de [ızgara ürünler](cuisine)iyle müşteri memnuniyetinin [yüksek](rating) olduğu bir restoran bulunmamaktadır.
+ - [zümrütova](district), [antalya](city) bölgesinde düşük fiyatlara sahip bir mekan yoktur.
+ - [hoşnudiye](district), [eskişehir](city) bölgesinde müşterilerin memnun olduğu ve kafeterya servisi yapan mekanlar nelerdir?
+ - [Hacı arif bey restaurant](restaurant_name), [ankara](city) [kavaklıdere](district)'de müşteri memnuniyeti [yüksek](rating) bir restorandır.
+ - [kafeterya ürünleri](cuisine), [tatlı](cuisine) türlerinde hizmet veren müşteri memnuniyeti [yüksek](rating) olan [turta home cafe](restaurant_name), [Saitabat köyü kadınları dayanışma derneği](near) yakınındadır.
+ - [Castle cafe & bistro](near) yakınındaki [starbucks](restaurant_name), [kafeterya ürünleri](cuisine) sunmaktadır.
+ - [ortalama](rating) müşteri memnuniyetine sahip doğan [dondurma](cuisine) & kadayıf, [gaziantep](city) [merkez](district)'de dondurma ve [tatlı](cuisine) ürünlerini [ucuz](price)a satar.
+ - [kafeterya ürünleri](cuisine) ile hizmet veren [tchibo-dolphin avm](restaurant_name), [izmit](city) [merkez](district)'de [Duble meze bar](near)'ın yakınındadır.
+ - Masala [kebap](cuisine) ve lahmacun salonu, kebap türünde [ortalama](rating) memnuniyet derecesi olan tek mekandır.
+ - [antalya](city) [merkez](district)'de [kafeterya ürünleri](cuisine) sunan tek mekan [Shakespeare coffee & bistro](restaurant_name)'dur.
+ - [eskişehir](city)'in [eskibağlar](district) bölgesinde [kafeterya ürünleri](cuisine) türünde [yüksek](rating) müşteri memnuniyeti sunan bir mekan yoktur.
+ - [eskişehir](city) [hoşnudiye](district)'de makul fiyatlarla hizmet veren bir mekan yoktur.
+ - [](region)[ankara](region)'nın [çankaya](region) ilçesinin [üniversiteler](region) bölgesindeki [Bilkent center avm](region)'de müşteri memnuniyeti [yüksek](rating) olan bir [italyan mutfağı](cuisine) ve [pizza](cuisine) restoranı var mıdır?
+ - Lezzet [kebap](cuisine)-akşehir, [ortalama](rating) müşteri memnuniyetine sahip bir kebapçıdır.
+ - [gaziantep](city) [merkez](district)'de bulunan [Ünal et fırınlı lokantası](restaurant_name) [ortalama](rating) memnuniyete sahip [ucuz](price) fiyatları olan bir lokantadır.
+ - [onur kebap](restaurant_name), [Quick china](near) yakınında bulunan makul fiyatlı bir kebapçıdır.
+ - [pahalı](price) [dünya mutfağı yemekleri](cuisine) sunan [Kırıntı](restaurant_name), [caddebostan](district), [istanbul](city)'da [yüksek](rating) müşteri memnuniyeti olan bir restorandır.
+ - [antalya](city)'nın [zümrütova](district) ilçesinde, [İskender restaurant](near) yakınında bulunan [big chefs](restaurant_name) [pahalı](price) bir yemek mekanıdır.
+ - [Galata konak cafe](restaurant_name), [yüksek](rating) memnuniyetli [kafeterya ürünleri](cuisine) sunan tek mekandır.
+ - [istanbul](city) [karaköy](district)'deki tek yemek mekanı [Pim karaköy](restaurant_name)'dür.
+ - [yüksek](rating) müşteri memnuniyetli restoran [eskişehir](city)'in [istiklal](district) bölgesinde bulunmamaktadır.
+ - [muratpaşa](district) [antalya](city)'da makul fiyatlı yemek mekanı bulunmamaktadır.
+ - [ortalama](rating) müşteri memnuniyetine sahip makul fiyatlı bir yemek mekanı [şehitkamil](district) [gaziantep](city)'te nerededir?
+ - [Cafe reci's](restaurant_name), [kahve ve çay çeşitleri](cuisine) sunan [yüksek](rating) müşteri memnuniyetine sahip bir mekandır.
+ - [ankara](city), [öveçler](district)'deki [Dayının yeri adanalı şahin usta](restaurant_name) [yüksek](rating) memnuniyetli bir [kebap](cuisine)çıdır.
+ - [Meşhur hadırlı restaurant](restaurant_name) [adana](city)'nın [çukurova](district) ilçesinde [pahalı](price) bir restorandır.
+ - [Midpoint](near) yakınında bulunan [karaköy](district) lokantası, karaköy [istanbul](city)'da [alkollü içecekler](cuisine) sunan [yüksek](rating) memnuniyetli bir mekandır.
+ - [döner](cuisine), [pizza](cuisine) ve [ızgara ürünler](cuisine) sunan, [Willy wonder's coffee](near) yakınında bulunan [evin döner](restaurant_name) [çukurambar](district), [ankara](city)'da bulunmaktadır.
+ - [tepebaşı](district), [eskişehir](city)de [ortalama](rating) memnuniyetli tek yemek mekanı [River cafe](restaurant_name)'dir.
+ - Has kırım çiğ [börek](cuisine)çisi, tek börekçidir.
+ - [merkez](district), [izmit](city)'te [ortalama](rating) müşteri memnuniyetli yemek mekanı yoktur.
+ - Makul fiyatlı restoran, [bornova](district), [izmir](city)'de bulunmamaktadır.
+ - [selçuklu](district), [konya](city)'da [ortalama](rating) müşteri memnuniyetine ulaşmış [döner](cuisine)ci var mı?
+ - [yüksek](rating) müşteri memnuniyeti olan [Bigchefs](restaurant_name), [anadolu hisarı merkez](district), [istanbul](city)'dadır.
+ - [meram](district), [konya](city)'da [Mini köşk köfte ve venedik pastanesi](near) yakınında bulunan [gazyağcı furun kebabı 1891](restaurant_name)'in müşteri memnuniyeti [ortalama](rating)dır.
+ - [tepebaşı](district), [eskişehir](city)'de bulunan [Köfteci yusuf](restaurant_name) [ızgara ürünler](cuisine) mutfağına sahiptir.
+ - [altınkum](district), [antalya](city)'daki [Burger house](near) yakınındaki [nasreddin restaurant](restaurant_name), [ortalama](rating) müşteri memnuniyetine sahiptir ve [kebap](cuisine) ile [pizza](cuisine) mutfağından yemekler sunar.
+ - [Piyazcı ahmet](near) yakınındaki [kafeterya ürünleri](cuisine)ne sahip [kahve dünyası](restaurant_name) [hoşnudiye](district), [eskişehir](city)'dedir.
+ - [şahinbey](district), [gaziantep](city) bölgesindeki [ortalama](rating) müşteri memnuniyetine sahip tek mekan [Yener usta'nın yeri ciğer kebap](restaurant_name)'tır.
+ - [Şark kadayıfçısı](restaurant_name) tek [ucuz](price) mekan olarak [meram](district), [konya](city)'da hizmet vermektedir.
+ - [merkez](district), [izmit](city)'te müşteri memnuniyeti [ortalama](rating) olan ve [hamburger](cuisine) satan bir yer yoktur.
+ - [seyhan](district), [adana](city)'da [ucuz](price) bir mekan yoktur.
+ - Müşteri memnuniyeti ve fiyatı [ortalama](rating) bir mekan [merkez](district), [izmit](city)'te var mıdır?
  - [Kosova köftecisi](restaurant_name) [ortalama](rating) memnuniyet kalitesi ile [ızgara ürünleri](cuisine) satan bir köftecidir.
- - [düşük](rating) müşteri memnuniyeti ile hizmet veren, [Cengiz hamburger & g3 ve köfteci sofu](near) yakınında bulunan [welldone by midpoint](restaurant_name) [armada avm](region) [söğütözü](region) [yenimahalle](region) [ankara](region) bulunmaktadır.
- - [bursa](city) [nilüfer](district) ilçesinde yer alan [Tavacı recep usta](restaurant_name) [ızgara ürünler](cuisine) sunmaktadır.
- - [antalya](city) [zümrütova](district) [Gaga restaurant](near) yakınında bulunan [fucina](restaurant_name) [ucuz](price) hizmet veren ve müşterilerin memnun olduğu bir mekandır.
- - [eskişehir](city) [hoşnudiye](district) [Sakıp usta beyran & paça & kebap ve ruhi bey meyhanesi](near) yakınında bulunan [olympos](restaurant_name) [kafeterya ürünleri](cuisine) sunar.
+ - [düşük](rating) müşteri memnuniyeti ile hizmet veren, [Cengiz hamburger & g3 ve köfteci sofu](near) yakınında bulunan [welldone by midpoint](restaurant_name), [armada avm](region), [söğütözü](region), [yenimahalle](region), [ankara](region)'da bulunmaktadır.
+ - [bursa](city)'nın [nilüfer](district) ilçesinde yer alan [Tavacı recep usta](restaurant_name), [ızgara ürünler](cuisine)i sunmaktadır.
+ - [antalya](city), [zümrütova](district)'da [Gaga restaurant](near) yakınında bulunan [fucina](restaurant_name), [ucuz](price)a hizmet veren ve müşterilerin memnun olduğu bir mekandır.
+ - [eskişehir](city), [hoşnudiye](district)'de [Sakıp usta beyran & paça & kebap ve ruhi bey meyhanesi](near) yakınında bulunan [olympos](restaurant_name), [kafeterya ürünleri](cuisine) sunar.
  - [ortalama](rating) müşteri memnuniyetine sahip [Tostçu mehmet](restaurant_name) [ucuz](price) fiyatlara hizmet veren tek mekandır.
- - [Pasto](restaurant_name) [ucuz](price) olan tek yemek mekanıdır.
- - [karaköy](district) [istanbul](city) makul fiyatlara [yüksek](rating) kalitede [kafeterya ürünleri](cuisine) sunan yer neresidir?
+ - [Pasto](restaurant_name), [ucuz](price) olan tek yemek mekanıdır.
+ - [karaköy](district) [istanbul](city)'da makul fiyatlara [yüksek](rating) kalitede [kafeterya ürünleri](cuisine) sunan yer neresidir?
  - [kebap](cuisine) çeşitleri sunan [Masala kebap ve lahmacun salonu](restaurant_name) müşterilerini memnun eden restoranlar arasındadır.
- - [Shakespeare coffee & bistro](restaurant_name) bünyesinde [kafeterya ürünleri](cuisine) bulunduran, [antalya](city) [merkez](district) müşteri memnuniyetini kazanmış bir mekandır.
- - [Varuna cafe del mundo](restaurant_name) [eskişehir](city) [eskibağlar](district) bölgesinde yer alan [kafeterya ürünleri](cuisine) satan yerlerden biridir.
- - [eskişehir](city) [hoşnudiye](district) bölgesinde yer alan, müşteri memnuniyetinin [yüksek](rating) olduğu ve fiyatlarının makul olduğu mekanlardan olan [dublin cafe & ırish pub](restaurant_name) [Soulmate coffee](near) yakınında yer almaktadır.
- - [](region) center avm](region) [üniversiteler](region) [çankaya](region) [ankara](region) [Damak ve gölyazı gönül sofrası](near) yakınındaki [[pizza](cuisine) il forno](restaurant_name) [italyan mutfağı](cuisine) ve pizza servisi yapmaktadır.
- - müşteri memnuniyetinin [yüksek](rating) olduğu [The bigos](restaurant_name) makul fiyatlarla servis yapan tek mekandır.
- - [Dürümcü recep usta](restaurant_name) [gaziantep](city) [şahinbey](district) [pizza](cuisine) servisi yapan tek mekandır.
- - [ankara](city) [emek](district) müşteri memnuniyetinin [yüksek](rating) olduğu mekan bulamazsınız.
- - [istanbul](city) [moda](district) [tatlı](cuisine) servisi yapan mekan bulamazsınız.
- - [izmit](city) [merkez](district) müşterinin memnun olduğu [ızgara ürünler](cuisine) ve [deniz mahsülleri](cuisine) servisi yapan mekanlar nelerdir?
- - [kafeterya ürünleri](cuisine) servisi yapan [Galata konak cafe](restaurant_name) müşteri memnuniyetinin [yüksek](rating) olduğu bir mekandır.
- - [Tarihi çınaraltı aile bahçesi ve ot kafe](near) yakınındaki pim [karaköy](district) [yüksek](rating) müşteri memnuniyeti ile [istanbul](city) karaköy'de hizmet vermektedir.
- - [Big baker](near) yakınındaki [doyuran kahvaltı salonu](restaurant_name) [eskişehir](city) [istiklal](district) hizmet vermektedir.
- - [antalya](city) [muratpaşa](district) [Cafe cosecha ve havelka](near) yakınındaki [castle cafe & bistro](restaurant_name) makul fiyatlarla hizmet veren ve müşterinin memnun olduğu bir mekandır.
- - [gaziantep](city) [şehitkamil](district) [Boutique & caffe de luca](near) yakınındaki [ciğerci ali haydar usta](restaurant_name) makul fiyatlarla servis yapmaktadır.
- - [bursa](city) [ataevler](district) [Nevale by elemeği](restaurant_name) müşterinin memnun olduğu tek mekandır.
- - [konya](city) [selçuklu](district) [Urfa sofrası](restaurant_name) [kebap](cuisine) servisi yapan tek mekandır.
- - [adana](city) [yüreğir](district) makul fiyatlarla [kebap](cuisine) ve [türk yemekleri](cuisine) servisi yapan mekan bulamazsınız.
- - [konya](city) [selçuklu](district) [kebap](cuisine) servisi yapan ve müşteri memnuniyetinin [yüksek](rating) olduğu mekanlar nelerdir?
- - [eskişehir](city) [tepebaşı](district) [River cafe](restaurant_name) müşterinin memnun kaldığı bir mekandır.
- - [Tatlıcı köse](near) yakınındaki [has kırım çiğ [börek](cuisine) börekleriyle müşterilerini memnun eden bir mekandır.
- - [Tuzla balıkçısı ve carmelo's every 7 day eat well](near) yakınındaki [kafe kedi](restaurant_name) [izmit](city) [merkez](district) yer alan bir mekandır.
- - [izmir](city) [bornova](district) [Dere bahçe restaurant](near) yakınındaki [starbucks](restaurant_name) makul fiyatlarıyla [yüksek](rating) müşteri memnuniyetine sahip bir mekandır.
- - [Kaburgacı yaşar usta](near) yakınındaki [ekrem coşkun et [döner](cuisine) döner servisiyle [konya](city) [selçuklu](district) hizmet vermektedir.
- - [Atmosfer pide ve kebap salonu](restaurant_name) [ucuz](price) fiyatlarıyla müşterilerini memnun eden tek mekandır.
- - [eskişehir](city) [tepebaşı](district) [Newcastle pub](restaurant_name) bu alandaki tek mekandır.
- - [izmir](city) [alsancak](district) müşteri memnuniyetinin [yüksek](rating) olduğu bir mekan yoktur.
- - [konya](city) [meram](district) [et çeşitleri](cuisine) servisi yapan bir mekan bulamazsınız.
- - [izmir](city) [konak pier avm](district) makul fiyatlarla hizmet veren ve müşteri memnuniyetinin de [düşük](rating) olduğu mekanlar nelerdir?
- - [gaziantep](city) [şahinbey](district) yer alan [Yener usta'nın yeri ciğer kebap](restaurant_name) müşterinin memnun olduğu bir mekandır.
- - [ucuz](price) fiyatlarından ve lezzetlerinden müşterinin memnun kaldığı [Şark kadayıfçısı](restaurant_name) [konya](city) [meram](district) hizmet veren bir mekandır.
- - [izmit](city) [merkez](district) bulunan [Burger king-izmit outlet center](restaurant_name) [hamburger](cuisine) servisi yapan bir mekandır.
- - [ucuz](price) fiyatlarından müşterinin memnun kaldığı [Fucina ve üstkat](near) yakınındaki [paşalimanı bistro & lounge](restaurant_name) [adana](city) [seyhan](district) yer alan bir mekandır.
- - [Hasanusta kebap ve kocatepe kahve evi](near) yakınındaki [konyalı lezzet ustası](restaurant_name) makul fiyatlarıyla [izmit](city) [merkez](district) hizmet veren bir mekandır.
- - müşterinin memnun olduğu tek yer olma özelliğine sahip [Robert's coffee](restaurant_name) [kafeterya ürünleri](cuisine) servisi yapmaktadır.
- - [bursa](city) [ihsaniye](district) [Tesadüf cafe](restaurant_name) [ucuz](price) fiyatlarıyla hizmet veren tek mekandır.
- - [eskişehir](city) [hoşnudiye](district) müşteri memnuniyetinin [yüksek](rating) olduğu [ucuz](price) mekan bulamazsınız.
- - [adana](city) [seyhan](district) [tatlı](cuisine) yiyecek bir mekan bulamazsınız.
- - [izmit](city) [merkez](district) müşterinin memnun olduğu [türk yemekleri](cuisine) servisi yapan mekanlar nelerdir?
- - müşterinin memnun olduğu [Tostçu mehmet](restaurant_name) [ucuz](price) fiyatlarıyla hizmet veren bir mekandır.
- - [Venedik pastanesi](near) yakınındaki [pasto](restaurant_name) [ucuz](price) fiyatlarıyla müşteri memnuniyetinin [yüksek](rating) olduğu bir mekandır.
- - [Kaburgacı cabbar usta](near) yakınındaki [seyr-ü sefa çay bahçesi](restaurant_name) [kafeterya ürünleri](cuisine) alabilir ve [kahve ve çay çeşitleri](cuisine) içebilirsiniz.
- - [Meşhur tavacı recep usta](near) yakınındaki [asya lahmacun](restaurant_name) [ucuz](price) fiyatlarla [pizza](cuisine) [kebap](cuisine) ve [döner](cuisine) servisi yapan ve müşterinin de memnun olduğu bir mekandır.
- - makul fiyatlarla [kafeterya ürünleri](cuisine) servisi yapan karabatak [karaköy](district) [istanbul](city) karaköy'de hizmet vermektedir.
- - müşterinin memnun olduğu [Köfteci ramiz](restaurant_name) [arasta park avm](region) [yahyakaptan](region) [kocaeli](region) [izmit](region) hizmet veren bu özelliklere sahip tek mekandır.
- - [Lacivert restaurant](restaurant_name) [istanbul](city) [anadolu hisarı merkez](district) [deniz mahsülleri](cuisine) ve dünya mutfağına ait yemekleri yiyebileceğiniz yegane mekandır.
- - [istanbul](city) [kadıköy merkez](district) makul fiyatlarla servis yapan mekan bulamazsınız.
- - [konya](city) [selçuklu](district) [ucuz](price) fiyatlarla [japon yemekleri](cuisine) asya mutfağına ait yemekleri yapan ve müşteri memnuniyetinin [yüksek](rating) olduğu mekanlar nelerdir?
- - [The bigos](restaurant_name) fiyat aralığı ortalama ve müşteri memnuniyeti [yüksek](rating) bir mekandır.
- - [gaziantep](city) [şahinbey](district) bulunan [Dürümcü recep usta](restaurant_name) [pizza](cuisine) yenilebilecek bir mekan olup müşteri memnuniyeti [ortalama](rating).
- - [ankara](city) [emek](district) bölgesinde bulunan [çukurağa sofrası](restaurant_name) [Nira gurme](near) yakınında bulunur.
- - [moda](district) [istanbul](city) [Tapas papas](near) yakınında bulunan [çikolata dükkanı](restaurant_name) [yüksek](rating) müşteri memnuniyetli bir [tatlı](cuisine).
- - [izmit](city) [merkez](district) [Robert's coffee](near) yakınında bulunan [romano cafe restaurant](restaurant_name) ızgara ve [deniz mahsülleri](cuisine) yenilebilecek bir mekandır.
- - [ortalama](rating) fiyat aralığı ve ortalama müşteri memnuniyetine sahip tek mekan [Zaytung zone](restaurant_name).
- - düşük fiyatlı tek mekan [Acıktım kafedeyiz](restaurant_name).
- - [hoşnudiye](district) [eskişehir](city) bulunan [düşük](rating) müşteri memnuniyetine sahip bir mekan bulunmamaktadır.
- - [şehitkamil](district) [gaziantep](city) [türk yemekleri](cuisine) ve [kebap](cuisine) yenilebilecek bir mekan bulamazsınız.
- - [Nevale by elemeği](restaurant_name) [ataevler](district) [bursa](city) bulunan müşterilerin memnun olduğu bir mekandır.
- - [konya](city) [selçuklu](district) [Urfa sofrası](restaurant_name) müşterilerin memnun olduğu [kebap](cuisine) yenilebilecek bir mekandır.
- - [Miko garden](near) civarındaki [caffe italyan](restaurant_name) çeşitli [kafeterya ürünleri](cuisine) satan bir mekandır.
- - [adana](city) [yüreğir](district) bulunan [Kaburgacı cabbar usta](restaurant_name) müşterilerin memnun kaldığı [kebap](cuisine) ve [türk yemekleri](cuisine) yenilebilecek mekanlardan biridir.
- - [Starbucks](near) yakınında bulunan [hacı şükrü fırın ve [kebap](cuisine) salonu](restaurant_name) [selçuklu](district) [konya](city) kebap yiyebileceğiniz mekanlardan biridir.
- - [Big chefs](restaurant_name) [mavişehir](district) [izmir](city) müşterilerin memnun olduğu tek mekandır.
- - [izmit](city) [merkez](district) bulunan tek mekan [Doping bar](restaurant_name).
- - [seyhan](district) [adana](city) müşterilerin çok memnun olduğu makul fiyatlı bir mekan bulamazsınız.
- - [adana](city) [çukurova](district) düşük fiyatlı bir mekan bulamazsınız.
- - [izmit](city) [merkez](district) müşterilerin memnun kaldığı [ortalama](rating) fiyatlara sahip mekan nerelerdir?
- - [Atmosfer pide ve kebap salonu](restaurant_name) müşterilerin memnun kaldığı [ucuz](price) bir mekandır.
- - [Çeşme bazlama kahvaltı](near) salonunun yakınındaki [newcastle pub](restaurant_name) [tepebaşı](district) [eskişehir](city) olup müşteri memnuniyeti [ortalama](rating) olan bir mekandır.
- - [izmir](city) [alsancak](district) ilçesindeki [münire](restaurant_name) [Livadi](near) yakınındadır.
- - [konya](city) [meram](district) [et çeşitleri](cuisine) yiyebileceğiniz [vav et steakhouse & kasap](restaurant_name) [Özsüt](near) yakınında olup müşterileri memnun etmektedir.
- - [izmir](city) [konak pier avm](district) yer alan [İstanbul pastanesi ve nira gurme](near) mekanlarına komşu [%100 rest cafe & more](restaurant_name) ortalama bir fiyata sahiptir.
- - [kebap](cuisine) ve [pizza](cuisine) yenilebilecek tek mekan olan [Masabaşı](restaurant_name) müşterilerin çok memnun olduğu bir mekandır.
- - [fırın ürünleri](cuisine) [pizza](cuisine) ve [türk yemekleri](cuisine) yenilebilecek tek mekan [Köseoğlu ekmek & pide & kahvaltı](restaurant_name).
- - müşterilerin memnun olduğu [izmit](city) [merkez](district) bir mekan maalesef yoktur.
- - [orhangazi](district) [bursa](city) [kebap](cuisine) yiyecek yer bulamazsınız.
- - [mudanya yolu](district) [bursa](city) müşterilerin memnun kaldığı deniz mahsülü bulunan mekanlar nerelerdir?
- - [Robert's coffee](restaurant_name) [kafeterya ürünleri](cuisine) satan ve bu sayede müşterilerini memnun eden bir yerdir.
- - [bursa](city) [ihsaniye](district) [Tesadüf cafe](restaurant_name) müşterilerin memnun olduğu [ucuz](price) bir mekandır.
- - [eskişehir](city) [hoşnudiye](district) bulunan [Varuna gezgin cafe del mundo](restaurant_name) fiyatları [ucuz](price) bir yerdir.
- - [Via pub ve döner express](near) yakınındaki [[tatlı](cuisine) köse](restaurant_name) [seyhan](district) [adana](city) tatlı ürünleri satan müşterilerin memnun olduğu bir mekandır.
- - yakınında [Odunpazarı serbet evi](near) olan [mini köşk köfte](restaurant_name) [izmit](city) [merkez](district) [türk yemekleri](cuisine) yenilebilecek bir mekandır.
- - [Cafe kristo](restaurant_name) [kahve ve çay çeşitleri](cuisine) bulunan ve müşterilerinin memnun olduğu tek mekandır.
- - [istanbul](city) [küçükbakkalköy](district) tek mekan [Tatar salim döner lokantası](restaurant_name).
- - [dikmen](district) [ankara](city) ortalama fiyatlı bir mekan yoktur.
- - [istanbul](city) [çengelköy merkez](district) müşterilerin çok memnun olduğu [kafeterya ürünleri](cuisine) satan mekanlar var mıdır?
- - [yahyakaptan](region) [kocaeli](region) [izmit](region) [arasta park avm](region) bulunan [Köfteci ramiz](restaurant_name) müşterilerinin memnun olduğu bir mekandır.
- - [deniz mahsülleri](cuisine) ve [dünya mutfağı yemekleri](cuisine) bulabileceğiniz [yüksek](rating) memnuniyete sahip [Lacivert restaurant](restaurant_name) [anadolu hisarı merkez](district) [istanbul](city) bulunur.
- - yakınında [Filizler köftecisi](near) bulunan [mavro restoran](restaurant_name) [kafeterya ürünleri](cuisine) satmaktadır.
- - [Acıoğlu lokantası](near) yakınındaki [cadıköy](restaurant_name) [istanbul](city) [kadıköy merkez](district) müşterilerin çok memnun olduğu makul fiyatlı bir mekandır.
- - [selçuklu](district) [konya](city) bulunan [Kyoto japon parkı](restaurant_name) japon ve [asya mutfağı yemekleri](cuisine) yenilebilecek [ucuz](price) bir mekandır.
- - [kaş](district) [antalya](city) bulunan [Sako restaurant](restaurant_name) müşterilerin memnun olduğu tek mekandır.
- - [Ege balık](restaurant_name) dışında hiçbir yerde [deniz mahsülleri](cuisine) yiyemezsiniz.
- - [deniz mahsülleri](cuisine) ve hazır yiyecek satan [güzelbahçe](district) [izmir](city) herhangi bir mekan yoktur.
- - [eskişehir](city) [merkez](district) müşterilerin [döner](cuisine) memnun olmadığı [ucuz](price) fiyatlı mekanlar nerelerdir?
- - [Zaytung zone](restaurant_name) müşteri memnuniyetinin ve fiyatların [ortalama](rating) olduğu bir restorandır.
- - [acıktım kafedeyiz](restaurant_name) [Güllüoğlu](near) yakınında bulunan ve düşük fiyatları ile müşterilerinin [yüksek](rating) memnuniyetini kazanmış bir yerdir.
- - [all freed](restaurant_name) [Kırçiçeği](near) yakınlarında [hoşnudiye](district) [eskişehir](city) bölgesinde bir restorandır.
- - [acıoğlu lokantası](restaurant_name) [şehitkamil](district) [gaziantep](city) bölgesinde [Hd döner](near) yakınlarında yer alan müşteri memnuniyetinin [ortalama](rating) olduğu bir [kebap](cuisine) ve [türk yemekleri](cuisine) restoranıdır.
- - [eleos restaurant](restaurant_name) [E mirella cafe](near) yakınlarında [yunan yemekleri](cuisine) [deniz mahsülleri](cuisine) [alkollü içecekler](cuisine) üzerine hizmet veren [pahalı](price) bir restorandır.
- - [Varuna gezgin kantin](restaurant_name) [tepebaşı](district) [eskişehir](city) bölgesinde yer alan ve müşterilerin memnun olduğu tek restorandır.
- - [Kahveci seddar bey](restaurant_name) [şahinbey](district) [gaziantep](city) bölgesinde [kafeterya ürünleri](cuisine) sunan tek restorandır.
- - [konak pier avm](district) [izmir](city) bölgesinde müşteri memnuniyetinin [yüksek](rating) olduğu bir mekan yoktur.
- - [merkez](district) [izmit](city) bölgesinde makul fiyatlara sahip bir restoran yoktur.
- - [tarabya merkez](district) [istanbul](city) bölgesinde müşterilerini sunduğu [dünya mutfağı yemekleri](cuisine) ile çok memnun eden [pahalı](price) bir restoran var mı?
- - [Big chefs](restaurant_name) [mavişehir](district) [izmir](city) bölgesinde yer alan müşterilerin memnun olduğu bir mekandır.
- - [doping bar](restaurant_name) [merkez](district) [izmit](city) bölgesinde [City house burger](near) yakınında yer alan müşterilerin memnun olduğu bir mekandır.
- - [Ciğerci mahmut](restaurant_name) [seyhan](district) [adana](city) bölgesinde yer alan makul fiyatlara sahip bir mekandır.
- - [dilber cafe](restaurant_name) [çukurova](district) [adana](city) bölgesinde [Arka sokak ve esperanto cafe](near) yakınında yer alan uygun fiyatları ile müşterilerini memnun eden bir mekandır.
- - [marvel coffee](restaurant_name) [merkez](district) [izmit](city) bölgesinde [Özler lezzet pazarı ve mükellef](near) yakınında yer alan makul fiyatlara sahip bir restorandır.
- - [Vogue](restaurant_name) [akdeniz yemekleri](cuisine) [suşi](cuisine) [deniz mahsülleri](cuisine) [dünya mutfağı yemekleri](cuisine) yenebilecek müşteri memnuniyeti [yüksek](rating) tek mekandır.
- - [Burger king-real avm](restaurant_name) [hamburger](cuisine) satan tek restorandır.
- - [kavaklıdere](district) [ankara](city) bölgesinde ortalama fiyatlara sahip bir restoran yoktur.
- - [merkez](district) [izmit](city) bölgesinde [kafeterya ürünleri](cuisine) sunan müşterilerinin memnun olduğu bir restoran var mı?
- - [Masabaşı](restaurant_name) [kebap](cuisine) ve [pizza](cuisine) seçenekleriyle müşterilerin çok memnun olduğu bir mekandır.
- - [Willy wonder's coffee](near) komşu olan [köseoğlu ekmek & pide & kahvaltı](restaurant_name) mekanı [fırın ürünleri](cuisine) [pizza](cuisine) ve [türk yemekleri](cuisine) servisi ile müşterilerinin memnuniyetini kazanmıştır.
- - [Yörük aile evi](near) yakınında bulunan [hoşgör](restaurant_name) mekanı [izmit](city) [merkez](district).
- - [bursa](city) [orhangazi](district) ilçesinde, [Kardeşler büfe](near) yakınındaki [kaplan [kebap](cuisine) kebap servisi olan ve müşterilerin memnun olmadığı bir yerdir.
- - [mudanya yolu](district) [bursa](city) bulunan [beyaz kayalar balık lokantası](restaurant_name) [deniz mahsülleri](cuisine) servisi vardır ve [Paşalimanı bistro & lounge](near) komşudur.
- - eskişehir çi[börek](cuisine) evi, börek yiyebileceğiniz müşteri memnuniyeti [yüksek](rating) tek mekandır.
- - [geçit](district) [bursa](city) bulunan tek mekan [Uzay pastanesi](restaurant_name).
- - [akaretler](district) [istanbul](city) bölgesinde müşteri memnuniyeti [yüksek](rating) bir mekan yoktur.
- - [yüreğir](district) [adana](city) herhangi bir mekanda [kebap](cuisine) ve [türk yemekleri](cuisine) yiyemezsiniz.
- - [ankara](city) [gazi osman paşa](district) [pahalı](price) fakat çok lezzetli bulunan yemekler sunan ve [et çeşitleri](cuisine) servisi yapan mekanlar nelerdir?
- - [Cafe kristo](restaurant_name) [kahve ve çay çeşitleri](cuisine) ile müşterilerinin memnuniyetini kazanmış bir yerdir.
- - [küçükbakkalköy](district) [istanbul](city) bulunan, [Karaköy lokantası ve uludağ kebapçısı cemal & cemil usta](near) mekanların komşu olan [tatar salim döner lokantası](restaurant_name) müşteri memnuniyeti [yüksek](rating) bir yerdir.
- - [Şazeli florya](near) mekanına komşu olan [soulmate](restaurant_name) [kafeterya ürünleri](cuisine) bulabileceğiniz bir mekandır.
- - [dikmen](district) [ankara](city) bulunan ve [Big baker](near) mekanına komşu olan [meşhur tavacı recep usta](restaurant_name) fiyatları makul ve müşteri memnuniyeti [yüksek](rating) bir yerdir.
- - [çengelköy merkez](district) [istanbul](city) bulunan ve [Yörem antep mutfağı](near) mekanına komşu olan [boon cafe & restaurant](restaurant_name) [kafeterya ürünleri](cuisine) bulabilirsiniz.
- - [Ünal kardesler katmer salonu](restaurant_name) [izmir](city) [urla](district) ilçesinde bulunan müşteri memnuniyeti [yüksek](rating) tek mekandır.
- - [Fink](restaurant_name) [kafeterya ürünleri](cuisine) bulabileceğiniz tek mekandır.
- - [hoşnudiye](district) [eskişehir](city) bölgesinde müşterilerin memnuniyetini kazanmış bir mekan yoktur.
- - [merkez](district) [izmit](city) [kafeterya ürünleri](cuisine) bulabileceğiniz bir mekan yoktur.
- - [antalya](city) [kaş](district) ilçesinde [ucuz](price) ama müşteri memnuniyeti [yüksek](rating) [pizza](cuisine) ve [kebap](cuisine) bulabileceğim bir mekan var mı?
- - [antalya](city) [kaş](district) ilçesinde bulunan [Sako restaurant](restaurant_name) müşterilerin memnuniyetini kazanmış bir mekandır.
- - [Ağustos iskenderun döner](near) komşu olan [ege balık](restaurant_name) sunduğu [deniz mahsülleri](cuisine) ile müşteri memnuniyeti [yüksek](rating) bir mekandır.
- - [L'apero ve club aura](near) komşu olan [gölyazı gönül sofrası](restaurant_name) fiyatları makuldür.
- - [güzelbahçe](district) [izmir](city) bulunan [Zigana pide](near) mekanına komşu olan [ferhat büfe](restaurant_name) [deniz mahsülleri](cuisine) ve [hazır yiyecekler](cuisine) hizmeti ile müşterilerinin memnuniyetini kazanmış bir yerdir.
- - düşük fiyatları ile [döner](cuisine) servisi yapan [Taşan döner](restaurant_name) [merkez](district) [eskişehir](city).
- - [Milos rum meyhanesi](restaurant_name) alkollü içecek menüsü ile müşterilerinin çok memnun olduğu yegane yerdir.
- - [Midpoint](restaurant_name) [antalya](city) [lara](district) ilçesindeki tek mekandır.
- - [konya](city) [selçuklu](district) ilçesinde müşterilerin memnuniyetini kazanmış bir yemek mekanı yoktur.
- - [merkez](district) [izmit](city) [deniz mahsülleri](cuisine) servisi yapan bir mekan yoktur.
- - [Varuna gezgin kantin](restaurant_name) [eskişehir](city) [tepebaşı](district) verdiği hizmet ile müşterilerini memnun etmektedir.
- - müşterilerine sunduğu [kafeterya ürünleri](cuisine) müşterilerinin memnuniyetini kazanan [Kahveci seddar bey](restaurant_name) [gaziantep](city) [şahinbey](district) ilçesindedir.
- - [The soul pub](near) yakınlarında bulunan [adabeyi balık restaurant](restaurant_name) [konak pier avm](district) [izmir](city).
- - izmit merkez'deki [Joker no:19](near) yakınlarında bulunan kahve dünyası, makul fiyatlarıyla müşterilerinin beğenisini kazanmıştır.
- - müşterilerine [pahalı](price) [dünya mutfağı yemekleri](cuisine) sunan [Bigchefs](restaurant_name) [tarabya merkez](district) [istanbul](city) yer almaktadır.
- - [Volkan büfe](restaurant_name) [ucuz](price) fiyatlarıyla müşterilerini memnun edebilen tek mekandır.
- - [konya](city) [meram](district) tek mekanın adı [Şükrü usta asırlık fırın kebap evi](restaurant_name).
- - [The house hotel bosphorus](region) [ortaköy](region) [beşiktaş](region) [istanbul](region) [kafeterya ürünleri](cuisine) ve [dünya mutfağı yemekleri](cuisine) sunan, müşteri memnuniyeti [yüksek](rating) olan bir mekan bulunmamaktadır.
- - [bomontiada](neighborhood) [şişli](district) [istanbul](city) [alkollü içecekler](cuisine) sunan bir mekan yoktur.
- - [mudanya yolu](district) [bursa](city) müşterilerinin çok memnun kaldığı, [alkollü içecekler](cuisine) ve [türk yemekleri](cuisine) bulunduran mekanlar nelerdir?
- - [Vogue](restaurant_name) müşterilerine [akdeniz yemekleri](cuisine) [suşi](cuisine) [deniz mahsülleri](cuisine) ve [dünya mutfağı yemekleri](cuisine) sunarak müşterilerinin memnuniyetini fazlasıyla kazanmıştır.
- - [Sempre ristorante ıtaliano ve varuna memphis pub](near) yakınlarında [hamburger](cuisine) satan ve müşteri memnuniyetinin [düşük](rating) olduğu yerin adı [burger king-real avm](restaurant_name).
- - makul fiyatlı [asuman](restaurant_name) [Chef ın the kitchen](near) yakınlarındaki bir mekandır.
- - [Urfalı ciğerci müslüm](near) yakınlarında bulunan, makul fiyatlarıyla müşterilerini fazlasıyla memnun eden [la bebe](restaurant_name) [kavaklıdere](district) [ankara](city).
- - [izmit](city) [merkez](district) [kafeterya ürünleri](cuisine) satan [cafe de la rue](restaurant_name) [Kahve dünyası espark](near) yakınlarında bulunmaktadır.
- - müşterilerini memnun eden [Monte cafe bar](restaurant_name) [kahve ve çay çeşitleri](cuisine) sunan tek mekandır.
- - [[adana](city) optimum avm](neighborhood) [yüreğir](district) adana'daki tek mekan [Köfteci ramiz](restaurant_name).
- - [eskişehir](city) [merkez](district) [kafeterya ürünleri](cuisine) satan bir yer yoktur.
- - müşterilerini memnun edebilen, [ucuz](price) fiyatlı bir mekan var mıdır [gaziantep](city)?
- - müşterilerin çok memnun kaldığı, [börek](cuisine) satan yerin adı [Eskişehir çibörek evi](restaurant_name).
- - [bursa](city) [geçit](district) [Köfteci yusuf](near) yakınlarındaki [uzay pastanesi](restaurant_name) müşterileri çok memnundur.
- - yakınında [Eskişehir söğütönü alabalık tesisleri ve starbucks](near) bulunan [beer hall](restaurant_name) [akaretler](district) [istanbul](city).
- - [yüreğir](district) [adana](city) [Club aura](near) yakınlarındaki [kaburgacı yaşar usta](restaurant_name) sunduğu [kebap](cuisine) ve [türk yemekleri](cuisine) ile müşterilerinin çok memnun kaldığı bir yerdir.
- - [pahalı](price) bir mekan olan [Günaydın steakhouse](restaurant_name) [gazi osman paşa](district) [ankara](city) [et çeşitleri](cuisine) satan bir restorandır.
- - [izmit](city) [merkez](district) müşteri memnuniyetinin [ortalama](rating) olduğu tek yer [Köfteci behçet](restaurant_name).
- - [ucuz](price) tek mekan [Spagettici](restaurant_name).
- - [adana](city) [seyhan](district) müşteri memnuniyetinin [düşük](rating) olduğu, [tatlı](cuisine) ve [dondurma](cuisine) satan bir yer yoktur.
- - [pahalı](price) [alkollü içecekler](cuisine) satan bir mekan [antalya](city) [kaş](district) yoktur.
- - [nişantaşı](district) [istanbul](city) makul fiyatları olan ve müşterilerinin çok memnun kaldığı bir mekan var mıdır?
- - [Ünal kardeşler katmer salonu](restaurant_name) [izmir](city) [urla](district) müşteri memnuniyetinin [yüksek](rating) olduğu bir yerdir.
- - [Kahve dünyası](near) yakınlarında [kafeterya ürünleri](cuisine) satan [fink](restaurant_name) müşterilerini memnun etmektedir.
- - [passage cafe](restaurant_name) [hoşnudiye](district) [eskişehir](city) [Ömer usta ve starbucks](near) yakınlarında bulunan bir yerdir.
- - [Paçacı şemsi ve kafkas bursa](near) yakınlarında bulunan ve [kafeterya ürünleri](cuisine) satan [izmit](city) [merkez](district) [leman kültür](restaurant_name) müşterilerini memnun etmektedir.
- - [kaş](district) [antalya](city) [ucuz](price) bir mekan olan çınarlar pide ve [kebap](cuisine) salonu, müşterilerine [pizza](cuisine) ve kebap sunmaktadır.
- - [Bi lokma](restaurant_name) [ev yapımı yemekler](cuisine) yapıp müşterilerin çok memnun kaldığı tek mekandır.
- - [konya](city) [selçuklu](district) [ucuz](price) olan tek yer [Burger king-kule site avm](restaurant_name).
- - [selçuklu](district) [konya](city) [ızgara ürünler](cuisine) ve [hazır yiyecekler](cuisine) satan bir yer yoktur.
- - [alkollü içecekler](cuisine) satan ve [yüksek](rating) müşteri memnuniyetine sahip mekanın adı [Milos rum meyhanesi](restaurant_name).
- - [yüksek](rating) müşteri memnuniyetine sahip [midpoint](restaurant_name) [antalya](city) [lara](district) [Hiç hane](near) yakınlarında bulunmaktadır.
- - [konya](city) [selçuklu](district) [demgah cafe & nargile](restaurant_name) [Göl restaurant](near) yakınlarındadır.
- - [izmit](city) [merkez](district) [Minoa ve özsüt](near) yakınında bulunan [karaaslan tesisleri](restaurant_name) sunduğu [deniz mahsülleri](cuisine) müşterilerinin memnuniyetini kazanmıştır.
- - [Saki rum meyhanesi ve 93 derece coffee](near) yakınlarındaki [sensus wine-anemon hotels](restaurant_name) yüksek fiyatlara [dünya mutfağı yemekleri](cuisine) sunan bir yerdir.
- - [Konya mutfağım premium lounge](restaurant_name) [ortalama](rating) bir müşteri memnuniyetine sahip olan tek mekandır.
- - [kahve ve çay çeşitleri](cuisine) satan tek yer [Cafe del mundo](restaurant_name).
- - [meram](district) [konya](city) [ortalama](rating) bir müşteri memnuniyetine sahip olan ve pasta ile çörek satan bir mekan yoktur.
- - [izmit](city) [merkez](district) [ev yapımı yemekler](cuisine) yapan bir yer yoktur.
- - [eskişehir](city) [odunpazarı](district) [kahve ve çay çeşitleri](cuisine) satarak müşterilerini memnun edebilen mekanlar nelerdir?
- - [odunpazarı](district) [eskişehir](city) farklı [kahve ve çay çeşitleri](cuisine) sunan mekanlardan birisi de özsar'dır.
- - [Hacer hala ev yemekleri](near) yakınında yer alan [özsar steakhouse](restaurant_name) orta düzeyde müşteri memnuniyetine sahip bir et restoranıdır.
- - [Cemo etliekmek](near) yakınındaki [çavuşoğlu kebap ve baklava](restaurant_name) [gaziantep](city) [merkez](district) yer alan bir lokantadır.
- - [tepebaşı](district) [eskişehir](city) de bulunan [Venedik pastanesi](restaurant_name) [pasta ve çörek](cuisine) ile [dondurma](cuisine) çeşitlerinde [ortalama](rating) bir müşteri memnuniyeti performansı sunmaktadır.
- - müşterilerinin aşırı beğendiği meşhur girit sakız [dondurma](cuisine) nazmi usta, [izmir](city) [eski foça](district) dondurma yenilebilecek tek mekandır.
- - [gaziantep](city) [merkez](district) [pizza](cuisine) bulabileceğiniz bir mekan yoktur.
- - [tepebaşı](district) [eskişehir](city) de pasta, çörek ve [dondurma](cuisine) alanında hizmet veren müşterilerin genel olarak memnun olduğu mekanlar hangileridir?
- - [Cemo etliekmek](near) yakınlarında yer alan [meshur girit sakiz [dondurma](cuisine) nazmi usta](restaurant_name) müşterilerinin çok memnun kaldığı dondurma satan bir mekandır ve [izmir](city) [eski foça](district) bölgesinde yer alır.
- - [Hayyami şarap evi](restaurant_name) sunduğu [kafeterya ürünleri](cuisine) müşterilerini [yüksek](rating) seviyede memnun eden, [ankara](city) [kavaklıdere](district) bir mekandır.
- - [b'ready snacks & bites](restaurant_name) [alsancak](district) [izmir](city) [Özsüt](near) yakınında yer almaktadır.
- - [Yeşil ızgara pideli köfte](restaurant_name) [bursa](city) [osmangazi](district) bölgesinde bulabileceğiniz tek ızgara ürün servisi yapan restorandır.
- - [La terra](restaurant_name) [izmit](city) [merkez](district) memnuniyetle dünya mutfağı yenilebilecek tek yerdir.
- - [ankara](city) [kavaklıdere](district) ilçesinde müşterilerinin çok memnun olduğu ve [kafeterya ürünleri](cuisine) satan yer bulamazsınız.
- - [ankara](city) [ulus](district) bölgesindeki [yüksek](rating) müşteri memnuniyeti sağlayan mekanlar hangileridir?
- - [osmangazi](district) [bursa](city) [ızgara ürünler](cuisine) servis eden restoranlardan bir tanesi urfa tike ciğer'dir.
- - [merkez](district) [izmit](city) [Tahta masa cafe ve hoşgör](near) yakınlarında bulunan ve [dünya mutfağı yemekleri](cuisine) yapan [la terra](restaurant_name) müşterilerinden [ortalama](rating) geri dönüşler alan bir yerdir.
- - [Quick china](restaurant_name) [tepe prime avm](region) [üniversiteler](region) [çankaya](region) [ankara](region) [çin yemekleri](cuisine) [tayland yemekleri](cuisine) [suşi](cuisine) [japon yemekleri](cuisine) ve [asya mutfağı yemekleri](cuisine) yenilebilecek bir restorandır.
- - [Kasap'ın mutfağı](near) yakınlarındaki [kardeşler büfe](restaurant_name) [hazır yiyecekler](cuisine) sunan ve müşteri memnuniyetinin [yüksek](rating) olduğu bir mekandır.
- - [meram](district) [konya](city) [Kurucu kazımağa](restaurant_name) adındaki mekan [türk yemekleri](cuisine) yapan tek restorandır.
- - [gaziantep](city) [şehitkamil](district) gidenlerin beğendiği bir yer yoktur.
- - [ankara](region) [çankaya](region) ilçesinde [üniversiteler](region) bölgesindeki [Tepe prime avm](region) [çin yemekleri](cuisine) [tayland yemekleri](cuisine) [suşi](cuisine) [japon yemekleri](cuisine) [asya mutfağı yemekleri](cuisine) sunan bir mekan bulunmamaktadır.
- - [meram](district) [konya](city) [türk yemekleri](cuisine) servis eden [lokanta rıza](restaurant_name) diye bir mekan vardır.
- - [Tchibo-dolphin avm](near) yakın, [[börek](cuisine) rıza](restaurant_name) diye çok beğenilen bir börekçi vardır.
- - [Kahvehan premium ve şendağlı](near) restoranı yakınlarındaki [chickinn](restaurant_name) adlı mekan [izmir](city) [kıbrıs şehitleri caddesi](district) yer alır.
- - [kadıköy merkez](district) [istanbul](city) [Lale döner](near) yakınlarında bulunan [happy moon's](restaurant_name) müşterilerinden çok olumlu dönüşler almaktadır.
- - papağan çiğ[börek](cuisine) salonu, [eskişehir](city) [arifiye](district) gerçekten beğenerek börek yiyebileceğiniz tek mekandır.
- - [izmir](city) [kıbrıs şehitleri caddesi](district) [kafeterya ürünleri](cuisine) [pasta ve çörek](cuisine) servisi yapan ve müşteri memnuniyeti sağlayan bir restoran bulamazsınız.
- - [kadıköy merkez](district) [istanbul](city) müşteri memnuniyeti [yüksek](rating) bir mekan var mıdır?
- - [arifiye](district) [eskişehir](city) [Willy wonder's coffee](near) yakınında [yüksek](rating) beğeniye sahip bir [börek](cuisine) olarak [papağan çiğbörek salonu](restaurant_name) vardır.
- - [eskişehir](city) [eskibağlar](district) [Yengeç restaurant](near) yakınındaki [caribou coffee](restaurant_name) müşteri memnuniyeti sağlayan bir mekandır.
- - [ızgara ürünler](cuisine) ve [türk yemekleri](cuisine) satan [etevim kasap ızgara kahvaltı salonu](restaurant_name) [Akyokuş park konya mutfağı](near) yakınlarında bulunmaktadır.
- - [antep küşleme et lokantası](restaurant_name) [Domino's pizza](near) yakınlarında yüksek olmayan fiyata yemek yenilebilecek tek lokantadır.
- - [antalya](city) [merkez](district) bulabileceğiniz müşteri memnuniyeti sağlayan ve düşük fiyatları olan tek mekan [Kumrucu iso](restaurant_name).
- - [eskibağlar](district) [eskişehir](city) de müşterilerinden [ortalama](rating) dönüşler alan bir yer yoktur.
- - [antalya](city) [kaş](district) çok beğenerek yemek yenilebilecek bir yer var mı?
- - [Volkan büfe](restaurant_name) düşük fiyatlı bir büfedir.
- - [konya](city) [meram](district) [Şükrü usta asırlık fırın kebap evi](restaurant_name) müşterilerinin çok memnun olduğu bir restorandır.
- - [The house cafe](restaurant_name) müşterilerine [kafeterya ürünleri](cuisine) ile beraber [dünya mutfağı yemekleri](cuisine) sunmaktadır.
- - [bomontiada](neighborhood) [şişli](district) [istanbul](city) bulunan, [katmerci murat](near) yakınındaki [The populist](restaurant_name) müşterilerine [alkollü içecekler](cuisine) sunmaktadır.
- - [kahv6](near) yakınındaki [İnan kardeşler restorant](restaurant_name) müşterilerine [alkollü içecekler](cuisine) ve [türk yemekleri](cuisine) sunar.
- - [Yengeç restaurant](near) yakınlarında, müşterilerine kafeterya yemekleri sunan ve müşteri memnuniyeti [yüksek](rating) bir yer yoktur.
- - [izmit](city) [merkez](district) [Yummy house ve twenty six](near) yakınlarında, müşterilerine [kebap](cuisine) ve [ızgara ürünler](cuisine) sunan bir yer yoktur.
- - [izmir](city) [bornova](district) [ortalama](rating) müşteri memnuniyetine sahip tüm mekanlar şunlardır: [minoa](mekanların adları) [draft gastro pub](mekanların adları) [ata iskender döner kebap](mekanların adları).
- - [Mistik by melissa's & vanessa's](restaurant_name) düşük fiyatlı [mercan ciğer & kebap](diğer mekanların adları) ve [mcdonald's](diğer mekanların adları) göre ortalama fiyatlı hizmet veren bir mekandır.
- - [ciğerci bahattin](diğer mekanların adları) [elmacıpazarı güllüoğlu baklava](diğer mekanların adları) [j'adore chocolatier](diğer mekanların adları) ve [downtown food club](diğer mekanların adları) ile kıyaslandığında [Kesman ciğer](restaurant_name) [ortalama](rating) müşteri memnuniyetine sahip tek mekandır.
- - [Monte cafe bar](restaurant_name) [ortalama](rating) müşteri memnuniyetine sahip bir mekandır.
- - [Köfteci ramiz](restaurant_name) [adana](city) [yüreğir](district) [adana optimum avm](neighborhood) [ertosunlar yemek](near) yakınında bulunmaktadır.
- - [Pizza locale](restaurant_name) [volkan büfe ve şadırvan döner](near) civarında bulunur.
- - [eskişehir](city) [merkez](district) bulunan [Kahve dünyasi espark](restaurant_name) müşterilerine [kafeterya ürünleri](cuisine) sunan ve [ortalama](rating) müşteri memnuniyetine sahip bir mekandır.
- - [gaziantep](city) [Bisirici kebap & baklava](restaurant_name) fiyatları düşüktür.
- - [gaziantep](city) [merkez](district) [Çavuşoğlu kebap](near) [baklava ve cumalıkızık narlı bahçe kahvaltı evi](near) yakınlarında müşteri memnuniyeti [yüksek](rating) bir mekan yoktur.
- - [istanbul](city) [karaköy](district) [Cici piknik ve moc istanbul](near) civarında [kafeterya ürünleri](cuisine) sunan bir mekan bulunmamaktadır.
- - [Kentpark avm](region) [üniversiteler](region) [çankaya](region) [ankara](region) bölgesinde fiyatları makul olan tüm mekanlar şunlardır: [cafe nirvana](mekanların adları) [kokoreç office](mekanların adları) [ferhat büfe](mekanların adları) [fokai balık restoran](mekanların adları).
- - [Kebapçı iskender yavuz iskenderoglu kozahan subesi](restaurant_name) müşteri memnuniyeti, [ortalama](diğer mekanların müşteri memnuniyeti) müşteri memnuniyetine sahip olan [bood eat & meet](diğer mekanların adları) [nevizade cafe & restaurant](diğer mekanların adları) [ekspres inegöl köftecisi](diğer mekanların adları) mekanlarına kıyasla [düşük](rating).
- - [mahfel-setbaşı](diğer mekanların adları) [welldone by midpoint](diğer mekanların adları) [kebapçı mehmet usta](diğer mekanların adları) ve [quick china](diğer mekanların adları) kıyasla fiyatları makul olan tek yer [Ayıntap baklava](restaurant_name).
- - [Köfteci behçet](restaurant_name) [izmit](city) [merkez](district) bulunur.
- - [şırdancı bedo](near) civarında [ortalama](rating) fiyatlarda hizmet veren [Spagettici](restaurant_name) isimli mekan vardır.
- - [Yıldızoğlu künefe](restaurant_name) [adana](city) [seyhan](district) bölgesinde bulunur.
- - müşterilerinin çok beğendiği [Üzüm kızı meyhane](restaurant_name) [alkollü içecekler](cuisine) sunan [pahalı](price) bir mekandır.
- - [Virginia angus](restaurant_name) [istanbul](city) [nişantaşı](district) [taşköprü meyhanesi ve biber cafe bar restaurant](near) yakınlarındadır.
- - [izmit](city) [merkez](district) müşterilerinin memnun olduğu [ortalama](rating) fiyatlarda bir mekan bulunmamaktadır.
- - [ankara](city) [çukurambar](district) bölgesinde [Bizim balıkçı fahri baba](near) yakınlarında [kebap](cuisine) bulamazsınız.
- - [Fokai balık restoran](near) yakınlarındaki [big chefs](mekanların adları) ve [kadir usta kebap ve lahmacun](mekanların adları) çok sevilen restoranlardır.
- - [Cadde üstü](restaurant_name) de, [köşk kebap salonu](diğer mekanların adları) ve [cafe cosecha](diğer mekanların adları) gibi [ucuz](diğer mekanların fiyat aralığı) bir mekandır.
- - [isabey bağları & bağevi](diğer mekanların adları) [duygu cafe](diğer mekanların adları) [seyirtepe restaurant](diğer mekanların adları) ile karşılaştırıldığında [Vogue](restaurant_name) müşterilerinin memnun olduğu tek yerdir.
- - [Bi lokma](restaurant_name) [ev yapımı yemekler](cuisine) satan bir mekandır.
- - [Burger king-kule site avm](restaurant_name) [selçuklu](district) [konya](city) müşterilerin memnun olduğu bir restorandır.
- - [Big chefs](restaurant_name) [happy moon's](near) yakınındadır.
- - [selçuklu](district) [konya](city) [mazlumlar muhallebicisi](near) yakınındaki [Tavuk dünyası](restaurant_name) sevilen bir restorandır.
- - [vogue ve seçerhan etliekmek](near) yakınlarında bulunan [Reyhan pastanesi](restaurant_name) [pasta ve çörek](cuisine) satan bir mekandır.
- - [istanbul](city) [rumeli hisarı merkez](district) müşterilerin çok memnun olduğu [pahalı](price) bir yer yoktur.
- - [adana](city) [seyhan](district) ilçesindeki [Mükellef](near) dolaylarında ortalama fiyatlarda bir restoran yoktur.
- - [bursa](city) [hürriyet](district) bölgesindeki [cafe de kedi](mekanların adları) ve [aşşk kahve](mekanların adları) çok sevilen kafelerdir.
- - [Çikolata dükkanı](restaurant_name) da [eyvan kebap](diğer mekanların adları) [beyaz kayalar balık lokantası](diğer mekanların adları) ve [şırdancı bedo](diğer mekanların adları) gibi sevilmeyen bir mekandır.
- - [kanaat lokantası](diğer mekanların adları) [abdüsselam balaban kebap salonu](diğer mekanların adları) ve [kebapçı mesut](diğer mekanların adları) ile kıyaslandığında [Tarihi adana kazancılar kebapçısı](restaurant_name) tek [ucuz](price) mekandır.
- - [Konya mutfağım premium lounge](restaurant_name) sevilen bir mekandır.
- - [nene hatun çay bahçesi](near) yakınlarındaki [Cafe del mundo](restaurant_name) [kahve ve çay çeşitleri](cuisine) sunan bir mekandır.
- - [Paşam pastanesi](restaurant_name) [konya](city) [meram](district) ilçesinde bulunuyor.
- - [izmit](city) [merkez](district) [Evce ev yemekleri ve aperatifleri](restaurant_name) [ev yapımı yemekler](cuisine) sevilen bir yerdir.
- - [eskişehir](city) [odunpazarı](district) [Odunpazarı serbet evi](restaurant_name) [kahve ve çay çeşitleri](cuisine) sunan bir mekandır.
- - [adana](city) [merkez](district) [Antalya balık evi](near) yakınlarında sevilen bir yemek mekanı bulunmuyor.
- - [ankara](city) [kızılay](district) ilçesindeki [Yengeç restaurant](near) yakınlarında sakatat ve [ızgara ürünler](cuisine) satan bir restoran bulunmuyor.
- - [konya](city) [selçuklu](district) ilçesinde [Varuna memphis pub](near) yakınlarındaki sevilen mekanlar [venedik pastanesi](mekanların adları) [mangerie](mekanların adları) ve [robert's coffee](mekanların adları).
- - [Cafe botanica](restaurant_name) ortalama fiyatlardayken [mayday cafe & bar](diğer mekanların adları) [mevlana lokantası](diğer mekanların adları) ve [cafe de kedi](diğer mekanların adları) [ucuz](diğer mekanların fiyat aralığı).
- - [beer hall](diğer mekanların adları) [taşan döner](diğer mekanların adları) [tavacı refik](diğer mekanların adları) [tzatziki meyhane](diğer mekanların adları) ve [deniz restaurant](diğer mekanların adları) aksine [Yeşilçam kahve evi](restaurant_name) sevilmeyen tek mekandır.
- - [Joker no:19](restaurant_name) menü fiyat aralığının [pahalı]( fiyat aralığı) olduğu bir mekandır.
- - [kafeterya ürünleri](cuisine) yiyebileceğiniz [Cafe reci's](restaurant_name) müşterilerin çok memnun olduğu bir mekandır.
- - [Baklavacı güllüoğlu ömer güllü](restaurant_name) [gaziantep](city) şehrinin [oğuzeli](district) ilçesindeki bir yemek mekanıdır.
- - [izmir](city) [bornova](district) ilçesinde [kule sini restaurant](near) yakınında bulunan [Gandi'nin yeri](restaurant_name) adlı mekan müşteri memnuniyeti bakımından [ortalama](rating) not almıştır.
- - [kebap](cuisine) ile [ızgara ürünler](cuisine) yiyebileceğiniz [Kebapçı ali](restaurant_name) [izmit](city) [merkez](district) bir mekandır.
- - [konya](city) [meram](district) ilçesinde [ucuz](price) fiyat aralığında ve [ortalama](rating) müşteri memnuniyetine sahip bir mekan bulamazsınız.
- - [kızılay](district) [ankara](city) [İnci pastanesi](near) yakınında [kafeterya ürünleri](cuisine) satan bir mekan bulamazsınız.
- - [yelken balık evi](mekanların adları) ve [nasreddin restaurant](mekanların adları) [istanbul](city) [çengelköy merkez](district) bulunan müşteri memnuniyeti [yüksek](rating) mekanlardır.
- - [Trilye balık](restaurant_name) tıpkı [löküs ciğer](diğer mekanların adları) [puga coffee](diğer mekanların adları) ve [minoa](diğer mekanların adları) gibi [ortalama](diğer mekanların müşteri memnuniyeti) müşteri memnuniyetine sahiptir.
- - [sake cafe & bar](diğer mekanların adları) ve [köfteci ramiz](diğer mekanların adları) nazaran makul fiyat aralığına sahip olan tek mekan [Biber cafe bar restaurant](restaurant_name).
- - [Orhan köfte-sanayi](restaurant_name) [bursa](city) [inegöl](district) ilçesinde bulunan bir mekandır.
- - [gaziantep](city) [merkez](district) bulunan [Aşina gaziantep mutfağı](restaurant_name) [çavuşoğlu kebap ve baklava ve cumalıkızık narlı bahçe kahvaltı evi](near) mekanlarına komşu bir yerdir.
- - [Kos lezzet sofrası](restaurant_name) [kahve dünyası ve cafe mia](near) komşu bir yerdir.
- - [Timboo cafe](restaurant_name) makul fiyatlara [kafeterya ürünleri](cuisine) bulabileceğiniz müşteri memnuniyetinin [yüksek](rating) olduğu bir yerdir.
- - [kafeterya ürünleri](cuisine) bulabileceğiniz [Dem karaköy](restaurant_name) [cici piknik ve moc istanbul](near) yakınlarında bulunan bir mekandır.
- - [bursa](city) [görükle](district) bölgesinde [Venedik pastanesi](near) yakınlarında [ortalama](rating) müşteri memnuniyetine sahip bir yemek mekanı yoktur.
- - [gaziantep](city) [şahinbey](district) bölgesinde makul fiyatlara [kebap](cuisine) yiyebileceğiniz bir mekan bulunmamaktadır.
- - [Gölyazı gönül sofrası](near) yakınlarında bulunan, makul fiyat aralığına ve [yüksek](rating) müşteri memnuniyetine sahip mekanlar [vizyon kebap](mekanların adları) ve [l'apero](mekanların adları).
- - [Bigchefs](restaurant_name) ortalama fiyatlara sahip [katmerci murat](diğer mekanların adları) nazaran daha [ucuz](price) fiyatlara sahip bir yerdir.
- - [aşina gaziantep mutfağı](diğer mekanların adları) [dürümcü emmi](diğer mekanların adları) ve [piyazcı mustafa'nın yeri](diğer mekanların adları) mekanlarına kıyasla [ortalama](rating) müşteri memnuniyetine sahip tek yer [Keyf-i ala restaurant](restaurant_name).
- - [L'apero](restaurant_name) adlı yer [antalya](city) [kaş](district) bölgesinde bulunmaktadır.
- - [Esperanto cafe](restaurant_name) makul fiyatlarıyla [ortalama](rating) müşteri memnuniyetine sahip bir mekandır.
- - [Bay döner](restaurant_name) [gaziantep](city) [merkez](district) bir yerdir.
- - [türk yemekleri](cuisine) yiyebileceğiniz [Tarihi vefa bozacısı](restaurant_name) [fokai balık restoran](near) yakınlarında müşteri memnuniyetinin [yüksek](rating) olduğu bir yerdir.
- - [kebap](cuisine) yiyebileceğiniz [Müslüm kebap](restaurant_name) [ankara](city) [çukurambar](district) ilçesinde bir mekandır.
- - [izmit](city) [ncity avm](district) [Mama craft](near) adlı mekan yakınında [ortalama](rating) müşteri memnuniyetine sahip bir yer bulunmamaktadır.
- - [izmit](city) [merkez](district) [Kumrucu şevki](near) yakınlarında [dünya mutfağı yemekleri](cuisine) yiyebileceğiniz bir yer yoktur.
- - [ankara](city) [balgat](district) bölgesinde [yüksek](rating) müşteri memnuniyetine sahip yerler [kebapçı şeyhmus](mekanların adları) [cafe la vie](mekanların adları) [urla şarapçılık](mekanların adları) [zirve park](mekanların adları) ve [özgen çay bahçesi](mekanların adları).
- - [Lokma kebap](restaurant_name) müşteri memnuniyeti, [çıtır lahmacun](diğer mekanların adları) ve [esperanto cafe](diğer mekanların adları) gibi [ortalama](diğer mekanların müşteri memnuniyeti) müşteri memnuniyetine sahip mekanlara göre [düşük](rating).
- - [Kebapçı şeyhmus](restaurant_name) [kahve dünyası](diğer mekanların adları) ile [dukat kebap ve beyran](diğer mekanların adları) mekanlarına nazaran [ucuz](price) fiyatlara yemek yiyebileceğiniz tek yerdir.
- - [Paul's homemade pasta & lasagna](restaurant_name) müşteri memnuniyeti [yüksek](rating) bir yerdir.
- - [Lokma](restaurant_name) fiyatları [pahalı](price) olsa da [yüksek](rating) müşteri memnuniyetine sahip bir yerdir.
- - [Havva hanım](restaurant_name) [izmit](city) [merkez](district) bulunan bir mekandır.
- - [Köfteci yusuf](restaurant_name) [bursa](city) [hürriyet](district) mahallesi'nde, [doy-çık lokantası](near) yakınlarında müşteri memnuniyetinin [yüksek](rating) olduğu bir mekandır.
- - ortalama fiyatlarıyla yemek yiyebileceğiniz [Kebap 52](restaurant_name) [mükellef](near) adlı mekana yakındır.
- - [Özsüt](near) yakınlarında [börek](cuisine) yiyebileceğiniz [ortalama](rating) müşteri memnuniyetine sahip bir yer yoktur.
- - [istanbul](city) [eminönü merkez](district) [Maki restoran ve varuna gezgin](near) yakınlarında makul fiyatlara yemek yiyebileceğiniz bir yer bulunmamaktadır.
- - [adana](city) [çukurova](district) ilçesinde [Dürümcü recep usta](near) yakınlarında [ortalama](rating) müşteri memnuniyetine sahip yerler; [acıktım kafedeyiz](mekanların adları) [mahfel-setbaşı](mekanların adları) [welldone by midpoint](mekanların adları) [kebapçı mehmet usta](mekanların adları) ve [quick china](mekanların adları).
- - [İsabey bağları & bağevi](restaurant_name) fiyatları, ortalama fiyat aralığına sahip olan [karakedi bozacısı](diğer mekanların adları) ve [papazın bağı](diğer mekanların adları) mekanlarına nazaran [ucuz](price).
- - [Masala kebap ve lahmacun salonu](restaurant_name) [kafe pi bornova](diğer mekanların adları) ve [çiçek ızgara](diğer mekanların adları) mekanlarına kıyasla müşteri memnuniyetinin [düşük](rating) olduğu tek yerdir.
- - [Akkonak restaurant](restaurant_name) [ev yapımı yemekler](cuisine) yiyebilirsiniz.
- - [Çapa restaurant](restaurant_name) [antalya balık evi](near) yakınlarında müşteri memnuniyetini kazanmış bir yerdir.
- - [Cemo etliekmek](restaurant_name) adlı yer [selçuklu](district) [konya](city).
- - [varuna memphis pub](near) yakınlarında [ucuz](price) fiyata hizmet alabileceğiniz [Tarihi medrese kahvehanesi](restaurant_name) müşteri memnuniyeti [ortalama](rating) seviyededir.
- - [Urfalı ciğerci müslüm](restaurant_name) [kızılay](district) [ankara](city) [yengeç restaurant](near) yakınlarındadır.
- - [izmir](city) [konak](district) bölgesinde [5 ocak kebap ve sushico](near) adlı yerlerin yakınlarında müşteri memnuniyetinin [yüksek](rating) olduğu bir mekan yoktur.
- - [gaziantep](city) [şahinbey](district) bölgesinde [Nusr-et steakhouse](near) yakınlarında [ev yapımı yemekler](cuisine) yiyeceğiniz bir yer yoktur.
- - [bursa](city) [kapalı çarşı](district) [Doyuran kahvaltı salonu](near) yakınlarında [enes fırın](mekanların adları) [cookshop](mekanların adları) [lokma kebap](mekanların adları) [yeşil kapı kebapçısı](mekanların adları) [şifa restaurant](mekanların adları) adlı mekanlar bulunmaktadır.
- - [Kozahan](restaurant_name) [düşük](diğer mekanların müşteri memnuniyeti) müşteri memnuniyetine sahip [burger king-izmit outlet center](diğer mekanların adları) mekanına kıyasla [ortalama](rating) müşteri memnuniyetine sahip bir yerdir.
- - [Kocatepe kahve evi](restaurant_name) [denizaltı restaurant](diğer mekanların adları) [moresi girit mutfağı & kahvaltı](diğer mekanların adları) [urfa kebap](diğer mekanların adları) [karaköy lokantası](diğer mekanların adları) [tayfa balıkevi](diğer mekanların adları) adlı yerlerle kıyaslandığında ortalama fiyat aralığına sahip tek mekandır.
- - [Kahve dünyası](restaurant_name) müşteri memnuniyetini kazanmış bir yerdir.
- - [meram](district) [konya](city) bulunan [Felicia pizza](restaurant_name) fiyatları [ucuz](price) bir yerdir.
- - [Dolphin restaurant](restaurant_name) [deniz mahsülleri](cuisine) mutfağına sahip bir yerdir.
- - [Tarihi çınaraltı aile çay bahçesi](restaurant_name) uygun fiyat aralığındaki [hazır yiyecekler](cuisine) [ızgara ürünler](cuisine) çay ve kahve çeşitleri ve [deniz mahsülleri](cuisine) ürünleriyle müşterilerin çok memnun olduğu bir yerdir.
- - [Turuncu cafe & pub & fal & tattoo & kültür eğlence merkezi](restaurant_name) [kafeterya ürünleri](cuisine) ile [kızılay](district) [ankara](city) yer alan bir mekandır.
- - [Kesman ciğer ve cafe extrablatt](near) yakınında [tatlı](cuisine) [dondurma](cuisine) ve [kafeterya ürünleri](cuisine) servis eden ve müşterilerin çok memnun olduğu bir mekan yoktur.
- - [nilüfer](district) [bursa](city) [No42](near) yakınında [kafeterya ürünleri](cuisine) [pasta ve çörek](cuisine) servis eden bir mekan yoktur.
- - [bood eat & meet](mekanların adları) [nevizade cafe & restaurant](mekanların adları) [ekspres inegöl köftecisi](mekanların adları) ve [ünal kardesler katmer salonu](mekanların adları) [meram](district) [konya](city) [Kyoto japon parkı](near) yakınında müşterilerin memnun olduğu yerlerdir.
- - ortalama fiyat aralığındaki [Kanaat lokantası](restaurant_name) [alpu çiğ börek](diğer mekanların adları) kıyasla yüksek bir fiyat aralığına sahiptir.
- - [imam çağdaş](diğer mekanların adları) [kafe pi bornova](diğer mekanların adları) [çiçek ızgara](diğer mekanların adları) aksine [Masala kebap ve lahmacun salonu](restaurant_name) müşterilerin memnun olmadığı tek yerdir.
- - [Kahveci hacıbaba](restaurant_name) [kızılay](district) [ankara](city) bulunan bir yemek mekanıdır.
- - [venedik pastanesi](near) yakınında bulunan [Abişoğlu pastaneleri](restaurant_name) müşterilerin memnun olduğu bir yerdir.
- - [Bay köfte](restaurant_name) [sunset](near) yakınında bulunan bir yerdir.
- - [seyhan](district) [adana](city) bulunan [gölyazı gönül sofrası](near) yakınındaki [Kling usta](restaurant_name) ortalama fiyat aralığına sahip bir mekandır.
- - ortalama fiyat aralığına sahip olan [Üçler kebap salonu](restaurant_name) [şahinbey](district) [gaziantep](city) yer almaktadır.
- - [Pasto](near) yakınında [güneydoğu anadolu yemekleri](cuisine) ve [türk yemekleri](cuisine) servis eden müşterilerin memnun olduğu bir yer yoktur.
- - [odunpazarı](district) [eskişehir](city) [Kebapçı ufuk](near) yakınında düşük fiyat aralığına sahip bir mekan yoktur.
- - [ekspres inegöl köftecisi](mekanların adları) [ünal kardesler katmer salonu](mekanların adları) ve [huqqa](mekanların adları) [bornova](district) [izmir](city) ve [Baklavacı zeki inal](near) yakınında bulunan yerlerdir.
- - [Topçu kebap salonu](restaurant_name) [ortalama](diğer mekanların müşteri memnuniyeti) müşteri memnuniyetine sahip [eskişehir çiğ börek evi](diğer mekanların adları) mekanına göre [düşük](rating) bir müşteri memnuniyetine sahiptir.
- - [rumeli çikolatacısı](diğer mekanların adları) [alin's](diğer mekanların adları) [alara restaurant-atatürk parkı](diğer mekanların adları) kıyasla [Varuna gezgin cafe del mundo](restaurant_name) ortalama fiyat aralığına sahip tek yerdir.
- - [Miyeps waffle & vitamin bar](restaurant_name) müşterilerinin memnuniyetini genel olarak kazanmıştır.
- - [mama craft](near) yakınlarındaki [Alaçatı muhallebicisi](restaurant_name) müşterilerinin memnuniyetini kazanmış bir işletmedir.
- - [Alavara](restaurant_name) [çiya sofrası](near) yakınlarında yer alır.
- - [ankara](city) [balgat](district) bölgesinde, [la gioia cafe brasserie ve petek pastanesi](near) yakınlarında yer alan [Coffee lab](restaurant_name) müşterilerinin çokça beğenisini kazanmıştır.
- - [izmit](city) [merkez](district) yer alan [Barista roof restaurant](restaurant_name) müşterilerine dünya mutfağından yemekler sunmaktadır.
- - [Dönerci cengiz ve havzan etliekmek 2](near) yakınlarında, [yüksek](rating) müşteri memnuniyetine sahip ve [tatlı](cuisine) sunan bir mekan bulunmamaktadır.
- - [karatay](district) [konya](city) osmanlı mutfağından yemekler sunan [ucuz](price) bir mekan bulunmamaktadır.
- - [bursa](city) [merkez](district) [Zemzem çorbacı](near) yakınlarında [ucuz](price) fiyatlarda yemek sunan [little kitchen](mekanların adları) [hiç hane](mekanların adları) [cumalıkızık narlı bahçe kahvaltı evi](mekanların adları) [kızılkaya restaurant](mekanların adları) ve [bay köfte](mekanların adları) adındaki mekanlar bulunmaktadır.
- - [Castle cafe & bistro](restaurant_name) [piraye taş plak meyhanesi](diğer mekanların adları) gibi makul fiyatlarda ürünler sunmaktadır.
- - [gaga restaurant](diğer mekanların adları) [beğendik abi](diğer mekanların adları) [dukat kebap ve beyran](diğer mekanların adları) [kahve dünyası](diğer mekanların adları) ve [meşhur kebapçı dedeler 1929](diğer mekanların adları) aksine [Cafe la vie](restaurant_name) müşterilerinin memnuniyetini kazanamamış tek mekandır.
- - [Noel baba cafe](restaurant_name) [kafeterya ürünleri](cuisine) sunmaktadır.
- - [özsüt](near) yakınlarındaki eskişehir çiğ [börek](cuisine) evi börek mutfağından seçenekler sunmaktadır.
- - [Kitap evi otel](restaurant_name) [kafeterya ürünleri](cuisine) oluşan bir menüye sahiptir.
- - [adana](city) [çukurova](district) [dürümcü recep usta](near) yakınlarındaki [Pasta bahçesi](restaurant_name) [ucuz](price) fiyatlara ürünlerini sunmaktadır.
- - [istanbul](city) [eminönü merkez](district) bölgesindeki [Virginia angus](restaurant_name) ortalama fiyatlara yiyecek seçeneklerine sahiptir.
- - [adana](city) [çukurova](district) [Kazım büfe](near) yakınlarında müşterilerinin memnuniyetini kazanmış bir yiyecek mekanı bulunmamaktadır.
- - [istanbul](city) [taksim](district) bölgesindeki [Köfteci behçet](near) yakınlarında [kafeterya ürünleri](cuisine) yenebilecek bir mekan bulunmamaktadır.
- - [antalya](city) [barbaros/kaleiçi](district) bölgesindeki [çekirge dürüm](mekanların adları) [incir waffle](mekanların adları) [beer hall](mekanların adları) ve [taşan döner](mekanların adları) mekanları müşterilerinin memnuniyetlerini kazanmışlardır.
- - [Cafe cosecha](restaurant_name) da [çillim pizza](diğer mekanların adları) ve [avcar](diğer mekanların adları) gibi müşterilerinin memnuniyetini kazanamamıştır.
- - [katmerci murat](diğer mekanların adları) ve [cafe kristo](diğer mekanların adları) aksine [Bigchefs](restaurant_name) düşük fiyatlara sahiptir ve bu konuda tektir.
- - [Dede restaurant](restaurant_name) müşterilerinin memnuniyetini kazanamamıştır.
- - [5 ocak kebap ve sushico](near) yakınlarındaki [Sky bar](restaurant_name) müşterilerinin memnuniyetini aşırı derecede kazanmıştır.
- - [Varuna los amigos](restaurant_name) [eskişehir](city) [hoşnudiye](district) ilçesinde bulunmaktadır.
- - [bursa](city) [kapalı çarşı](district) bulunan [Çınar ızgara](restaurant_name) ızgara mutfağından sunduğu ürünleriyle müşterilerinin büyük beğenisini kazanmıştır.
- - [nusr-et steakhouse](near) yakınlarındaki [Nohutçu metin usta](restaurant_name) [ev yapımı yemekler](cuisine) sunmaktadır.
- - [adana](city) [çukurova](district) [Leman kültür](near) yakınlarındaki herhangi bir mekan, müşterilerinin memnuniyetini kazanmamıştır.
- - [konya](city) [meram](district) [kafeterya ürünleri](cuisine) makul fiyatlara sunan bir yemek mekanı bulunmamaktadır.
- - [antalya](city) [kaş](district) [Ciğerci ali haydar usta ve domino's pizza](near) yakınlarında [shakespeare bistro coffee](mekanların adları) [özsar](mekanların adları) [kırkayak gaziantepevi](mekanların adları) ve [doyuran kahvaltı salonu](mekanların adları) bulunmaktadır.
- - [ucuz](diğer mekanların fiyat aralığı) fiyatlı [varuna gezgin cafe](diğer mekanların adları) [eleos restaurant](diğer mekanların adları) ve [fıstıkzade baklava](diğer mekanların adları) gibi mekanların aksine [Çınar ızgara](restaurant_name) ortalama fiyatlara ürünlerini sunmaktadır.
- - [kaburgacı yaşar usta](diğer mekanların adları) [cafe mia](diğer mekanların adları) [somatçı fihi ma fih](diğer mekanların adları) [chef ın the kitchen](diğer mekanların adları) ve [kule balık evi](diğer mekanların adları) gibi mekanların aksine [Neşve çay kahve evi](restaurant_name) müşterilerinin beğenilerini kazanmış tek yerdir.
- - [Aylak madam](restaurant_name) isimli mekanda [kahve ve çay çeşitleri](cuisine) sunulmaktadır.
- - yakınında [kesman ciğer ve cafe extrablatt](near) mekanları bulunan meşhur [dondurma](cuisine) ali usta mekanında [tatlı](cuisine) dondurma, ve [kafeterya ürünleri](cuisine) sunulmaktadır.
- - [Anadolu et lokantası](restaurant_name) fiyat aralığı [ucuz](price).
- - [konya](city) [meram](district) ilçesinde bulunan [Havzan etli ekmek 4](restaurant_name) mekanının fiyat aralığı [ucuz](price) ve [ortalama](rating) bir müşteri memnuniyeti vardır.
- - [bursa](city) [nilüfer](district) ilçesinde bulunan [Ülkü pastanesi](restaurant_name) pasta, çörek ve [kafeterya ürünleri](cuisine) sunulmaktadır.
- - [gaziantep](city) [şahinbey](district) hem makul fiyatlara sahip hem de müşteri memnuniyeti [ortalama](rating) olan bir mekan bulunmamaktadır.
- - [izmir](city) [alsancak](district) [Caribou coffee ve erçelebi kadayıf](near) yakınlarında ortalama fiyat aralığına sahip bir yemek mekanı bulunmamaktadır.
- - [Mevlana lokantası](near) yakınında hem müşteri memnuniyeti [ortalama](rating) hem de fiyatları ortalama olan [marvel coffee](mekanların adları) [sıralı kebap](mekanların adları) [bolu lokantası](mekanların adları) [soğuksu restaurant](mekanların adları) ve [kelebek lokantası](mekanların adları) isimli yemek mekanları bulunmaktadır.
- - müşteri memnuniyeti [ortalama](diğer mekanların müşteri memnuniyeti) olan [Emmim iskender](restaurant_name) gibi [seyir cafe](diğer mekanların adları) ve [abişoğlu pastaneleri](diğer mekanların adları) de müşterilerini memnun edebilmiştir.
- - [nira gurme](diğer mekanların adları) ve [dayının yeri adanalı şahin usta](diğer mekanların adları) mekanlarına göre [Etevim kasap ızgara kahvaltı salonu](restaurant_name) ortalama fiyat aralığına sahip tek mekandır.
- - [Cafe cosecha](restaurant_name) [adana](city) [seyhan](district) ilçesinde bulunmaktadır.
- - [türk yemekleri](cuisine) ve [güneydoğu anadolu yemekleri](cuisine) yiyebileceğiniz mekan [Ketçi resto](restaurant_name) [pasto](near) adlı mekanın yakınında bulunmaktadır.
- - [Num num](restaurant_name) adlı mekan [istanbul](city) [levent](district) [kanyon avm](neighborhood) içerisinde bulunmaktadır.
- - [hamburger](cuisine) yiyebileceğiniz bir mekan olan [Ohannesburger](restaurant_name) müşteri memnuniyeti [ortalama](rating) düzeydedir ve [baklavacı zeki inal](near) yakın bir konumda yer almaktadır.
- - [Arzu'nun yeri](restaurant_name) [kebapçı ufuk](near) civarında yer alır ve fiyat olarak [ucuz](price) değerlendirmesine sahiptir.
- - [eskişehir](city) [hoşnudiye](district) bulunan [Börekçi rıza ve şahan sirehan](near) adlı mekanların civarında [ortalama](rating) müşteri memnuniyeti sağlayan bir mekan yer almamaktadır.
- - [izmir](city) [alsancak](district) ilçesinde, [Ayıntap baklava ve hattena hatay sofrası](near) adlı mekanların etrafında fiyat aralığı ortalama bir mekan bulunmamaktadır.
- - [La gioia cafe brasserie](near) yakınlarında müşteri memnuniyeti [ortalama](rating) olarak belirtilen mekanlar [mevlevi sofrası](mekanların adları) [bravo patisserie](mekanların adları) [arpege patisserie](mekanların adları).
- - [Papağan](restaurant_name) adlı mekan, ortalama fiyatlara sahip [domino's pizza](diğer mekanların adları) adlı mekana göre daha [ucuz](price).
- - [akali](diğer mekanların adları) [papağan çiğbörek salonu](diğer mekanların adları) [Tostcu mehmet](restaurant_name) ve [kadayıfçı olcay](diğer mekanların adları) mekanları arasından müşteri memnuniyeti [ortalama](rating) özelliğini sağlayan mekan yalnızca tostcu mehmet'tir.
- - [Tostcu mehmet](restaurant_name) [akali](diğer mekanların adları) [papağan çiğbörek salonu](diğer mekanların adları) ve [kadayıfçı olcay](diğer mekanların adları) göre müşteri memnuniyeti olan tek yerdir.
- - [Shakespeare bistro](restaurant_name) adlı mekanda [akdeniz yemekleri](cuisine) ve [kafeterya ürünleri](cuisine) bulabilirsiniz.
- - [dönerci cengiz ve havzan etliekmek 2](near) yakınlarındaki [Çelebioğulları](restaurant_name) mekanı müşterileri tarafından oldukça beğenilen bir mekandır.
- - kafe pi [bornova](district) [izmir](city) bornova ilçesinde bulunmaktadır.
- - [zemzem çorbacı](near) yakınındaki [Kebapçı hüseyin](restaurant_name) [merkez](district) [bursa](city) bölgesinde müşterileri tarafından oldukça beğenilen bir mekandır.
- - [Deva restaurant](restaurant_name) [karatay](district) [konya](city) bölgesinde [ucuz](price) bir mekandır.
- - [şahinbey](district) [gaziantep](city) bölgesinde [ortalama](rating) müşteri memnuniyetine sahip bir [kebap](cuisine) mekanı bulunmamaktadır.
- - [mustafa kemal paşa](district) [eskişehir](city) bölgesinde [Cemo etliekmek](near) yakınında bir [kebap](cuisine) mutfağı bulunmamaktadır.
- - [Şelale restoran](mekanların adları) [bizim dede'nin yeri](mekanların adları) [seç baklava](mekanların adları) [baklavacı zeki inal](mekanların adları) [konak konya mutfağı](mekanların adları) müşterileri tarafindan beğenilen ve makul fiyatlara sahip mekanlardır.
- - [Köfteci behçet](restaurant_name) de [pool pub](diğer mekanların adları) [sufi kebap](diğer mekanların adları) ve [askania](diğer mekanların adları) gibi müşterileri tarafından beğenilmeyen bir mekandır.
- - [Filizler köftecisi](restaurant_name) fiyat aralığı [lara balık restaurant](diğer mekanların adları) [dilber cafe](diğer mekanların adları) [bali bey han](diğer mekanların adları) ve [kaburgacı cabbar usta](diğer mekanların adları) aksine makul olan tek mekandır.
- - [Yeşilçam kahve evi](restaurant_name) müşterileri tarafından beğenilen bir mekandır.
- - [çukurova](district) [adana](city) bölgesinde [kazım büfe](near) yakınında [Venedik pastanesi](restaurant_name) bulunmaktadır.
- - [pasto](near) yakınında [Kebapçı tamer](restaurant_name) bulunmaktadır.
- - [barbaros/kaleiçi](district) [antalya](city) bölgesinde, [bahçe balık](near) yakınında [ordövrler](cuisine) sunan [The tudors pub](restaurant_name) bulunmaktadır.
- - [köfteci behçet](near) yakınındaki [Limonlu bahçe](restaurant_name) [kafeterya ürünleri](cuisine) bulabilirsiniz.
- - [Sırça köşk](near) yakınında [ucuz](price) ve [ortalama](rating) müşteri memnuniyetine sahip bir mekan bulunmamaktadır.
- - [iznik](district) [bursa](city) bölgesinde makul fiyatlara [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) bulamazsınız.
- - [köprübaşı](district) [eskişehir](city) bölgesinde [Homburger](near) yakınındaki [ucuz](price) mekanlar [müslüm kebap](mekanların adları) ve [sempati türk mutfağı](mekanların adları).
- - [Hideaway bar & cafe](restaurant_name) [ucuz](price) bir mekan iken [karaaslan tesisleri](diğer mekanların adları) ortalama fiyat aralığına sahip bir mekandır.
- - [Mükellef](restaurant_name) adlı mekan [kebapçı iskender-asmerkez](diğer mekanların adları) [moc istanbul](diğer mekanların adları) ve [01 adana sofrası](diğer mekanların adları) mekanlarının aksine müşterileri tarafından beğenilmeyen tek mekandır.
- - [Sille konak restaurant](restaurant_name) [selçuklu](district) [konya](city) bölgesinde bulunmaktadır.
- - [Eyvan kebap](restaurant_name) [çukurova](district) [adana](city) bölgesinde [leman kültür](near) komşu bir yerdir.
- - [Devrez](restaurant_name) adlı mekan [küçük esat](district) [ankara](city) bölgesindedir.
- - [ciğerci ali haydar usta ve domino's pizza](near) yakınındaki [Hideaway bar & cafe](restaurant_name) müşterileri tarafından oldukça beğenilmektedir ve [ordövrler](cuisine) ile [kafeterya ürünleri](cuisine) bulabileceğiniz bir mekandır.
- - [meram](district) [konya](city) bölgesindeki [Nevizade cafe & restaurant](restaurant_name) [kafeterya ürünleri](cuisine) bulabilirsiniz.
- - [çukurova](district) [adana](city) bölgesinde müşterilerin çok beğendiği makul fiyatlarda bir mekan bulamazsınız.
- - [kaş](district) [antalya](city) bölgesinde [Eyvan kebap ve carmelo's every 7 day eat well](near) yakınlarında makul fiyatlara bir yemek mekanı bulamazsınız.
- - [01 adana sofrası](mekanların adları) ve [bayazhan restaurant](mekanların adları) [odunpazarı](district) [eskişehir](city) bölgesindeki [ucuz](price) yemek mekanlarıdır.
- - [Ciğerci bedo](restaurant_name) da [nusr-et steakhouse](diğer mekanların adları) gibi müşterilerin memnun kalmadığı bir mekandır.
- - [Kasr-i nur](restaurant_name) [çiçek ızgara](diğer mekanların adları) [lale döner](diğer mekanların adları) [masala kebap ve lahmacun salonu](diğer mekanların adları) ile [neyzen meyhanesi](diğer mekanların adları) aksine makul fiyatları olan tek mekandır.
- - [Bizim lokanta](restaurant_name) müşteri memnuniyeti [yüksek](rating) bir yemek mekanıdır.
- - müşteri memnuniyeti [ortalama](rating) olan [Boğazköy restaurant](restaurant_name) [şahinbey](district) [gaziantep](city) bölgesindendir.
- - akyokuş park [konya](city) mutfağı, [selçuklu](district) konya bölgesindeki yemek mekanlarından birisidir.
- - [Cadde üstü](restaurant_name) fiyat aralığı ortalama olan, [fsm bulvarı](district) [bursa](city) bölgesinde [mevlana lokantası](near) yakınında bulunan bir mekandır.
- - [Sake cafe & bar](restaurant_name) [caribou coffee ve erçelebi kadayıf](near) yakınında, [alsancak](district) [izmir](city) bölgesindeki bir yemek mekanıdır.
- - [forum bornova](district) [izmir](city) bölgesinde, fiyat aralığı ortalama ve müşteri memnuniyeti [yüksek](rating) olan yemek mekanı bulunmamaktadır.
- - [Pool pub](near) yakınında, [döner](cuisine) mutfağına ait [atakent](neighborhood) [çakmak](district) [istanbul](city) bölgesinde bir yemek mekanı yoktur.
- - [pahalı](price) fiyat aralığında, [taksim](district) [istanbul](city) bölgesindeki yemek mekanlarından birisi de [mehmet usta et lokantası](mekanların adları) ve [özdoyum restaurant](mekanların adları).
- - [Çulcuoğlu](restaurant_name) adındaki yemek mekanının fiyat aralığı [ucuz](price) [tahta masa](diğer mekanların adları) [beef burger](diğer mekanların adları) ve [kolcuoğlu kebap](diğer mekanların adları) mekanlarındaki fiyat aralığı makul olarak değerlendirilebilir.
- - [volkan büfe](diğer mekanların adları) [rasta cafe](diğer mekanların adları) [petek pastanesi](diğer mekanların adları) [özikizler künefe](diğer mekanların adları) [havzan etli ekmek 4](diğer mekanların adları) mekanlarına kıyasla [ortalama](rating) müşteri memnuniyetine sahip tek yemek mekanı [Meşhur özçelik aspava](restaurant_name).
- - [Özsüt](restaurant_name) [ortalama](rating) müşteri memnuniyetine sahiptir.
- - [Yum-yum noodle house](restaurant_name) [börekçi rıza ve şahan sirehan](near) yakınında,[hoşnudiye](district) [eskişehir](city) bölgesindeki bir restorandır.
- - [Ayanoğlu tarz-i kahvaltı](restaurant_name) [nilüfer](district) [bursa](city) bölgesindeki bir yemek mekanıdır.
- - [Elem kebap restaurant](restaurant_name) [la gioia cafe brasserie](near) yakınında, [ortalama](rating) müşteri memnuniyetine sahip, [çukurova](district) [adana](city) bir yemek mekanıdır.
- - [Midyeli](restaurant_name) isimli restoran [ayıntap baklava ve hattena hatay sofrası](near) yakınındadır ve makul bir fiyat aralığına sahiptir.
- - [yüksek](rating) müşteri memnuniyetine sahip, [kebap](cuisine) ve [ızgara ürünler](cuisine) satan, [osmangazi](district) [bursa](city) bölgesinde bulunan bir yemek mekanı bulamazsınız.
- - [Ciğerci mustafa](near) yakınında bulunan ve [kebap](cuisine) satan [gaziantep](city) [merkez](district) bölgesinde bulunan bir mekan yoktur.
- - [Köseoğlu ekmek & pide & kahvaltı](near) yakınında, [odunpazarı](district) [eskişehir](city) bölgesindeki yemek mekanlarının adları [tatlıcı gönül kardeşler](mekanların adları) [kebapçı iskender](mekanların adları) [köşem kebap şahin usta](mekanların adları) [onur işkembe](mekanların adları) [baltazar](mekanların adları).
- - [burger king-kule site avm](diğer mekanların adları) [via pub](diğer mekanların adları) ve [midpoint](diğer mekanların adları) gibi yemek mekanları [ortalama](diğer mekanların müşteri memnuniyeti) müşteri memnuniyeti ile bilinirken [Karaköy güllüoğlu](restaurant_name) müşteri memnuniyeti bu restoranlara kıyasla [düşük](rating).
- - [elem restaurant](diğer mekanların adları) [kebapçı iskender yavuz iskenderoğlu](diğer mekanların adları) [sade kahvaltı & çikolata](diğer mekanların adları) ve [lokma](diğer mekanların adları) yemek mekanlarına kıyasla [Mobidik restaurant](restaurant_name) makul fiyat aralığına sahip tek mekandır.
- - [Nereid meyhanesi](restaurant_name) [yüksek](rating) müşteri memnuniyetine sahiptir.
- - [Zirve park](restaurant_name) [şahinbey](district) [gaziantep](city) bölgesinde [ortalama](rating) müşteri memnuniyetine sahip bir yemek mekanıdır.
- - [Cafe des cafes](restaurant_name) [nar restaurant ve tatlıcı köse](near) yakınında bulunmaktadır.
- - [yüksek](rating) müşteri memnuniyetine sahip, [kafeterya ürünleri](cuisine) satan [Ağa kapısı](restaurant_name) [süleymaniye](district) [istanbul](city) bölgesindedir.
- - [Ciğerci ahmet](restaurant_name) [kebap](cuisine) mutfağından ürünler satar ve [mustafa kemal paşa](district) [eskişehir](city) bölgesindeki bir mekandır.
- - [selçuklu](district) [konya](city) bölgesinde, [pizza](cuisine) mutfağına sahip, müşteri memnuniyeti [yüksek](rating) olan bir yemek mekanı bulunmamaktadır.
- - makul fiyat aralığında, [pasta ve çörek](cuisine) satan, [çukurova](district) [adana](city) bölgesinde bulunan bir yemek mekanı bulunmamaktadır.
- - [Meşhur adıyaman çiğköftecisi ömer aybak](near) yakınında olup müşteri memnuniyeti [yüksek](rating) restoranların adları [huqqa](mekanların adları) ve [kebapçı iskender yavuz iskenderoğlu](mekanların adları).
- - [meşhur kebapçı dedeler 1929](diğer mekanların adları) ve [kebapçı şeyhmus](diğer mekanların adları) yemek mekanları makul fiyat aralığındayken [Zirve park](restaurant_name) bu mekanlara kıyasla daha [ucuz](price) bir fiyatlandırma izlemektedir.
- - [kanaat lokantası](diğer mekanların adları) [abdüsselam balaban kebap salonu](diğer mekanların adları) [kebapçı mesut](diğer mekanların adları) [bi lokma](diğer mekanların adları) gibi yemek mekanlarına kıyasla [Yengeç restaurant](restaurant_name) [düşük](rating) müşteri memnuniyetine sahip tek mekandır.
- - [Louise](restaurant_name) [yüksek](rating) müşteri memnuniyeti kazanmış bir restorandır.
- - [Topçu kebap salonu](restaurant_name) fiyat aralığı [ucuz](price) [ortalama](rating) müşteri memnuniyetine sahip bir restorandır.
- - [Cafe de kedi](restaurant_name) [istiklal](district) [eskişehir](city) bölgesindeki bir yemek mekanıdır.
- - [yüksek](rating) müşteri memnuniyetiyle bilinen [Papağan](restaurant_name) [homburger](near) yakınında, [köprübaşı](district) [eskişehir](city) bölgesindedir.
- - [Askania](restaurant_name) [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) mutfağından ürünler sunan, ortalama fiyat aralığında bir yemek mekanıdır.
- - [ortalama](rating) bir müşteri memnuniyetine sahip, [meram](district) [konya](city) bölgesinde ve [döner](cuisine) mutfağından yemekler sunan bir restoran bulunmamaktadır.
- - [Hi coffee](near) yakınında, [alkollü içecekler](cuisine) ve [akdeniz yemekleri](cuisine) mutfağına sahip, [ucuz](price) fiyat aralığında bir yemek mekanı yoktur.
- - [gaziantep](city) bölgesindeki [onur işkembe](mekanların adları) [baltazar](mekanların adları) [kaplan dağ restoran](mekanların adları) ve [ceviz ağacı](mekanların adları) [ortalama](rating) müşteri memnuniyetine sahip mekanlardır.
- - [evren büfe](diğer mekanların adları) gibi bir diğer yemek mekanı olan [Gandi'nin yeri](restaurant_name) de [ortalama](diğer mekanların müşteri memnuniyeti) bir müşteri memnuniyetine sahiptir.
- - [Passage cafe](restaurant_name) [karaköy lokantası](diğer mekanların adları) [tayfa balıkevi](diğer mekanların adları) [friends cafe](diğer mekanların adları) isimlerindeki yemek mekanlarının arasından makul fiyat aralığına sahip tek restoran passage cafe'dir.
- - [Tiko burger](restaurant_name) [hamburger](cuisine) yiyebileceğiniz bir yerdir.
- - fiyatları makul olan [Park zirve](restaurant_name) müşterilerinin çok memnun olduğu bir yerdir.
- - [hamburger](cuisine) yiyebileceğiniz mekanlardan birisi de [Burger king-gaziantep](restaurant_name).
- - [osmanlı mutfağı yemekleri](cuisine) ve [ev yapımı yemekler](cuisine) sunan [Kasr-i nur](restaurant_name) [ucuz](price) ve müşterilerinin memnun olduğu bir yerdir.
- - [eyvan kebap ve carmelo's every 7 day eat well](near) mekanlarına yakın olan [Oburus momus](restaurant_name) fiyatları ortalama olan bir yerdir.
- - [merkez](district) [izmit](city) [Özsüt](near) yakınlarında ve müşterilerin memnun olmadığı bir yer yoktur.
- - [konya](city) [meram](district) ilçesinde [Sakız restaurant](near) yakınlarında fiyatı uygun olan bir yer yoktur.
- - [çukurova](district) [adana](city) [Cafe mia ve bayramoğlu döner](near) yakınlarındaki tüm mekanlar [texmex bistro & lounge](mekanların adları) ve [arka sokak](mekanların adları).
- - [Doğan kaymaklı kadayıf](restaurant_name) fiyatları makul olan [damak](diğer mekanların adları) ve [kahvehan premium](diğer mekanların adları) kıyasla [ucuz](price) bir yerdir.
- - [Havva hanım](restaurant_name) [urfa tike ciğer](diğer mekanların adları) ve [baklavacı güllüoğlu ömer güllü](diğer mekanların adları) mekanları ile karşılaştırıldığında müşterilerinin memnun olduğu tek yerdir.
- - [Dere bahçe restaurant](restaurant_name) müşterilerini memnun etmektedir.
- - [izmir](city) [forum bornova](district) gidebileceğiniz [Beğendik abi lokantası](restaurant_name) fiyatları makuldur.
- - [Özsüt](restaurant_name) [eskişehir çiğ börek evi](near) yakınındadır.
- - [Özsüt](restaurant_name) [eskişehir çiğ börek evi](near) yakınında bulunan bir mekandır.
- - [deniz mahsülleri](cuisine) yanı sıra [türk yemekleri](cuisine) ve [alkollü içecekler](cuisine) de servis edildiği [Leb-i derya](restaurant_name) fiyatlar [pahalı](price) olmakla birlikte müşterilerinin çok memnun olduğu bir restorandır.
- - [istanbul](city) [atakent](neighborhood) [çakmak](district) [döner](cuisine) celal usta, döner yemek için tercih edilebilecek mekanlardandır.
- - [urla](district) [izmir](city) [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) sunan, müşterilerin aşırı memnun kaldığı yemek mekanı bulunmamaktadır.
- - [eskişehir](city) [merkez](district) [Özikizler künefe](near) yakınında [ızgara ürünler](cuisine) sunan bir yemek mekanı bulunmamaktadır.
- - [eskişehir](city) [merkez](district) [Özikizler künefe](near) civarında olup da [ızgara ürünler](cuisine) yenebilecek bir yer yoktur.
- - [Kadir usta kebap ve lahmacun](near) yakınında müşterilerin çok memnun olduğu ve fiyatları [ucuz](price) yemek mekanları olarak [el matador](mekanların adları) [tahta masa](mekanların adları) [beef burger](mekanların adları) ve [kolcuoğlu kebap](mekanların adları) sayılabilir.
- - [Homburger](restaurant_name) [ortalama](diğer mekanların müşteri memnuniyeti) müşteri memnuniyetine sahip [kebapçı iskender](diğer mekanların adları) ve [mado](diğer mekanların adları) gibi ortalama bir müşteri memnuniyetine sahiptir.
- - [Onur kebap](restaurant_name) [tarihi viktor levi şarap evi](diğer mekanların adları) ve [pasto](diğer mekanların adları) aksine fiyatların makul olduğu yegane yerdir.
- - [Burger house](restaurant_name) ortalama fiyatlarla hizmet veren bir yemek mekanıdır.
- - [bursa](city) [osmangazi](district) bölgesinde bulunan [Çiçek ızgara](restaurant_name) müşterilerin çok memnun olduğu bir restorandır.
- - [Kebapçı halil usta](restaurant_name) düşük fiyatlara sahiptir.
- - [köseoğlu ekmek & pide & kahvaltı](near) komşu [Rumeli çikolatacısı](restaurant_name) [odunpazarı](district) [eskişehir](city) [tatlı](cuisine) ve [kafeterya ürünleri](cuisine) sunmaktadır.
- - [ciğerci mustafa](near) yakınında [kebap](cuisine) yenecek mekanlardan bir tanesi [Yesemek lokantası](restaurant_name).
- - [izmir](city) [bostanlı](district) [Dağmaran kahvaltı evi](near) yakınında müşteri memnuniyeti [yüksek](rating) bir yemek mekanı bulunmamaktadır.
- - [antalya](city) [kaş](district) bölgesinde [Bahçe balık](near) yakınında düşük fiyatlı bir yemek mekanı bulunmamaktadır.
- - [rumeli çikolatacısı](mekanların adları) [alin's](mekanların adları) [alara restaurant-atatürk parkı](mekanların adları) [muzzy ocakbaşı](mekanların adları) [varuna gezgin cafe del mundo](mekanların adları) [kadıköy merkez](district) [istanbul](city) müşteri memnuniyeti [yüksek](rating) mekanlardır.
- - ortalama fiyatlara sahip [müpptela ocakbaşı meyhane](diğer mekanların adları) [tostçu erol](diğer mekanların adları) ve [kaburgacı yaşar usta](diğer mekanların adları) mekanlarına kıyasla [Chef ın the kitchen](restaurant_name) daha [ucuz](price) bir seçenektir.
- - [kolcuoğlu kebap](diğer mekanların adları) [deli kantin](diğer mekanların adları) ve [cici piknik](diğer mekanların adları) in aksine [Burger king-real avm](restaurant_name) müşterilerini memnun etmekte başarılı tek mekandır.
- - [Paçacı şemsi](restaurant_name) müşterilerin çok memnun olduğu bir restorandır.
- - [pizza](cuisine) yenebilecek yemek mekanları arasındaki [Serenade etliekmek](restaurant_name) müşterilerin çok memnun olduğu bir restorandır.
- - [Mado](restaurant_name) [kahve ve çay çeşitleri](cuisine) bulunmaktadır.
- - [mudanya yolu](district) [bursa](city) [tatlı](cuisine) yenebilecek bir mekan olan [Trilye muhallebicisi](restaurant_name) [kebapçı iskender yavuz iskenderoğlu ve meşhur adıyaman çiğköftecisi ömer aybak](near) yanındadır.
- - [Petek pastanesi](restaurant_name) [adana](city) [çukurova](district) bölgesinde makul fiyatlarla hizmet vermektedir.
- - [gaziantep](city) [merkez](district) [döner](cuisine) beğenilen bir yer yoktur.
- - [Retro bistro](near) yakınında [ızgara ürünler](cuisine) ve [hazır yiyecekler](cuisine) sunan düşük fiyatlı bir yemek mekanı bulunmamaktadır.
- - [yelken balık evi](mekanların adları) [nasreddin restaurant](mekanların adları) ve [varuna gezgin cafe](mekanların adları) [bursa](city) [kükürtlü](district) bölgesindeki [ortalama](rating) müşteri memnuniyetine sahip mekanlardır.
- - [78 coffee](diğer mekanların adları) [soulmate coffee](diğer mekanların adları) ve [ab'bas waffle](diğer mekanların adları) gibi [Çorbacı ismet usta](restaurant_name) da [ortalama](diğer mekanların müşteri memnuniyeti) müşteri memnuniyetine sahiptir.
- - [Pan house](restaurant_name) [mcdonald's](diğer mekanların adları) [ıl vicino pizzeria](diğer mekanların adları) ve [akdeniz dondurma](diğer mekanların adları) mekanlarına kıyasla düşük fiyatla hizmet veren tek yemek mekanıdır.
- - [Kebapçı iskender](restaurant_name) müşterilerin çok memnun olduğu bir restorandır.
- - [döner](cuisine) yenebilecek mekanlardan biri olan [Lale döner](restaurant_name) müşterileri tarafından memnun kalınan bir mekandır.
- - [Vizyon kebap](restaurant_name) [kahve diyarı](near) yakınında bulunmaktadır.
- - [gaziantep](city) [ev yapımı yemekler](cuisine) sunan [Yörem antep mutfağı](restaurant_name) [la puerta ve pizza il forno](near) yakınındadır.
- - [Ruhi bey 1949 meyhanesi](restaurant_name) düşük fiyatlara [alkollü içecekler](cuisine) ve [akdeniz yemekleri](cuisine) sunmaktadır.
- - [Kebapçı iskender ve leman kültür](near) yakınında [yüksek](rating) müşteri memnuniyetine sahip ortalama fiyatlı bir mekan bulunmamaktadır.
- - [antalya](city) [kaş](district) bölgesinde [Köfteci yusuf](near) yakınında [pahalı](price) yemek sunan bir mekan bulunmamaktadır.
- - [ankara](region) [çankaya](region) semtinde [tepe prime avm](region) [üniversiteler](region) bölgesinde; [Zemzem çorbacı ve basrioğlu et restaurant](near) komşu ortalama fiyatlara sahip mekanlar [pastabahcesi.com](mekanların adları) [hacı arif bey restaurant](mekanların adları) [miks lounge](mekanların adları) ve [adana yüzevler kebap](mekanların adları).
- - [Eskişehir çiğ börek evi](restaurant_name) düşük fiyatlara sahip [sille konak restaurant](diğer mekanların adları) kıyasla ortalama fiyatlara sahiptir.
- - [inci pastanesi](diğer mekanların adları) ve [temel çiğbörek salonu](diğer mekanların adları) aksine [Müslüm kebap](restaurant_name) [düşük](rating) müşteri memnuniyetine sahip tek yerdir.
- - [Venedik pastanesi](restaurant_name) verdiği hizmet ile müşterilerini memnun etmektedir.
- - [Bay k. restaurant cafe](restaurant_name) [izmit](city) [merkez](district) [özsüt](near) yakınlarında bulunmaktadır.
- - [Kule balık evi](restaurant_name) [naturel bar](near) yakınındadır.
- - ortalama fiyatla hizmet veren [Ferah etliekmek](restaurant_name) [sakız restaurant](near) yakınındadır.
- - [çukurova](district) [adana](city) [Önder pastanesi](near) yakınlarında müşteri memnuniyeti [yüksek](rating) bir mekan bulamazsınız.
- - [izmir](city) [karşıyaka](district) [kafeterya ürünleri](cuisine) bulunabileceği makul fiyatlı bir mekan yoktur.
- - [Tatlıdil köftecisi](restaurant_name) [düşük](diğer mekanların müşteri memnuniyeti) müşteri memnuniyetine sahip [mama craft](diğer mekanların adları) [livadi](diğer mekanların adları) ve [noel baba cafe](diğer mekanların adları) kıyasla [ortalama](rating) bir müşteri memnuniyetine sahiptir
- - [Şelale restoran](restaurant_name) [şelale park restaurant cafe](diğer mekanların adları) ve [mezze balık](diğer mekanların adları) mekanlarına kıyasla ortalama fiyatlara sahip tek mekandır.
- - [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) yiyebileceğiniz [Denizalti restaurant](restaurant_name) [urla](district) [izmir](city).
- - düşük fiyatlarıyla müşterilerinin [yüksek](rating) memnuniyetini kazanmış olan [Baklavacı zeki inal](restaurant_name) [gaziantep](city) [şahinbey](district) ilçesinde yer almaktadır.
- - [gaziantep](city) [şehitkamil](district) ilçesinde [Sille konak restaurant](near) yakınında [düşük](rating) memnuniyete sahip bir mekan yoktur.
- - [bursa](city) [gemlik](district) ilçesinde müşterilerin memnun olmadığı iki mekan, [tarihi viktor levi şarap evi](mekanların adları) ve [pasto](mekanların adları).
- - [Club arma restaurant](restaurant_name) [passage cafe](diğer mekanların adları) [odunpazarı şerbet evi](diğer mekanların adları) ve [feride anne'nin mutfağı](diğer mekanların adları) ile kıyaslandığında [ortalama](rating) müşteri memnuniyetine sahip tek mekandır.
- - [Bulvar kebap](restaurant_name) müşterilerin orta düzeyde memnun kaldıkları bir yerdir.
- - [Çağlar restaurant](restaurant_name) [konya](city) [çumra](district) bölgesindedir.
- - [istanbul](city) [kadıköy merkez](district) yer alan ve müşterilerinin çok memnun olduğu bir restoran olan fornello [pizza](cuisine) pizza ve [italyan mutfağı](cuisine) ürünleri sunmaktadır.
- - [kaş](district) [antalya](city) bulunan [Bilal'in yeri](restaurant_name) uygun fiyatlı bir mekandır.
- - [istanbul](city) [caddebostan](district) bölgesinde [Bayazhan bistro ve trilye balık](near) komşu olan ve [alkollü içecekler](cuisine) servis eden bir mekan yoktur.
- - [Storie store](mekanların adları) [mantar döner](mekanların adları) [çekirge dürüm](mekanların adları) ve [incir waffle](mekanların adları) makul fiyatlarıyla müşterilerini memnun edebilen yerlerdir.
- - tıpkı [çiçek ızgara](diğer mekanların adları) [lale döner](diğer mekanların adları) ve [masala kebap ve lahmacun salonu](diğer mekanların adları) gibi [Kasr-i nur](restaurant_name) da [ortalama](diğer mekanların müşteri memnuniyeti) müşteri memnuniyetine sahiptir.
- - [enes fırın](diğer mekanların adları) [cookshop](diğer mekanların adları) [lokma kebap](diğer mekanların adları) ve [Şifa restaurant](restaurant_name) mekanları arasındaki uygun fiyatlı tek yer [şifa restaurant](restaurant_name).
- - ümit [döner](cuisine) [gaziantep](city) [merkez](district) döner servis eden bir restorandır.
- - [kebapçı ali](near) yakınlarında [ortalama](rating) bir müşteri memnuniyetine sahip [Beef burger](restaurant_name) [hamburger](cuisine) ve [ızgara ürünler](cuisine) sunmaktadır.
- - [ankara](city) [bahçelievler](district) müşterilerin memnun kaldığı bir [kafeterya ürünleri](cuisine) restoranı bulunmamaktadır.
- - [Kahve diyarı](near) yakınlarında müşterilerin çok memnun olduğu tüm mekanlar [mado](mekanların adları) [ıf performance hall](mekanların adları) [sensus wine-anemon hotels](mekanların adları) ve [homburger](mekanların adları).
- - [dedikodu garden coffee house](diğer mekanların adları) [saglik pide](diğer mekanların adları) ve [fahrettin usta ütülü balaban kebap](diğer mekanların adları) ile kıyaslandığında [ortalama](rating) müşteri memnuniyeti sunan tek işletme [Fıccın](restaurant_name).
- - [kebapçı iskender ve leman kültür](near) yakınlarındaki [Timboo cafe](restaurant_name) müşterilerini çok memnun eden bir mekandır.
- - [ankara](region) [çankaya](region) [tepe prime avm](region) [üniversiteler](region) bölgesinde, müşterilerin çok memnun kaldığı [Hayal kahvesi](restaurant_name) [zemzem çorbacı ve basrioğlu et restaurant](near) yakınlarındadır.
- - [Smiley's](near) yakınlarında hem müşteri memnuniyeti sağlayabilen hem de [ucuz](price) olan bir mekan yoktur.
- - [ankara](city) [balgat](district) [Mendels](near) yakınlarında müşterilerin çok memnun kaldığı mekanlar [ciğerci ahmet](mekanların adları) ve [akkonak restaurant](mekanların adları).
- - [bizim dede'nin yeri](diğer mekanların adları) ve [seç baklava](diğer mekanların adları) aksine [Konak konya mutfağı](restaurant_name) müşterilerine ortalama fiyatlarda lezzetler sunan tek yerdir.
- - [adana](city) [çukurova](district) yer alan [Kolcuoğlu kebap](restaurant_name) müşterilerin çok memnun olduğu bir restorandır.
- - hem çok beğenilen hem de [ucuz](price) fiyatlara sahip [Ali göde şalgamcı](restaurant_name) [adana](city) [seyhan](district).
- - [izmir](city) [alsancak](district) [Nevizade cafe & restaurant](near) yakınlarında müşterilerin çok memnun kaldığı bir restoran yer almamaktadır.
- - [Zaytung zone](mekanların adları) [hayal kahvesi bistro-bursa](mekanların adları) [dost pide pizza-ılica](mekanların adları) ve [sultanyar kebapçısı](mekanların adları) çok beğenilen ve makul fiyatlara sahip mekanlardır.
- - [ünal kardesler katmer salonu](diğer mekanların adları) [huqqa](diğer mekanların adları) [kebapçı iskender yavuz iskenderoğlu](diğer mekanların adları) ve [orkide bahçe](diğer mekanların adları) aksine [Nira gurme](restaurant_name) müşterilerin memnun kaldığı bir işletmedir.
- - [Starbucks](restaurant_name) müşterileri memnun eden bir işletmedir.
- - [sille konak restaurant](near) yakın bir noktada bulunan [Kebapçı necdet](restaurant_name) [düşük](rating) müşteri memnuniyetine sahiptir.
- - [Midpoint](restaurant_name) [timboo cafe](near) komşu bir yerdir.
- - [döner](cuisine) servisi veren [Kebapçı iskender-asmerkez](restaurant_name) [bursa](city) [gemlik](district) bölgesinde [tzatziki meyhane](near) yanındadır.
- - [Starbucks](restaurant_name) [istanbul](city) [bebek](district) hem [kahve ve çay çeşitleri](cuisine) hem de [kafeterya ürünleri](cuisine) bulabileceğiniz bir mekandır.
- - [Saitabat köyü kadınları dayanışma derneği](near) civarında olup da müşterilerin aşırı derecede memnun olduğu kaferterya ürünleri ve [tatlı](cuisine) hizmeti veren bir işletme şu an hizmet vermemektedir.
- - [izmit](city) [merkez](district) [kafeterya ürünleri](cuisine) servisi bulunan [Duble meze bar](near) yakınında bir mekan yoktur.
- - [gaziantep](city) [merkez](district) [ucuz](price) fiyat politikası ile müşterilerini ağırlayan mekanlar [cafe de kedi](mekanların adları) [aşşk kahve](mekanların adları) [patlican](mekanların adları) [cafe botanica](mekanların adları) ve [tarihi çınaraltı aile bahçesi](mekanların adları).
- - [bali bey han](diğer mekanların adları) [kaburgacı cabbar usta](diğer mekanların adları) [lokmahane restaurant](diğer mekanların adları) müşterilerini memnun etmeyi başarırken, [Önder pastanesi](restaurant_name) bu memnuniyetin altında kalmaktadır.
- - [çorbacı ismet usta](diğer mekanların adları) [aylak madam](diğer mekanların adları) [gandi'nin yeri](diğer mekanların adları) [inci pastanesi](diğer mekanların adları) [temel çiğbörek salonu](diğer mekanların adları) daha [ucuz](price) fiyata sahip tek yer [Müslüm kebap](restaurant_name) isimli mekandır.
- - [Güllüoğlu](restaurant_name) müşterilerini memnun eden bir işletmedir.
- - [eskişehir](city) [odunpazarı](district) [abacı konak otel](neighborhood) içinde bulunan [Avlu restaurant](restaurant_name) müşteri memnuniyetini yakalamış durumdadır.
- - [Yeşildağlar et](restaurant_name) [hot fun ve köfteci behçet](near) ile aynı lokasyondadır.
- - [gaziantep](city) [merkez](district) ortalama fiyatları ile hizmet veren [Badem çikolata & cafe](restaurant_name) [tatlı](cuisine) ve [kafeterya ürünleri](cuisine) bulabilirsiniz.
- - [Draft gastro pub](restaurant_name) alkollü içecek servisi bulunan ve [caddebostan](district) [istanbul](city) hizmet veren bir mekandır.
- - [gaziantep](city) [merkez](district) [ucuz](price) fiyatları ve [ortalama](rating) seviyede sunduğu memnuniyetle hizmet eden bir mekan bulunmamaktadır.
- - [zümrütova](district) [antalya](city) [İskender restaurant](near) yakınında fiyatların yüksek olduğu bir mekan yoktur.
- - [kiyi balık](mekanların adları) ve [konya mutfağım premium lounge](mekanların adları) [istanbul](city) [caddebostan](district) müşterileri çokça memnun eden yerlerdir.
- - [Tarihi çınaraltı aile çay bahçesi](restaurant_name) [ucuz](diğer mekanların fiyat aralığı) fiyatlı yemekler sunarken, aynı fiyatlarla hizmet veren işletmeler arasında [havva hanım](diğer mekanların adları) ve [senfoni](diğer mekanların adları) de yer almaktadır.
- - [emmim iskender](diğer mekanların adları) [kandil etliekmek evi](diğer mekanların adları) [kahv6](diğer mekanların adları) ve[tesadüf cafe](diğer mekanların adları) müşteri memnuniyetini yakalamayı başarmış olsa da [Akşam simit fırını](restaurant_name) memnuniyet sıralamasında geride kalmış tek mekandır.
- - [Neşve çay kahve evi](restaurant_name) fiyatları oldukça düşük seviyedir.
- - [ankara](city) [bahçelievler](district) [Varuna gezgin cafe](restaurant_name) verdiği hizmet müşterilerini hoşnut etmektedir.
- - [Leman kültür](restaurant_name) [kafeterya ürünleri](cuisine) bulunan bir yerdir.
- - [kahve diyarı](near) yakınında bulabileceğiz [Zeynel inegöl köftecisi](restaurant_name) [ızgara ürünler](cuisine) ile oldukça sevilen bir yerdir.
- - [La puerta](restaurant_name) fiyatları makul seviyededir ve [the bigos ve tavacı refik](near) yakınındadır.
- - [öveçler](district) [ankara](city) [kebap](cuisine) yiyebileceğiniz ve çok memnun ayrılabileceğiniz bir kebapçı bulamazsınız.
- - [Willy wonder's coffee](near) civarında [ankara](city) [çukurambar](district) [döner](cuisine) [pizza](cuisine) ve [ızgara ürünler](cuisine) yiyemezsiniz.
- - [222 park](mekanların adları) ve [boğazköy restaurant](mekanların adları) beklentinizi en üst düzeyde karşılayacak [karaköy](district) [istanbul](city) mekanlardır.
- - [Tarihi viktor levi şarap evi](restaurant_name) müşteri memnuniyeti [zirve park](diğer mekanların adları) nazaran [düşük](rating).
- - [cino'nun yeri](diğer mekanların adları) [kırım çibörekçisi](diğer mekanların adları) [tatlıcı gönül kardeşler](diğer mekanların adları) ve [kebapçı iskender](diğer mekanların adları) ile kıyaslandığında [Onur işkembe](restaurant_name) fiyatları daha [ucuz](price) ve bu özelliğe sahip tek mekandır.
- - [Demo gastro pub](restaurant_name) [bursa](city) [nilüfer](district) ilçesindedir.
- - müşterilerine memnun edici bir hizmet veren [Mantar döner](restaurant_name) [smileys](near) komşudur.
- - [ucuz](price) fiyatları ile bilinen mekanlardan birisi de [Lara balık restaurant-konyaaltı](restaurant_name).
- - [ankara](city) [balgat](district) ilçesinde [Masabaşı kebapçısı](restaurant_name) bütçeye uygun ucuz servisi ile [mendels](near) yakınındadır.
- - [Hiç hane](restaurant_name) [konya](city) [karatay](district) [macarons d'antoinette](near) yakınındadır.
- - [meram](district) [konya](city) [Mini köşk köfte ve venedik pastanesi](near) yakınlarında verdiği hizmet ile müşterilerini memnun eden bir mekan bulunmamaktadır.
- - [hoşnudiye](district) [eskişehir](city) [Piyazcı ahmet](near) yakınında menüsünde [kafeterya ürünleri](cuisine) bulunduran bir mekan yoktur.
- - [altınkum](district) [antalya](city) müşteri menuniyetini sağlayan işletmeler [tchibo-dolphin avm](mekanların adları) ve [seyir cafe](mekanların adları).
- - [kebapçı ufuk](diğer mekanların adları) [tarihi çınaraltı aile çay bahçesi](diğer mekanların adları) ve [nadda steakhouse](diğer mekanların adları) kıyasla, [Gönül kebap](restaurant_name) fiyatları daha [ucuz](price).
- - [önder pastanesi](diğer mekanların adları) ve [zigana pide](diğer mekanların adları) göre müşteri memnuyetini sağlayamamış tek yer [Şark kadayıfçısı](restaurant_name).
- - [Happy moons](restaurant_name) müşterilerini memnun edebilen bir yemek mekanıdır.
- - [nevizade cafe & restaurant](near) yakınında bulunan [Ot kafe](restaurant_name) müşteri memnuniyetini üst düzeyde sağlayabilen bir yerdir.
- - [meram](district) çamlıbel çay bahçesi & restoran'ın yeri [konya](city) meram'dır.
- - [Quick china](restaurant_name) makul fiyatları ve müşterilerini aşırı derecede memnun eden hizmeti ile [ankara](city) [çayyolu](district).
- - [Kızılkaya restaurant](restaurant_name) [izmit](city) [merkez](district) ve [gurmekan restaurant](near) yanındadır.
- - [ankara](region) [yenimahalle](region) [armada avm](region) [söğütözü](region) [Cengiz hamburger & g3 ve köfteci sofu](near) yakınlarında müşterisini memnun etmeyen bir hizmete sahip mekan yoktur.
- - [eskişehir](city) [hoşnudiye](district) bulunan [Sakıp usta beyran & paça & kebap ve ruhi bey meyhanesi](near) yakınında [kafeterya ürünleri](cuisine) sunan bir mekanı bulamazsınız.
- - [zümrütova](district) [antalya](city) bulunan mekanlardan [neşve çay kahve evi](mekanların adları) [red dragon](mekanların adları) ve [küşleme kebaphan hüseyin usta](mekanların adları) hem [ucuz](price) fiyatları hem de verdikleri hizmet ile müşterilerini memnun edebilmektedir.
- - [chickinn](diğer mekanların adları) [neşve çay kahve evi](diğer mekanların adları) ve [red dragon](diğer mekanların adları) mekanları ile benzer şekilde [Kebap 49](restaurant_name) da müşterilerini memnun edememektedir.
- - [Köfteci yusuf](restaurant_name) [ruhi bey 1949 meyhanesi](diğer mekanların adları) [elizinn patiserrie & restaurant](diğer mekanların adları) [hacı şükrü fırın ve kebap salonu](diğer mekanların adları) ve [peximet](diğer mekanların adları) mekanlarına kıyasla fiyatları çok [ucuz](price) düzeyde olan tek mekandır.
- - [Hacı arif bey restaurant](restaurant_name) [kavaklıdere](district) [ankara](city) bölgesinde bulunan bir mekandır.
- - [Turta home cafe](restaurant_name) [tatlı](cuisine) ve [kafeterya ürünleri](cuisine) müşterilerinin memnuniyetini aşırı derecede kazanmış bir mekandır.
- - [Starbucks](restaurant_name) [kafeterya ürünleri](cuisine) müşterilerine hizmet veren bir mekandır.
- - [merkez](district) [gaziantep](city) bölgesinde bulunan [Doğan dondurma & kadayıf](restaurant_name) düşük fiyatları olan ve müşteri memnuniyetini kazanmış bir mekandır.
- - [kafeterya ürünleri](cuisine) hizmet veren [Tchibo-dolphin avm](restaurant_name) [duble meze bar](near) komşudur.
- - [merkez](district) [antalya](city) bölgesinde [kafeterya ürünleri](cuisine) müşteri memnuniyeti kazanmış bir mekan bulunmamaktadır.
- - [](region) center avm](region) [üniversiteler](region) [çankaya](region) [ankara](region) bölgesinde [Damak ve gölyazı gönül sofrası](near) yakınında bulunan hem [italyan mutfağı](cuisine) hem de [pizza](cuisine) hizmeti sunan bir mekan yoktur.
- - [hoşnudiye](district) [eskişehir](city) bölgesinde [Soulmate coffee](near) isimli mekanın yakınında bulunan [kahve diyarı](mekanların adları) ve [paşa kebap-kemer](mekanların adları) müşterilerin çok memnun kaldığı mekanlardandır.
- - [Felicia pizza](restaurant_name) olarak bilinen mekanın fiyatları [midyeli](diğer mekanların adları) ve [bursa kebapçısı](diğer mekanların adları) gibi makuldur.
- - [Sufi kebap](restaurant_name) [cookshop](diğer mekanların adları) [lokma kebap](diğer mekanların adları) [yeşil kapı kebapçısı](diğer mekanların adları) [şifa restaurant](diğer mekanların adları) ve [onbaşılar kebap](diğer mekanların adları) isimli yemek mekanlarına kıyasla müşterilerin memnun kalamadığı tek yerdir.
- - [gaziantep](city) [merkez](district) bulunan [Ünal et fırınlı lokantası](restaurant_name) müşteriyi memnun eden bir mekandır.
- - [Onur kebap](restaurant_name) mekanı ortalama fiyatlara sahiptir.
- - [Kırıntı](restaurant_name) [pahalı](price) [dünya mutfağı yemekleri](cuisine) hizmetiyle [yüksek](rating) müşteri memnuniyetine sahip bir mekandır.
- - [karaköy](district) [istanbul](city) bulunan [Tarihi çınaraltı aile bahçesi ve ot kafe](near) yakınında müşteri memnuniyetinin [yüksek](rating) olduğu bir mekan yoktur.
- - [gaziantep](city) [şehitkamil](district) [Boutique & caffe de luca](near) yakınında, fiyat aralığı makul olan bir yemek mekanı yoktur.
- - [Cafe cosecha ve havelka](near) mekanlarına komşu, makul yemek fiyatlarıyla müşteri memnuniyeti sağlamış mekanlar [kebapçı iskender-asmerkez](mekanların adları) [moc istanbul](mekanların adları) [01 adana sofrasi](mekanların adları) ve [bayazhan restaurant](mekanların adları).
- - [Düveroğlu](restaurant_name) [badem çikolata & cafe](diğer mekanların adları) [kyoto japon parkı](diğer mekanların adları) [meşhur adıyaman çiğköftecisi ömer aybak](diğer mekanların adları) mekanları arasında fiyat aralığı ortalama olan tek mekandır.
- - [Cafe reci's](restaurant_name) müşteri memnuniyeti [yüksek](rating) olan bir yemek mekanıdır.
- - [ankara](city) [öveçler](district) ilçesinde bulunan [Dayının yeri adanalı şahin usta](restaurant_name) [yüksek](rating) müşteri memnuniyetine sahip bir mekandır.
- - [istanbul](city) [karaköy](district) [midpoint](near) yakınındaki [Karaköy lokantası](restaurant_name) müşteri memnuniyeti [yüksek](rating) bir mekandır.
- - [ankara](city) [çukurambar](district) [willy wonder's coffee](near) yakınında, [Evin döner](restaurant_name) adında bir yemek mekanı bulunmaktadır.
- - [Tatlıcı köse](near) yakınında [börek](cuisine) hizmetiyle müşteri memnuniyeti kazanmış bir mekan yoktur.
- - [bornova](district) [izmir](city) [Dere bahçe restaurant](near) yakınlarında bulunan [baklavacı zenka](mekanların adları) [caribou coffee](mekanların adları) [pizano pizzeria](mekanların adları) [zemzem çorbacı](mekanların adları) [ayrık otu](mekanların adları) fiyat aralığı ortalama olan mekanlardır.
- - [Fıstıkzade baklava](restaurant_name) ortlama fiyat aralığına sahipken; [sky bar](diğer mekanların adları) [yelken balık evi](diğer mekanların adları) ve [nasreddin restaurant](diğer mekanların adları) ondan daha [ucuz](diğer mekanların fiyat aralığı) olan yemek mekanlarıdır.
- - [Palmiye cafe & bistro](restaurant_name) [onur kebap](diğer mekanların adları) [venedik pastanesi](diğer mekanların adları) [mangerie](diğer mekanların adları) [robert's coffee](diğer mekanların adları) ve [kling usta](diğer mekanların adları) ile kıyaslandığında müşteri memnuniyeti kazanmış tek mekandır.
- - [meram](district) [konya](city) bulunan [Gazyağcı furun kebabı 1891](restaurant_name) [mini köşk köfte ve venedik pastanesi](near) yakınında bulunan bir mekandır.
- - [Köfteci yusuf](restaurant_name) [ızgara ürünler](cuisine) satan bir yemek mekanıdır.
- - [antalya](city) [altınkum](district) ilçesinde yer alan [Nasreddin restaurant](restaurant_name) [burger house](near) yakınında bulunan [kebap](cuisine) ve [pizza](cuisine) ile müşterilerine hizmet veren bir mekandır.
- - [meram](district) [konya](city) müşteri memnuniyeti [ortalama](rating) olan fiyatları [ucuz](price) bir mekan yoktur.
- - [izmit](city) [merkez](district) [Hasanusta kebap ve kocatepe kahve evi](near) yakınında, makul fiyat aralığına sahip olan bir yemek mekanı yoktur.
- - [adana](city) [seyhan](district) ilçesinde [Fucina ve üstkat](near) yakınında bulunan [karadeniz döner](mekanların adları) [düveroğlu](mekanların adları) [sirena](mekanların adları) [melike döner restoran](mekanların adları) ve [şelale park restaurant cafe](mekanların adları) müşteri memnuniyeti kazanmış mekanlardır.
- - [Serkan et & mangal](restaurant_name) [katmerci murat](diğer mekanların adları) [cafe kristo](diğer mekanların adları) [uzay pastanesi](diğer mekanların adları) [bigchefs](diğer mekanların adları) arasında fiyat aralığı makul olan tek mekandır.
- - [Kosova köftecisi](restaurant_name) müşteri memnuniyetinin olduğu bir yemek mekanıdır.
- - [armada avm](region) [söğütözü](region) [yenimahalle](region) [ankara](region) bölgesinde yer alan [Welldone by midpoint](restaurant_name) [cengiz hamburger & g3 ve köfteci sofu](near) mekanlarının yakınında yer almaktadır.
- - [zümrütova](district) [antalya](city) [gaga restaurant](near) yakınında bulunan [Fucina](restaurant_name) müşteri memnuniyeti [ortalama](rating) olan bir mekandır.
- - [kafeterya ürünleri](cuisine) yenilebilecek olan [Olympos](restaurant_name) yemek mekanının yakınında, [sakıp usta beyran & paça & kebap ve ruhi bey meyhanesi](near) yer almaktadır.
- - [Venedik pastanesi](near) yakınında [ucuz](price) ürünleriyle müşteri memnuniyetini çokça kazanmış bir mekan bulunmamaktadır.
- - [Meşhur tavacı recep usta](near) yakınlarında bulunan [keyf-i ıkram](mekanların adları) [seyr-ü sefa çay bahçesi](mekanların adları) [shakespeare bistro coffee](mekanların adları) [özsar](mekanların adları) [kırkayak gaziantepevi](mekanların adları) müşteri memnuniyeti [ortalama](rating) olan mekanlardır.
- - ortalama fiyat aralığına sahip olan [nereid meyhanesi](diğer mekanların adları) aksine, [Tahta masa](restaurant_name) mekanının fiyat aralığı [ucuz](price).
- - [Ünal et fırınlı lokantası](restaurant_name) [tchibo-dolphin avm](diğer mekanların adları) [seyir cafe](diğer mekanların adları) ve [abişoğlu pastaneleri](diğer mekanların adları) ile kıyaslandığında müşteri memnuniyetini kazanmış tek mekandır.
- - müşterilerine [kafeterya ürünleri](cuisine) sunan [Shakespeare coffee & bistro](restaurant_name) müşteri memnuniyetini kazanmıştır.
- - [hoşnudiye](district) [eskişehir](city) bulunan [Dublin cafe & ırish pub](restaurant_name) müşterilerin çok memnun kaldığı ve fiyatların da makul olduğu bir mekandır.
- - [gaziantep](city) [şahinbey](district) müşterilerin [pizza](cuisine) yiyebileceği ve memnun ayrılabileceği bir mekan yoktur.
- - [jardin chef](mekanların adları) [kiyi balık](mekanların adları) [konya mutfağım premium lounge](mekanların adları) [red burger house](mekanların adları) ve [katık döner](mekanların adları) [istanbul](city) [moda](district) bulunan müşteri memnuniyetinin çok iyi olduğu yerlerdir.
- - [Kahveci hacıbaba](restaurant_name) [big chefs](diğer mekanların adları) [kadir usta kebap ve lahmacun](diğer mekanların adları) mekanları içinden makul fiyatlara sadece [kahveci hacıbaba](restaurant_name) rastlayabilirsiniz.
- - pim [karaköy](district) [istanbul](city) karaköy bölgesinde ve [tarihi çınaraltı aile bahçesi ve ot kafe](near) adlı mekanlarının yakınında bulunmaktadır.
- - [Castle cafe & bistro](restaurant_name) [ortalama](rating) müşteri memnuniyetine sahip olup [cafe cosecha ve havelka](near) yakınlarında makul fiyat aralığında müşterilerine hizmet vermektedir.
- - [konya](city) [selçuklu](district) bölgesinde [kebap](cuisine) satışı yapan ve [ortalama](rating) müşteri memnuniyetine sahip bir mekan yoktur.
- - [adana](city) [yüreğir](district) bölgesinde [ortalama](rating) müşteri memnuniyetine sahip mekanların arasında [numnum](mekanların adları) [virginia angus](mekanların adları) [kahve dünyasi espark](mekanların adları) [zeynel inegöl köftecisi](mekanların adları) ve [koçak baklava salonu](mekanların adları) yer almaktadır.
- - [Hacı arif bey restaurant](restaurant_name) [şendağlı](diğer mekanların adları) [börekçiğ](diğer mekanların adları) [dede restaurant](diğer mekanların adları) içinde müşteri memnuniyeti [düşük](rating) olan sadece hacı arif bey restaurant' tır.
- - [River cafe](restaurant_name) [eskişehir](city) [tepebaşı](district).
- - [Kafe kedi](restaurant_name) [izmit](city) [merkez](district).
- - [kaburgacı yaşar usta](near) yakınlarında bulunan [Ekrem coşkun et döner](restaurant_name) [selçuklu](district) [konya](city).
- - [konak pier avm](district) [izmir](city) fiyatların makul düzeyde olduğu, [İstanbul pastanesi ve nira gurme](near) yakın olan bir yer yoktur.
- - [Akali](restaurant_name) de [sensus wine-anemon hotels](diğer mekanların adları) gibi müşteri memnuniyetinin [ortalama](diğer mekanların müşteri memnuniyeti) olduğu yerlerdendir.
- - [Yener usta'nın yeri ciğer kebap](restaurant_name) mekanı [ortalama](rating) müşteri memnuniyetine sahiptir.
- - burger king-[izmit](city) outlet center isimli yemek mekanı, izmit [merkez](district) bulunmaktadır.
- - [Konyalı lezzet ustası](restaurant_name) isimli mekan, [izmit](city) [merkez](district) bulunup [hasanusta kebap ve kocatepe kahve evi](near) yakınındadır.
- - [izmit](city) [merkez](district) [Odunpazarı serbet evi](near) yakınında [türk yemekleri](cuisine) mutfağı servisi bulunan bir mekan yoktur.
- - [Güllüoğlu-nejat güllü](restaurant_name) mekanında fiyatlar ortalama iken [sakız restaurant](diğer mekanların adları) [e mirella cafe](diğer mekanların adları) ve [mezze terrace](diğer mekanların adları) yemekler daha [ucuz](diğer mekanların fiyat aralığı) yenebilir.
- - [kadir usta kebap ve lahmacun](diğer mekanların adları) [yüce hünkar cafe](diğer mekanların adları) [kahveci hacıbaba](diğer mekanların adları) [şehzade kebap ve lahmacun](diğer mekanların adları) gibi mekanlara nazaran [Kiyi balık](restaurant_name) müşteri memnuniyetinin [düşük](rating) olduğu tek yerdir.
- - [venedik pastanesi](near) yakınlarında bulunan [Pasto](restaurant_name) müşterilerin memnun kaldığı yerlerden biridir.
- - [Asya lahmacun](restaurant_name) [pizza](cuisine) [kebap](cuisine) ve [döner](cuisine) türündeki yemekleriyle müşterileri memnun bırakan ve [meşhur tavacı recep usta](near) yakınlarında bulunan bir mekandır.
- - [istanbul](city) [anadolu hisarı merkez](district) müşterilerini aşırı memnun bırakan, [deniz mahsülleri](cuisine) ve [dünya mutfağı yemekleri](cuisine) sunan bir mekan bulunmamaktadır.
- - müşterilerin çok memnun kaldığı, fiyatlarının makul oranlarda olduğu ve [istanbul](city) [kadıköy merkez](district) bulunan mekanlar; [mama craft](mekanların adları) [livadi](mekanların adları) ve [noel baba cafe](mekanların adları).
- - [Kebapçı necdet](restaurant_name) [asya lahmacun](diğer mekanların adları) [arpege patisserie](diğer mekanların adları) [bravo patisserie](diğer mekanların adları) [mevlevi sofrası](diğer mekanların adları) mekanları arasında ortalama fiyatlara sahip mekan sadece [kebapçı necdet](restaurant_name).
+ - [Shakespeare coffee & bistro](restaurant_name), bünyesinde [kafeterya ürünleri](cuisine)ni bulunduran, [antalya](city) [merkez](district)'de müşteri memnuniyetini kazanmış bir mekandır.
+ - [Varuna cafe del mundo](restaurant_name), [eskişehir](city)in [eskibağlar](district) bölgesinde yer alan [kafeterya ürünleri](cuisine) satan yerlerden biridir.
+ - [eskişehir](city)'in [hoşnudiye](district) bölgesinde yer alan, müşteri memnuniyetinin [yüksek](rating) olduğu ve fiyatlarının makul olduğu mekanlardan olan [dublin cafe & ırish pub](restaurant_name), [Soulmate coffee](near)'nin yakınında yer almaktadır.
+ - [](region)[bilkent center avm](region), [üniversiteler](region), [çankaya](region), [ankara](region) konumuna sahip olan [[pizza](cuisine) il forno](restaurant_name) adlı mekan; pizza ve [italyan mutfağı](cuisine)ndan lezzetler sunmaktadır ve [Damak ve gölyazı gönül sofrası](near)'nın yakınında yer almaktadır.
+ - Fiyatları makul ve müşteri memnuniyetinin [yüksek](rating) olduğu tek mekan [The bigos](restaurant_name)'tur.
+ - [Dürümcü recep usta](restaurant_name), [gaziantep](city) [şahinbey](district)'deki [pizza](cuisine) yenilebilecek tek mekandır.
+ - [ankara](city) [emek](district)'te müşteri memnuniyetinin [yüksek](rating) olduğu mekan bulunmamaktadır.
+ - [moda](district), [istanbul](city)'da [tatlı](cuisine) sunan bir mekan bulunmamaktadır.
+ - [izmit](city) [merkez](district)'de [ortalama](rating) müşteri memnuniyetine sahip [ızgara ürünler](cuisine) ve [deniz mahsülleri](cuisine) sunan mekanlar nelerdir?
+ - Çeşitli [kafeterya ürünleri](cuisine)nin bulunduğu [Galata konak cafe](restaurant_name), müşterilerinin oldukça memnun olduğu mekanlardandır.
+ - [karaköy](district), [istanbul](city) konumunda müşteri memnuniyetinin [yüksek](rating) olduğu mekanlardan biri olan [pim karaköy](restaurant_name), [Tarihi çınaraltı aile bahçesi ve ot kafe](near)'nin yakınında bulunmaktadır.
+ - [eskişehir](city)'in [istiklal](district) bölgesinde yer alan [doyuran kahvaltı salonu](restaurant_name), [Big baker](near) yakınındadır.
+ - [Cafe cosecha ve havelka](near) yakınındaki [castle cafe & bistro](restaurant_name), [antalya](city)'nın [muratpaşa](district) bölgesinde bulunan fiyatların makul ve müşterilerin memnun olduğu mekanlardandır.
+ - [şehitkamil](district) [gaziantep](city)'te fiyatlarının makul olduğu mekanlardan biri olan [ciğerci ali haydar usta](restaurant_name), [Boutique & caffe de luca](near)'nın civarında bulunmaktadır.
+ - [Nevale by elemeği](restaurant_name), [bursa](city) [ataevler](district)'de yer alıp müşterilerin memnun olduğu tek mekandır.
+ - [konya](city)'nın [selçuklu](district) bölgesinde yer alan [Urfa sofrası](restaurant_name), [kebap](cuisine) ürünleri sunan tek mekan olma özelliği taşımaktadır.
+ - [yüreğir](district), [adana](city)'da yer alıp, [kebap](cuisine) ve [türk yemekleri](cuisine) sunan ortalama fiyatlı bir mekan bulunmamaktadır.
+ - [selçuklu](district) [konya](city)'da [kebap](cuisine) ürünleri sunan müşterilerin çokça memnun olduğu mekanlar hangileridir?
+ - [tepebaşı](district) [eskişehir](city)'de bulunan [River cafe](restaurant_name), müşterilerin memnun olduğu mekanlardan biridir.
+ - [Tatlıcı köse](near)'nin yakınında bulunan [has kırım çiğ [börek](cuisine)çisi](restaurant_name), sunduğu börekler ile müşterilerini memnun eden mekanlar arasındadır.
+ - [izmit](city)'in [merkez](district) bölgesinde yer alan mekanlardan biri olan [kafe kedi](restaurant_name), [Tuzla balıkçısı ve carmelo's every 7 day eat well](near) yakınında bulunmaktadır.
+ - [bornova](district), [izmir](city)'de hem fiyat aralığının makul hem müşteri memnuniyetinin [yüksek](rating) olduğu mekanlardan biri olan [starbucks](restaurant_name), [Dere bahçe restaurant](near) yakınındadır.
+ - [selçuklu](district), [konya](city)'da çeşitli [döner](cuisine) lezzetleri sunan [ekrem coşkun et döner](restaurant_name), [Kaburgacı yaşar usta](near) civarındadır.
+ - [Atmosfer pide ve kebap salonu](restaurant_name), alternatifler arasında, fiyatların [ucuz](price) ve müşterilerin memnun olduğu tek mekandır.
+ - [Newcastle pub](restaurant_name), [eskişehir](city)'in [tepebaşı](district) bölgesindeki tek yer olma özelliğini taşımaktadır.
+ - [alsancak](district) [izmir](city)'de müşteri memnuniyeti [yüksek](rating) olan bir yemek mekanı bulunmamaktadır.
+ - [konya](city)'nın [meram](district) bölgesinde, [et çeşitleri](cuisine) sunan bir yemek mekanı bulunmamaktadır.
+ - [konak pier avm](district), [izmir](city)'de makul fiyatlı fakat müşterilerin memnun olmadığı bir mekan var mı?
+ - Müşteri memnuniyetini sağlayabilen mekanlardan biri olan [Yener usta'nın yeri ciğer kebap](restaurant_name), [gaziantep](city)'in [şahinbey](district) bölgesinde yer almaktadır.
+ - [meram](district), [konya](city)'da bulunan [Şark kadayıfçısı](restaurant_name), fiyatların [ucuz](price) ve müşterilerin memnun kaldığı mekanlar arasındadır.
+ - Çeşitli [hamburger](cuisine) lezzetlerini barındıran burger king-[izmit](city) outlet center, izmit'in [merkez](district) bölgesinde yer almaktadır.
+ - [Fucina ve üstkat](near) yakınında bulunan [paşalimanı bistro & lounge](restaurant_name), [adana](city)'nın [seyhan](district) bölgesinde bulunan fiyatların [ucuz](price) ve müşterilerinin memnun kaldığı mekanlardan biridir.
+ - [Hasanusta kebap ve kocatepe kahve evi](near) mekanlarına yakın olan [konyalı lezzet ustası](restaurant_name), [izmit](city)'in [merkez](district) bölgesindeki makul fiyatlı mekanlardan biridir.
+ - [Robert's coffee](restaurant_name), çeşitli [kafeterya ürünleri](cuisine) sunan ve müşterilerin memnun kaldığı tek mekan olma özelliğini taşır.
+ - [bursa](city)'nın [ihsaniye](district) bölgesinde yer alan [Tesadüf cafe](restaurant_name), fiyat aralığının [ucuz](price) olduğu tek mekan olma özelliğini taşımaktadır.
+ - [hoşnudiye](district), [eskişehir](city) bölgesinde fiyatların [ucuz](price) müşterilerin [yüksek](rating) oranda memnun kaldığı bir yemek mekanı bulunmamaktadır.
+ - [adana](city)'nın [seyhan](district) bölgesinde, çeşitli [tatlı](cuisine) ürünleri sunan bir mekan bulunmamaktadır.
+ - [izmit](city)'in [merkez](district) bölgesinde, [türk yemekleri](cuisine)nin bulunduğu ve müşterilerin memnun kaldığı bir mekan var mıdır?
+ - [Tostçu mehmet](restaurant_name), hem fiyatların [ucuz](price) hem müşterilerin memnun kaldığı mekanlardandır.
+ - [ucuz](price) fiyatlı olmasının yanı sıra müşterilerinin çok memnun kaldığı olan [pasto](restaurant_name), [Venedik pastanesi](near) mekanına komşudur.
+ - [Kaburgacı cabbar usta](near)'ya komşu olan [seyr-ü sefa çay bahçesi](restaurant_name), müşterilerine [kafeterya ürünleri](cuisine), [kahve ve çay çeşitleri](cuisine) sunmaktadır.
+ - Müşterilerinin memnun kaldığı çeşitli [pizza](cuisine), [kebap](cuisine) ve [döner](cuisine) ürünlerine sahip ve [ucuz](price) fiyatlı mekanlardan biri olan [asya lahmacun](restaurant_name), [Meşhur tavacı recep usta](near)'ya komşudur.
+ - [karaköy](district), [istanbul](city)'un uygun fiyatlı mekanlarından olan [Karabatak karaköy](restaurant_name), çeşitli [kafeterya ürünleri](cuisine) sunmaktadır.
+ - [arasta park avm](region), [yahyakaptan](region), [kocaeli](region), [izmit](region) konumlu [Köfteci ramiz](restaurant_name), müşterilerinin memnun olduğu tek mekandır.
+ - [istanbul](city)'un [anadolu hisarı merkez](district) bölgesinde yer alan [Lacivert restaurant](restaurant_name), bu bölgede [deniz mahsülleri](cuisine) ve [dünya mutfağı yemekleri](cuisine) sunan tek mekandır.
+ - [istanbul](city), [kadıköy merkez](district) bölgesinde ortalama fiyatlı bir mekan bulunmamaktadır.
+ - [konya](city)'nın [selçuklu](district) bölgesinde, [japon yemekleri](cuisine) ve [asya mutfağı yemekleri](cuisine)nin olduğu, hem [ucuz](price) hem müşterilerin çok memnun kaldığı bir mekan var mıdır ?
+ - Fiyat aralığı ortalama olan [The bigos](restaurant_name) adlı mekandaki müşteri memnuniyeti [yüksek](rating)tir.
+ - [gaziantep](city), [şahinbey](district) bölgesindeki [Dürümcü recep usta](restaurant_name) adlı mekanda [pizza](cuisine) yapılmaktadır ve müşteri memnuniyeti [ortalama](rating)dır.
+ - [ankara](city), [emek](district) bölgesindeki [çukurağa sofrası](restaurant_name), [Nira gurme](near) adlı mekanın yakınında bulunmaktadır.
+ - [istanbul](city), [moda](district)'da bulunan [tatlı](cuisine) mekanlarından biri olan [çikolata dükkanı](restaurant_name), [Tapas papas](near) adlı mekanın yakınında bulunmaktadır ve müşteri memnuniyeti [yüksek](rating)tir.
+ - [ızgara ürünler](cuisine)i ve [deniz mahsülleri](cuisine) bulunan mekan [romano cafe restaurant](restaurant_name), [izmit](city) [merkez](district)de bulunmaktadır ve [Robert's coffee](near) adlı mekanın yakınındadır.
+ - [Zaytung zone](restaurant_name) adlı mekan müşteri memnuniyeti [ortalama](rating) ve fiyat aralığı makul olan tek mekandır.
+ - [Acıktım kafedeyiz](restaurant_name) adlı mekan fiyat aralığı [ucuz](price) olan tek mekandır.
+ - [eskişehir](city) [hoşnudiye](district) bölgesinde müşteri memnuniyeti [düşük](rating) olarak belirtilen bir mekan bulunmamaktadır.
+ - [gaziantep](city) [şehitkamil](district) bölgesinde [kebap](cuisine) ve [türk yemekleri](cuisine) mutfağına sahip bir mekan bulunmamaktadır.
+ - [Nevale by elemeği](restaurant_name) adlı mekanda müşteri memnuniyeti [ortalama](rating)dır ve mekan [bursa](city) [ataevler](district) bölgesinde bulunmaktadır.
+ - [konya](city) [selçuklu](district) bölgesinde [kebap](cuisine) yiyebileceğiniz bir mekan olan [Urfa sofrası](restaurant_name) adlı yerde müşteri memnuniyeti [ortalama](rating)dır.
+ - [kafeterya ürünleri](cuisine) bulunan mekan [caffe italyan](restaurant_name), [Miko garden](near) adlı mekanın yakınında bulunmaktadır.
+ - [adana](city) [yüreğir](district) bölgesinde [kebap](cuisine) ve [türk yemekleri](cuisine) bulunan [Kaburgacı cabbar usta](restaurant_name) adlı mekanda müşteri memnuniyeti [ortalama](rating)dır ve fiyat aralığı ortalama düzeyindedir.
+ - [konya](city) [selçuklu](district) bölgesinde [kebap](cuisine) bulunan bir mekan olan [hacı şükrü fırın ve kebap salonu](restaurant_name) adlı mekan, [Starbucks](near)'ın yakınında bulunmaktadır.
+ - [Big chefs](restaurant_name), [izmir](city) [mavişehir](district) bölgesinde müşteri memnuniyeti [ortalama](rating) olan tek mekandır.
+ - [Doping bar](restaurant_name) adlı mekan [izmit](city) [merkez](district)'de bulunan tek mekandır.
+ - [adana](city) [seyhan](district) bölgesinde müşteri memnuniyeti [yüksek](rating) ve fiyat aralığı ortalama olan bir mekan bulunmamaktadır.
+ - [adana](city) [çukurova](district) bölgesinde fiyat aralığı [ucuz](price) kategorisinde bir mekan bulunmamaktadır.
+ - [izmit](city) [merkez](district)'de müşteri memnuniyeti [ortalama](rating) olan ve fiyat aralığı makul olan mekanlar hangileridir?
+ - [Atmosfer pide ve kebap salonu](restaurant_name) adlı mekanda fiyat aralığı [ucuz](price)dur ve müşteri memnuniyeti [ortalama](rating)dır.
+ - [eskişehir](city) [tepebaşı](district) bölgesinde bulunan [newcastle pub](restaurant_name) adlı mekan, [Çeşme bazlama kahvaltı](near) adlı mekanın yakınındadır ve müşteri memnuniyeti [ortalama](rating)dır.
+ - [münire](restaurant_name) adlı mekan, [Livadi](near) adlı mekanın yakınındadır ve [izmir](city)'in [alsancak](district) bölgesindedir.
+ - [konya](city) [meram](district) bölgesinde [Özsüt](near) adlı mekanın yakınında bulunan [vav et steakhouse & kasap](restaurant_name) adlı mekanda [et çeşitleri](cuisine) bulunmaktadır ve müşteri memnuniyeti [ortalama](rating)dır.
+ - [izmir](city) [konak pier avm](district) bölgesinde bulunan [%100 rest cafe & more](restaurant_name) adlı mekan, [İstanbul pastanesi ve nira gurme](near) adlı mekanın yakınında bulunmaktadır ve fiyat aralığı ortalamadır.
+ - [Masabaşı](restaurant_name) adlı mekan [kebap](cuisine) ile [pizza](cuisine) sunan ve müşteri memnuniyeti [yüksek](rating) olan tek mekandır.
+ - [Köseoğlu ekmek & pide & kahvaltı](restaurant_name) adlı mekan, heme [fırın ürünleri](cuisine), hem [pizza](cuisine) hem de [türk yemekleri](cuisine) bulunan tek mekandır.
+ - [izmit](city) [merkez](district) bölgesinde müşteri memnuniyeti [ortalama](rating) olan bir mekan bulunmamaktadır.
+ - [bursa](city) [orhangazi](district) bölgesinde [kebap](cuisine) pişiren bir mekan bulunmamaktadır.
+ - [bursa](city) [mudanya yolu](district) bölgesinde [deniz mahsülleri](cuisine) bulunan ve müşteri memnuniyeti [ortalama](rating) olan mekanlar hangileridir?
+ - [Robert's coffee](restaurant_name) adlı mekan [kafeterya ürünleri](cuisine) sunmaktadır ve müşteri memnuniyeti [ortalama](rating)dır.
+ - [bursa](city) [ihsaniye](district) bölgesinde bulunan [Tesadüf cafe](restaurant_name) adlı mekanda müşteri memnuniyeti [ortalama](rating)dır ve fiyat aralığı [ucuz](price)dur.
+ - [eskişehir](city) [hoşnudiye](district) bölgesinde bulunan [Varuna gezgin cafe del mundo](restaurant_name) adlı mekanda fiyat aralığı [ucuz](price)dur.
+ - [adana](city) [seyhan](district) bölgesinde [tatlı](cuisine) servisi yapılan mekan [tatlıcı köse](restaurant_name), [Via pub ve döner express](near) adlı mekanların yakınında bulunmaktadır ve müşteri memnuniyeti [ortalama](rating)dır.
+ - [izmit](city) [merkez](district)'de bulunan [mini köşk köfte](restaurant_name) adlı mekan, [Odunpazarı serbet evi](near) adlı mekanın yakınında bulunmaktadır ve [türk yemekleri](cuisine) servis edilmektedir.
+ - [Cafe kristo](restaurant_name) adlı mekan [kahve ve çay çeşitleri](cuisine) servis eden ve müşteri memnuniyeti [ortalama](rating) olan tek mekandır.
+ - [istanbul](city) [küçükbakkalköy](district) bölgesindeki tek yemek mekanı [Tatar salim döner lokantası](restaurant_name) adlı tek mekandır.
+ - [ankara](city) [dikmen](district) bölgesinde fiyat aralığı makul olan bir yemek mekanı bulunmamaktadır.
+ - [istanbul](city) [çengelköy merkez](district) bölgesinde [kafeterya ürünleri](cuisine) servis edilen ve müşteri memnuniyeti [yüksek](rating) olan yemek mekanları hangileridir?
+ - [kocaeli](region) ilinin [izmit](region) ilçesinin [yahyakaptan](region) mahallesinde bulunan [arasta park avm](region)'de yer alan [Köfteci ramiz](restaurant_name) adlı mekanda müşteri memnuniyeti [ortalama](rating)dır.
+ - [istanbul](city) [anadolu hisarı merkez](district) bölgesinde bulunan [Lacivert restaurant](restaurant_name) adlı mekanda [deniz mahsülleri](cuisine) ve [dünya mutfağı yemekleri](cuisine) servis edilmektedir ve müşteri memnuniyeti [yüksek](rating)tir.
+ - [Filizler köftecisi](near) adlı mekanın yakınında bulunan [mavro restoran](restaurant_name) adlı mekanda [kafeterya ürünleri](cuisine) servis edilmektedir.
+ - [istanbul](city) [kadıköy merkez](district) bölgesinde bulunan [Acıoğlu lokantası](near) adlı mekanın yakınında yer alan [cadıköy](restaurant_name)'de müşteri memnuniyeti [yüksek](rating)tir ve fiyat aralığı ortalamadır.
+ - [konya](city) [selçuklu](district) bölgesinde yer alan [Kyoto japon parkı](restaurant_name) adlı mekanda [japon yemekleri](cuisine) ve [asya mutfağı yemekleri](cuisine) servis edilmektedir ve fiyat aralığı [ucuz](price)dur.
+ - [antalya](city) [kaş](district) bölgesinde müşteri memnuniyeti [ortalama](rating) olan tek mekan [Sako restaurant](restaurant_name)'tır.
+ - [Ege balık](restaurant_name), [deniz mahsülleri](cuisine) servis edilen tek mekandır.
+ - [izmir](city) [güzelbahçe](district) bölgesinde [deniz mahsülleri](cuisine) ve [hazır yiyecekler](cuisine) servis eden bir yemek mekanı bulunmamaktadır.
+ - [eskişehir](city) [merkez](district)'de müşteri memnuniyeti yüksek ve fiyat aralığı [ucuz](price) olan [döner](cuisine) servis edilen mekanlar hangileridir?
+ - [Zaytung zone](restaurant_name), makul fiyatları ile müşterilerin memnuniyetini kazanmış bir yerdir.
+ - [Güllüoğlu](near) mekanına komşu [acıktım kafedeyiz](restaurant_name), düşük fiyatlarıyla [yüksek](rating) müşteri memnuniyetine sahip bir yerdir.
+ - [hoşnudiye](district), [eskişehir](city)de bulunan [all freed](restaurant_name), [Kırçiçeği](near) mekanının yakınındadır.
+ - [şehitkamil](district), [gaziantep](city)'te [Hd döner](near)'e komşu olan [acıoğlu lokantası](restaurant_name), [kebap](cuisine) ve [türk yemekleri](cuisine) ile müşterilerin memnuniyetini kazanmış bir yerdir.
+ - [E mirella cafe](near) yakınında bulunan [eleos restaurant](restaurant_name) [pahalı](price) ve [yunan yemekleri](cuisine), [deniz mahsülleri](cuisine) ve alkollü içeçek servisi yapan bir yerdir.
+ - [Varuna gezgin kantin](restaurant_name) mekanı [tepebaşı](district), [eskişehir](city)'de müşterilerin memnuniyetini kazanmış tek yerdir.
+ - [Kahveci seddar bey](restaurant_name) [şahinbey](district), [gaziantep](city)'te [kafeterya ürünleri](cuisine) satan tek mekandır.
+ - [konak pier avm](district), [izmir](city)'de müşteri memnuniyeti [yüksek](rating) olan bir yer bulamazsınız.
+ - [izmit](city)'in [merkez](district) bölgesinde ortalama fiyatlı bir yer yoktur.
+ - [tarabya merkez](district), [istanbul](city)'da [pahalı](price) fakat lezzeti ile müşterileri çokça memnun eden ve [dünya mutfağı yemekleri](cuisine) sunan yerler nereleridir?
+ - [mavişehir](district), [izmir](city)'de bulunan [Big chefs](restaurant_name) müşterilerinin memnuniyetini kazanmış bir yerdir.
+ - [izmit](city)'in [merkez](district)inde [City house burger](near)'a komşu olan [doping bar](restaurant_name) müşterilerinin memnuniyetini kazanmış bir yerdir.
+ - Makul fiyatlara sahip olan [Ciğerci mahmut](restaurant_name) [adana](city)'nın [seyhan](district) ilçesindedir.
+ - [çukurova](district), [adana](city)'da bulunan, [Arka sokak ve esperanto cafe](near) mekanlarına komşu olan [dilber cafe](restaurant_name) hem [ucuz](price) hem de müşterilerinin memnuniyetini kazanmış bir yerdir.
+ - [izmit](city)'in [merkez](district)inde [Özler lezzet pazarı ve mükellef](near) mekanlarına komşu olan [marvel coffee](restaurant_name) makul fiyatlara sahiptir.
+ - [Vogue](restaurant_name), [akdeniz yemekleri](cuisine), [suşi](cuisine), [deniz mahsülleri](cuisine), [dünya mutfağı yemekleri](cuisine) ile müşteri memnuniyeti [yüksek](rating) tek yerdir.
+ - [Burger king-real avm](restaurant_name), [hamburger](cuisine) servisi yapan tek mekandır.
+ - [kavaklıdere](district), [ankara](city)'da ortalama fiyatlara sahip bir yer yoktur.
+ - [izmit](city)'in [merkez](district)inde [ortalama](rating) fiyatlı [kafeterya ürünleri](cuisine) satan bir yer var mıdır?
+ - [kebap](cuisine) ve [pizza](cuisine) olanağı sunan [Masabaşı](restaurant_name) müşterilerini oldukça memnun etmektedir.
+ - [Willy wonder's coffee](near) yakınlarında [fırın ürünleri](cuisine), [pizza](cuisine) ve [türk yemekleri](cuisine) hizmeti sunan [köseoğlu ekmek & pide & kahvaltı](restaurant_name) müşterileri buradan memnundur.
+ - [merkez](district), [izmit](city)'te bulunan [hoşgör](restaurant_name), [Yörük aile evi](near) yakınlarındadır.
+ - [orhangazi](district), [bursa](city)'da [Kardeşler büfe](near) yakınlarında bulunan ve [kebap](cuisine) hizmeti sunan [kaplan kebap](restaurant_name) müşterileri buradan pek memnun değildir.
+ - [mudanya yolu](district), [bursa](city)'da [deniz mahsülleri](cuisine) yenebilecek [beyaz kayalar balık lokantası](restaurant_name), [Paşalimanı bistro & lounge](near) mekanı yakınlarındadır.
+ - [börek](cuisine) yenebilecek [Eskişehir çibörek evi](restaurant_name), müşterilerin oldukça memnun olduğu tek mekandır.
+ - [geçit](district), [bursa](city)'da [Uzay pastanesi](restaurant_name) dışında yer yoktur.
+ - [akaretler](district), [istanbul](city)'da müşterilerini çok memnun eden yemek yenebilecek bir yer yoktur.
+ - [yüreğir](district), [adana](city)'da [kebap](cuisine) ve [türk yemekleri](cuisine) yapan bir yer yoktur.
+ - [gazi osman paşa](district), [ankara](city)'da [yüksek](rating) fiyatlı [et çeşitleri](cuisine) yenebilecek ve çokça memnun kalınabilecek bir yer var mı?
+ - [kahve ve çay çeşitleri](cuisine) yapan [Cafe kristo](restaurant_name) müşterilerin memnun olduğu bir yerdir.
+ - [Karaköy lokantası ve uludağ kebapçısı cemal & cemil usta](near) yakınlarında bulunan [tatar salim döner lokantası](restaurant_name) [küçükbakkalköy](district), [istanbul](city)'da müşterilerini oldukça memnun eden bir mekandır.
+ - [Şazeli florya](near) yakınında bulunan [soulmate](restaurant_name) [kafeterya ürünleri](cuisine) hizmeti sunmaktadır.
+ - Ortalama fiyatlı ve çokça memnun kalınan [meşhur tavacı recep usta](restaurant_name) [dikmen](district), [ankara](city)'da [Big baker](near) yakınlarındadır.
+ - [çengelköy merkez](district), [istanbul](city)'da [Yörem antep mutfağı](near) yakınında bulunan [boon cafe & restaurant](restaurant_name) [kafeterya ürünleri](cuisine) hizmeti vermektedir.
+ - Müşterilerini oldukça memnun eden [Ünal kardesler katmer salonu](restaurant_name) [urla](district), [izmir](city)'de bulunan bu özelliklere sahip tek mekandır.
+ - [Fink](restaurant_name), [kafeterya ürünleri](cuisine) hizmeti sunan tek mekandır.
+ - [hoşnudiye](district), [eskişehir](city)'de yemek yiyip memnun kalınabilecek bir yer yoktur.
+ - [merkez](district), [izmit](city)'te [kafeterya ürünleri](cuisine) tüketilebilecek herhangi bir yer yoktur.
+ - [kaş](district), [antalya](city)'da [ucuz](price) fiyatta [pizza](cuisine) ve [kebap](cuisine) yenebilecek çok memnun kalınacak bir yer var mı?
+ - [kaş](district), [antalya](city)'da bulunan [Sako restaurant](restaurant_name), müşterilerini memnun etmektedir.
+ - [Ağustos iskenderun döner](near) yakınlarında bulunan [ege balık](restaurant_name) [deniz mahsülleri](cuisine) yenebilecek müşterilerin çokça memnun kaldığı bir yerdir.
+ - [L'apero ve club aura](near) yakınlarında bulunan [gölyazı gönül sofrası](restaurant_name) uygun fiyatlıdır.
+ - [güzelbahçe](district), [izmir](city)'de [Zigana pide](near) yakınlarında bulunan ve [deniz mahsülleri](cuisine) ile [hazır yiyecekler](cuisine) yenebilecek olan [ferhat büfe](restaurant_name) müşterilerini memnun etmektedir.
+ - [merkez](district), [eskişehir](city)'de bulunan taşan [döner](cuisine)'de [ucuz](price) fiyata döner yenebilir.
+ - [alkollü içecekler](cuisine) tüketilebilecek [Milos rum meyhanesi](restaurant_name) müşterilerini çok memnun eden tek mekandır.
+ - [lara](district), [antalya](city)'daki tek mekan [Midpoint](restaurant_name)'tir.
+ - [selçuklu](district), [konya](city)'da yemek yenip memnun kalınabilecek bir yer yoktur.
+ - [izmit](city) [merkez](district)de [deniz mahsülleri](cuisine) yenebilecek bir yer yoktur.
+ - [eskişehir](city) [tepebaşı](district)'nda hizmet veren [Varuna gezgin kantin](restaurant_name), müşterilerini memnun etmektedir.
+ - [gaziantep](city) [şahinbey](district)'de [kafeterya ürünleri](cuisine) sunan [Kahveci seddar bey](restaurant_name), müşterilerini memnun eden bir mekandır.
+ - [The soul pub](near), [izmir](city)'deki [konak pier avm](district) bölgesindeki [adabeyi balık restaurant](restaurant_name)'ın yakınındadır.
+ - İzmit, merkez'de, [Joker no:19](near)'un yakınındaki kahve dünyası, [ortalama](rating) fiyatlarıyla müşteri memnuniyetini sağlamaktadır.
+ - [istanbul](city), [tarabya merkez](district)'da bulunan [Bigchefs](restaurant_name) dünya mutfağından yemekleriyle [pahalı](price) bir hizmet sunmaktadır.
+ - [Volkan büfe](restaurant_name) [ucuz](price) fiyatlara yemek sunan ve müşterilerini memnun eden tek mekan olarak hizmet vermektedir.
+ - [Şükrü usta asırlık fırın kebap evi](restaurant_name), [konya](city) [meram](district)'da yer alan tek mekandır.
+ - [istanbul](region)'da kafeterya ve dünya mutfağı ürünleriyle hizmet veren ve müşteri memnuniyetinin çok iyi olduğu [The house hotel bosphorus](region), [ortaköy](region), [beşiktaş](region) bölgesinde bir yer yoktur.
+ - [istanbul](city) [şişli](district)'de [bomontiada](neighborhood)'da yer alan ve alkollü içecek hizmeti veren bir yer yoktur.
+ - [bursa](city) [mudanya yolu](district)'nda alkollü içecek ve türk yemeği veren müşteri memnuniyetinin [yüksek](rating) olduğu bir yer var mıdır?
+ - [akdeniz yemekleri](cuisine), [suşi](cuisine), [deniz mahsülleri](cuisine) ve [dünya mutfağı yemekleri](cuisine)nin hepsini bulabileceğiniz [Vogue](restaurant_name) isimli mekanın müşterileri, verilen hizmetten çok memnundur.
+ - [Sempre ristorante ıtaliano ve varuna memphis pub](near)'ın yakınlarında yer alan [burger king-real avm](restaurant_name)'nin [hamburger](cuisine)lerinden müşterileri hiç memnun değildir.
+ - Makul fiyatlarıyla bilinen [asuman](restaurant_name), [Chef ın the kitchen](near)'ın yakınlarındadır.
+ - [ankara](city) [kavaklıdere](district)'deki [Urfalı ciğerci müslüm](near)'ün yakınlarında yer alan [la bebe](restaurant_name)'nin müşterileri, makul fiyatlı bu yerden çok memnundur.
+ - [izmit](city) [merkez](district)'deki [Kahve dünyası espark](near) yakınlarında yer alan [cafe de la rue](restaurant_name)'de kafeterya hizmeti verilmektedir.
+ - Kahve ve çay seçenekleriyle müşterilerinin memnun olduğu tek mekan [Monte cafe bar](restaurant_name)'dır.
+ - [adana](city) [yüreğir](district)'deki [adana optimum avm](neighborhood)'de [Köfteci ramiz](restaurant_name) isimli mekanın alternatifi yoktur.
+ - [eskişehir](city)'in [merkez](district)'inde [kafeterya ürünleri](cuisine) bulabileceğiniz hiçbir yer yoktur.
+ - [gaziantep](city)'te [ucuz](price) ve müşterilerin memnun olduğu bir yer var mıdır?
+ - Eskişehir çi[börek](cuisine) evi, börekleriyle müşterilerini aşırı memnun eden bir yerdir.
+ - [bursa](city) [geçit](district) bölgesinde yer alan [Köfteci yusuf](near) yakınlarındaki [uzay pastanesi](restaurant_name)'nin hizmetlerinden müşterileri çok memnundur.
+ - [istanbul](city) [akaretler](district)'deki [beer hall](restaurant_name), [Eskişehir söğütönü alabalık tesisleri ve starbucks](near)'ın yakınlarında yer almaktadır.
+ - [adana](city) [yüreğir](district)'deki [Club aura](near) yakınlarında yer alan [kaburgacı yaşar usta](restaurant_name), müşterilerinin çok memnun oldukları [kebap](cuisine) ve türk mutfağı mekanıdır.
+ - [pahalı](price) [et çeşitleri](cuisine)yle hizmet veren [Günaydın steakhouse](restaurant_name), [gazi osman paşa](district), [ankara](city)'da bulunmaktadır.
+ - [izmit](city) [merkez](district)'de yer alan [Köfteci behçet](restaurant_name), müşterilerinin memnun oldukları tek mekandır.
+ - [Spagettici](restaurant_name) isimli mekan, [ucuz](price) hizmet veren tek mekandır.
+ - [adana](city) [seyhan](district)'da müşterilerinin memnun olmadıkları [dondurma](cuisine) ve [tatlı](cuisine) hizmeti veren hiçbir yer yoktur.
+ - [antalya](city) [kaş](district)'ta, [pahalı](price) alkol hizmeti veren hiçbir yer yoktur.
+ - [istanbul](city) [nişantaşı](district)'nda makul fiyatlı ve müşterilerinin çok memnun olduğu bir yer var mıdır?
+ - [izmir](city) [urla](district)'da yer alan [Ünal kardeşler katmer salonu](restaurant_name)'nun müşteri memnuniyeti oldukça [yüksek](rating)tir.
+ - [Kahve dünyası](near)'nın yakınında bulunan [fink](restaurant_name) isimli mekanda müşterilerin memnun oldukları kafeterya hizmeti verilmektedir.
+ - [passage cafe](restaurant_name), [eskişehir](city) [hoşnudiye](district)'deki [Ömer usta ve starbucks](near) isimli mekanların yakınındadır.
+ - [izmit](city) [merkez](district)'deki [Paçacı şemsi ve kafkas bursa](near) yakınlarında yer alan [leman kültür](restaurant_name), kafeterya hizmetleri ile müşterilerini memnun etmektedir.
+ - [antalya](city) [kaş](district)'taki çınarlar pide ve [kebap](cuisine) salonu, [ucuz](price)a [pizza](cuisine) ve kebap hizmeti vermektedir.
+ - [Bi lokma](restaurant_name) isimli ev yemekleri sunan mekan müşteri memnuniyetinin [yüksek](rating) olduğu tek yerdir.
+ - [konya](city) [selçuklu](district)'daki [Burger king-kule site avm](restaurant_name), [ucuz](price)a hizmet veren tek mekandır.
+ - [konya](city) [selçuklu](district)'da ızgara ve hazır yiyecek hizmetlerinin bulunduğu hiçbir yer yoktur.
+ - [Milos rum meyhanesi](restaurant_name), alkollü içecek seçenekleriyle müşterilerinin çok memnun olduğu bir mekandır.
+ - [antalya](city) [lara](district) bölgesinde yer alan [Hiç hane](near) isimli mekan yakınlarındaki [midpoint](restaurant_name), müşterilerini çok memnun eden bir mekandır.
+ - [demgah cafe & nargile](restaurant_name), [konya](city) [selçuklu](district)'da yer alan [Göl restaurant](near)'ın yakınlarındadır.
+ - [izmit](city) [merkez](district)'de yer alan [karaaslan tesisleri](restaurant_name), [Minoa ve özsüt](near)'ün yakınında; [deniz mahsülleri](cuisine) hizmetleriyle müşterilerini memnun eden bir mekandır.
+ - Dünya mutfağına ait yemeklerin [pahalı](price) fiyatlarla servis edildiği bir yer olan [sensus wine-anemon hotels](restaurant_name), [Saki rum meyhanesi ve 93 derece coffee](near)'nin yakınındadır.
+ - [Konya mutfağım premium lounge](restaurant_name), müşteri memnuniyetinin [ortalama](rating) olduğu tek mekandır.
+ - [Cafe del mundo](restaurant_name), kahve ve çay hizmetleri veren tek mekandır.
+ - [konya](city)'nın [meram](district) bölgesinde müşterilerini memnun eden [pasta ve çörek](cuisine) hizmeti veren bir yer bulunmamaktadır.
+ - [izmit](city) [merkez](district)'de ev yemeği hizmeti veren bir mekan yoktur.
+ - [eskişehir](city) [odunpazarı](district)'nda müşterilerini memnun eden kahve ve çay hizmeti veren bir yer var mıdır?
+ - [akşam simit fırını](restaurant_name), [gaziantep](city)'in [şehitkamil](district) semtinde [Tavacı refik](near)'in yakınlarında, sattığı fırın mamulleriyle müşterilerini memnun eden bir fırındır.
+ - Yakınında [Hacer hala ev yemekleri](near) bulunan ve hizmeti ile müşterilerini memnun eden [özsar steakhouse](restaurant_name) restoranında [et çeşitleri](cuisine) yiyebilirsiniz.
+ - [gaziantep](city) [merkez](district)'de bulunan [çavuşoğlu kebap ve baklava](restaurant_name) isimli mekan [Cemo etliekmek](near)'in yakınlarındadır.
+ - [bursa](city) [çekirge caddesi](district)'nde [Bekir usta adana kebap](near)'ın yakınlarında [özgen çay bahçesi](restaurant_name)'nden başka mekan yoktur.
+ - Meşhur girit sakız [dondurma](cuisine)ları nazmi usta, müşteri memnuniyetinin [yüksek](rating) olduğu, [izmir](city)'de [eski foça](district)'da yer alan ve dondurma yiyebileceğiniz tek mekandır.
+ - [merkez](district), [gaziantep](city)'te [pizza](cuisine) servis eden bir mekan yoktur.
+ - [bursa](city)'da [çekirge caddesi](district)'ndeki hayyami evi'nde [ızgara ürünler](cuisine)i yiyebilirsiniz.
+ - [meshur girit sakiz [dondurma](cuisine)lari nazmi usta](restaurant_name), [eski foça](district), [izmir](city)'de müşterilerinin aşırı beğenisini kazanmış, [Cemo etliekmek](near)'in yanında bir dondurmacıdır.
+ - [kavaklıdere](district), [ankara](city)'da ziyaretçilerine [kafeterya ürünleri](cuisine) sunan [Hayyami şarap evi](restaurant_name) müşterileri tarafından oldukça beğenilmektedir.
+ - Müşteri memnuniyeti [yüksek](rating) olan [boğaziçi lokantası](restaurant_name), [ankara](city)'da [ulus](district) bölgesindeki [Sumanu winehouse ve e mirella cafe](near) civarında yer alır.
+ - [osmangazi](district), [bursa](city)'da [ızgara ürünler](cuisine)i sunan mekan olarak sadece [Yeşil ızgara pideli köfte](restaurant_name) vardır.
+ - Müşterilerinden [ortalama](rating) dönüşler alan [La terra](restaurant_name), [merkez](district), [izmit](city) bölgesinde [dünya mutfağı yemekleri](cuisine) satan tek mekandır.
+ - [alsancak](district), [izmir](city)'de [kafeterya ürünleri](cuisine), [pasta ve çörek](cuisine) servisi yapan bir mekan bulunmamaktadır.
+ - [ankara](city) [ulus](district)'ta çok beğenilen bir yemek mekanı var mı?
+ - [osmangazi](district), [bursa](city)'da [ızgara ürünler](cuisine) yemek için urfa tike ciğer'i tercih edebilirsiniz.
+ - [şehitkamil](district), [gaziantep](city)'te, [Minoa](near)'nın yakınındaki [urfa tike ciğer](restaurant_name), orta derece memnuniyetle hizmet vermektedir.
+ - [üniversiteler](region), [çankaya](region), [ankara](region)'da [tepe prime avm](region)'de bulabileceğiniz [Quick china](restaurant_name) isimli restoran [çin yemekleri](cuisine), [tayland yemekleri](cuisine), [suşi](cuisine), [japon yemekleri](cuisine), [asya mutfağı yemekleri](cuisine) servis etmektedir.
+ - [Kasap'ın mutfağı](near) isimli yerin yakınında [hazır yiyecekler](cuisine) servis eden müşterilerinin çok beğendiği [kardeşler büfe](restaurant_name) adında bir yer vardır.
+ - [izmit](city) [merkez](district)'de hem orta derece müşteri memnuniyetine sahip hem de orta derece pahalılıkta olan tek yer selman [kebap](cuisine)'tır.
+ - [gaziantep](city)'in [şehitkamil](district) bölgesinde müşteri memnuniyeti sağlayan bir mekan bulunmamaktadır.
+ - [Tepe prime avm](region), [üniversiteler](region), [çankaya](region), [ankara](region)' da [çin yemekleri](cuisine), [tayland yemekleri](cuisine), [suşi](cuisine), [japon yemekleri](cuisine) ve [asya mutfağı yemekleri](cuisine) yapan bir mekan yoktur.
+ - [izmit](city) [merkez](district)'deki selman [kebap](cuisine), makul fiyatlı ve gidenlerin beğendiği bir kebap restoranıdır.
+ - [Tchibo-dolphin avm](near) yakınlarında yer alan [yüksek](rating) müşteri memnuniyeti sağlayan [[börek](cuisine)çi rıza](restaurant_name)'da börek çeşitleri yiyebilirsiniz.
+ - [chickinn](restaurant_name) [izmir](city)'in [kıbrıs şehitleri caddesi](district)' nde [Kahvehan premium ve şendağlı](near)'nın yakınlarında bulunan bir mekandır.
+ - [fener](district), [antalya](city)'da [ucuz](price) fiyatlarıyla dondurma yiyebileceğiniz tek yer [Punto dondurma](restaurant_name)'dır.
+ - Papağan çiğ[börek](cuisine) salonu, [yüksek](rating) müşteri memnuniyeti sağlayan ve börek çeşitleri servis eden [eskişehir](city) [arifiye](district)'deki tek mekandır.
+ - [kıbrıs şehitleri caddesi](district), [izmir](city) bölgesinde [kafeterya ürünleri](cuisine), [pasta ve çörek](cuisine) yaparak müşteri memnuniyeti elde eden bir mekan yoktur.
+ - Caribou coffee, [fener](district), [antalya](city)'da [ucuz](price)a yemek yenilebilecek bir yerdir.
+ - [Willy wonder's coffee](near) yakınındaki [papağan çiğ[börek](cuisine) salonu](restaurant_name), [yüksek](rating) müşteri memnuniyeti sağlayan ve börek çeşitleri bulabileceğiniz [eskişehir](city) [arifiye](district)'deki bir mekandır.
+ - [eskibağlar](district), [eskişehir](city)'de [Yengeç restaurant](near)' n yakınında bulunan [caribou coffee](restaurant_name) müşteri memnuniyeti [ortalama](rating) bir mekandır.
+ - [Ruhi bey 1949 meyhanesi ve meşhur dondurmacı ali usta](near) civarlarındaki [frida pub](restaurant_name), [antalya](city), [kaş](district) bölgesinde [yüksek](rating) müşteri memnuniyetiyle hizmet veren bir mekandır.
+ - [Domino's pizza](near) yakınlarında bulabileceğiniz ortalama fiyatlı tek mekan [antep küşleme et lokantası](restaurant_name)'dır.
+ - [antalya](city) [merkez](district)'de bulunan müşteri memnuniyeti [ortalama](rating) olan ve [ucuz](price)a ürünler satan tek yer [Kumrucu iso](restaurant_name)'dur.
+ - [konya](city), [selçuklu](district)'da [ucuz](price)a ızgara ve [türk yemekleri](cuisine) yapan bir yer bulunmamaktadır.
+ - [antalya](city) [kaş](district)'ta müşterilerinin çok memnun kaldığı mekanlar nelerdir?
+ - [Volkan büfe](restaurant_name), [ucuz](price) yemekler satan bir yerdir.
+ - [konya](city)'nın [meram](district) ilçesindeki [Şükrü usta asırlık fırın kebap evi](restaurant_name), müşterilerinin çok memnun olduğu bir yerdir.
+ - [The house cafe](restaurant_name), [kafeterya ürünleri](cuisine) ve [dünya mutfağı yemekleri](cuisine) sunar.
+ - [The populist](restaurant_name), [istanbul](city)'un [bomontiada](neighborhood), [şişli](district) bölgesinde, [katmerci murat](near)'ın yakınında bulunan, [alkollü içecekler](cuisine) satan bir mekandır.
+ - [alkollü içecekler](cuisine) ve [türk yemekleri](cuisine) sunan [İnan kardeşler restorant](restaurant_name), [kahv6](near) yakınında bulunur
+ - [Yengeç restaurant](near) yakınlarında [kafeterya ürünleri](cuisine) satıp müşterilerini aşırı memnun eden bir yer yoktur.
+ - [izmit](city)'in [merkez](district)inde [Yummy house ve twenty six](near) yakınlarında [kebap](cuisine) ve [ızgara ürünler](cuisine)i satan bir mekan bulamazsınız.
+ - [bornova](district), [izmir](city)'de müşterilerin memnun olduğu yerler [draft gastro pub](other_venues), [ata iskender döner kebap](other_venues) ve [minoa](other_venues)'dır.
+ - [Mistik by melissa's & vanessa's](restaurant_name) ortalama fiyatlarda yemek sunarken [mercan ciğer & kebap](other_venues_restaurant_name) ve [mcdonald's](other_venues_restaurant_name) [ucuz](other_venues_price) fiyat aralığındaki mekanlardır.
+ - [ciğerci bahattin](other_venues_restaurant_name), [elmacıpazarı güllüoğlu baklava](other_venues_restaurant_name), [j'adore chocolatier](other_venues_restaurant_name) ve [downtown food club](other_venues_restaurant_name) ile karşılaştırıldığında [Kesman ciğer](restaurant_name) müşterilerin [ortalama](rating) oranda memnun olduğu tek yerdir.
+ - [Monte cafe bar](restaurant_name), müşteri memnuniyeti [ortalama](rating) düzeyde olan bir mekandır.
+ - [adana](city) [yüreğir](district)'deki [adana optimum avm](neighborhood)'de bulunan [Köfteci ramiz](restaurant_name), [ertosunlar yemek](near)'e komşudur.
+ - [Pizza locale](restaurant_name), [volkan büfe ve şadırvan döner](near) ile komşudur.
+ - [eskişehir](city)'in [merkez](district)indeki [Kahve dünyasi espark](restaurant_name) adlı mekan müşterilerin memnun olduğu, [kafeterya ürünleri](cuisine) satan bir mekandır.
+ - [gaziantep](city)'teki [Bisirici kebap & baklava](restaurant_name), [ucuz](price) bir mekandır.
+ - [gaziantep](city) [merkez](district)indeki [Çavuşoğlu kebap](near), [baklava ve cumalıkızık narlı bahçe kahvaltı evi](near) yakınlarında müşterilerin çok memun olduğu bir restoran maalesef yoktur.
+ - [istanbul](city)'un [karaköy](district) semtinde [Cici piknik ve moc istanbul](near) yakınlarında [kafeterya ürünleri](cuisine) satan bir restoran yoktur.
+ - [ankara](region)'nın [çankaya](region) ilçesinin [üniversiteler](region) bölgesindeki [Kentpark avm](region)'de ortalama fiyatlarda yemek veren mekanlar, [cafe nirvana](other_venues), [kokoreç office](other_venues), [ferhat büfe](other_venues) ve [fokai balık restoran](other_venues)'dır.
+ - Müşterileri [Kebapçı iskender yavuz iskenderoglu kozahan subesi](restaurant_name)'nden pek memnun değilken, [bood eat & meet](other_venues_restaurant_name), [nevizade cafe & restaurant](other_venues_restaurant_name) ve [ekspres inegöl köftecisi](other_venues_restaurant_name)'nden memnundurlar.
+ - [mahfel-setbaşı](other_venues_restaurant_name), [welldone by midpoint](other_venues_restaurant_name), [kebapçı mehmet usta](other_venues_restaurant_name) ve [quick china](other_venues_restaurant_name) ile karşılaştırıldığında [Ayıntap baklava](restaurant_name) ortalama fiyatlara sahip tek restorandır.
+ - [Köfteci behçet](restaurant_name), [izmit](city)'in [merkez](district) ilçesinde bulunan bir restorandır.
+ - [Spagettici](restaurant_name), [şırdancı bedo](near)'nun yakınlarında [ortalama](rating) bir müşteri memnuniyeti ile hizmet vermektedir.
+ - [Yıldızoğlu künefe](restaurant_name), [adana](city)'nın [seyhan](district) ilçesinde hizmet vermektedir.
+ - [Üzüm kızı meyhane](restaurant_name), [yüksek](rating) müşteri memnuniyeti ve [pahalı](price) fiyatları ile [alkollü içecekler](cuisine) sunan bir meyhanedir.
+ - [taşköprü meyhanesi ve biber cafe bar restaurant](near)'ın yakınlarında bulunan [Virginia angus](restaurant_name), [istanbul](city) ilinin [nişantaşı](district) semtinde hizmet vermektedir.
+ - [izmit](city)'in [merkez](district) ilçesinde makul fiyatlara ve [ortalama](rating) bir müşteri memnuniyetine sahip bir restoran bulunmamaktadır.
+ - [ankara](city) [çukurambar](district) bölgesindeki [Bizim balıkçı fahri baba](near)'nın yakınlarında [kebap](cuisine)ları ile öne çıkan bir restoran bulunmamaktadır.
+ - [big chefs](other_venues), [kadir usta kebap ve lahmacun](other_venues), [Fokai balık restoran](near)ın yakınlarındaki [yüksek](rating) müşteri memnuniyetine sahip iki farklı mekandır.
+ - Hem [Cadde üstü](restaurant_name) hem de [köşk kebap salonu](other_venues_restaurant_name) ve [cafe cosecha](other_venues_restaurant_name) [ucuz](other_venues_price) fiyat aralıklarına sahip mekanlardır.
+ - [Vogue](restaurant_name); [isabey bağları & bağevi](other_venues_restaurant_name), [duygu cafe](other_venues_restaurant_name), [seyirtepe restaurant](other_venues_restaurant_name) gibi mekanlar arasında [ortalama](rating) bir müşteri memnuniyetine sahip tek mekandır.
+ - [Bi lokma](restaurant_name), [ev yapımı yemekler](cuisine) sunan bir restorandır.
+ - [konya](city)'nın [selçuklu](district) bölgesinde yer alan [Burger king-kule site avm](restaurant_name), [ortalama](rating) bir müşteri memnuniyetine sahiptir.
+ - [Big chefs](restaurant_name), [happy moon's](near) isimli mekanın yakınında yer almaktadır.
+ - [konya](city)'nın [selçuklu](district) bölgesindeki [mazlumlar muhallebicisi](near)'nin yakınlarında bulunan [Tavuk dünyası](restaurant_name), [ortalama](rating) bir müşteri memnuniyetine sahiptir.
+ - [pasta ve çörek](cuisine) sunan [Reyhan pastanesi](restaurant_name), [vogue ve seçerhan etliekmek](near) isimli mekanların yakınlarında yer almaktadır.
+ - [istanbul](city) ilinin [rumeli hisarı merkez](district) bölgesinde [yüksek](rating) müşteri memnuniyetine ve yüksek fiyat aralığına sahip bir yemek mekanı bulunmamaktadır.
+ - [adana](city)'nın [seyhan](district) bölgesinde makul fiyatlara sahip [Mükellef](near)'e komşu bir restoran bulunmamaktadır.
+ - [bursa](city)'nın [hürriyet](district) bölgesinde [yüksek](rating) müşteri memnuniyetine sahip [cafe de kedi](other_venues) ve [aşşk kahve](other_venues) isimli iki mekan bulunmaktadır.
+ - Hem [Çikolata dükkanı](restaurant_name) hem de [eyvan kebap](other_venues_restaurant_name), [beyaz kayalar balık lokantası](other_venues_restaurant_name) ve [şırdancı bedo](other_venues_restaurant_name) isimli yemek mekanlarının müşteri memnuniyetleri oldukça [düşük](other_venues_rating)tür.
+ - [Tarihi adana kazancılar kebapçısı](restaurant_name), [kanaat lokantası](other_venues_restaurant_name), [abdüsselam balaban kebap salonu](other_venues_restaurant_name), [kebapçı mesut](other_venues_restaurant_name) gibi mekanlara kıyasla [ucuz](price) fiyatlarıyla dikkat çeken tek yemek mekanıdır.
+ - [Konya mutfağım premium lounge](restaurant_name), müşteri tarafından [ortalama](rating) bir değerlendirmeye tabii tutulmuştur.
+ - [kahve ve çay çeşitleri](cuisine) sunan [Cafe del mundo](restaurant_name), [nene hatun çay bahçesi](near)nin yakınlarında yer almaktadır.
+ - [Paşam pastanesi](restaurant_name), [konya](city)'nın [meram](district) bölgesinde yer almaktadır.
+ - [izmit](city)'in [merkez](district) ilçesinde [ev yapımı yemekler](cuisine) sunan [Evce ev yemekleri ve aperatifleri](restaurant_name), [ortalama](rating) bir müşteri değerlendirmesine sahiptir.
+ - [kahve ve çay çeşitleri](cuisine) sunan [odunpazarı](district) serbet evi, [eskişehir](city)'in odunpazarı bölgesinde yer almaktadır.
+ - [adana](city)'nın [merkez](district) ilçesindeki [Antalya balık evi](near)'nin yakınlarında [ortalama](rating) bir müşteri memnuniyetine sahip herhangi bir mekan bulunmamaktadır.
+ - [ankara](city)'nın [kızılay](district) ilçesindeki [Yengeç restaurant](near)'ın yakınlarında [sakatatlar](cuisine) ve [ızgara ürünler](cuisine) sunan bir mekan bulunmamaktadır.
+ - [konya](city)'nın [selçuklu](district) bölgesindeki [Varuna memphis pub](near)'ın yakınlarındaki [venedik pastanesi](other_venues), [mangerie](other_venues) ve [robert's coffee](other_venues) [ortalama](rating) müşteri memnuniyetine sahip mekanlardır.
+ - Ortalama fiyatlarıyla öne çıkan [Cafe botanica](restaurant_name), [mayday cafe & bar](other_venues_restaurant_name), [mevlana lokantası](other_venues_restaurant_name) ve [cafe de kedi](other_venues_restaurant_name) gibi mekanların [ucuz](other_venues_price) menülerine kıyasla pahalı kalmaktadır.
+ - [Yeşilçam kahve evi](restaurant_name), [beer hall](other_venues_restaurant_name), [taşan döner](other_venues_restaurant_name), [tavacı refik](other_venues_restaurant_name), [tzatziki meyhane](other_venues_restaurant_name), [deniz restaurant](other_venues_restaurant_name) gibi mekanlar arasında [düşük](rating) müşteri memnuniyetine sahip tek yemek mekanıdır.
+ - [Joker no:19](restaurant_name) yüksek fiyatlı bir yerdir.
+ - [kafeterya ürünleri](cuisine) bulunan [Cafe reci's](restaurant_name) müşterilerin çokça memnun olduğu bir mekandır.
+ - [Baklavacı güllüoğlu ömer güllü](restaurant_name) [gaziantep](city)'in [oğuzeli](district) bölgesinde yer almaktadır.
+ - [izmir](city)'in [bornova](district) ilçesinde yer alan [kule sini restaurant](near)'a komşu [Gandi'nin yeri](restaurant_name) hizmeti ile müşterilerinin memnun bırakmaktadır.
+ - [kebap](cuisine) ve [ızgara ürünler](cuisine)ini tadabileceğiniz [Kebapçı ali](restaurant_name) [izmit](city) [merkez](district)'de ziyaret edilebilir.
+ - [konya](city)'nın [meram](district) ilçesinde düşük bütçeye uygun müşteriyi memnun edebilecek bir restoran bulunmamaktadır.
+ - [ankara](city)'nın [kızılay](district) bölgesinde bulunan [İnci pastanesi](near) yakınlarında [kafeterya ürünleri](cuisine) alabileceğiniz bir yer bulunmamaktadır.
+ - [istanbul](city) [çengelköy merkez](district)'de bulunan [yelken balık evi](other_venues) ve [nasreddin restaurant](other_venues) müşterilerini aşırı memnun etmektedir.
+ - [Trilye balık](restaurant_name) adlı restoran müşteri memnuniyeti açısından [löküs ciğer](other_venues_restaurant_name), [puga coffee](other_venues_restaurant_name) ve [minoa](other_venues_restaurant_name) adlı mekanlar ile aynı seviyededir ve [ortalama](other_venues_rating) memnuniyete sahiptir.
+ - [sake cafe & bar](other_venues_restaurant_name) ve [köfteci ramiz](other_venues_restaurant_name) adlı mekanların aksine, [Biber cafe bar restaurant](restaurant_name) makul fiyatlar sunan tek mekandır.
+ - [Orhan köfte-sanayi](restaurant_name) adlı mekan [bursa](city)'nın [inegöl](district) bölgesinde bulunmaktadır.
+ - [gaziantep](city) [merkez](district)'de bulunan [Aşina gaziantep mutfağı](restaurant_name) [çavuşoğlu kebap ve baklava ve cumalıkızık narlı bahçe kahvaltı evi](near) adlı mekanların yakınındadır.
+ - [Kos lezzet sofrası](restaurant_name) adlı restoran [kahve dünyası ve cafe mia](near) yakınlarındadır.
+ - Makul fiyatlarla [kafeterya ürünleri](cuisine) sunan [Timboo cafe](restaurant_name) müşterilerini aşırı derecede memnun etmektedir.
+ - [cici piknik ve moc istanbul](near) adlı mekanlara yakın konumda bulunan [Dem karaköy](restaurant_name)'de [kafeterya ürünleri](cuisine) bulunmaktadır.
+ - [bursa](city)'nın [görükle](district) bölgesinde bulunan [Venedik pastanesi](near) yakınlarında müşteri memnuniyeti sağlayabilen bir mekan yoktur.
+ - [gaziantep](city) [şahinbey](district) civarında ortalama fiyatlara [kebap](cuisine) yiyebileceğiniz bir restoran yoktur.
+ - [Gölyazı gönül sofrası](near) yakınında bulunan [vizyon kebap](other_venues) ve [l'apero](other_venues) adlı restoranlar makul fiyatları ile müşterilerini çokça memnun etmektedir.
+ - [Bigchefs](restaurant_name) adlı restoran [katmerci murat](other_venues_restaurant_name) mekanının makul fiyatlarının aksine [ucuz](price) fiyatlı ürünler sunmaktadır.
+ - [Keyf-i ala restaurant](restaurant_name) [aşina gaziantep mutfağı](other_venues_restaurant_name), [dürümcü emmi](other_venues_restaurant_name), ve [piyazcı mustafa'nın yeri](other_venues_restaurant_name) adlı mekanlar arasında müşteri memnuniyetini sağlayabilen tek mekandır.
+ - [L'apero](restaurant_name) adlı restoran [antalya](city)'nın [kaş](district) ilçesinde bulunmaktadır.
+ - Makul fiyatlar sunan [Esperanto cafe](restaurant_name) müşterilerini memnun bırakmaktadır.
+ - [Bay döner](restaurant_name) adlı restoran [gaziantep](city)'in [merkez](district) bölgesinde bulunmaktadır.
+ - [fokai balık restoran](near)'ı yakınında, [türk yemekleri](cuisine) bulabileceğiniz [Tarihi vefa bozacısı](restaurant_name) müşteri memnuniyeti [yüksek](rating) bir mekandır.
+ - [kebap](cuisine) yenilebilecek mekanlardan biri olan [Müslüm kebap](restaurant_name) [ankara](city)'nın [çukurambar](district) bölgesindedir.
+ - [izmit](city) [ncity avm](district) civarında, [Mama craft](near) adlı mekan yakınında müşteri memnuniyeti sağlayan bir restoran bulunmamaktadır.
+ - [izmit](city)'in [merkez](district) bölgesinde bulunan [Kumrucu şevki](near) yakınlarında [dünya mutfağı yemekleri](cuisine) yiyebileceğiniz bir restoran bulunmamaktadır.
+ - [ankara](city)'nın [balgat](district) bölgesinde bulunan [kebapçı şeyhmus](other_venues), [cafe la vie](other_venues), [urla şarapçılık](other_venues), [zirve park](other_venues) ve [özgen çay bahçesi](other_venues) mekanları [yüksek](rating) müşteri memnuniyetine ulaşmış yerlerdir.
+ - [ortalama](other_venues_rating) düzeyde müşteri memnuniyeti sağlayan [çıtır lahmacun](other_venues_restaurant_name) ve [esperanto cafe](other_venues_restaurant_name) adlı mekanların aksine [Lokma kebap](restaurant_name) [düşük](rating) müşteri memnuniyetine sahiptir.
+ - [Kebapçı şeyhmus](restaurant_name) hem [dukat kebap ve beyran](other_venues_restaurant_name) hem de [kahve dünyası](other_venues_restaurant_name) adlı mekanların aksine [ucuz](price) fiyatlı ürünler bulabileceğiniz tek restorandır.
+ - [Paul's homemade pasta & lasagna](restaurant_name) adlı mekan [yüksek](rating) müşteri memnuniyetine sahiptir.
+ - [pahalı](price) fiyatlarına karşın [Lokma](restaurant_name) isimli restoran müşterilerini son derece memnun etmektedir.
+ - [Havva hanım](restaurant_name) adlı restoran [izmit](city)'in [merkez](district) bölgesinde bulunmaktadır.
+ - [bursa](city)'nın [hürriyet](district) bölgesindeki [yüksek](rating) müşteri memnuniyeti sağlayan [Köfteci yusuf](restaurant_name) [doy-çık lokantası](near) yakınlarında bulunmaktadır.
+ - [mükellef](near) adlı mekanın yakınlarında bulunan [Kebap 52](restaurant_name) ortalama fiyat aralığı sunmaktadır.
+ - [börek](cuisine) çeşitleri bulabileceğiniz, [Özsüt](near) adlı mekanın yakınında [ortalama](rating) müşteri memnuniyeti sağlayan bir mekan yoktur.
+ - [istanbul](city) [eminönü merkez](district) bölgesinde bulunan [Maki restoran ve varuna gezgin](near) adlı mekanların yakınında makul fiyatları olan bir mekan bulamazsınız.
+ - [adana](city)'nın [çukurova](district) bölgesinde yer alan ve müşterilerini memnun eden [acıktım kafedeyiz](other_venues), [mahfel-setbaşı](other_venues), [welldone by midpoint](other_venues), [kebapçı mehmet usta](other_venues) ve [quick china](other_venues) adlı mekanlar [Dürümcü recep usta](near) adlı mekanın yakınında yer almaktadırlar.
+ - [İsabey bağları & bağevi](restaurant_name) adlı mekan ortalama fiyatlar sunan [karakedi bozacısı](other_venues_restaurant_name) ve [papazın bağı](other_venues_restaurant_name) adlı restoranların aksine [ucuz](price) fiyatlı ürünlere sahiptir.
+ - [kafe pi bornova](other_venues_restaurant_name) ve [çiçek ızgara](other_venues_restaurant_name) adlı restoranların aksine [Masala kebap ve lahmacun salonu](restaurant_name) müşterilerini memnun edememektedir ve bu bağlamda tek olma özelliğini taşımaktadır.
+ - [Akkonak restaurant](restaurant_name) isimli mekanda [ev yapımı yemekler](cuisine) bulunmaktadır.
+ - [antalya balık evi](near) yakınında bulunan [Çapa restaurant](restaurant_name) [ortalama](rating) müşteri memnuniyeti sağlamaktadır.
+ - [Cemo etliekmek](restaurant_name) isimli restoran [konya](city)'nın [selçuklu](district) bölgesinde bulunmaktadır.
+ - [varuna memphis pub](near) yakınında bulunan [Tarihi medrese kahvehanesi](restaurant_name) [ucuz](price) fiyat ve [ortalama](rating) müşteri memnuniyeti sunmaktadır.
+ - [ankara](city)'nın [kızılay](district) bölgesinde bulunan [Urfalı ciğerci müslüm](restaurant_name) adlı restoran [yengeç restaurant](near) yakınındadır.
+ - [izmir](city)'in [konak](district) bölgesinde [5 ocak kebap ve sushico](near) adlı mekanlara yakın, [yüksek](rating) müşteri memnuniyeti sağlayan bir restoran bulunmamaktadır.
+ - [gaziantep](city)'in [şahinbey](district) bölgesinde [Nusr-et steakhouse](near) yakınlarında [ev yapımı yemekler](cuisine) bulabileceğiniz bir restoran yer almamaktadır.
+ - [bursa](city)'nın [kapalı çarşı](district) bölgesinde [Doyuran kahvaltı salonu](near) yakınlarında [enes fırın](other_venues), [cookshop](other_venues), [lokma kebap](other_venues), [yeşil kapı kebapçısı](other_venues) ve [şifa restaurant](other_venues) adlı mekanlar bulunmaktadır.
+ - [düşük](other_venues_rating) müşteri memnuniyetli [burger king-izmit outlet center](other_venues_restaurant_name) adlı mekanın aksine [Kozahan](restaurant_name) adlı restoran [ortalama](rating) müşteri memnuniyeti sunmaktadır.
+ - [Kocatepe kahve evi](restaurant_name) adlı yer [denizaltı restaurant](other_venues_restaurant_name), [moresi girit mutfağı & kahvaltı](other_venues_restaurant_name), [urfa kebap](other_venues_restaurant_name), [karaköy lokantası](other_venues_restaurant_name) ve [tayfa balıkevi](other_venues_restaurant_name) isimli mekanların aksine ortalama fiyatlar sunan yegane mekandır.
+ - [Kahve dünyası](restaurant_name) müşterilerini memnun etmektedir.
+ - [meram](district) [konya](city)'da bulunan [Felicia pizza](restaurant_name)'nın düşük fiyatlı bir yerdir.
+ - [Dolphin restaurant](restaurant_name) [deniz mahsülleri](cuisine) üzerine bir yerdir.
+ - Müşterilerinin beğenini yeterince toplamış olan [Tarihi çınaraltı aile çay bahçesi](restaurant_name) [hazır yiyecekler](cuisine), [ızgara ürünler](cuisine), [deniz mahsülleri](cuisine), [kahve ve çay çeşitleri](cuisine) ile makul fiyat aralığına sahip bir yerdir.
+ - [kızılay](district) [ankara](city)'daki [Turuncu cafe & pub & fal & tattoo & kültür eğlence merkezi](restaurant_name) [kafeterya ürünleri](cuisine) bulunabilecek bir mekandır.
+ - [Kesman ciğer ve cafe extrablatt](near) yakınlarında müşterilerince [yüksek](rating) derecede beğenilmiş bir [tatlı](cuisine), [dondurma](cuisine) ve [kafeterya ürünleri](cuisine) satan bir yer bulamazsınız.
+ - [nilüfer](district) [bursa](city)'daki [No42](near)'nin çevresinde pasta, çörek veya [kafeterya ürünleri](cuisine) bulabileceğiniz bir yer yoktur.
+ - [meram](district) [konya](city)'da bulunan [Kyoto japon parkı](near) çevresinde müşterileri tarafından yeterince beğenilmiş mekanlar [bood eat & meet](other_venues), [nevizade cafe & restaurant](other_venues), [ekspres inegöl köftecisi](other_venues), ve [ünal kardesler katmer salonu](other_venues)'dur.
+ - [Kanaat lokantası](restaurant_name) ortalama bir fiyat skalasına sahipken [alpu çiğ börek](other_venues_restaurant_name)'in düşük fiyatları vardır.
+ - [Masala kebap ve lahmacun salonu](restaurant_name) [düşük](rating) memnuniyeti ile [imam çağdaş](other_venues_restaurant_name), [kafe pi bornova](other_venues_restaurant_name), ve [çiçek ızgara](other_venues_restaurant_name) mekanlarının gerisinde kalmaktadır ve bu özelliklere sahip tek mekandır.
+ - [Kahveci hacıbaba](restaurant_name) [kızılay](district) [ankara](city)'da bulunan bir mekandır.
+ - [venedik pastanesi](near) çevresinde bulunan [Abişoğlu pastaneleri](restaurant_name) müşterilerini memnun edebilmektedir.
+ - [Bay köfte](restaurant_name) [sunset](near) yakınlarında bulunan bir yerdir.
+ - [gölyazı gönül sofrası](near) yakınlarında bulunan [Kling usta](restaurant_name) adlı mekan [seyhan](district) [adana](city)'da müşterilerine makul fiyatlar sunmaktadır.
+ - [şahinbey](district) [gaziantep](city)'de bulunan [Üçler kebap salonu](restaurant_name) ortalama fiyatlarıyla müşterilerine servis vermektedir.
+ - [Pasto](near) çevresinde [güneydoğu anadolu yemekleri](cuisine) ve [türk yemekleri](cuisine)ni müşterilerini memnun ederek sunabilen bir mekan bulamazsınız.
+ - [odunpazarı](district) [eskişehir](city)'de [Kebapçı ufuk](near) etrafında [ucuz](price) fiyatlı bir mekan bulamazsınız.
+ - [bornova](district) [izmir](city)'de [Baklavacı zeki inal](near)'ın çevresinde bulunan mekanlar [ekspres inegöl köftecisi](other_venues), [ünal kardesler katmer salonu](other_venues), ve [huqqa](other_venues)'dır.
+ - [Topçu kebap salonu](restaurant_name) [düşük](rating) bir müşteri memnuniyetine sahipken [eskişehir çiğ börek evi](other_venues_restaurant_name)'nden müşterileri memnundur.
+ - [Varuna gezgin cafe del mundo](restaurant_name), [rumeli çikolatacısı](other_venues_restaurant_name), [alin's](other_venues_restaurant_name) ve [alara restaurant-atatürk parkı](other_venues_restaurant_name)'nın arasında varuna gezgin cafe del mundo ortalama fiyat aralığı bulabileceğiniz tek mekandır.
+ - [Miyeps waffle & vitamin bar](restaurant_name) müşterilerin memnun olduğu bir yerdir.
+ - [mama craft](near) yakınındaki [Alaçatı muhallebicisi](restaurant_name), müşterilerin memnun olduğu bir mekandır.
+ - [Alavara](restaurant_name), [çiya sofrası](near) yakınında yer alan bir yerdir.
+ - [la gioia cafe brasserie ve petek pastanesi](near) yakınındaki [balgat](district), [ankara](city)'da bulunan [Coffee lab](restaurant_name), müşterilerin çok memnun olduğu bir yerdir.
+ - [izmit](city) [merkez](district)'de bulunan [Barista roof restaurant](restaurant_name), dünya mutfağına ait yemekler sunan bir restorandır.
+ - [Dönerci cengiz ve havzan etliekmek 2](near) yakınında bulunan ve [tatlı](cuisine) servis edilen müşterilerin çok memnun olduğu bir yer yoktur.
+ - [karatay](district), [konya](city) bölgesinde bulunan ve osmanlı mutfağına ait yemekler servis eden düşük fiyat aralığına sahip bir yer yoktur.
+ - [little kitchen](other_venues), [hiç hane](other_venues), [cumalıkızık narlı bahçe kahvaltı evi](other_venues), [kızılkaya restaurant](other_venues) ve [bay köfte](other_venues), [bursa](city) [merkez](district)de [Zemzem çorbacı](near) yakınında bulunan düşük fiyat aralığına sahip yerlerdir.
+ - [Castle cafe & bistro](restaurant_name), [piraye taş plak meyhanesi](other_venues_restaurant_name) gibi ortalama fiyat aralığına sahip bir mekandır.
+ - [gaga restaurant](other_venues_restaurant_name), [beğendik abi](other_venues_restaurant_name), [dukat kebap ve beyran](other_venues_restaurant_name), [kahve dünyası](other_venues_restaurant_name) ve [meşhur kebapçı dedeler 1929](other_venues_restaurant_name) restoranlarına göre [Cafe la vie](restaurant_name), müşterilerin memnun olmadığı yegane yerdir.
+ - [Noel baba cafe](restaurant_name), [kafeterya ürünleri](cuisine) servis edilen bir yerdir.
+ - [özsüt](near) yakınında bulunan eskişehir çiğ [börek](cuisine) evi, börek servis edilen bir yerdir.
+ - [Kitap evi otel](restaurant_name), [kafeterya ürünleri](cuisine) servis edilen bir yerdir.
+ - [çukurova](district), [adana](city)'da [dürümcü recep usta](near) yakınında bulunan [Pasta bahçesi](restaurant_name), düşük fiyat aralığına sahip bir yerdir.
+ - [eminönü merkez](district), [istanbul](city)'da bulunan [Virginia angus](restaurant_name), ortalama fiyat aralığına sahip bir yerdir.
+ - [çukurova](district), [adana](city)'da [Kazım büfe](near) yakınında müşterilerin memnun olduğu bir yer yoktur.
+ - [taksim](district), [istanbul](city)'da [Köfteci behçet](near) yakınında [kafeterya ürünleri](cuisine) servis eden bir yer yoktur.
+ - [çekirge dürüm](other_venues), [incir waffle](other_venues), [beer hall](other_venues) ve [taşan döner](other_venues), [barbaros/kaleiçi](district), [antalya](city)'da bulunan müşterilerin memnun olduğu yerlerdir.
+ - [çillim pizza](other_venues_restaurant_name) ve [avcar](other_venues_restaurant_name) gibi [Cafe cosecha](restaurant_name) da müşterilerin memnun olmadığı bir yerdir.
+ - [katmerci murat](other_venues_restaurant_name) ve [cafe kristo](other_venues_restaurant_name)'ya kıyasla [Bigchefs](restaurant_name), düşük fiyat aralığına sahip tek yerdir.
+ - [Dede restaurant](restaurant_name), müşterilerin memnun olmadığı bir yerdir.
+ - [5 ocak kebap ve sushico](near) yakınındaki [Sky bar](restaurant_name), müşterilerin çok memnun olduğu bir yerdir.
+ - [Varuna los amigos](restaurant_name), [hoşnudiye](district) [eskişehir](city)'de yer alan bir mekandır.
+ - [kapalı çarşı](district), [bursa](city)'da yer alan ve [ızgara ürünler](cuisine) servis eden [Çınar ızgara](restaurant_name), müşterilerin çok memnun olduğu bir yerdir.
+ - [nusr-et steakhouse](near) yakınında bulunan [Nohutçu metin usta](restaurant_name), [ev yapımı yemekler](cuisine) servis eden bir yerdir.
+ - [çukurova](district), [adana](city)'da [Leman kültür](near) yakınında müşterilerin memnun olduğu bir yer yoktur.
+ - [meram](district), [konya](city)'da [kafeterya ürünleri](cuisine) servis eden ortalama fiyat aralığına sahip bir mekan yoktur.
+ - [Ciğerci ali haydar usta ve domino's pizza](near) yakınında yer alan [shakespeare bistro coffee](other_venues), [özsar](other_venues), [kırkayak gaziantepevi](other_venues) ve [doyuran kahvaltı salonu](other_venues), [kaş](district) [antalya](city)'da bulunan yerlerdir.
+ - Ortalama fiyat aralığına sahip olan [Çınar ızgara](restaurant_name), [varuna gezgin cafe](other_venues_restaurant_name), [eleos restaurant](other_venues_restaurant_name) ve [fıstıkzade baklava](other_venues_restaurant_name)'ya kıyasla yüksek fiyat aralığına sahiptir.
+ - [kaburgacı yaşar usta](other_venues_restaurant_name), [cafe mia](other_venues_restaurant_name), [somatçı fihi ma fih](other_venues_restaurant_name), [chef ın the kitchen](other_venues_restaurant_name) ve [kule balık evi](other_venues_restaurant_name)'ne kıyasla [Neşve çay kahve evi](restaurant_name), müşterilerin memnun olduğu yegane yerdir.
+ - [Aylak madam](restaurant_name), çeşitli kahveler ve çaylar sunan bir mekandır.
+ - Meşhur [dondurma](cuisine)cı ali usta, [kesman ciğer ve cafe extrablatt](near)'ın yakınında bulunan ve [tatlı](cuisine), dondurma ve [kafeterya ürünleri](cuisine) sunan bir mekandır.
+ - [Anadolu et lokantası](restaurant_name) fiyatları düşük bir yerdir.
+ - [konya](city)'nın [meram](district) ilçesinde bulunan [Havzan etli ekmek 4](restaurant_name), [ucuz](price) fiyatları ile müşterilerinin memnuniyetini kazanmış bir yerdir.
+ - [bursa](city)'nın [nilüfer](district) ilçesinde yer alan [Ülkü pastanesi](restaurant_name); pasta, çörek ve [kafeterya ürünleri](cuisine) sunan bir yerdir.
+ - [gaziantep](city)'in [şahinbey](district) ilçesinde makul bir fiyat aralığında ve müşteri memnuniyeti [ortalama](rating) bir restoran yoktur.
+ - [izmir](city)'in [alsancak](district) ilçesinde [Caribou coffee ve erçelebi kadayıf](near) civarında ortalama fiyatlı bir restoran bulamazsınız.
+ - [Mevlana lokantası](near) civarında [ortalama](rating) fiyatlara ve ortalama müşteri memnuniyetine sahip mekanlar [marvel coffee](other_venues), [sıralı kebap](other_venues), [bolu lokantası](other_venues), [soğuksu restaurant](other_venues) ve [kelebek lokantası](other_venues)'dır.
+ - [seyir cafe](other_venues_restaurant_name) ve [abişoğlu pastaneleri](other_venues_restaurant_name) gibi [Emmim iskender](restaurant_name) de [ortalama](other_venues_rating) müşteri memnuniyetine sahiptir.
+ - [nira gurme](other_venues_restaurant_name) ile [dayının yeri adanalı şahin usta](other_venues_restaurant_name)'nın aksine [Etevim kasap ızgara kahvaltı salonu](restaurant_name)'nun fiyatları makul seviyededir ve bu fiyat aralığına sahip tek yerdir.
+ - [Cafe cosecha](restaurant_name) [adana](city)'nın [seyhan](district) ilçesindedir.
+ - [pasto](near) mekanına komşu [Ketçi resto](restaurant_name), [güneydoğu anadolu yemekleri](cuisine) ve [türk yemekleri](cuisine) yiyebileceğiniz bir mekandır.
+ - [Num num](restaurant_name), [istanbul](city)'un [levent](district) ilçesindeki [kanyon avm](neighborhood)'de yer almaktadır.
+ - [baklavacı zeki inal](near)'a komşu [Ohannesburger](restaurant_name), [hamburger](cuisine) yiyebileceğiniz müşteri memnuniyeti [ortalama](rating) bir mekandır.
+ - [kebapçı ufuk](near)'un yakınında yer alan [Arzu'nun yeri](restaurant_name), [ucuz](price) fiyatlara sahip bir mekandır.
+ - [eskişehir](city)'in [hoşnudiye](district) bölgesinde [Börekçi rıza ve şahan sirehan](near)'a yakın [ortalama](rating) müşteri memnuniyetine sahip bir mekan yoktur.
+ - [izmir](city)'in [alsancak](district) ilçesinde [Ayıntap baklava ve hattena hatay sofrası](near)'na komşu ortalama fiyatlara sahip bir mekan yoktur.
+ - [La gioia cafe brasserie](near)'nin yakınında [ortalama](rating) müşteri memnuniyetine sahip mekanlar [arpege patisserie](other_venues), [bravo patisserie](other_venues) ile [mevlevi sofrası](other_venues)'dır.
+ - [Papağan](restaurant_name), [domino's pizza](other_venues_restaurant_name)'ya kıyasla daha [ucuz](price) bir mekandır.
+ - [akali](other_venues_restaurant_name), [papağan çiğbörek salonu](other_venues_restaurant_name), [Tostcu mehmet](restaurant_name) ve [kadayıfçı olcay](other_venues_restaurant_name) mekanları arasından müşteri memnuniyeti [ortalama](rating) özelliğini sağlayan mekan yalnızca [tostcu mehmet](restaurant_name)'tir.
+ - Yemek mekanı [Shakespeare bistro](restaurant_name)'da [akdeniz yemekleri](cuisine) ve [kafeterya ürünleri](cuisine) sunulmaktadır.
+ - Yakınlarında [dönerci cengiz ve havzan etliekmek 2](near) mekanları bulunan [Çelebioğulları](restaurant_name) adlı yemek mekanının müşteri memnuniyeti [yüksek](rating)tir.
+ - [izmir](city)'in [bornova](district) ilçesinde [Kafe pi bornova](restaurant_name) isminde bir yemek mekanı bulunmaktadır.
+ - [bursa](city)'nın [merkez](district)inde, yakınında [zemzem çorbacı](near) mekanı bulunan [Kebapçı hüseyin](restaurant_name) isimli yemek mekanının müşteri memnuniyeti [yüksek](rating)tir.
+ - [konya](city)'nın [karatay](district) ilçesinde bulunan [Deva restaurant](restaurant_name)'ın fiyatları [ucuz](price)dur.
+ - [gaziantep](city)'in [şahinbey](district) ilçesinde [ortalama](rating) müşteri memnuniyetine sahip [kebap](cuisine) üzerine bir yemek mekanı bulunmamaktadır.
+ - [eskişehir](city)'in [mustafa kemal paşa](district) mahallesinde [Cemo etliekmek](near) mekanının yakınlarında [kebap](cuisine) üzerine bir yemek mekanı bulunmamaktadır.
+ - [Şelale restoran](other_venues), [bizim dede'nin yeri](other_venues), [seç baklava](other_venues), [baklavacı zeki inal](other_venues), [konak konya mutfağı](other_venues) isimli mekanların müşteri memnuniyetleri [yüksek](rating) ve fiyatları ortalamadır.
+ - [Köfteci behçet](restaurant_name) isimli yemek mekanı, müşteri memnuniyetleri [düşük](other_venues_rating) olan [pool pub](other_venues_restaurant_name), [sufi kebap](other_venues_restaurant_name), [askania](other_venues_restaurant_name) isimli mekanlar gibi müşteriler tarafından beğenilmemektedir.
+ - [Filizler köftecisi](restaurant_name) isimli yemek mekanı [lara balık restaurant](other_venues_restaurant_name), [dilber cafe](other_venues_restaurant_name), [bali bey han](other_venues_restaurant_name), [kaburgacı cabbar usta](other_venues_restaurant_name) isimli mekanlara göre fiyat aralığı ortalama olan tek mekandır.
+ - [Yeşilçam kahve evi](restaurant_name)'nin müşteri memnuniyeti [ortalama](rating)dır.
+ - Yakınında [kazım büfe](near) bulunan [Venedik pastanesi](restaurant_name), [adana](city)'nın [çukurova](district) ilçesinde bulunmaktadır.
+ - [Kebapçı tamer](restaurant_name) adlı yemek mekanının yanında [pasto](near) adlı mekan vardır.
+ - Yakınında [bahçe balık](near) mekanı bulunan, mutfağında [ordövrler](cuisine) servis eden [The tudors pub](restaurant_name), [antalya](city) [barbaros/kaleiçi](district)'nde bulunmaktadır.
+ - [Limonlu bahçe](restaurant_name) isimli yemek mekanı [kafeterya ürünleri](cuisine) servis edip [köfteci behçet](near)‘in yakınlarında bulunmaktadır.
+ - [Sırça köşk](near)'ün yakında, fiyat aralığı [ucuz](price) ve müşteri memnuniyeti [ortalama](rating) olan bir yemek mekanı bulunmamaktadır.
+ - [bursa](city)'nın [iznik](district) ilçesinde [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) servis eden, fiyat aralığı makul olan bir yemek mekanı bulunmamaktadır.
+ - [eskişehir](city)'in [köprübaşı](district) ilçesinde bulunan, yakınlarında [Homburger](near) adlı mekan yer alan [müslüm kebap](other_venues) ve [sempati türk mutfağı](other_venues) adlı mekanların fiyat aralığı [ucuz](price)dur.
+ - [Hideaway bar & cafe](restaurant_name), fiyat aralığı ortalama olan [karaaslan tesisleri](other_venues_restaurant_name)ne kıyasla daha [ucuz](price)dur.
+ - [Mükellef](restaurant_name) isimli yemek mekanı, [kebapçı iskender-asmerkez](other_venues_restaurant_name), [moc istanbul](other_venues_restaurant_name), [01 adana sofrası](other_venues_restaurant_name) isimli mekanlara göre müşteri memnuniyeti [düşük](rating) olan tek mekandır.
+ - [Sille konak restaurant](restaurant_name), [konya](city)'nın [selçuklu](district) ilçesinde bulunmaktadır.
+ - Yakınında [leman kültür](near) mekanı bulunan [Eyvan kebap](restaurant_name) isimli mekan, [adana](city)'nın [çukurova](district) ilçesinde bulunmaktadır.
+ - [Devrez](restaurant_name) isimli yemek mekanı, [ankara](city)'nın [küçük esat](district) mahallesinde bulunmaktadır.
+ - Yakınında [ciğerci ali haydar usta ve domino's pizza](near) bulunan [Hideaway bar & cafe](restaurant_name)'de [ordövrler](cuisine) ve [kafeterya ürünleri](cuisine) servis edilmektedir ve müşteri memnuniyeti [yüksek](rating)tir.
+ - [konya](city)'nın [meram](district) ilçesinde bulunan [Nevizade cafe & restaurant](restaurant_name)'ta [kafeterya ürünleri](cuisine) servis edilmektedir.
+ - [adana](city)'nın [çukurova](district) ilçesinde müşteri memnuniyeti [yüksek](rating) ve fiyat aralığı ortalama olan bir yemek mekanı bulunmamaktadır.
+ - [antalya](city)'nın [kaş](district) ilçesinde, yakınında [Eyvan kebap ve carmelo's every 7 day eat well](near) mekanları bulunan, ortalama fiyat aralığına sahip bir yemek mekanı bulunmamaktadır.
+ - [eskişehir](city)'in [odunpazarı](district) ilçesinde bulunan [01 adana sofrası](other_venues) ve [bayazhan restaurant](other_venues) isimli yemek mekanlarının fiyat aralığı [ucuz](price)dur.
+ - [düşük](other_venues_rating) müşteri memnuniyetine sahip [Ciğerci bedo](restaurant_name) gibi [nusr-et steakhouse](other_venues_restaurant_name) da düşük müşteri memnuniyetine sahiptir.
+ - [Kasr-i nur](restaurant_name) isimli mekan, [çiçek ızgara](other_venues_restaurant_name), [lale döner](other_venues_restaurant_name), [masala kebap ve lahmacun salonu](other_venues_restaurant_name), [neyzen meyhanesi](other_venues_restaurant_name) isimli mekanlar arasında fiyat aralığı ortalama olan tek mekandır.
+ - [Bizim lokanta](restaurant_name) müşterilerin çok memnun olduğu bir restorandır.
+ - [gaziantep](city) [şahinbey](district) bölgesinde bulunan [Boğazköy restaurant](restaurant_name) müşterilerin memnun ayrıldığı bir mekandır.
+ - Akyokuş park [konya](city) mutfağı, konya'nın [selçuklu](district) bölgesinde bulunan bir yemek mekanıdır.
+ - [fsm bulvarı](district), [bursa](city)'da [mevlana lokantası](near) civarlarında bulunan [Cadde üstü](restaurant_name) adlı mekan ortalama bir fiyat aralığına sahiptir.
+ - [izmir](city) [alsancak](district)'daki [Sake cafe & bar](restaurant_name), [caribou coffee ve erçelebi kadayıf](near) mekanlarının yakınında bulunmaktadır.
+ - [izmir](city) [forum bornova](district)'da [yüksek](rating) müşteri memnuniyetine ve ortalama bir fiyat aralığına sahip mekan bulunmamaktadır.
+ - [Pool pub](near) yakınlarında, [atakent](neighborhood), [çakmak](district), [istanbul](city) bölgesinde [döner](cuisine) yenilecek bir mekan bulunmamaktadır.
+ - Fiyatları yüksek olan [mehmet usta et lokantası](other_venues) ve [özdoyum restaurant](other_venues) [istanbul](city)'un [taksim](district) bölgesindedir.
+ - Ortalama bir ücrete sahip [tahta masa](other_venues_restaurant_name), [beef burger](other_venues_restaurant_name) ve [kolcuoğlu kebap](other_venues_restaurant_name)'a göre daha düşük bir fiyatlandırmaya sahip mekan [Çulcuoğlu](restaurant_name)'dur.
+ - [Meşhur özçelik aspava](restaurant_name) restoranı, [volkan büfe](other_venues_restaurant_name), [rasta cafe](other_venues_restaurant_name), [petek pastanesi](other_venues_restaurant_name), [özikizler künefe](other_venues_restaurant_name), [havzan etli ekmek 4](other_venues_restaurant_name) adlı mekanlara kıyasla müşterinin memnun ayrıldığı tek mekandır.
+ - [Özsüt](restaurant_name) müşterilerin memnun ayrıldığı bir mekandır.
+ - [hoşnudiye](district), [eskişehir](city) lokasyonunda bulunan [Yum-yum noodle house](restaurant_name) [börekçi rıza ve şahan sirehan](near) adlı mekanların civarındadır.
+ - [nilüfer](district), [bursa](city)'da, [Ayanoğlu tarz-i kahvaltı](restaurant_name) adlı mekan bulunmaktadır.
+ - [adana](city) [çukurova](district)'da [la gioia cafe brasserie](near) adlı mekanın yakınlarında bulunan [Elem kebap restaurant](restaurant_name) müşterilerin memnun ayrıldığı bir yer olarak bilinir.
+ - [ayıntap baklava ve hattena hatay sofrası](near) yakınlarında bulunan [Midyeli](restaurant_name) adlı mekan ortalama bir fiyat aralığına sahiptir.
+ - [osmangazi](district), [bursa](city)'da müşterilerin çok beğendiği [kebap](cuisine) ve [ızgara ürünler](cuisine) satan bir mekan bulunmamaktadır.
+ - [kebap](cuisine) yapan, [merkez](district), [gaziantep](city)'de [Ciğerci mustafa](near) yakınlarında olan bir yemek mekanı bulunmamaktadır.
+ - [odunpazarı](district), [eskişehir](city) bölgesinde bulunan [Köseoğlu ekmek & pide & kahvaltı](near) mekanı çevresinde [tatlıcı gönül kardeşler](other_venues), [kebapçı iskender](other_venues), [köşem kebap şahin usta](other_venues), [onur işkembe](other_venues), [baltazar](other_venues) adlı mekanlar bulunur.
+ - [Karaköy güllüoğlu](restaurant_name) müşteri memnuniyetini kazanmamış iken, [burger king-kule site avm](other_venues_restaurant_name), [via pub](other_venues_restaurant_name) ve [midpoint](other_venues_restaurant_name) adlı mekanlardan müşteriler memnun ayrılmaktadır.
+ - [elem restaurant](other_venues_restaurant_name), [kebapçı iskender yavuz iskenderoğlu](other_venues_restaurant_name), [sade kahvaltı & çikolata](other_venues_restaurant_name), [lokma](other_venues_restaurant_name) adlı mekanlara göre daha makul bir fiyat aralığına sahip tek mekan [Mobidik restaurant](restaurant_name)'tır.
+ - [Nereid meyhanesi](restaurant_name) müşterilerin çok beğendiği bir meyhanedir.
+ - [şahinbey](district), [gaziantep](city)'de bulunan [Zirve park](restaurant_name) müşterilerin memnun olduğu bir mekandır.
+ - [nar restaurant ve tatlıcı köse](near) adlı mekanların yakınında [Cafe des cafes](restaurant_name) bulunmaktadır.
+ - [istanbul](city) [süleymaniye](district)'de bulunan müşterilerin çok memnun olduğu [Ağa kapısı](restaurant_name) adlı mekan [kafeterya ürünleri](cuisine) sunmaktadır.
+ - [mustafa kemal paşa](district), [eskişehir](city)'de bulunan [Ciğerci ahmet](restaurant_name), [kebap](cuisine) mutfağına yönelik hizmet vermektedir.
+ - [konya](city)'nın [selçuklu](district) bölgesinde müşterilerin çok memnun olduğu [pizza](cuisine) mutfağı ürünleri sunan bir mekan yoktur.
+ - [çukurova](district), [adana](city) bölgesinde [pasta ve çörek](cuisine) ve [kafeterya ürünleri](cuisine) hizmetinde bulunan müşterilerin memnun kaldığı bir mekan yoktur.
+ - [Meşhur adıyaman çiğköftecisi ömer aybak](near) mekanının yakınlarında bulunan [huqqa](other_venues) ile [kebapçı iskender yavuz iskenderoğlu](other_venues) adlı mekanlar [yüksek](rating) müşteri memnuniyetine sahiptir.
+ - [Zirve park](restaurant_name) mekanı fiyat aralığı bakımından [ucuz](price) kategorisinde değerlendirilirken, [meşhur kebapçı dedeler 1929](other_venues_restaurant_name) ve [kebapçı şeyhmus](other_venues_restaurant_name) adlı mekanlar ortalama bir fiyat aralığına sahiptir.
+ - [Yengeç restaurant](restaurant_name), [kanaat lokantası](other_venues_restaurant_name), [abdüsselam balaban kebap salonu](other_venues_restaurant_name), [kebapçı mesut](other_venues_restaurant_name), [bi lokma](other_venues_restaurant_name) adlı mekanlara kıyasla müşterilerin memnun olmadığı tek mekandır.
+ - [Louise](restaurant_name) müşteri memnuniyeti [yüksek](rating) bir mekandır.
+ - [Topçu kebap salonu](restaurant_name) müşterilerin memnun olduğu, [ucuz](price) fiyat aralığına sahip bir mekandır.
+ - [Cafe de kedi](restaurant_name), [istiklal](district), [eskişehir](city) bölgesinde bulunmaktadır.
+ - [köprübaşı](district), [eskişehir](city) bölgesinde, [homburger](near) adlı mekanın yakınlarında bulunan [Papağan](restaurant_name) adlı mekanın müşteri memnuniyeti [yüksek](rating)tir.
+ - Ortalama bir fiyat aralığına sahip [Askania](restaurant_name) adlı mekan [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) mutfağında hizmet vermektedir.
+ - [konya](city)'nın [meram](district) bölgesinde müşterilerin memnun olduğu [döner](cuisine) satan bir mekan yoktur.
+ - [Hi coffee](near) yakınlarında düşük fiyatlı [alkollü içecekler](cuisine) ve [akdeniz yemekleri](cuisine) satan bir mekan yoktur.
+ - [onur işkembe](other_venues), [baltazar](other_venues), [kaplan dağ restoran](other_venues) ve [ceviz ağacı](other_venues) isimli mekanlar müşterilerin memnun olduğu [gaziantep](city) mekanlarıdır.
+ - Hem [Gandi'nin yeri](restaurant_name) hem de [evren büfe](other_venues_restaurant_name) adlı mekanlar [ortalama](other_venues_rating) bir müşteri memnuniyetine sahiptir.
+ - [karaköy lokantası](other_venues_restaurant_name), [tayfa balıkevi](other_venues_restaurant_name) ve [friends cafe](other_venues_restaurant_name) adlı mekanlara kıyasla [Passage cafe](restaurant_name) adlı mekan ortalama bir fiyat aralığına sahip tek mekandır.
+ - [Passage cafe](restaurant_name), [karaköy lokantası](other_venues_restaurant_name), [tayfa balıkevi](other_venues_restaurant_name), [friends cafe](other_venues_restaurant_name) isimlerindeki yemek mekanlarının arasından makul fiyat aralığına sahip tek restoran [passage cafe](restaurant_name)'dir.
+ - [Tiko burger](restaurant_name) [hamburger](cuisine) yaparak satmaktadır.
+ - [Park zirve](restaurant_name), müşterilerinin [yüksek](rating) memnuniyetini kazanmış ve ortalama fiyat aralığındaki bir yemek mekanıdır.
+ - [Burger king-gaziantep](restaurant_name) [hamburger](cuisine) satışı yapan bir mekandır.
+ - [Kasr-i nur](restaurant_name) isimli mekan [osmanlı mutfağı yemekleri](cuisine) ile [ev yapımı yemekler](cuisine)i [ucuz](price) fiyat aralığında sunan ve müşterilerin beğendiği bir yerdir.
+ - [Oburus momus](restaurant_name) isimli mekan ortalama fiyat aralığına sahip olup [eyvan kebap ve carmelo's every 7 day eat well](near) yemek mekanlarının yanındadır.
+ - Müşteri memnuniyeti [düşük](rating) olan, [izmit](city), [merkez](district) bölgesinde [Özsüt](near) yakınlarında bir yemek mekanı bulunmamaktadır.
+ - [Sakız restaurant](near) yakınında [meram](district), [konya](city) bölgesinde fiyat aralığı ortalama olan bir yemek mekanı bulunmamaktadır.
+ - [Cafe mia ve bayramoğlu döner](near) yemek mekanı yakınında [çukurova](district), [adana](city) bölgesindeki restoranların adları [texmex bistro & lounge](other_venues) ve [arka sokak](other_venues)'tır.
+ - [Doğan kaymaklı kadayıf](restaurant_name) yemek mekanı [ucuz](price) fiyat aralığındayken, [damak](other_venues_restaurant_name) ile [kahvehan premium](other_venues_restaurant_name) adlı mekanlarda fiyat aralığı ortalama düzeydedir.
+ - Hem [urfa tike ciğer](other_venues_restaurant_name) hem de [baklavacı güllüoğlu ömer güllü](other_venues_restaurant_name) mekanlarına kıyasla [Havva hanım](restaurant_name) [ortalama](rating) müşteri memnuniyetine sahip tek mekandır.
+ - [Dere bahçe restaurant](restaurant_name), müşterilerinin memnuniyetini kazanmış bir yerdir.
+ - [Beğendik abi lokantası](restaurant_name), makul fiyatlarıyla [forum bornova](district), [izmir](city)'de hizmet vermektedir.
+ - [Özsüt](restaurant_name), [eskişehir çiğ börek evi](near) civarındadır.
+ - [türk yemekleri](cuisine), [deniz mahsülleri](cuisine), [alkollü içecekler](cuisine) sunan [Leb-i derya](restaurant_name) [pahalı](price) fiyatları fakat [yüksek](rating) müşteri memnuniyetiyle öne çıkmaktadır.
+ - [türk yemekleri](cuisine), [deniz mahsülleri](cuisine) ve [alkollü içecekler](cuisine) sunan [Leb-i derya](restaurant_name) müşteri memnuniyetinin [yüksek](rating) fiyatlarınsa [pahalı](price) olduğu bir yerdir.
+ - [istanbul](city)'daki [döner](cuisine)cilerden [Dönerci celal usta](restaurant_name), [çakmak](district), [atakent](neighborhood) mahallesinde hizmet vermektedir.
+ - [izmir](city)'in [urla](district) bölgesinde, [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) bulabileceğiniz aynı zamanda müşteri memnuniyeti [yüksek](rating) bir mekan bulunmamaktadır.
+ - [eskişehir](city)'in [merkez](district)inde, [Özikizler künefe](near) yakınında [ızgara ürünler](cuisine) yenebilecek bir yer yoktur.
+ - [Kadir usta kebap ve lahmacun](near) yakınındaki [el matador](other_venues), [tahta masa](other_venues), [beef burger](other_venues), [kolcuoğlu kebap](other_venues) düşük fiyatlarıyla müşterilerini oldukça memnun etmektedir.
+ - [Kadir usta kebap ve lahmacun](near)'a komşu olan, fiyatların uygun bulunduğu müşteri memnuniyetinin ise [yüksek](rating) olduğu tüm mekanlar [el matador](other_venues), [tahta masa](other_venues), [beef burger](other_venues) ve [kolcuoğlu kebap](other_venues)'tır.
+ - [Homburger](restaurant_name)'in de müşteri memnuniyeti, [kebapçı iskender](other_venues_restaurant_name) ve [mado](other_venues_restaurant_name) gibi [ortalama](other_venues_rating) düzeydedir.
+ - [Onur kebap](restaurant_name), [tarihi viktor levi şarap evi](other_venues_restaurant_name) ve [pasto](other_venues_restaurant_name) mekanlarına göre daha ortalama fiyatlarla hizmet vermesiyle bilinen tek mekandır.
+ - [Burger house](restaurant_name) makul fiyatlara sahip bir mekandır.
+ - [osmangazi](district), [bursa](city)'da bulunan [Çiçek ızgara](restaurant_name) müşterilerini memnun etmektedir.
+ - [Kebapçı halil usta](restaurant_name), [ucuz](price) fiyatlara sahip bir mekandır.
+ - [eskişehir](city), [odunpazarı](district)'nda [köseoğlu ekmek & pide & kahvaltı](near) yakınlarında bulunan [Rumeli çikolatacısı](restaurant_name), [tatlı](cuisine) ve [kafeterya ürünleri](cuisine) bulabileceğiniz bir mekandır.
+ - [Yesemek lokantası](restaurant_name), [ciğerci mustafa](near)'nın yakınlarında [kebap](cuisine) yapan bir mekandır.
+ - [izmir](city), [bostanlı](district)'da [Dağmaran kahvaltı evi](near)'nin yakınlarında bulunan, [yüksek](rating) müşteri memnuniyetine sahip bir mekan bulamazsınız.
+ - [antalya](city)'nın [kaş](district) bölgesinde [Bahçe balık](near)'ın yakınlarında [ucuz](price) bir mekan bulamazsınız.
+ - [istanbul](city)'da [kadıköy merkez](district)deki [yüksek](rating) müşteri memnuniyetine sahip mekanlar: [rumeli çikolatacısı](other_venues), [alin's](other_venues), [alara restaurant-atatürk parkı](other_venues), [muzzy ocakbaşı](other_venues) ve [varuna gezgin cafe del mundo](other_venues)'dur.
+ - [Chef ın the kitchen](restaurant_name), ortalama fiyatlara sahip [müpptela ocakbaşı meyhane](other_venues_restaurant_name), [tostçu erol](other_venues_restaurant_name) ve [kaburgacı yaşar usta](other_venues_restaurant_name)'ya kıyasla daha [ucuz](price) fiyatlarla hizmet vermektedir.
+ - [Burger king-real avm](restaurant_name), [kolcuoğlu kebap](other_venues_restaurant_name), [deli kantin](other_venues_restaurant_name) ve [cici piknik](other_venues_restaurant_name) gibi diğer mekanlara kıyasla [ortalama](rating) bir müşteri memnuniyetine sahiptir.
+ - [Paçacı şemsi](restaurant_name) müşteri memnuniyeti [yüksek](rating) bir mekandır.
+ - [pizza](cuisine) bulabileceğiniz [Serenade etliekmek](restaurant_name), müşterilerini oldukça memnun eden bir mekandır.
+ - [Mado](restaurant_name), [kahve ve çay çeşitleri](cuisine) bulabileceğiniz bir mekandır.
+ - [mudanya yolu](district), [bursa](city)'da [kebapçı iskender yavuz iskenderoğlu ve meşhur adıyaman çiğköftecisi ömer aybak](near) 'ın yakınlarında bulunan [Trilye muhallebicisi](restaurant_name) [tatlı](cuisine) bulabileceğiniz mekanlardandır.
+ - [çukurova](district), [adana](city)'da bulunan [Petek pastanesi](restaurant_name) makul fiyatlarla hizmet vermektedir.
+ - [gaziantep](city)'in [merkez](district)inde [döner](cuisine) yiyebileceğiniz [ortalama](rating) müşteri memnuniyetine sahip bir mekan yoktur.
+ - [Retro bistro](near)'nun yakınlarında [ızgara ürünler](cuisine) ve [hazır yiyecekler](cuisine) satan [ucuz](price) bir mekan bulamazsınız.
+ - [bursa](city), [kükürtlü](district)'de bulunan [yelken balık evi](other_venues), [nasreddin restaurant](other_venues), [varuna gezgin cafe](other_venues) mekanları [ortalama](rating) bir müşteri memnuniyetine sahiptir.
+ - [Çorbacı ismet usta](restaurant_name), [ortalama](other_venues_rating) müşteri memnuniyetine sahip [78 coffee](other_venues_restaurant_name), [soulmate coffee](other_venues_restaurant_name) ve [ab'bas waffle](other_venues_restaurant_name) gibi ortalama bir müşteri memnuniyetine sahiptir.
+ - [mcdonald's](other_venues_restaurant_name), [ıl vicino pizzeria](other_venues_restaurant_name) ve [akdeniz dondurma](other_venues_restaurant_name)'nın aksine [Pan house](restaurant_name) daha [ucuz](price) fiyatlarla hizmet veren tek yerdir.
+ - [Kebapçı iskender](restaurant_name) müşteri memnuniyeti [yüksek](rating) bir mekandır.
+ - Lale [döner](cuisine), döner bulabileceğiniz [ortalama](rating) bir mekandır.
+ - [Vizyon kebap](restaurant_name), [kahve diyarı](near) yakınlarında bulunmaktadır.
+ - [gaziantep](city)'te [la puerta ve pizza il forno](near) yakınlarında bulunan [Yörem antep mutfağı](restaurant_name), [ev yapımı yemekler](cuisine) bulabileceğiniz bir mekandır.
+ - [Ruhi bey 1949 meyhanesi](restaurant_name), [alkollü içecekler](cuisine) ve [akdeniz yemekleri](cuisine) bulabileceğiniz [ucuz](price) fiyatlara sahip bir mekandır.
+ - [Kebapçı iskender ve leman kültür](near)'ün yakınlarında müşteri memnuniyeti [yüksek](rating) ve makul fiyatlara sahip bir mekan bulamazsınız.
+ - [antalya](city), [kaş](district)'ta [Köfteci yusuf](near) yakınlarında [pahalı](price) bir mekan yoktur.
+ - [ankara](region) [çankaya](region)'da bulunan [üniversiteler](region), [tepe prime avm](region)'de [Zemzem çorbacı ve basrioğlu et restaurant](near) yakınlarındaki ortalama fiyatlı mekanlar, [pastabahcesi.com](other_venues), [hacı arif bey restaurant](other_venues), [miks lounge](other_venues) ve [adana yüzevler kebap](other_venues)'tır.
+ - [Eskişehir çiğ börek evi](restaurant_name), [ucuz](other_venues_price) fiyatlara sahip [sille konak restaurant](other_venues_restaurant_name)'a göre ortalama fiyatlara sahiptir.
+ - [Müslüm kebap](restaurant_name), [inci pastanesi](other_venues_restaurant_name) ve [temel çiğbörek salonu](other_venues_restaurant_name)'nun tersine [düşük](rating) bir müşteri memnuniyetine sahiptir.
+ - [Venedik pastanesi](restaurant_name), [ortalama](rating) müşteri memnuniyetine sahip bir mekandır.
+ - [Bay k. restaurant cafe](restaurant_name), [izmit](city) [merkez](district)'de, [özsüt](near)'ün civarındaki bir mekandır.
+ - [çukurova](district), [adana](city)'da [kebap](cuisine) ve [pizza](cuisine) yenebilecek mekanlardan biri [cafe mia ve bayramoğlu döner](near) civarındaki [Asya kebap](restaurant_name)'tır.
+ - [Ferah etliekmek](restaurant_name), [sakız restaurant](near) yakınlarında bulunan ortalama fiyatlara sahip bir mekandır.
+ - [adana](city)'nın [çukurova](district) ilçesinde [Önder pastanesi](near)'nin yakınlarında müşterilerin çok memnun olduğu bir restoran yoktur.
+ - [Paşalimanı bistro & lounge](other_venues) ve [carmelo's every 7 day eat well](other_venues) [ucuz](price) fiyatlara ve [yüksek](rating) müşteri memnuniyetine sahip mekanlardır.
+ - [Tatlıdil köftecisi](restaurant_name), [mama craft](other_venues_restaurant_name), [livadi](other_venues_restaurant_name) ve [noel baba cafe](other_venues_restaurant_name) gibi [düşük](other_venues_rating) memnuniyetli mekanlara kıyasla [ortalama](rating) bir müşteri memnuniyetine sahiptir.
+ - [Şelale restoran](restaurant_name), fiyat açısından kıyaslandığında [şelale park restaurant cafe](other_venues_restaurant_name) ve [mezze balık](other_venues_restaurant_name)'a göre daha makul fiyatlı tek restorandır.
+ - [Denizalti restaurant](restaurant_name), [izmir](city) [urla](district)'da [kafeterya ürünleri](cuisine) ve [türk yemekleri](cuisine) sunan bir lokantadır.
+ - [gaziantep](city) [şahinbey](district)'de yer alan [Baklavacı zeki inal](restaurant_name), uygun fiyat ve [yüksek](rating) müşteri memnuniyeti sağlayan bir tatlıcıdır.
+ - [gaziantep](city) [şehitkamil](district) bölgesinde [Sille konak restaurant](near) yakınlarında [düşük](rating) müşteri memnuniyetine sahip bir mekan bulunmamaktadır.
+ - [tarihi viktor levi şarap evi](other_venues) ve [pasto](other_venues), [bursa](city)'nın [gemlik](district) bölgesinde [düşük](rating) müşteri memnuniyeti sunabilen mekanlardır.
+ - [passage cafe](other_venues_restaurant_name), [odunpazarı şerbet evi](other_venues_restaurant_name) ve [feride anne'nin mutfağı](other_venues_restaurant_name)'nın aksine [Club arma restaurant](restaurant_name), müşterilerini memnun eden tek mekandır.
+ - [izmir](city)'in [bostanlı](district) bölgesinde yer alan [Kumrucu şevki](restaurant_name), müşterilerin çok memnun olduğu bir mekandır.
+ - [Çağlar restaurant](restaurant_name), [konya](city)'nın [çumra](district) bölgesinde yer almaktadır.
+ - Müşterilerinin aşırı memnun kaldığı fornello [pizza](cuisine), [kadıköy merkez](district), [istanbul](city)'da pizza ve [italyan mutfağı](cuisine)na ait yemekler yenebilecek bir yerdir.
+ - [abacı konak otel](neighborhood), [odunpazarı](district), [eskişehir](city)'de [Nusr-et steakhouse](near)'un yakınında müşterilerini memnun eden bir mekan bulamazsınız.
+ - [istanbul](city)'da [caddebostan](district)'da [Bayazhan bistro ve trilye balık](near) yakınlarında [alkollü içecekler](cuisine) sunan bir yer yoktur.
+ - Müşteri memnuniyetinin [ortalama](rating) fiyatlarınsa makul olduğu tüm mekanlar [Storie store](other_venues), [mantar döner](other_venues), [çekirge dürüm](other_venues) ve [incir waffle](other_venues)'dır.
+ - [Şifa restaurant](restaurant_name), [enes fırın](other_venues_restaurant_name), [cookshop](other_venues_restaurant_name), [lokma kebap](other_venues_restaurant_name)'a kıyasla [ucuz](price) fiyat aralığında hizmet veren tek mekandır.
+ - [Keyf-i sohbet cafe](restaurant_name), [düşük](rating) müşteri memnuniyeti olan bir mekandır.
+ - [Soulmate coffee](restaurant_name), [kocaeli](city)'nin [izmit](district) bölgesindeki [symbol 262 avm](neighborhood)'de yer almaktadır.
+ - [Sufi kebap](restaurant_name), [ucuz](price) fiyat aralığında [ızgara ürünler](cuisine) ve [hazır yiyecekler](cuisine) sunan bir mekandır.
+ - [alsancak](district) [izmir](city)'deki [The bigos ve tavacı refik](near)'in yakınında makul fiyat aralığına sahip bir mekan bulunmamaktadır.
+ - [Barista plus cafe](restaurant_name) de [masa et kebap](other_venues_restaurant_name) gibi [ucuz](other_venues_price) fiyat aralığına sahip bir mekandır.
+ - [Magro good food](restaurant_name), müşterilerini çok memnun etmektedir.
+ - [Özel ciğerci](restaurant_name), [konya](city)'nın [meram](district) bölgesinde yer almaktadır.
+ - [köfteci yusuf](near) yakınındaki [Bahçe balık](restaurant_name), [pahalı](price) bir mekandır.
+ - [konya](city)'nın [karatay](district) ilçesinde [Macarons d'antoinette](near)'nin yakınında [ucuz](price) fiyatlarla yemek hizmeti sunan bir mekan yoktur.
+ - [Bayramefendi osmanlı kahvecisi](restaurant_name) de [papağan çiğbörek salonu](other_venues_restaurant_name), [kadayıfçı olcay](other_venues_restaurant_name) ve [champs elysees](other_venues_restaurant_name) gibi müşterilerini memnun eden bir mekandır.
+ - [Kazım büfe](restaurant_name), [hazır yiyecekler](cuisine) yiyebileceğiniz bir mekandır.
+ - [Retro bistro](restaurant_name), [benzin cafe & restaurant](near)'ın yakınındaki bir mekandır.
+ - [Tuzu biberi](restaurant_name), makul fiyatlar ile [kafeterya ürünleri](cuisine) yiyebileceğiniz bir mekandır.
+ - [izmit](city) [merkez](district)'de [Gurmekan restaurant](near)'ın yakınında [türk yemekleri](cuisine) ve [güneydoğu anadolu yemekleri](cuisine)ni tadabileceğiniz bir mekan yoktur.
+ - [the big man](other_venues_restaurant_name), [kahve diyari](other_venues_restaurant_name) ve [paşa kebap-kemer](other_venues_restaurant_name)'in fiyat aralığı, [Burger joint](restaurant_name)'in makul fiyatları ile karşılaştırıldığında [ucuz](other_venues_price) kalmaktadır.
+ - [Starbucks](restaurant_name)'ın müşteri memnuniyeti [ortalama](rating) düzeydedir.
+ - Müşteri memnuniyeti [düşük](rating) olan [Kebapçı necdet](restaurant_name) [sille konak restaurant](near)'ın yakınlarında yer almaktadır.
+ - [Midpoint](restaurant_name) [timboo cafe](near) yakınlarında konumlanmaktadır.
+ - [tzatziki meyhane](near)'si yakınlarında bulunan [Kebapçı iskender-asmerkez](restaurant_name) [gemlik](district), [bursa](city) bölgesinde yer alır ve [döner](cuisine) mutfağına hakimdir.
+ - [bebek](district), [istanbul](city)'da yer alan [Starbucks](restaurant_name) [kahve ve çay çeşitleri](cuisine) ile [kafeterya ürünleri](cuisine) satmaktadır.
+ - [Saitabat köyü kadınları dayanışma derneği](near) yakınlarında [kafeterya ürünleri](cuisine) ve [tatlı](cuisine) satan müşteri memnuniyeti [yüksek](rating) bir yemek mekanı bulunmamaktadır.
+ - [Duble meze bar](near) yakınlarında, [merkez](district), [izmit](city) bölgesine yakın [kafeterya ürünleri](cuisine) satan bir mekan yoktur.
+ - [merkez](district), [gaziantep](city) bölgesinde [cafe de kedi](other_venues), [aşşk kahve](other_venues), [patlican](other_venues), [cafe botanica](other_venues), [tarihi çınaraltı aile bahçesi](other_venues) gibi mekanların fiyat aralığı [ucuz](price) olarak sınıflandırılabilir.
+ - [Önder pastanesi](restaurant_name)'nin müşteri memnuniyeti [düşük](rating)ken [bali bey han](other_venues_restaurant_name), [kaburgacı cabbar usta](other_venues_restaurant_name), [lokmahane restaurant](other_venues_restaurant_name) gibi mekanların müşteri memnuniyeti [ortalama](other_venues_rating)dır.
+ - [Müslüm kebap](restaurant_name)'ı [çorbacı ismet usta](other_venues_restaurant_name), [aylak madam](other_venues_restaurant_name), [gandi'nin yeri](other_venues_restaurant_name), [inci pastanesi](other_venues_restaurant_name), [temel çiğbörek salonu](other_venues_restaurant_name) gibi mekanlardan ayıran özelliği içlerinde sadece onun fiyat aralığının [ucuz](price) olmasıdır.
+ - [Güllüoğlu](restaurant_name) müşteri memnuniyeti orta olan bir mekandır.
+ - [abacı konak otel](neighborhood), [odunpazarı](district), [eskişehir](city) yakınlarındaki [Avlu restaurant](restaurant_name) müşteri memnuniyeti orta düzeyde olan bir mekandır.
+ - [hot fun ve köfteci behçet](near) yakınlarında [Yeşildağlar et](restaurant_name) mekanı bulunmaktadır.
+ - [merkez](district), [gaziantep](city) bölgesinde konumlanan [Badem çikolata & cafe](restaurant_name) ortalama bir fiyatla [tatlı](cuisine) ve [kafeterya ürünleri](cuisine) satmaktadır.
+ - [caddebostan](district), [istanbul](city) bölgesindeki [Draft gastro pub](restaurant_name)'ta [alkollü içecekler](cuisine) bulabilirsiniz.
+ - [gaziantep](city) [merkez](district) bölgesinde fiyat aralığı [ucuz](price) olan [ortalama](rating) müşteri memnuniyetine sahip bir mekan yoktur.
+ - [zümrütova](district), [antalya](city) bölgesinde [İskender restaurant](near) yakınlarında fiyat aralığı [pahalı](price) olan bir mekan bulamazsınız.
+ - [caddebostan](district), [istanbul](city) bölgesindeki [kiyi balık](other_venues) ile [konya mutfağım premium lounge](other_venues) gibi mekanların müşteri memnuniyeti [yüksek](rating)tir.
+ - [Tarihi çınaraltı aile çay bahçesi](restaurant_name)'nin fiyat aralığı [havva hanım](other_venues_restaurant_name) ve [senfoni](other_venues_restaurant_name) isimli mekanlar gibi [ucuz](other_venues_price)dur.
+ - [Akşam simit fırını](restaurant_name)'nı [emmim iskender](other_venues_restaurant_name), [kandil etliekmek evi](other_venues_restaurant_name), [kahv6](other_venues_restaurant_name), [tesadüf cafe](other_venues_restaurant_name) gibi mekanlardan ayıran özelliği sadece onun müşteri memnuniyetinin [düşük](rating) olmasıdır.
+ - [Neşve çay kahve evi](restaurant_name) fiyat aralığı [ucuz](price) olan bir mekandır.
+ - [bahçelievler](district), [ankara](city)'da bulunan [Varuna gezgin cafe](restaurant_name)'nin müşteri memnuniyeti [ortalama](rating) düzeydedir.
+ - [Leman kültür](restaurant_name)'de müşteriler [kafeterya ürünleri](cuisine) bulabilirler.
+ - [kahve diyarı](near) yakınlarındaki [Zeynel inegöl köftecisi](restaurant_name) [ızgara ürünler](cuisine) satar ve müşteri memnuniyeti [yüksek](rating)tir.
+ - [the bigos ve tavacı refik](near) yakınlarındaki [La puerta](restaurant_name)'nın fiyat aralığı makul olarak sınıflandırılabilir.
+ - [öveçler](district), [ankara](city) bölgesinde müşteri memnuniyeti [yüksek](rating) olan ve [kebap](cuisine) satan bir mekan yoktur.
+ - [çukurambar](district), [ankara](city) bölgesinde [Willy wonder's coffee](near) yakınlarında [döner](cuisine), [pizza](cuisine) ve [ızgara ürünler](cuisine) satan bir mekan yoktur.
+ - [karaköy](district), [istanbul](city) bölgesinde [222 park](other_venues) ve [boğazköy restaurant](other_venues) gibi mekanların müşteri memnuniyeti [yüksek](rating)tir.
+ - [Tarihi viktor levi şarap evi](restaurant_name)'nin müşteri memnuniyeti [düşük](rating)ken [zirve park](other_venues_restaurant_name)'ınki [ortalama](other_venues_rating) düzeydedir.
+ - [cino'nun yeri](other_venues_restaurant_name), [kırım çibörekçisi](other_venues_restaurant_name), [tatlıcı gönül kardeşler](other_venues_restaurant_name), [kebapçı iskender](other_venues_restaurant_name) gibi mekanlardan farklı olarak [Onur işkembe](restaurant_name) fiyat aralığı [ucuz](price) olan tek mekandır.
+ - [Demo gastro pub](restaurant_name) isimli mekan [nilüfer](district), [bursa](city) konumunda bulunmaktadır.
+ - [smileys](near)'in yanında bulunan [Mantar döner](restaurant_name)'in müşteri memnuniyeti [ortalama](rating) seviyededir.
+ - [Lara balık restaurant-konyaaltı](restaurant_name) mekanının fiyat aralığı [ucuz](price) olarak değerlendirilebilir.
+ - [balgat](district), [ankara](city)'da bulunan [Masabaşı kebapçısı](restaurant_name) yakınındaki [mendels](near)'in fiyat aralığı makul düzeydedir.
+ - [macarons d'antoinette](near) yakınında bulunan [Hiç hane](restaurant_name) isimli mekan [karatay](district), [konya](city) bölgesindedir.
+ - [meram](district), [konya](city)'da [Mini köşk köfte ve venedik pastanesi](near) yakınlarında müşteri memnuniyeti [ortalama](rating) olan bir mekan yoktur.
+ - [hoşnudiye](district), [eskişehir](city) bölgesinde [Piyazcı ahmet](near) civarında [kafeterya ürünleri](cuisine) satan bir mekan bulunmamaktadır.
+ - [tchibo-dolphin avm](other_venues) ve [seyir cafe](other_venues) gibi mekanlar [altınkum](district), [antalya](city) civarlarındaki müşteri memnuniyeti [ortalama](rating) olan mekanlardır.
+ - [kebapçı ufuk](other_venues_restaurant_name), [tarihi çınaraltı aile çay bahçesi](other_venues_restaurant_name) ve [nadda steakhouse](other_venues_restaurant_name) gibi mekanların fiyat aralığı ortalama düzeydeyken [Gönül kebap](restaurant_name)'ın fiyat aralığı [ucuz](price) olarak değerlendirilebilir.
+ - [Şark kadayıfçısı](restaurant_name) [önder pastanesi](other_venues_restaurant_name) ve [zigana pide](other_venues_restaurant_name) gibi mekanların aksine müşteri memnuniyetinin [düşük](rating) olduğu tek mekandır.
+ - [Happy moons](restaurant_name) müşteri memnuniyeti [ortalama](rating) olan bir mekandır.
+ - [nevizade cafe & restaurant](near) yakınlarındaki [Ot kafe](restaurant_name)'nin müşteri memnuniyeti [yüksek](rating)tir.
+ - [meram](district) çamlıbel çay bahçesi & restoran meram, [konya](city) bölgesinde bulunmaktadır.
+ - [Quick china](restaurant_name) [çayyolu](district), [ankara](city) bölgesinde bulunan müşteri memnuniyeti [yüksek](rating) ve fiyat aralığı ortalama düzeyde olan bir mekandır.
+ - [gurmekan restaurant](near) yakınlarındaki [Kızılkaya restaurant](restaurant_name) [merkez](district), [izmit](city)'te bulunmaktadır.
+ - [armada avm](region), [söğütözü](region), [yenimahalle](region), [ankara](region)'da [Cengiz hamburger & g3 ve köfteci sofu](near) mekanları yakınlarında müşteri memnuniyeti [düşük](rating) olan bir mekan yoktur.
+ - [hoşnudiye](district), [eskişehir](city) bölgesinde [Sakıp usta beyran & paça & kebap ve ruhi bey meyhanesi](near) yakınlarında [kafeterya ürünleri](cuisine) satan bir mekan yoktur.
+ - [zümrütova](district), [antalya](city) bölgesinde [neşve çay kahve evi](other_venues), [red dragon](other_venues), [küşleme kebaphan hüseyin usta](other_venues) gibi mekanların müşteri memnuniyeti [ortalama](rating) düzeydedir ve fiyat aralıkları [ucuz](price)dur.
+ - [Kebap 49](restaurant_name) isimli mekanın müşteri memnuniyeti de [chickinn](other_venues_restaurant_name), [neşve çay kahve evi](other_venues_restaurant_name) ve [red dragon](other_venues_restaurant_name) isimli mekanlar gibi [düşük](other_venues_rating)tür.
+ - [ruhi bey 1949 meyhanesi](other_venues_restaurant_name), [elizinn patiserrie & restaurant](other_venues_restaurant_name), [hacı şükrü fırın ve kebap salonu](other_venues_restaurant_name), [peximet](other_venues_restaurant_name) gibi mekanlardan farklı olarak [Köfteci yusuf](restaurant_name) fiyat aralığı [ucuz](price) olan tek restorandır.
+ - [Hacı arif bey restaurant](restaurant_name), [ankara](city)'nın [kavaklıdere](district) bölgesinde bulunan bir mekandır.
+ - [Turta home cafe](restaurant_name), hazırladıkları [kafeterya ürünleri](cuisine) ve [tatlı](cuisine)larla müşteri memnuniyetini çokça kazanmış durumdadır.
+ - [Starbucks](restaurant_name), [kafeterya ürünleri](cuisine) hazırlayan bir mekandır.
+ - [gaziantep](city) [merkez](district)de bulunan [Doğan dondurma & kadayıf](restaurant_name), uygun fiyatlarıyla müşteri memnuniyetini kazanmıştır.
+ - [duble meze bar](near)'ın yakınında bulunan [Tchibo-dolphin avm](restaurant_name), [kafeterya ürünleri](cuisine) satan bir mekandır.
+ - [antalya](city)'nın [merkez](district)inde, müşterilerin memnuniyetini kazanmış [kafeterya ürünleri](cuisine) satan bir mekan bulunmamaktadır.
+ - [](region)[ankara](region)'nın [bilkent center avm](region), [üniversiteler](region), [çankaya](region) bölgesinde, [Damak ve gölyazı gönül sofrası](near) yakınında, menüsünde [italyan mutfağı](cuisine) ve [pizza](cuisine) olan bir mekan yoktur.
+ - [eskişehir](city) [hoşnudiye](district)'de [Soulmate coffee](near) yakınlarında bulunan [kahve diyarı](other_venues) ve [paşa kebap-kemer](other_venues) mekanları müşterilerinin beğenisini çokça kazanmış mekanlardır.
+ - [Felicia pizza](restaurant_name), [midyeli](other_venues_restaurant_name) ve [bursa kebapçısı](other_venues_restaurant_name) ile benzer olarak makul fiyat aralığına sahiptir.
+ - [Sufi kebap](restaurant_name), [cookshop](other_venues_restaurant_name), [lokma kebap](other_venues_restaurant_name), [yeşil kapı kebapçısı](other_venues_restaurant_name), [şifa restaurant](other_venues_restaurant_name), [onbaşılar kebap](other_venues_restaurant_name) mekanları arasında müşteri memnuniyeti [düşük](rating) olan tek mekandır.
+ - Lezzet [kebap](cuisine)-akşehir, kebap mutfağına sahip bir mekandır.
+ - Verdiği hizmetlerle müşterilerini mutlu eden [Ünal et fırınlı lokantası](restaurant_name), [gaziantep](city)'in [merkez](district)inde yer almaktadır.
+ - [Onur kebap](restaurant_name), makul yemek fiyatlarıyla hizmet veren bir mekandır.
+ - [iskender restaurant](near) yakınında bulunan [Big chefs](restaurant_name), [antalya](city)'nın [zümrütova](district) bölgesinde yer alan bir mekandır.
+ - [istanbul](city) [karaköy](district)'de, [Tarihi çınaraltı aile bahçesi ve ot kafe](near)'nin yakınında, müşteri memnuniyeti [yüksek](rating) olan bir yemek mekanı yoktur.
+ - [şehitkamil](district), [gaziantep](city) bölgesinde [Boutique & caffe de luca](near) yakınında makul yemek fiyatlarına sahip bir mekan yoktur.
+ - [Kayhan köftecisi](restaurant_name), [turkuaz restaurant-rixos beldibi](other_venues_restaurant_name), [dolphin restaurant](other_venues_restaurant_name), [hereke et lokantası](other_venues_restaurant_name) gibi müşteri memnuniyeti [düşük](other_venues_rating) bir mekandır.
+ - [Düveroğlu](restaurant_name); [badem çikolata & cafe](other_venues_restaurant_name), [kyoto japon parkı](other_venues_restaurant_name) ve [meşhur adıyaman çiğköftecisi ömer aybak](other_venues_restaurant_name) mekanlarının aksine fiyat aralığı makul olan tek mekandır.
+ - [Cafe reci's](restaurant_name), [yüksek](rating) müşteri memnuniyetine sahip bir mekandır.
+ - [Meşhur hadırlı restaurant](restaurant_name), [pahalı](price) bir mekandır.
+ - [istanbul](city) [karaköy](district)'de, [midpoint](near)'in yakınında bulunan [Karaköy lokantası](restaurant_name)nın müşterileri bu mekandan çok memnundur.
+ - [çukurambar](district), [ankara](city) bölgesinde [willy wonder's coffee](near) yakınında [Evin döner](restaurant_name) mekanına rastlayabilirsiniz.
+ - [selçuklu](district), [konya](city)'da, [Kaburgacı yaşar usta](near) yakınlarında [döner](cuisine) hazırlayan bir mekan yoktur.
+ - [izmir](city) [bornova](district)'da, [Dere bahçe restaurant](near)'ın yakınında, makul fiyat aralığına sahip olan yemek mekanları, [baklavacı zenka](other_venues), [caribou coffee](other_venues), [pizano pizzeria](other_venues), [zemzem çorbacı](other_venues) ve [ayrık otu](other_venues)'dur.
+ - [Fıstıkzade baklava](restaurant_name)'nın yemekleri, [sky bar](other_venues_restaurant_name), [yelken balık evi](other_venues_restaurant_name) ve [nasreddin restaurant](other_venues_restaurant_name)'a kıyasla daha pahalıdır.
+ - [Bigchefs](restaurant_name), [anadolu hisarı merkez](district), [istanbul](city)'da bulunan bir mekandır.
+ - [konya](city) [meram](district)'da bulunan [Gazyağcı furun kebabı 1891](restaurant_name)'in yakınında [mini köşk köfte ve venedik pastanesi](near) mekanları bulunmaktadır.
+ - [Köfteci yusuf](restaurant_name), müşterilere [ızgara ürünler](cuisine)iyle hizmet veren bir mekandır.
+ - [piyazcı ahmet](near) yakınında bulunan [Kahve dünyası](restaurant_name) [kafeterya ürünleri](cuisine) hazırlayan bir mekandır.
+ - [konya](city) [meram](district)'da, müşteri memnuniyetinin iyi fakat fiyat aralığının düşük olduğu bir yemek mekanı yoktur.
+ - [merkez](district), [izmit](city)'te [Hasanusta kebap ve kocatepe kahve evi](near) yakınında kalan ortalama fiyatlarıyla hizmet veren bir mekan bulunmamaktadır.
+ - [Sırça köşk](restaurant_name), [ristorante pizzeria venedik](other_venues_restaurant_name) gibi müşteri memnuniyeti [düşük](other_venues_rating) bir mekandır.
+ - [katmerci murat](other_venues_restaurant_name), [cafe kristo](other_venues_restaurant_name), [uzay pastanesi](other_venues_restaurant_name) ve [bigchefs](other_venues_restaurant_name)'in aksine, [Serkan et & mangal](restaurant_name)'ın fiyat aralığı ortalama düzeydedir ve bu özellikleri sağlayan tek mekan burasıdır.
+ - [Kosova köftecisi](restaurant_name), müşterilerinin memnuniyetini kazanmış bir mekandır.
+ - [Tavacı recep usta](restaurant_name), [ızgara ürünler](cuisine)i hazırlayan bir mekandır.
+ - [antalya](city) [zümrütova](district)'da [gaga restaurant](near)'ın yakınında bulunan [Fucina](restaurant_name) adlı mekanın müşteri memnuniyeti [ortalama](rating) seviyededir.
+ - [sakıp usta beyran & paça & kebap ve ruhi bey meyhanesi](near) yakınında bulunan [Olympos](restaurant_name), [kafeterya ürünleri](cuisine)yle müşterilerine hizmet sunmaktadır.
+ - [karaköy](district), [istanbul](city)'da, fiyat aralığı ortalama olan, [kafeterya ürünleri](cuisine) hazırlayan bir mekan yoktur.
+ - [Meşhur tavacı recep usta](near) yakınında, müşteri memnuniyetinin iyi olduğu mekanlar [keyf-i ıkram](other_venues), [seyr-ü sefa çay bahçesi](other_venues), [shakespeare bistro coffee](other_venues), [özsar](other_venues) ve [kırkayak gaziantepevi](other_venues)'dir.
+ - [Tahta masa](restaurant_name) mekanının fiyatları, [nereid meyhanesi](other_venues_restaurant_name) ile kıyaslandığında daha [ucuz](price)dur.
+ - [Masala kebap ve lahmacun salonu](restaurant_name), [ortalama](rating) müşteri memnuniyetine sahiptir.
+ - [Varuna cafe del mundo](restaurant_name)'da [kafeterya ürünleri](cuisine) sunulmaktadır.
+ - [damak ve gölyazı gönül sofrası](near) yakınında [italyan mutfağı](cuisine) ve [pizza](cuisine) sunan [Pizza il forno](restaurant_name) adlı mekan bulunmaktadır.
+ - [izmit](city) [merkez](district)de [Robert's coffee](near) yakınında [ızgara ürünler](cuisine) ve [deniz mahsülleri](cuisine) mutfağına sahip bir mekan yoktur.
+ - [özler döner](other_venues_restaurant_name) ve [burger house](other_venues_restaurant_name) [düşük](other_venues_rating) müşteri memnuniyetine sahipken [River cafe](restaurant_name) bu konuda [ortalama](rating) değerlendirmeye sahiptir.
+ - [Kahveci hacıbaba](restaurant_name) fiyatlarının makul oluşu konusunda [big chefs](other_venues_restaurant_name) ile [kadir usta kebap ve lahmacun](other_venues_restaurant_name) mekanlarından ayrılmaktadır.
+ - [karaköy](district) [istanbul](city)'da bulunan [Pim karaköy](restaurant_name), [tarihi çınaraltı aile bahçesi ve ot kafe](near)'nin yakınlarındadır.
+ - [cafe cosecha ve havelka](near) civarında bulunan [Castle cafe & bistro](restaurant_name), fiyatların makul olduğu ve müşterilerin memnun ayrıldığı yerlerden biridir.
+ - [selçuklu](district) [konya](city)'da [kebap](cuisine) yiyebileceğiniz ve memnun ayrılacağınız bir yer yoktur.
+ - [numnum](other_venues), [virginia angus](other_venues), [kahve dünyasi espark](other_venues), [zeynel inegöl köftecisi](other_venues) ve [koçak baklava salonu](other_venues) [yüreğir](district) [adana](city)'da bulunan ve gelen müşterilerin memnun kaldığı yerlerdir.
+ - [Hacı arif bey restaurant](restaurant_name), [şendağlı](other_venues_restaurant_name), [börekçiğ](other_venues_restaurant_name), [dede restaurant](other_venues_restaurant_name) içinde müşteri memnuniyeti [düşük](rating) olan sadece [hacı arif bey restaurant](restaurant_name)' tır.
+ - Has kırım çiğ [börek](cuisine)çisi, börek yenilebilen [ortalama](rating) müşteri memnuniyetine sahip bir mekandır.
+ - [izmir](city)'in [bornova](district) ilçesinde [dere bahçe restaurant](near) yakınında makul fiyatlarla hizmet veren [Starbucks](restaurant_name) adlı bir mekan bulunmaktadır.
+ - [eskişehir](city)'in [tepebaşı](district) bölgesinde, [Çeşme bazlama kahvaltı](near)'nın yakınında [ortalama](rating) müşteri memnuniyetine sahip bir mekan yoktur.
+ - [konya](city) [meram](district)'da [Özsüt](near) mekanının yakınında [nazar kebap](other_venues) ve [moc bursa](other_venues) bulunmaktadır.
+ - [kasr-i nur](other_venues_restaurant_name), [üçler kebap salonu](other_venues_restaurant_name) ve [Namlı gurme](restaurant_name) mekanları arasında ortalama fiyat aralığında olan tek mekan namlı gurme'dir.
+ - [Yener usta'nın yeri ciğer kebap](restaurant_name) isimli mekan müşteri memnuniyetinin yüksek olduğu yerlerdendir.
+ - Burger king-[izmit](city) outlet center, izmit [merkez](district)de yer almaktadır.
+ - [izmit](city) [merkez](district)de bulunan [Konyalı lezzet ustası](restaurant_name), [hasanusta kebap ve kocatepe kahve evi](near)'nin yakınlarındadır.
+ - [izmit](city) [merkez](district)de, [Odunpazarı serbet evi](near)'nin yakınlarında, [türk yemekleri](cuisine)nin sunulduğu bir yer bulunmamaktadır.
+ - [Güllüoğlu-nejat güllü](restaurant_name) fiyatların makul düzeyde olduğu yerlerden biriyken, [sakız restaurant](other_venues_restaurant_name), [e mirella cafe](other_venues_restaurant_name) ve [mezze terrace](other_venues_restaurant_name) fiyatların daha [ucuz](other_venues_price) olduğu yerlerdir.
+ - [Tostcu mehmet](restaurant_name), [ucuz](price) fiyat aralığında hizmet veren bir mekandır.
+ - [Seyr-ü sefa çay bahçesi](restaurant_name) mekanının mutfağında [kafeterya ürünleri](cuisine), [kahve ve çay çeşitleri](cuisine) bulunmaktadır.
+ - [istanbul](city) [karaköy](district)'de [kafeterya ürünleri](cuisine) mutfağına sahip [Karabatak karaköy](restaurant_name) adlı mekan bulunmaktadır.
+ - [konya](city) [selçuklu](district)'da mutfağında [japon yemekleri](cuisine) ile [asya mutfağı yemekleri](cuisine) bulunan ve [ucuz](price) fiyat aralığında hizmet veren bir mekan yoktur.
+ - [Cumba künefe](restaurant_name) ve [quick china](other_venues_restaurant_name) mekanları [ortalama](other_venues_rating) müşteri memnuniyetine sahiptirler.
+ - [Kebapçı necdet](restaurant_name); [asya lahmacun](other_venues_restaurant_name), [arpege patisserie](other_venues_restaurant_name), [bravo patisserie](other_venues_restaurant_name) ve [mevlevi sofrası](other_venues_restaurant_name)'na nazaran fiyatların makul olduğu tek yerdir.

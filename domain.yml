@@ -30,6 +30,10 @@ entities:
 - time
 - venue_type
 - near
+- other_venues
+- other_venues_restaurant_name
+- other_venues_price
+- other_venues_rating
 intents:
 - greeting
 - confirm_restaurant
