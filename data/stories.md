@@ -217,16 +217,6 @@
 * closing
   - utter_closing
 
-## auto_scenario_1
-* request+greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-
-## auto_scenario_2
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_3
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -313,27 +303,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_7
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_8
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_9
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_10
 * request{"opening_time":"opening_time", "venue_type":"venue_type"}
   - slot{"opening_time":"opening_time", "venue_type":"venue_type"}
@@ -400,11 +369,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_14
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_15
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
   - slot{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -469,21 +433,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_18
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_19
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-
-## auto_scenario_20
-* request{"region":"region", "venue_type":"venue_type"}
-  - slot{"region":"region", "venue_type":"venue_type"}
-  - utter_request
-
 ## auto_scenario_21
 * request{"price":"price", "district":"district"}
   - slot{"price":"price", "district":"district"}
@@ -519,18 +468,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_23
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_24
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-
 ## auto_scenario_25
 * request{"opening_time":"opening_time", "cuisine":"cuisine", "venue_type":"venue_type", "district":"district", "city":"city"}
   - slot{"opening_time":"opening_time", "cuisine":"cuisine", "venue_type":"venue_type", "district":"district", "city":"city"}
@@ -565,17 +502,6 @@
 * confirm+request
   - utter_inform
 
-## auto_scenario_27
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_28
-* request+greeting{"opening_time":"opening_time", "greeting":"greeting"}
-  - slot{"opening_time":"opening_time", "greeting":"greeting"}
-  - utter_request
-  - utter_greeting
-
 ## auto_scenario_29
 * request+greeting{"cuisine":"cuisine", "district":"district", "greeting":"greeting"}
   - slot{"cuisine":"cuisine", "district":"district", "greeting":"greeting"}
@@ -587,16 +513,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_30
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_31
-* request+greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
 
 ## auto_scenario_32
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -610,24 +526,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_33
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_34
-* request{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - slot{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_35
 * request{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
@@ -636,16 +534,6 @@
   - utter_request
 * inform{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_36
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
   - utter_inform
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
@@ -682,17 +570,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_39
-* request{"region":"region"}
-  - slot{"region":"region"}
-  - utter_request
-
-## auto_scenario_40
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_41
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -703,28 +580,6 @@
   - utter_inform
   - utter_approve
 * inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_42
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_43
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_44
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
   - utter_inform
   - utter_closing
 
@@ -739,11 +594,6 @@
   - slot{"opening_time":"opening_time", "price":"price"}
   - utter_inform
   - utter_multiple_choice
-
-## auto_scenario_46
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_47
 * request{"district":"district", "rating":"rating"}
@@ -776,11 +626,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
-## auto_scenario_49
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-
 ## auto_scenario_50
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -793,10 +638,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_51
-* request
-  - utter_request
 
 ## auto_scenario_52
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -818,11 +659,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_53
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
   - utter_inform
 
 ## auto_scenario_54
@@ -913,32 +749,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_59
-* request{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_60
-* request
-  - utter_request
-
-## auto_scenario_61
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_62
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_63
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -963,11 +773,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_64
-* request
-  - utter_greeting
-  - utter_request
 
 ## auto_scenario_65
 * inform{"restaurant_name":"restaurant_name", "district":"district"}
@@ -1001,24 +806,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_67
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_inform
-  - utter_request
-* inform+approve{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_68
-* request
-  - utter_request
-
-## auto_scenario_69
-* request
-  - utter_request
-
 ## auto_scenario_70
 * inform{"venue_type":"venue_type", "district":"district", "city":"city"}
   - slot{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -1032,24 +819,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_71
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_72
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_73
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
   - utter_closing
 
@@ -1100,18 +869,6 @@
   - utter_closing
   - utter_request
 
-## auto_scenario_77
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_78
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_79
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -1125,21 +882,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_80
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_81
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_request
-  - utter_approve
-* confirm
   - utter_inform
   - utter_closing
 
@@ -1187,16 +929,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_84
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_85
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -1207,15 +939,6 @@
   - utter_inform
 * request{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_86
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-* inform
   - utter_inform
   - utter_closing
 
@@ -1233,16 +956,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_88
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_89
 * request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
@@ -1253,28 +966,6 @@
   - utter_inform
   - utter_approve
 * confirm
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_90
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_91
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_92
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-* inform
   - utter_inform
   - utter_closing
 
@@ -1295,10 +986,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_94
-* request
-  - utter_request
-
 ## auto_scenario_95
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -1311,11 +998,6 @@
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
   - utter_request
-
-## auto_scenario_96
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_97
 * request{"venue_type":"venue_type", "district":"district"}
@@ -1338,43 +1020,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_98
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_99
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_100
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_101
-* inform{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_inform
-  - utter_request
-
-## auto_scenario_102
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_103
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_104
-* request
-  - utter_request
-
 ## auto_scenario_105
 * inform{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -1386,12 +1031,6 @@
 * confirm+inform
   - utter_inform
   - utter_closing
-
-## auto_scenario_106
-* request{"opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_greeting
-  - utter_request
 
 ## auto_scenario_107
 * inform{"district":"district", "city":"city"}
@@ -1415,12 +1054,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_108
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_109
 * request{"cuisine":"cuisine", "rating":"rating"}
   - slot{"cuisine":"cuisine", "rating":"rating"}
@@ -1436,36 +1069,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 * confirm+request
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_110
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_111
-* request
-  - utter_greeting
-  - utter_request
-
-## auto_scenario_112
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-* inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_113
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_confirm
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
   - utter_inform
   - utter_closing
 
@@ -1522,11 +1125,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_117
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_118
 * request{"venue_type":"venue_type"}
   - slot{"venue_type":"venue_type"}
@@ -1542,26 +1140,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_119
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_120
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
-
-## auto_scenario_121
-* request{"region":"region"}
-  - slot{"region":"region"}
-  - utter_request
-
-## auto_scenario_122
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_123
@@ -1585,12 +1163,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_124
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_125
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -1602,12 +1174,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_126
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_127
 * request
@@ -1627,29 +1193,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_128
-* request{"region":"region"}
-  - slot{"region":"region"}
-  - utter_request
-
-## auto_scenario_129
-* request{"region":"region"}
-  - slot{"region":"region"}
-  - utter_request
-
-## auto_scenario_130
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
-## auto_scenario_131
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_132
@@ -1697,11 +1240,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 
-## auto_scenario_134
-* greeting+request{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-
 ## auto_scenario_135
 * greeting+request{"greeting":"greeting", "district":"district"}
   - slot{"greeting":"greeting", "district":"district"}
@@ -1721,16 +1259,6 @@
 * confirm
   - utter_inform
   - utter_closing
-
-## auto_scenario_136
-* request{"region":"region"}
-  - slot{"region":"region"}
-  - utter_request
-
-## auto_scenario_137
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_138
 * request{"opening_time":"opening_time", "district":"district", "city":"city"}
@@ -1762,25 +1290,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_140
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-* inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_141
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_142
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_143
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
   - slot{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -1808,15 +1317,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_145
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_146
-* approve
   - utter_inform
 
 ## auto_scenario_147
@@ -1857,40 +1357,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_149
-* request{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - slot{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_150
-* request{"cuisine":"cuisine", "region":"region"}
-  - slot{"cuisine":"cuisine", "region":"region"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_closing
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_151
-* request
-  - utter_request
-
-## auto_scenario_152
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_153
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_154
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -1908,18 +1374,6 @@
   - utter_approve
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_155
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_156
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
   - utter_closing
 
@@ -1953,43 +1407,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_159
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_160
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_161
-* request{"region":"region", "venue_type":"venue_type"}
-  - slot{"region":"region", "venue_type":"venue_type"}
-  - utter_request
-
-## auto_scenario_162
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_163
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_164
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_165
 * request{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
@@ -2015,14 +1432,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_166
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* request
-  - utter_inform
-
 ## auto_scenario_167
 * request{"venue_type":"venue_type", "district":"district", "cuisine":"cuisine"}
   - slot{"venue_type":"venue_type", "district":"district", "cuisine":"cuisine"}
@@ -2036,11 +1445,6 @@
   - utter_approve
 * confirm
   - utter_inform
-
-## auto_scenario_168
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
 
 ## auto_scenario_169
 * request{"region":"region", "venue_type":"venue_type", "opening_time":"opening_time"}
@@ -2068,26 +1472,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_171
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_172
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_173
-* request{"region":"region"}
-  - slot{"region":"region"}
-  - utter_inform
-  - utter_request
-
 ## auto_scenario_174
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -2101,37 +1485,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_175
-* request{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_inform
-
-## auto_scenario_176
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_177
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_178
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_179
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_180
 * inform{"opening_time":"opening_time", "restaurant_name":"restaurant_name", "district":"district", "city":"city"}
   - slot{"opening_time":"opening_time", "restaurant_name":"restaurant_name", "district":"district", "city":"city"}
@@ -2143,15 +1496,6 @@
 * confirm
   - utter_inform
   - utter_closing
-
-## auto_scenario_181
-* request
-  - utter_request
-
-## auto_scenario_182
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_183
 * request
@@ -2186,10 +1530,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_185
-* request
-  - utter_request
-
 ## auto_scenario_186
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -2199,17 +1539,6 @@
   - utter_request
 * inform
   - utter_inform
-
-## auto_scenario_187
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_188
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_189
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -2242,24 +1571,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_191
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_192
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_193
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-  - utter_request
-* approve
-  - utter_inform
-
 ## auto_scenario_194
 * request{"district":"district", "city":"city", "venue_type":"venue_type", "opening_time":"opening_time"}
   - slot{"district":"district", "city":"city", "venue_type":"venue_type", "opening_time":"opening_time"}
@@ -2287,10 +1598,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_195
-* request
-  - utter_request
-
 ## auto_scenario_196
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -2312,18 +1619,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_197
-* request{"price":"price", "cuisine":"cuisine"}
-  - slot{"price":"price", "cuisine":"cuisine"}
-  - utter_greeting
-  - utter_request
-
-## auto_scenario_198
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_199
 * request{"region":"region", "opening_time":"opening_time"}
   - slot{"region":"region", "opening_time":"opening_time"}
@@ -2333,19 +1628,6 @@
   - utter_inform
   - utter_approve
 * confirm
-  - utter_inform
-
-## auto_scenario_200
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-
-## auto_scenario_201
-* request{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
-  - slot{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name", "venue_type":"venue_type"}
-  - slot{"restaurant_name":"restaurant_name", "venue_type":"venue_type"}
   - utter_inform
 
 ## auto_scenario_202
@@ -2359,11 +1641,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_203
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_204
@@ -2388,25 +1665,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_205
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_206
-* inform{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_207
-* inform{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_208
@@ -2434,11 +1692,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_210
-* request{"region":"region", "cuisine":"cuisine"}
-  - slot{"region":"region", "cuisine":"cuisine"}
-  - utter_inform
-
 ## auto_scenario_211
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -2461,16 +1714,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_212
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_213
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_214
 * greeting{"greeting":"greeting"}
@@ -2509,16 +1752,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_216
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_217
-* request
-  - utter_request
-
 ## auto_scenario_218
 * request
   - utter_greeting
@@ -2552,30 +1785,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_220
-* request
-  - utter_request
-
-## auto_scenario_221
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_inform
-
-## auto_scenario_222
-* inform{"restaurant_name":"restaurant_name", "region":"region"}
-  - slot{"restaurant_name":"restaurant_name", "region":"region"}
-  - utter_request
-
-## auto_scenario_223
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_224
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_225
 * request{"price":"price"}
@@ -2620,10 +1829,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_227
-* request
-  - utter_request
 
 ## auto_scenario_228
 * request{"opening_time":"opening_time", "region":"region"}
@@ -2670,10 +1875,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_231
-* request
-  - utter_request
-
 ## auto_scenario_232
 * inform{"district":"district", "restaurant_name":"restaurant_name"}
   - slot{"district":"district", "restaurant_name":"restaurant_name"}
@@ -2684,23 +1885,6 @@
 * inform
   - utter_inform
   - utter_request
-
-## auto_scenario_233
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_234
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_235
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_236
 * request{"venue_type":"venue_type", "district":"district"}
@@ -2718,16 +1902,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_237
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_238
-* request
-  - utter_request
 
 ## auto_scenario_239
 * inform{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -2748,12 +1922,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_240
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_241
 * request{"district":"district", "city":"city", "opening_time":"opening_time", "venue_type":"venue_type"}
   - slot{"district":"district", "city":"city", "opening_time":"opening_time", "venue_type":"venue_type"}
@@ -2765,65 +1933,6 @@
 * inform+approve{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_242
-* request
-  - utter_request
-
-## auto_scenario_243
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_244
-* request{"rating":"rating", "opening_time":"opening_time", "district":"district"}
-  - slot{"rating":"rating", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_245
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_246
-* request{"region":"region", "venue_type":"venue_type"}
-  - slot{"region":"region", "venue_type":"venue_type"}
-  - utter_request
-
-## auto_scenario_247
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_248
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-
-## auto_scenario_249
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-
-## auto_scenario_250
-* request{"region":"region"}
-  - slot{"region":"region"}
-  - utter_request
 
 ## auto_scenario_251
 * request
@@ -2843,21 +1952,6 @@
 * confirm
   - utter_inform
   - utter_closing
-
-## auto_scenario_252
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_253
-* request{"district":"district", "city":"city", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_254
 * request{"rating":"rating", "venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
@@ -2896,31 +1990,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_256
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_257
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_258
-* request{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_inform
-
-## auto_scenario_259
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_260
 * request{"district":"district", "city":"city", "opening_time":"opening_time", "venue_type":"venue_type"}
   - slot{"district":"district", "city":"city", "opening_time":"opening_time", "venue_type":"venue_type"}
@@ -2933,12 +2002,6 @@
   - utter_inform
   - utter_request
 * inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_261
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
   - utter_closing
 
@@ -2960,16 +2023,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_263
-* request
-  - utter_request
-
-## auto_scenario_264
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_265
 * request{"district":"district", "venue_type":"venue_type"}
   - slot{"district":"district", "venue_type":"venue_type"}
@@ -2984,16 +2037,6 @@
   - slot{"closing":"closing"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_266
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_267
-* request
-  - utter_request
 
 ## auto_scenario_268
 * inform{"opening_time":"opening_time", "district":"district", "city":"city"}
@@ -3039,10 +2082,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_270
-* request
-  - utter_request
-
 ## auto_scenario_271
 * request{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
@@ -3062,24 +2101,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_272
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_273
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_274
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_275
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -3098,18 +2119,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_276
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_277
-* request{"region":"region"}
-  - slot{"region":"region"}
-  - utter_greeting
-  - utter_request
-
 ## auto_scenario_278
 * request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
   - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
@@ -3118,14 +2127,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-  - utter_request
-* inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_279
-* request{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
   - utter_request
 * inform
   - utter_inform
@@ -3164,10 +2165,6 @@
   - slot{"closing":"closing"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_282
-* request
-  - utter_request
 
 ## auto_scenario_283
 * request{"district":"district", "city":"city"}
@@ -3209,30 +2206,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_285
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_286
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_287
-* request
-  - utter_request
-
-## auto_scenario_288
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
-
 ## auto_scenario_289
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
   - slot{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -3262,11 +2235,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_291
-* request+not_sure{"district":"district", "opening_time":"opening_time", "not_sure":"not_sure"}
-  - slot{"district":"district", "opening_time":"opening_time", "not_sure":"not_sure"}
-  - utter_inform
-
 ## auto_scenario_292
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -3284,21 +2252,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_293
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-
-## auto_scenario_294
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_295
 * request{"district":"district", "city":"city"}
   - slot{"district":"district", "city":"city"}
@@ -3311,10 +2264,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_296
-* request
-  - utter_request
-
 ## auto_scenario_297
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -3325,16 +2274,6 @@
   - utter_approve
 * confirm
   - utter_inform
-
-## auto_scenario_298
-* request
-  - utter_request
-
-## auto_scenario_299
-* inform{"restaurant_name":"restaurant_name", "region":"region"}
-  - slot{"restaurant_name":"restaurant_name", "region":"region"}
-  - utter_inform
-  - utter_approve
 
 ## auto_scenario_300
 * request{"cuisine":"cuisine", "district":"district"}
@@ -3355,23 +2294,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_301
-* request
-  - utter_greeting
-  - utter_request
-
-## auto_scenario_302
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-
-## auto_scenario_303
-* request{"region":"region", "district":"district", "cuisine":"cuisine"}
-  - slot{"region":"region", "district":"district", "cuisine":"cuisine"}
-  - utter_inform
-  - utter_approve
-
 ## auto_scenario_304
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -3386,16 +2308,6 @@
 * confirm
   - utter_inform
   - utter_closing
-
-## auto_scenario_305
-* request{"price":"price", "cuisine":"cuisine"}
-  - slot{"price":"price", "cuisine":"cuisine"}
-  - utter_request
-
-## auto_scenario_306
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_307
 * request
@@ -3461,16 +2373,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_310
-* request
-  - utter_request
-
-## auto_scenario_311
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_312
 * request{"venue_type":"venue_type", "district":"district", "cuisine":"cuisine"}
   - slot{"venue_type":"venue_type", "district":"district", "cuisine":"cuisine"}
@@ -3502,12 +2404,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_314
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
 
 ## auto_scenario_315
 * inform{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -3565,50 +2461,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_318
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-
-## auto_scenario_319
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_320
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_321
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_322
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_323
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_324
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_325
 * request{"district":"district", "city":"city"}
   - slot{"district":"district", "city":"city"}
@@ -3627,10 +2479,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_326
-* request
-  - utter_request
 
 ## auto_scenario_327
 * request
@@ -3681,20 +2529,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_330
-* request
-  - utter_request
-
-## auto_scenario_331
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_332
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_333
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -3708,21 +2542,6 @@
   - utter_inform
   - utter_approve
   - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_334
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_approve
-
-## auto_scenario_335
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
@@ -3760,10 +2579,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_338
-* request
-  - utter_request
-
 ## auto_scenario_339
 * request{"opening_time":"opening_time", "district":"district", "city":"city"}
   - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
@@ -3774,11 +2589,6 @@
   - utter_inform
   - utter_approve
 * confirm
-  - utter_inform
-
-## auto_scenario_340
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
   - utter_inform
 
 ## auto_scenario_341
@@ -3818,27 +2628,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_343
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "region":"region"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "region":"region"}
-  - utter_inform
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
-## auto_scenario_344
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* inform
-  - utter_inform
-
-## auto_scenario_345
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_346
 * request{"rating":"rating", "venue_type":"venue_type", "district":"district"}
   - slot{"rating":"rating", "venue_type":"venue_type", "district":"district"}
@@ -3853,12 +2642,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_347
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_348
 * request{"venue_type":"venue_type", "district":"district"}
@@ -3880,33 +2663,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_request
-
-## auto_scenario_349
-* request{"district":"district", "opening_time":"opening_time", "region":"region"}
-  - slot{"district":"district", "opening_time":"opening_time", "region":"region"}
-  - utter_inform
-
-## auto_scenario_350
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_351
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-  - utter_approve
-* confirm{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_greeting
-  - utter_request
-
-## auto_scenario_352
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_353
 * request{"price":"price", "venue_type":"venue_type", "district":"district", "city":"city"}
@@ -3964,19 +2720,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_357
-* request
-  - utter_request
-
-## auto_scenario_358
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_359
-* request
-  - utter_request
-
 ## auto_scenario_360
 * inform+request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -3987,15 +2730,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_361
-* request
-  - utter_request
-
-## auto_scenario_362
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
   - utter_inform
 
 ## auto_scenario_363
@@ -4012,16 +2746,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_364
-* request
-  - utter_request
-
-## auto_scenario_365
-* request{"region":"region", "cuisine":"cuisine"}
-  - slot{"region":"region", "cuisine":"cuisine"}
-  - utter_inform
-  - utter_approve
-
 ## auto_scenario_366
 * request{"district":"district", "city":"city", "rating":"rating"}
   - slot{"district":"district", "city":"city", "rating":"rating"}
@@ -4037,11 +2761,6 @@
   - slot{"closing":"closing"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_367
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_368
 * inform{"district":"district", "city":"city"}
@@ -4060,13 +2779,6 @@
 * confirm
   - utter_request
   - utter_closing
-
-## auto_scenario_369
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_inform
 
 ## auto_scenario_370
 * request{"venue_type":"venue_type"}
@@ -4109,23 +2821,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_372
-* request
-  - utter_greeting
-  - utter_request
-
-## auto_scenario_373
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_374
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_inform
-
 ## auto_scenario_375
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -4152,14 +2847,6 @@
   - slot{"not_sure":"not_sure"}
   - utter_request
 * inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_377
-* request{"opening_time":"opening_time", "venue_type":"venue_type"}
-  - slot{"opening_time":"opening_time", "venue_type":"venue_type"}
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
@@ -4202,13 +2889,6 @@
   - utter_request
 * request
 
-## auto_scenario_380
-* request{"cuisine":"cuisine", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-
 ## auto_scenario_381
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -4240,13 +2920,6 @@
   - utter_request
 * request
 
-## auto_scenario_383
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district", "city":"city"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-
 ## auto_scenario_384
 * request
   - utter_inform
@@ -4270,13 +2943,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 * inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-
-## auto_scenario_386
-* request{"rating":"rating", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"rating":"rating", "district":"district", "city":"city", "opening_time":"opening_time"}
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
@@ -4368,22 +3034,6 @@
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
   - utter_inform
-
-## auto_scenario_392
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_closing
-
-## auto_scenario_393
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
 
 ## auto_scenario_394
 * request{"venue_type":"venue_type", "district":"district"}
@@ -4524,15 +3174,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_404
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_405
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -4626,27 +3267,6 @@
   - utter_request
 * inform
 
-## auto_scenario_411
-* request{"venue_type":"venue_type", "district":"district", "city":"city"}
-  - slot{"venue_type":"venue_type", "district":"district", "city":"city"}
-  - utter_multiple_choice
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-
-## auto_scenario_412
-* request{"district":"district", "region":"region"}
-  - slot{"district":"district", "region":"region"}
-  - utter_request
-
-## auto_scenario_413
-* inform{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_414
 * request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
@@ -4662,13 +3282,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-
-## auto_scenario_415
-* request{"cuisine":"cuisine", "region":"region"}
-  - slot{"cuisine":"cuisine", "region":"region"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
 
 ## auto_scenario_416
 * request
@@ -4743,24 +3356,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_420
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_421
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_422
 * request{"cuisine":"cuisine", "district":"district", "region":"region", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "region":"region", "opening_time":"opening_time"}
@@ -4801,16 +3396,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_425
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-
 ## auto_scenario_426
 * request{"venue_type":"venue_type", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "opening_time":"opening_time"}
@@ -4818,15 +3403,6 @@
 * inform{"district":"district", "region":"region"}
   - slot{"district":"district", "region":"region"}
   - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_427
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
@@ -4870,16 +3446,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_430
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_431
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_432
@@ -4965,18 +3531,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_436
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_437
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_greeting
-  - utter_inform
-
 ## auto_scenario_438
 * request
   - utter_request
@@ -5035,11 +3589,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_441
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_442
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -5056,22 +3605,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_443
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_444
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_445
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_446
 * request{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
@@ -5098,11 +3631,6 @@
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_448
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_449
@@ -5242,14 +3770,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_458
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* request{"region":"region"}
-  - slot{"region":"region"}
-  - utter_inform
-
 ## auto_scenario_459
 * request{"region":"region", "venue_type":"venue_type", "opening_time":"opening_time"}
   - slot{"region":"region", "venue_type":"venue_type", "opening_time":"opening_time"}
@@ -5269,11 +3789,6 @@
   - utter_request
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_460
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_461
@@ -5301,20 +3816,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_463
-* request{"cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name", "cuisine":"cuisine"}
-  - slot{"restaurant_name":"restaurant_name", "cuisine":"cuisine"}
-  - utter_inform
-
-## auto_scenario_464
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_465
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -5322,33 +3823,6 @@
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
   - utter_request
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_466
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_467
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_468
-* request{"district":"district", "rating":"rating", "opening_time":"opening_time"}
-  - slot{"district":"district", "rating":"rating", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* request
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_469
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
@@ -5421,15 +3895,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_474
-* request{"district":"district", "rating":"rating", "venue_type":"venue_type", "cuisine":"cuisine", "cuisine":"cuisine", "price":"price"}
-  - slot{"district":"district", "rating":"rating", "venue_type":"venue_type", "cuisine":"cuisine", "price":"price"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_475
 * request{"region":"region", "price":"price", "venue_type":"venue_type"}
   - slot{"region":"region", "price":"price", "venue_type":"venue_type"}
@@ -5457,15 +3922,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_477
-* request{"region":"region", "opening_time":"opening_time"}
-  - slot{"region":"region", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"cuisine":"cuisine", "restaurant_name":"restaurant_name"}
-  - slot{"cuisine":"cuisine", "restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_478
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -5482,23 +3938,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_479
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_480
-* request{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - slot{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
@@ -5597,15 +4036,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_487
-* request{"district":"district", "opening_time":"opening_time", "region":"region"}
-  - slot{"district":"district", "opening_time":"opening_time", "region":"region"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_488
 * request{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
   - slot{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
@@ -5635,11 +4065,6 @@
   - utter_inform
   - utter_request
 
-## auto_scenario_490
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_491
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -5665,31 +4090,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 * inform
-  - utter_inform
-
-## auto_scenario_492
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_493
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_inform
-
-## auto_scenario_494
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_inform
-
-## auto_scenario_495
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_496
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_497
@@ -5864,17 +4264,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_508
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_509
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_510
 * request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
@@ -5897,15 +4286,6 @@
   - utter_inform
 * request{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_511
-* request{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* closing+inform{"closing":"closing", "restaurant_name":"restaurant_name"}
-  - slot{"closing":"closing", "restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_512
@@ -5948,12 +4328,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_514
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_515
 * request{"district":"district", "city":"city", "venue_type":"venue_type", "opening_time":"opening_time"}
   - slot{"district":"district", "city":"city", "venue_type":"venue_type", "opening_time":"opening_time"}
@@ -5971,12 +4345,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_516
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_517
 * greeting{"greeting":"greeting"}
@@ -6030,11 +4398,6 @@
   - utter_request
 * confirm+inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_519
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_520
@@ -6094,12 +4457,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_523
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-
 ## auto_scenario_524
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -6156,12 +4513,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_527
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_528
 * request{"venue_type":"venue_type", "cuisine":"cuisine", "district":"district"}
   - slot{"venue_type":"venue_type", "cuisine":"cuisine", "district":"district"}
@@ -6193,22 +4544,6 @@
   - utter_request
 * request
   - utter_inform
-
-## auto_scenario_530
-* request{"opening_time":"opening_time", "district":"district", "price":"price"}
-  - slot{"opening_time":"opening_time", "district":"district", "price":"price"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_531
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_greeting
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_532
 * request{"cuisine":"cuisine", "district":"district"}
@@ -6291,12 +4626,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_537
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_538
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -6307,11 +4636,6 @@
   - utter_request
 * inform{"city":"city"}
   - slot{"city":"city"}
-  - utter_inform
-
-## auto_scenario_539
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_540
@@ -6455,47 +4779,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_548
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_549
-* greeting+request{"greeting":"greeting", "district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - slot{"greeting":"greeting", "district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_550
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_551
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_552
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_553
-* request{"venue_type":"venue_type", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_554
 * greeting+request{"greeting":"greeting", "district":"district", "cuisine":"cuisine"}
   - slot{"greeting":"greeting", "district":"district", "cuisine":"cuisine"}
@@ -6514,11 +4797,6 @@
 * inform
   - utter_approve
 * confirm
-  - utter_inform
-
-## auto_scenario_555
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_556
@@ -6597,11 +4875,6 @@
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
   - utter_request
-
-## auto_scenario_560
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_561
 * greeting+request{"greeting":"greeting", "venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
@@ -6792,26 +5065,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_572
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_573
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_574
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-  - utter_request
-* inform{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_575
 * request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
   - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
@@ -6821,49 +5074,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_approve
 * confirm
-  - utter_inform
-
-## auto_scenario_576
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_577
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_578
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform{"district":"district", "opening_time":"opening_time", "restaurant_name":"restaurant_name"}
-  - slot{"district":"district", "opening_time":"opening_time", "restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_579
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-  - utter_request
-* inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_580
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_581
@@ -6896,11 +5106,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_583
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_584
@@ -6944,20 +5149,6 @@
   - utter_multiple_choice
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_586
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name", "district":"district"}
-  - slot{"restaurant_name":"restaurant_name", "district":"district"}
-  - utter_inform
-
-## auto_scenario_587
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_588
@@ -7006,20 +5197,6 @@
 * request
   - utter_inform
 
-## auto_scenario_591
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_592
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_593
 * request{"venue_type":"venue_type"}
   - slot{"venue_type":"venue_type"}
@@ -7059,11 +5236,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_595
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_596
 * request{"venue_type":"venue_type"}
   - slot{"venue_type":"venue_type"}
@@ -7101,15 +5273,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_598
-* request{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - slot{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
-
 ## auto_scenario_599
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -7142,22 +5305,6 @@
   - slot{"closing":"closing"}
   - utter_request
 
-## auto_scenario_601
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_approve
-
-## auto_scenario_602
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_603
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -7172,14 +5319,6 @@
   - utter_request
 * inform
   - utter_inform
-
-## auto_scenario_604
-* inform{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
 
 ## auto_scenario_605
 * inform{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
@@ -7229,14 +5368,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_608
-* inform{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_multiple_choice
-
 ## auto_scenario_609
 * inform{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
@@ -7255,11 +5386,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_610
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-
 ## auto_scenario_611
 * inform{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
   - slot{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
@@ -7275,13 +5401,6 @@
   - utter_multiple_choice
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_612
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
   - utter_inform
 
 ## auto_scenario_613
@@ -7348,15 +5467,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_617
-* request{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_618
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -7368,22 +5478,6 @@
   - slot{"district":"district"}
   - utter_request
 * inform
-  - utter_inform
-
-## auto_scenario_619
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_620
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_621
@@ -7402,12 +5496,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_622
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_623
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -7419,32 +5507,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_624
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-
-## auto_scenario_625
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_626
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_627
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_628
 * greeting{"greeting":"greeting"}
@@ -7484,11 +5546,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_630
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-
 ## auto_scenario_631
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -7501,11 +5558,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_632
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_633
 * request{"cuisine":"cuisine", "district":"district"}
@@ -7557,11 +5609,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_636
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-
 ## auto_scenario_637
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -7601,26 +5648,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_639
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_approve
-
-## auto_scenario_640
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_641
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -7646,15 +5673,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 * inform
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_643
-* request{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
   - utter_inform
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
@@ -7739,20 +5757,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_649
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_650
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_651
 * request{"price":"price", "district":"district"}
   - slot{"price":"price", "district":"district"}
@@ -7812,19 +5816,6 @@
   - utter_inform
   - utter_request
 
-## auto_scenario_655
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_656
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_inform
-
 ## auto_scenario_657
 * request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
@@ -7846,21 +5837,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 * inform
-  - utter_inform
-
-## auto_scenario_659
-* request{"venue_type":"venue_type", "opening_time":"opening_time", "district":"district"}
-  - slot{"venue_type":"venue_type", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-
-## auto_scenario_660
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
   - utter_inform
 
 ## auto_scenario_661
@@ -7893,11 +5869,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_663
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_664
@@ -7934,12 +5905,6 @@
 * approve+inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
   - utter_inform
-
-## auto_scenario_667
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_668
 * request{"cuisine":"cuisine"}
@@ -7992,29 +5957,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_670
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-
-## auto_scenario_671
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_672
-* request{"venue_type":"venue_type", "price":"price", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "price":"price", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-
 ## auto_scenario_673
 * request{"rating":"rating", "district":"district", "opening_time":"opening_time"}
   - slot{"rating":"rating", "district":"district", "opening_time":"opening_time"}
@@ -8057,11 +5999,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_676
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
 
 ## auto_scenario_677
 * request
@@ -8142,10 +6079,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_682
-* request
-  - utter_approve
-
 ## auto_scenario_683
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -8177,11 +6110,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_685
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_686
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -8196,15 +6124,6 @@
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
   - utter_request
-
-## auto_scenario_687
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_688
 * request{"cuisine":"cuisine"}
@@ -8226,16 +6145,6 @@
   - utter_request
 * inform
   - utter_inform
-
-## auto_scenario_689
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_690
-* request
-  - utter_request
 
 ## auto_scenario_691
 * inform{"venue_type":"venue_type", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -8266,22 +6175,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_693
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_694
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* request{"region":"region", "opening_time":"opening_time"}
-  - slot{"region":"region", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_695
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -8291,12 +6184,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_696
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_697
 * greeting{"greeting":"greeting"}
@@ -8322,15 +6209,6 @@
   - utter_multiple_choice
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_699
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_700
@@ -8369,22 +6247,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_702
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_703
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_704
 * request{"venue_type":"venue_type", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "opening_time":"opening_time"}
@@ -8410,12 +6272,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_706
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_707
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -8497,12 +6353,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 
-## auto_scenario_712
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_713
 * request{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
@@ -8518,15 +6368,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_714
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_715
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -8536,11 +6377,6 @@
   - utter_request
 * inform
   - utter_request
-
-## auto_scenario_716
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
 
 ## auto_scenario_717
 * request
@@ -8570,11 +6406,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 
-## auto_scenario_718
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_719
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -8590,12 +6421,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_720
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_721
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -8608,16 +6433,6 @@
   - utter_multiple_choice
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_722
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_723
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_724
@@ -8703,11 +6518,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_729
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_730
 * request{"district":"district", "cuisine":"cuisine"}
   - slot{"district":"district", "cuisine":"cuisine"}
@@ -8727,23 +6537,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_731
-* request{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
-  - slot{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_732
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
 
 ## auto_scenario_733
 * request
@@ -8792,16 +6585,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_736
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_737
-* request{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - utter_request
-
 ## auto_scenario_738
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -8816,16 +6599,6 @@
   - utter_multiple_choice
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_739
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_740
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
   - utter_inform
 
 ## auto_scenario_741
@@ -8845,21 +6618,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_742
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_743
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform
-  - utter_inform
-  - utter_request
-
 ## auto_scenario_744
 * request+greeting{"district":"district", "city":"city", "opening_time":"opening_time", "price":"price", "venue_type":"venue_type", "greeting":"greeting"}
   - slot{"district":"district", "city":"city", "opening_time":"opening_time", "price":"price", "venue_type":"venue_type", "greeting":"greeting"}
@@ -8870,27 +6628,6 @@
 * request
   - utter_inform
   - utter_closing
-
-## auto_scenario_745
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_greeting
-  - utter_closing
-
-## auto_scenario_746
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_747
-* request{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - slot{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_748
 * request
@@ -8922,11 +6659,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_750
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_751
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -8944,14 +6676,6 @@
   - utter_inform
 * request
   - utter_inform
-
-## auto_scenario_752
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* request
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_753
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -9007,11 +6731,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_756
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_757
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -9051,15 +6770,6 @@
   - utter_request
 * confirm
   - utter_inform
-
-## auto_scenario_759
-* request{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_inform
-  - utter_multiple_choice
-* request
-  - utter_inform
-  - utter_multiple_choice
 
 ## auto_scenario_760
 * request{"district":"district", "opening_time":"opening_time"}
@@ -9104,58 +6814,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_763
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-  - utter_greeting
-
-## auto_scenario_764
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_765
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_766
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_767
-* request{"opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_768
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_greeting
-  - utter_closing
-
-## auto_scenario_769
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_greeting
-  - utter_closing
 
 ## auto_scenario_770
 * request+greeting{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time", "greeting":"greeting"}
@@ -9210,12 +6868,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_773
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_774
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -9230,19 +6882,6 @@
 * inform
   - utter_inform
   - utter_closing
-
-## auto_scenario_775
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* request+confirm{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_776
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_777
 * request{"cuisine":"cuisine", "opening_time":"opening_time"}
@@ -9323,14 +6962,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_782
-* request{"district":"district", "rating":"rating", "venue_type":"venue_type"}
-  - slot{"district":"district", "rating":"rating", "venue_type":"venue_type"}
-  - utter_inform
-* request{"rating":"rating"}
-  - slot{"rating":"rating"}
-  - utter_inform
-
 ## auto_scenario_783
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -9345,16 +6976,6 @@
   - utter_inform
 * request
   - utter_inform
-
-## auto_scenario_784
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-  - utter_greeting
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-  - utter_closing
 
 ## auto_scenario_785
 * request+greeting{"cuisine":"cuisine", "greeting":"greeting"}
@@ -9453,22 +7074,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 
-## auto_scenario_792
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
-
-## auto_scenario_793
-* request+greeting{"district":"district", "cuisine":"cuisine", "greeting":"greeting"}
-  - slot{"district":"district", "cuisine":"cuisine", "greeting":"greeting"}
-  - utter_inform
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_inform
-
 ## auto_scenario_794
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -9528,16 +7133,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 
-## auto_scenario_799
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-  - utter_greeting
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-  - utter_closing
-
 ## auto_scenario_800
 * request
   - utter_request
@@ -9546,42 +7141,6 @@
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
-
-## auto_scenario_801
-* request{"city":"city"}
-  - slot{"city":"city"}
-  - utter_request
-  - utter_greeting
-* inform{"city":"city"}
-  - slot{"city":"city"}
-  - utter_request
-
-## auto_scenario_802
-* request+greeting{"district":"district", "cuisine":"cuisine", "cuisine":"cuisine", "greeting":"greeting"}
-  - slot{"district":"district", "cuisine":"cuisine", "greeting":"greeting"}
-  - utter_request
-  - utter_greeting
-* inform{"price":"price", "cuisine":"cuisine"}
-  - slot{"price":"price", "cuisine":"cuisine"}
-  - utter_request
-
-## auto_scenario_803
-* request{"district":"district", "cuisine":"cuisine", "cuisine":"cuisine"}
-  - slot{"district":"district", "cuisine":"cuisine"}
-  - utter_request
-  - utter_greeting
-* inform{"price":"price"}
-  - slot{"price":"price"}
-  - utter_request
-
-## auto_scenario_804
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-  - utter_greeting
-* inform{"city":"city"}
-  - slot{"city":"city"}
   - utter_request
 
 ## auto_scenario_805
@@ -9594,27 +7153,6 @@
   - utter_request
 * inform{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
-  - utter_request
-
-## auto_scenario_806
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_inform
-* request
-  - utter_inform
-
-## auto_scenario_807
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_inform
-* request
-  - utter_inform
-
-## auto_scenario_808
-* request
-  - utter_request
-* inform{"district":"district"}
-  - slot{"district":"district"}
   - utter_request
 
 ## auto_scenario_809
@@ -9678,29 +7216,6 @@
 * inform
   - utter_request
 
-## auto_scenario_813
-* request
-  - utter_request
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-
-## auto_scenario_814
-* request+greeting{"district":"district", "cuisine":"cuisine", "greeting":"greeting"}
-  - slot{"district":"district", "cuisine":"cuisine", "greeting":"greeting"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
-
-## auto_scenario_815
-* request+greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-
 ## auto_scenario_816
 * request
   - utter_request
@@ -9724,13 +7239,6 @@
   - utter_request
 * inform{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
-  - utter_request
-
-## auto_scenario_818
-* request{"district":"district", "venue_type":"venue_type"}
-  - slot{"district":"district", "venue_type":"venue_type"}
-  - utter_inform
-* request
   - utter_request
 
 ## auto_scenario_819
@@ -9780,23 +7288,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 
-## auto_scenario_823
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-  - utter_greeting
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-
-## auto_scenario_824
-* request
-  - utter_approve
-* inform{"restaurant_name":"restaurant_name", "region":"region"}
-  - slot{"restaurant_name":"restaurant_name", "region":"region"}
-  - utter_confirm
-  - utter_approve
-
 ## auto_scenario_825
 * request+greeting{"district":"district", "cuisine":"cuisine", "greeting":"greeting"}
   - slot{"district":"district", "cuisine":"cuisine", "greeting":"greeting"}
@@ -9818,23 +7309,6 @@
   - utter_inform
   - utter_request
 * request
-  - utter_request
-
-## auto_scenario_827
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-  - utter_greeting
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-
-## auto_scenario_828
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-* inform{"district":"district"}
-  - slot{"district":"district"}
   - utter_request
 
 ## auto_scenario_829
@@ -9866,15 +7340,6 @@
 * inform
   - utter_request
 * inform
-  - utter_request
-
-## auto_scenario_831
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-  - utter_greeting
-* inform{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
   - utter_request
 
 ## auto_scenario_832
@@ -10068,15 +7533,6 @@
 * inform
   - utter_inform
   - utter_closing
-
-## auto_scenario_843
-* request+greeting{"venue_type":"venue_type", "district":"district", "city":"city", "greeting":"greeting"}
-  - slot{"venue_type":"venue_type", "district":"district", "city":"city", "greeting":"greeting"}
-  - utter_request
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-  - utter_greeting
 
 ## auto_scenario_844
 * request+greeting{"district":"district", "greeting":"greeting"}
@@ -10301,14 +7757,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_855
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_856
 * request
   - utter_request
@@ -10429,16 +7877,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_864
-* request{"price":"price", "venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"price":"price", "venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_865
 * request+greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -10546,14 +7984,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_871
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_request
-
 ## auto_scenario_872
 * request{"opening_time":"opening_time", "district":"district"}
   - slot{"opening_time":"opening_time", "district":"district"}
@@ -10604,14 +8034,6 @@
 * request
   - utter_inform
   - utter_request
-
-## auto_scenario_875
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* request
-  - utter_inform
 
 ## auto_scenario_876
 * request{"price":"price", "cuisine":"cuisine", "district":"district"}
@@ -10726,26 +8148,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_883
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-  - utter_greeting
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_greeting
-  - utter_closing
-
-## auto_scenario_884
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform+closing{"closing":"closing"}
-  - slot{"closing":"closing"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_885
 * request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
   - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
@@ -10776,14 +8178,6 @@
   - slot{"closing":"closing"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_887
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform+closing{"closing":"closing"}
-  - slot{"closing":"closing"}
-  - utter_inform
 
 ## auto_scenario_888
 * greeting{"greeting":"greeting"}
@@ -10822,32 +8216,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_890
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_891
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_892
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform+closing{"closing":"closing"}
-  - slot{"closing":"closing"}
-  - utter_inform
-
 ## auto_scenario_893
 * request
   - utter_request
@@ -10870,24 +8238,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 * inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_895
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_896
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_closing
 
@@ -10948,22 +8298,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_901
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_902
-* request+greeting{"venue_type":"venue_type", "district":"district", "greeting":"greeting"}
-  - slot{"venue_type":"venue_type", "district":"district", "greeting":"greeting"}
-  - utter_request
-  - utter_greeting
-* inform
-  - utter_request
-
 ## auto_scenario_903
 * request{"cuisine":"cuisine", "cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -10997,15 +8331,6 @@
   - utter_approve
 * confirm
   - utter_inform
-
-## auto_scenario_905
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_greeting
-  - utter_closing
 
 ## auto_scenario_906
 * request{"cuisine":"cuisine", "district":"district"}
@@ -11050,13 +8375,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_909
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-
 ## auto_scenario_910
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -11070,14 +8388,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_911
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_912
 * request{"district":"district", "cuisine":"cuisine"}
   - slot{"district":"district", "cuisine":"cuisine"}
@@ -11090,28 +8400,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_913
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-
-## auto_scenario_914
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_915
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_request
-* inform
-  - utter_request
 
 ## auto_scenario_916
 * request{"cuisine":"cuisine", "district":"district"}
@@ -11239,16 +8527,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_923
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform+closing{"opening_time":"opening_time", "closing":"closing"}
-  - slot{"opening_time":"opening_time", "closing":"closing"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_924
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -11304,15 +8582,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_928
-* request
-  - utter_request
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_greeting
-  - utter_closing
-
 ## auto_scenario_929
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -11353,15 +8622,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_request
-
-## auto_scenario_931
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_932
 * request{"district":"district", "opening_time":"opening_time"}
@@ -11433,16 +8693,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_936
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_937
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -11460,16 +8710,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_938
-* request{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
@@ -11564,15 +8804,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_944
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_inform
-  - utter_request
-* inform+closing{"closing":"closing"}
-  - slot{"closing":"closing"}
-  - utter_closing
-
 ## auto_scenario_945
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -11605,16 +8836,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_947
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
   - utter_inform
   - utter_closing
 
@@ -11702,17 +8923,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_953
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_inform
-  - utter_multiple_choice
-* confirm+inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-  - utter_multiple_choice
-
 ## auto_scenario_954
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -11739,15 +8949,6 @@
 * inform
   - utter_inform
   - utter_request
-
-## auto_scenario_956
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_greeting
-  - utter_request
-* inform
-  - utter_closing
-  - utter_inform
 
 ## auto_scenario_957
 * request{"cuisine":"cuisine", "venue_type":"venue_type"}
@@ -12036,16 +9237,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_973
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_974
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -12078,25 +9269,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_976
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_977
-* request{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_greeting
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_978
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -12116,24 +9288,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_979
-* request{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_980
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_closing
   - utter_inform
 
 ## auto_scenario_981
@@ -12268,13 +9422,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_989
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-
 ## auto_scenario_990
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -12398,16 +9545,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_996
-* request{"district":"district", "city":"city", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - utter_greeting
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_997
 * request{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
   - slot{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
@@ -12527,15 +9664,6 @@
 * request
   - utter_inform
 
-## auto_scenario_1004
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform+closing{"opening_time":"opening_time", "closing":"closing"}
-  - slot{"opening_time":"opening_time", "closing":"closing"}
-  - utter_inform
-
 ## auto_scenario_1005
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -12582,16 +9710,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 * inform
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1008
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
   - utter_inform
 
@@ -12688,23 +9806,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
   - utter_inform
-
-## auto_scenario_1015
-* request{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1016
-* request{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* request
-  - utter_approve
 
 ## auto_scenario_1017
 * request{"district":"district", "opening_time":"opening_time"}
@@ -12835,16 +9936,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1025
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_greeting
-  - utter_request
-* inform{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_inform
-  - utter_multiple_choice
-
 ## auto_scenario_1026
 * request{"district":"district", "city":"city"}
   - slot{"district":"district", "city":"city"}
@@ -12867,23 +9958,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-  - utter_inform
-
-## auto_scenario_1028
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_approve
-* confirm
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1029
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_greeting
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_1030
@@ -12961,14 +10035,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_1034
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_inform
-
 ## auto_scenario_1035
 * request{"district":"district", "city":"city"}
   - slot{"district":"district", "city":"city"}
@@ -12988,15 +10054,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1036
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm+closing{"opening_time":"opening_time", "closing":"closing"}
-  - slot{"opening_time":"opening_time", "closing":"closing"}
-  - utter_inform
-
 ## auto_scenario_1037
 * request{"district":"district", "city":"city"}
   - slot{"district":"district", "city":"city"}
@@ -13012,15 +10069,6 @@
   - utter_approve
 * confirm+closing{"closing":"closing"}
   - slot{"closing":"closing"}
-  - utter_inform
-
-## auto_scenario_1038
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-* confirm
-  - utter_closing
   - utter_inform
 
 ## auto_scenario_1039
@@ -13151,35 +10199,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1047
-* request{"district":"district", "city":"city", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1048
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1049
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_1050
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -13265,16 +10284,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1055
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1056
 * request{"rating":"rating", "venue_type":"venue_type", "district":"district"}
   - slot{"rating":"rating", "venue_type":"venue_type", "district":"district"}
@@ -13292,16 +10301,6 @@
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1057
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm+closing{"closing":"closing"}
-  - slot{"closing":"closing"}
-  - utter_closing
   - utter_inform
 
 ## auto_scenario_1058
@@ -13341,65 +10340,11 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1060
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_1061
 * request{"opening_time":"opening_time", "district":"district", "city":"city"}
   - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
   - utter_request
 * inform
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1062
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1063
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1064
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1065
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_inform
-
-## auto_scenario_1066
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - utter_inform
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
@@ -13442,14 +10387,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_1069
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_1070
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -13464,25 +10401,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_1071
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-  - utter_greeting
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_1072
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_1073
 * greeting{"greeting":"greeting"}
@@ -13546,15 +10464,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1077
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_1078
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -13571,32 +10480,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_1079
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1080
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_1081
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_1082
 * request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
@@ -13609,23 +10492,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_1083
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_approve
-
-## auto_scenario_1084
-* request+greeting{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time", "greeting":"greeting"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time", "greeting":"greeting"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name", "cuisine":"cuisine"}
-  - slot{"restaurant_name":"restaurant_name", "cuisine":"cuisine"}
-  - utter_inform
 
 ## auto_scenario_1085
 * request{"rating":"rating", "district":"district", "city":"city"}
@@ -13661,41 +10527,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1087
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1088
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1089
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-  - utter_approve
-* inform{"district":"district", "opening_time":"opening_time", "restaurant_name":"restaurant_name"}
-  - slot{"district":"district", "opening_time":"opening_time", "restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1090
-* request{"cuisine":"cuisine", "city":"city"}
-  - slot{"cuisine":"cuisine", "city":"city"}
-  - utter_approve
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_1091
 * request+greeting{"cuisine":"cuisine", "district":"district", "city":"city", "greeting":"greeting"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city", "greeting":"greeting"}
@@ -13723,16 +10554,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1093
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
   - utter_closing
   - utter_inform
 
@@ -13915,30 +10736,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1105
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* confirm
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1106
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* closing{"closing":"closing"}
-  - slot{"closing":"closing"}
-  - utter_inform
-
-## auto_scenario_1107
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1108
 * request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
@@ -13968,15 +10765,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-  - utter_inform
-
-## auto_scenario_1110
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_1111
@@ -14102,17 +10890,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1118
-* request{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_greeting
-  - utter_inform
-  - utter_request
-
 ## auto_scenario_1119
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -14230,14 +11007,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_1126
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_inform
-* inform
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1127
 * request{"district":"district", "city":"city"}
   - slot{"district":"district", "city":"city"}
@@ -14327,31 +11096,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_1133
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1134
-* greeting+request{"greeting":"greeting", "cuisine":"cuisine", "district":"district"}
-  - slot{"greeting":"greeting", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1135
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-
 ## auto_scenario_1136
 * request{"cuisine":"cuisine", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "opening_time":"opening_time"}
@@ -14376,16 +11120,6 @@
   - utter_request
 * inform{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_1138
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-* inform{"district":"district"}
-  - slot{"district":"district"}
   - utter_inform
   - utter_multiple_choice
 
@@ -14457,31 +11191,6 @@
   - utter_inform
   - utter_approve
 * confirm
-  - utter_inform
-
-## auto_scenario_1143
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm+inform
-  - utter_inform
-
-## auto_scenario_1144
-* request+greeting{"rating":"rating", "greeting":"greeting"}
-  - slot{"rating":"rating", "greeting":"greeting"}
-  - utter_request
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_1145
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
   - utter_inform
 
 ## auto_scenario_1146
@@ -14557,15 +11266,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_1150
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_1151
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -14578,14 +11278,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 * inform
-  - utter_inform
-
-## auto_scenario_1152
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_inform
-  - utter_multiple_choice
-* request
   - utter_inform
 
 ## auto_scenario_1153
@@ -14667,15 +11359,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_1158
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_inform
-  - utter_multiple_choice
-
 ## auto_scenario_1159
 * request+greeting{"district":"district", "venue_type":"venue_type", "rating":"rating", "greeting":"greeting"}
   - slot{"district":"district", "venue_type":"venue_type", "rating":"rating", "greeting":"greeting"}
@@ -14756,15 +11439,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1164
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_1165
 * greeting+request{"greeting":"greeting", "district":"district"}
   - slot{"greeting":"greeting", "district":"district"}
@@ -14808,14 +11482,6 @@
   - utter_approve
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_1168
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
   - utter_inform
   - utter_closing
 
@@ -14962,16 +11628,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_1177
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_approve
-
 ## auto_scenario_1178
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -15014,16 +11670,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_1180
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_1181
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -15051,16 +11697,6 @@
   - utter_approve
 * confirm
   - utter_inform
-
-## auto_scenario_1183
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform+closing{"opening_time":"opening_time", "closing":"closing"}
-  - slot{"opening_time":"opening_time", "closing":"closing"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_1184
 * request
@@ -15094,16 +11730,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 * inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_1186
-* request{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_closing
 
@@ -15148,16 +11774,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_1189
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_1190
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -15171,15 +11787,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_1191
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
 
 ## auto_scenario_1192
 * greeting{"greeting":"greeting"}
@@ -15316,16 +11923,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1199
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform+closing{"opening_time":"opening_time", "closing":"closing"}
-  - slot{"opening_time":"opening_time", "closing":"closing"}
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1200
 * request{"venue_type":"venue_type", "cuisine":"cuisine", "cuisine":"cuisine", "district":"district"}
   - slot{"venue_type":"venue_type", "cuisine":"cuisine", "district":"district"}
@@ -15336,25 +11933,6 @@
 * inform
   - utter_inform
   - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1201
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1202
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
@@ -15395,24 +11973,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-  - utter_inform
-
-## auto_scenario_1205
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_1206
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_1207
@@ -15526,14 +12086,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_1213
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_1214
 * request{"rating":"rating", "district":"district"}
   - slot{"rating":"rating", "district":"district"}
@@ -15567,14 +12119,6 @@
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
   - utter_closing
-  - utter_inform
-
-## auto_scenario_1216
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform{"restaurant_name":"restaurant_name", "district":"district"}
-  - slot{"restaurant_name":"restaurant_name", "district":"district"}
   - utter_inform
 
 ## auto_scenario_1217
@@ -15671,25 +12215,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1222
-* request{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-* inform{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_inform
-  - utter_request
-
-## auto_scenario_1223
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform+closing{"opening_time":"opening_time", "closing":"closing"}
-  - slot{"opening_time":"opening_time", "closing":"closing"}
-  - utter_inform
-
 ## auto_scenario_1224
 * greeting+request{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -15723,14 +12248,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_1226
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_1227
 * request{"opening_time":"opening_time", "district":"district", "city":"city"}
   - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
@@ -15743,15 +12260,6 @@
 * inform
   - utter_inform
   - utter_closing
-
-## auto_scenario_1228
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_1229
 * request{"cuisine":"cuisine", "district":"district"}
@@ -15778,15 +12286,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1231
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_closing
   - utter_inform
 
 ## auto_scenario_1232
@@ -15837,15 +12336,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_1235
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_1236
 * request{"cuisine":"cuisine", "region":"region"}
   - slot{"cuisine":"cuisine", "region":"region"}
@@ -15859,14 +12349,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1237
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_1238
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -15875,24 +12357,6 @@
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1239
-* greeting+request{"greeting":"greeting", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"greeting":"greeting", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1240
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_closing
   - utter_inform
 
 ## auto_scenario_1241
@@ -16182,24 +12646,6 @@
   - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_1259
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1260
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1261
 * request
   - utter_request
@@ -16243,15 +12689,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_1264
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_1265
 * request{"region":"region", "neighborhood":"neighborhood"}
   - slot{"region":"region", "neighborhood":"neighborhood"}
@@ -16263,13 +12700,6 @@
   - slot{"district":"district", "city":"city"}
   - utter_inform
   - utter_approve
-* confirm
-  - utter_inform
-
-## auto_scenario_1266
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
 * confirm
   - utter_inform
 
@@ -16302,13 +12732,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_1269
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* request
-  - utter_inform
 
 ## auto_scenario_1270
 * request{"district":"district", "opening_time":"opening_time"}
@@ -16380,22 +12803,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_1275
-* request{"venue_type":"venue_type", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "opening_time":"opening_time"}
-  - utter_inform
-* confirm
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_1276
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_1277
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -16413,24 +12820,6 @@
   - slot{"cuisine":"cuisine"}
   - utter_inform
 * inform+request{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_1278
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_1279
-* request{"venue_type":"venue_type", "rating":"rating", "opening_time":"opening_time", "district":"district"}
-  - slot{"venue_type":"venue_type", "rating":"rating", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_closing
@@ -16716,15 +13105,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1298
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_1299
 * request{"rating":"rating", "district":"district"}
   - slot{"rating":"rating", "district":"district"}
@@ -16785,14 +13165,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1303
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_1304
 * request
   - utter_request
@@ -16824,15 +13196,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_1306
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_1307
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -16846,16 +13209,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1308
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_1309
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -16868,24 +13221,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_1310
-* request{"venue_type":"venue_type", "district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_confirm
-  - utter_inform
-
-## auto_scenario_1311
-* request{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_1312
 * request{"district":"district"}
@@ -17021,15 +13356,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1321
-* greeting+request{"greeting":"greeting", "venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"greeting":"greeting", "venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1322
 * request{"neighborhood":"neighborhood"}
   - slot{"neighborhood":"neighborhood"}
@@ -17085,15 +13411,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1325
-* request{"rating":"rating", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"rating":"rating", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
   - utter_inform
 
 ## auto_scenario_1326
@@ -17152,35 +13469,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1329
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm+closing{"closing":"closing"}
-  - slot{"closing":"closing"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1330
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1331
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1332
 * request{"district":"district", "venue_type":"venue_type"}
   - slot{"district":"district", "venue_type":"venue_type"}
@@ -17197,16 +13485,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1333
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm+closing{"closing":"closing"}
-  - slot{"closing":"closing"}
   - utter_closing
   - utter_inform
 
@@ -17406,24 +13684,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1348
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1349
-* greeting+request{"greeting":"greeting", "cuisine":"cuisine", "region":"region", "opening_time":"opening_time"}
-  - slot{"greeting":"greeting", "cuisine":"cuisine", "region":"region", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1350
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -17483,15 +13743,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1354
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1355
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -17525,15 +13776,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1357
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm+closing{"closing":"closing"}
-  - slot{"closing":"closing"}
-  - utter_inform
-
 ## auto_scenario_1358
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -17545,15 +13787,6 @@
   - utter_request
 * closing+confirm{"closing":"closing", "opening_time":"opening_time"}
   - slot{"closing":"closing", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_1359
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_closing
   - utter_inform
 
 ## auto_scenario_1360
@@ -17590,16 +13823,6 @@
   - utter_request
 * inform
   - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1362
-* request{"region":"region", "opening_time":"opening_time"}
-  - slot{"region":"region", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
@@ -17663,16 +13886,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1366
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_greeting
-  - utter_request
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1367
 * greeting+request{"greeting":"greeting", "cuisine":"cuisine"}
   - slot{"greeting":"greeting", "cuisine":"cuisine"}
@@ -17706,14 +13919,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-  - utter_inform
-
-## auto_scenario_1369
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
   - utter_inform
 
 ## auto_scenario_1370
@@ -17769,15 +13974,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1373
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1374
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -17808,14 +14004,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1376
-* request{"rating":"rating", "cuisine":"cuisine", "opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"rating":"rating", "cuisine":"cuisine", "opening_time":"opening_time", "district":"district", "city":"city"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_1377
 * request
   - utter_request
@@ -17838,15 +14026,6 @@
   - utter_approve
 * confirm+request
   - utter_closing
-  - utter_inform
-
-## auto_scenario_1378
-* greeting+request{"greeting":"greeting", "venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"greeting":"greeting", "venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_1379
@@ -17913,15 +14092,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1383
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1384
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -17949,15 +14119,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1385
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* confirm
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1386
 * request{"cuisine":"cuisine", "region":"region"}
   - slot{"cuisine":"cuisine", "region":"region"}
@@ -17972,16 +14133,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1387
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1388
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -17989,15 +14140,6 @@
   - utter_request
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1389
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
@@ -18182,15 +14324,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1400
-* greeting+request{"greeting":"greeting", "rating":"rating", "district":"district", "opening_time":"opening_time"}
-  - slot{"greeting":"greeting", "rating":"rating", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_1401
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -18289,11 +14422,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_1407
-* greeting+request{"greeting":"greeting", "opening_time":"opening_time", "cuisine":"cuisine", "cuisine":"cuisine"}
-  - slot{"greeting":"greeting", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_request
-
 ## auto_scenario_1408
 * request{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
   - slot{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
@@ -18309,14 +14437,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-  - utter_inform
-
-## auto_scenario_1409
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_1410
@@ -18379,16 +14499,6 @@
   - utter_closing
   - utter_inform
 
-## auto_scenario_1413
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1414
 * request{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
   - slot{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
@@ -18397,16 +14507,6 @@
   - utter_inform
   - utter_approve
 * confirm
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1415
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
   - utter_inform
 
@@ -18546,15 +14646,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1424
-* request{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - slot{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_1425
 * request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
   - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
@@ -18622,11 +14713,6 @@
 * confirm+request
   - utter_inform
 
-## auto_scenario_1429
-* greeting+request{"greeting":"greeting", "cuisine":"cuisine", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"greeting":"greeting", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_1430
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -18668,24 +14754,6 @@
   - utter_closing
   - utter_inform
   - utter_multiple_choice
-
-## auto_scenario_1433
-* request{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - slot{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1434
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
 
 ## auto_scenario_1435
 * request{"district":"district", "city":"city", "venue_type":"venue_type"}
@@ -18729,31 +14797,6 @@
   - utter_inform
 * inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
   - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - utter_closing
-
-## auto_scenario_1438
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1439
-* request
-  - utter_request
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-
-## auto_scenario_1440
-* request{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - slot{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
 ## auto_scenario_1441
@@ -18804,14 +14847,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
-## auto_scenario_1445
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_1446
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -18823,15 +14858,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_1447
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_1448
 * request
@@ -19003,20 +15029,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1459
-* request{"district":"district", "city":"city", "price":"price"}
-  - slot{"district":"district", "city":"city", "price":"price"}
-  - utter_request
-
-## auto_scenario_1460
-* greeting+request{"greeting":"greeting", "opening_time":"opening_time", "cuisine":"cuisine", "price":"price", "district":"district", "city":"city"}
-  - slot{"greeting":"greeting", "opening_time":"opening_time", "cuisine":"cuisine", "price":"price", "district":"district", "city":"city"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_1461
 * request{"district":"district", "cuisine":"cuisine"}
   - slot{"district":"district", "cuisine":"cuisine"}
@@ -19084,14 +15096,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 * inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1466
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
@@ -19197,16 +15201,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_1473
-* request+closing{"price":"price", "cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time", "closing":"closing"}
-  - slot{"price":"price", "cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time", "closing":"closing"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_1474
 * request{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
   - slot{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
@@ -19251,16 +15245,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_1477
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-
 ## auto_scenario_1478
 * request{"venue_type":"venue_type"}
   - slot{"venue_type":"venue_type"}
@@ -19279,15 +15263,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-  - utter_inform
-
-## auto_scenario_1479
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_1480
@@ -19345,43 +15320,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_1484
-* greeting+request{"greeting":"greeting", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"greeting":"greeting", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1485
-* request{"district":"district", "city":"city", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - utter_closing
-  - utter_inform
-  - utter_multiple_choice
-* request
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1486
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1487
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_1488
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -19429,14 +15367,6 @@
 * inform
   - utter_inform
   - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1491
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "rating":"rating", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "rating":"rating", "opening_time":"opening_time"}
-  - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
@@ -19502,40 +15432,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_1496
-* request{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - slot{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_1497
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform+request{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_1498
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1499
-* request{"cuisine":"cuisine", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_multiple_choice
-
 ## auto_scenario_1500
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -19594,14 +15490,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_1504
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_1505
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -19613,23 +15501,6 @@
 * inform
   - utter_inform
   - utter_multiple_choice
-
-## auto_scenario_1506
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1507
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
 
 ## auto_scenario_1508
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -19688,23 +15559,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1512
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform+request{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1513
-* request{"rating":"rating", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"rating":"rating", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_1514
 * request{"rating":"rating", "district":"district", "city":"city"}
   - slot{"rating":"rating", "district":"district", "city":"city"}
@@ -19748,14 +15602,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_1517
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
 
 ## auto_scenario_1518
 * request{"venue_type":"venue_type", "district":"district"}
@@ -19889,15 +15735,6 @@
 * confirm
   - utter_closing
 
-## auto_scenario_1527
-* request{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - slot{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_request
-
 ## auto_scenario_1528
 * request{"district":"district", "city":"city", "price":"price"}
   - slot{"district":"district", "city":"city", "price":"price"}
@@ -19910,22 +15747,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-
-## auto_scenario_1529
-* request{"rating":"rating", "venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"rating":"rating", "venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1530
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_1531
 * request{"district":"district", "city":"city"}
@@ -19972,16 +15793,6 @@
   - utter_closing
   - utter_request
 
-## auto_scenario_1534
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-
 ## auto_scenario_1535
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -19990,22 +15801,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 * inform
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1536
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-
-## auto_scenario_1537
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
@@ -20046,32 +15841,6 @@
   - utter_request
 * inform
   - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1541
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_multiple_choice
-
-## auto_scenario_1542
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1543
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
@@ -20134,14 +15903,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
-## auto_scenario_1548
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_1549
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -20174,23 +15935,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-
-## auto_scenario_1552
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1553
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_1554
 * request{"district":"district", "city":"city"}
@@ -20225,22 +15969,6 @@
   - utter_inform
   - utter_request
 
-## auto_scenario_1556
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1557
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_1558
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -20267,13 +15995,6 @@
   - utter_request
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1560
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
   - utter_closing
 
 ## auto_scenario_1561
@@ -20309,24 +16030,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
-## auto_scenario_1563
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-
-## auto_scenario_1564
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_1565
 * request{"rating":"rating", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - slot{"rating":"rating", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -20351,14 +16054,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-
-## auto_scenario_1567
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_1568
 * request
@@ -20416,22 +16111,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
-## auto_scenario_1572
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* confirm
-  - utter_inform
-  - utter_request
-
-## auto_scenario_1573
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_1574
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -20453,21 +16132,6 @@
   - utter_request
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1576
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* confirm
-  - utter_closing
-
-## auto_scenario_1577
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
@@ -20499,15 +16163,6 @@
 * request
   - utter_inform
 
-## auto_scenario_1580
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_1581
 * request{"district":"district", "city":"city"}
   - slot{"district":"district", "city":"city"}
@@ -20522,22 +16177,6 @@
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1582
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1583
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
   - utter_closing
 
 ## auto_scenario_1584
@@ -20555,23 +16194,6 @@
   - utter_request
 * request
   - utter_closing
-
-## auto_scenario_1585
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_multiple_choice
-
-## auto_scenario_1586
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_1587
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -20600,15 +16222,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
-## auto_scenario_1589
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_request
-
 ## auto_scenario_1590
 * request{"venue_type":"venue_type", "district":"district", "price":"price", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "district":"district", "price":"price", "opening_time":"opening_time"}
@@ -20617,30 +16230,6 @@
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1591
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1592
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-  - utter_multiple_choice
-* inform
-  - utter_closing
-
-## auto_scenario_1593
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-* confirm+approve
   - utter_closing
 
 ## auto_scenario_1594
@@ -20656,15 +16245,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
-## auto_scenario_1595
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_request
-
 ## auto_scenario_1596
 * request{"cuisine":"cuisine", "price":"price", "district":"district", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "price":"price", "district":"district", "opening_time":"opening_time"}
@@ -20676,49 +16256,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
   - utter_request
-
-## auto_scenario_1597
-* request+inform{"district":"district", "opening_time":"opening_time", "restaurant_name":"restaurant_name"}
-  - slot{"district":"district", "opening_time":"opening_time", "restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-* confirm
-  - utter_inform
-
-## auto_scenario_1598
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_greeting
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-
-## auto_scenario_1599
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_request
-
-## auto_scenario_1600
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1601
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
 
 ## auto_scenario_1602
 * greeting{"greeting":"greeting"}
@@ -20754,15 +16291,6 @@
   - utter_closing
   - utter_request
 
-## auto_scenario_1604
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_greeting
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-
 ## auto_scenario_1605
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -20772,14 +16300,6 @@
   - utter_request
   - utter_multiple_choice
 * inform
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1606
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
@@ -20806,14 +16326,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
-## auto_scenario_1608
-* approve{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - utter_greeting
-* inform
-  - utter_inform
-  - utter_multiple_choice
-
 ## auto_scenario_1609
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -20829,14 +16341,6 @@
   - utter_inform
   - utter_request
 
-## auto_scenario_1610
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_greeting
-* inform{"opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_inform
-
 ## auto_scenario_1611
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -20851,15 +16355,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_1612
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
 
 ## auto_scenario_1613
 * request{"venue_type":"venue_type", "district":"district"}
@@ -20943,15 +16438,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
-## auto_scenario_1618
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-
 ## auto_scenario_1619
 * request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
@@ -20983,15 +16469,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
   - utter_approve
-
-## auto_scenario_1621
-* closing+greeting{"closing":"closing", "greeting":"greeting"}
-  - slot{"closing":"closing", "greeting":"greeting"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_1622
 * request{"cuisine":"cuisine", "district":"district"}
@@ -21070,26 +16547,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_closing
 
-## auto_scenario_1627
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1628
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-  - utter_approve
-
 ## auto_scenario_1629
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -21118,13 +16575,6 @@
 * inform+request{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
   - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
   - utter_inform
-
-## auto_scenario_1631
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_closing
 
 ## auto_scenario_1632
 * request{"rating":"rating"}
@@ -21162,24 +16612,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1634
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-
-## auto_scenario_1635
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_1636
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -21196,15 +16628,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_1637
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_1638
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -21220,15 +16643,6 @@
   - utter_closing
   - utter_request
 
-## auto_scenario_1639
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_multiple_choice
-
 ## auto_scenario_1640
 * request{"district":"district", "cuisine":"cuisine"}
   - slot{"district":"district", "cuisine":"cuisine"}
@@ -21241,13 +16655,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_closing
   - utter_request
-
-## auto_scenario_1641
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_greeting
-* confirm
-  - utter_closing
 
 ## auto_scenario_1642
 * request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
@@ -21309,24 +16716,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_1646
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_greeting
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-
-## auto_scenario_1647
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_multiple_choice
-
 ## auto_scenario_1648
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -21337,16 +16726,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-
-## auto_scenario_1649
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-  - utter_request
 
 ## auto_scenario_1650
 * request+greeting{"district":"district", "opening_time":"opening_time", "greeting":"greeting"}
@@ -21362,13 +16741,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
-## auto_scenario_1651
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* confirm
-  - utter_inform
-
 ## auto_scenario_1652
 * request{"venue_type":"venue_type", "cuisine":"cuisine", "district":"district"}
   - slot{"venue_type":"venue_type", "cuisine":"cuisine", "district":"district"}
@@ -21378,57 +16750,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-
-## auto_scenario_1653
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-
-## auto_scenario_1654
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* inform+closing{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - slot{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - utter_closing
-
-## auto_scenario_1655
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1656
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1657
-* request{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - slot{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1658
-* request{"rating":"rating", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"rating":"rating", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_multiple_choice
 
 ## auto_scenario_1659
 * request{"district":"district", "city":"city", "rating":"rating", "cuisine":"cuisine", "opening_time":"opening_time"}
@@ -21442,14 +16763,6 @@
   - utter_inform
 * request
   - utter_inform
-* confirm
-  - utter_closing
-
-## auto_scenario_1660
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-  - utter_request
 * confirm
   - utter_closing
 
@@ -21492,34 +16805,6 @@
 * confirm
   - utter_closing
 
-## auto_scenario_1664
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-  - utter_approve
-
-## auto_scenario_1665
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1666
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_1667
 * request
   - utter_deny
@@ -21540,14 +16825,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
-## auto_scenario_1668
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_greeting
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-
 ## auto_scenario_1669
 * request{"district":"district", "city":"city", "opening_time":"opening_time"}
   - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
@@ -21559,15 +16836,6 @@
   - utter_inform
 * confirm
   - utter_closing
-
-## auto_scenario_1670
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_multiple_choice
 
 ## auto_scenario_1671
 * request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
@@ -21588,14 +16856,6 @@
   - utter_inform
 * inform{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1673
-* request{"rating":"rating", "cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"rating":"rating", "cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
@@ -21632,15 +16892,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_1676
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_multiple_choice
 
 ## auto_scenario_1677
 * request{"district":"district", "city":"city"}
@@ -21708,33 +16959,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
-## auto_scenario_1682
-* request{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1683
-* request{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-
-## auto_scenario_1684
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_inform
-  - utter_multiple_choice
-
 ## auto_scenario_1685
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -21755,40 +16979,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_1687
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform+multiple_choice{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1688
-* request{"rating":"rating", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"rating":"rating", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform+request{"restaurant_name":"restaurant_name", "district":"district"}
-  - slot{"restaurant_name":"restaurant_name", "district":"district"}
-  - utter_inform
-
-## auto_scenario_1689
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* confirm{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1690
-* greeting+multiple_choice{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_multiple_choice
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_request
 
 ## auto_scenario_1691
 * request+inform+approve{"cuisine":"cuisine", "price":"price", "district":"district", "city":"city", "opening_time":"opening_time"}
@@ -21826,22 +17016,6 @@
 * confirm
   - utter_closing
 
-## auto_scenario_1693
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1694
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform+multiple_choice{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_1695
 * request
   - utter_request
@@ -21863,14 +17037,6 @@
 * confirm
   - utter_closing
 
-## auto_scenario_1696
-* request{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_1697
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -21886,13 +17052,6 @@
 * inform+closing{"restaurant_name":"restaurant_name", "closing":"closing"}
   - slot{"restaurant_name":"restaurant_name", "closing":"closing"}
   - utter_closing
-
-## auto_scenario_1698
-* request+multiple_choice{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_approve
-* confirm+request
-  - utter_inform
 
 ## auto_scenario_1699
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -21922,22 +17081,6 @@
   - utter_multiple_choice
 * inform+multiple_choice{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_closing
-
-## auto_scenario_1701
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1702
-* request+multiple_choice{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform+request{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
   - utter_closing
 
 ## auto_scenario_1703
@@ -21972,13 +17115,6 @@
   - utter_multiple_choice
 * inform+multiple_choice{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1705
-* request+approve{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
   - utter_closing
 
 ## auto_scenario_1706
@@ -22042,22 +17178,6 @@
   - slot{"restaurant_name":"restaurant_name", "cuisine":"cuisine"}
   - utter_closing
 
-## auto_scenario_1710
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_closing
-  - utter_inform
-
-## auto_scenario_1711
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_1712
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -22091,13 +17211,6 @@
 * inform+multiple_choice
   - utter_closing
 
-## auto_scenario_1714
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_closing
-
 ## auto_scenario_1715
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -22108,38 +17221,6 @@
 * inform+request
   - utter_inform
 * inform+multiple_choice{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1716
-* request+inform{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1717
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1718
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1719
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
@@ -22201,14 +17282,6 @@
   - slot{"cuisine":"cuisine"}
   - utter_inform
 * confirm
-  - utter_closing
-
-## auto_scenario_1724
-* request+multiple_choice{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-* inform+approve{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
 ## auto_scenario_1725
@@ -22321,21 +17394,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_1733
-* request+multiple_choice{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_closing
-
-## auto_scenario_1734
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_1735
 * request+approve{"district":"district"}
   - slot{"district":"district"}
@@ -22410,15 +17468,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_1740
-* request+multiple_choice{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_request
-
 ## auto_scenario_1741
 * request{"venue_type":"venue_type"}
   - slot{"venue_type":"venue_type"}
@@ -22443,45 +17492,6 @@
   - utter_closing
   - utter_request
 
-## auto_scenario_1742
-* request+approve{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - utter_request
-* inform
-  - utter_closing
-  - utter_greeting
-
-## auto_scenario_1743
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1744
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform+request
-  - utter_closing
-  - utter_greeting
-
-## auto_scenario_1745
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform+multiple_choice{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1746
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_closing
-
 ## auto_scenario_1747
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -22500,31 +17510,6 @@
   - utter_request
 * inform
   - utter_closing
-
-## auto_scenario_1748
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1749
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-* inform+multiple_choice{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1750
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_1751
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -22550,22 +17535,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_1753
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1754
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
 
 ## auto_scenario_1755
 * request{"district":"district", "opening_time":"opening_time"}
@@ -22638,14 +17607,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1760
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_1761
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -22675,22 +17636,6 @@
   - utter_request
 * inform
   - utter_closing
-
-## auto_scenario_1763
-* greeting+request{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1764
-* request{"opening_time":"opening_time", "district":"district", "venue_type":"venue_type"}
-  - slot{"opening_time":"opening_time", "district":"district", "venue_type":"venue_type"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_1765
 * greeting{"greeting":"greeting"}
@@ -22822,12 +17767,6 @@
 * inform+multiple_choice
   - utter_closing
 
-## auto_scenario_1775
-* request
-  - utter_inform
-* request
-  - utter_request
-
 ## auto_scenario_1776
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
   - slot{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -22908,16 +17847,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_1781
-* request+multiple_choice{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-  - utter_closing
-* inform+request{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-  - utter_request
-
 ## auto_scenario_1782
 * request{"opening_time":"opening_time", "district":"district", "venue_type":"venue_type"}
   - slot{"opening_time":"opening_time", "district":"district", "venue_type":"venue_type"}
@@ -22959,43 +17888,6 @@
   - utter_closing
   - utter_request
 
-## auto_scenario_1785
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform+request{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1786
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_closing
-
-## auto_scenario_1787
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform+multiple_choice
-  - utter_closing
-
-## auto_scenario_1788
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_1789
-* request{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - utter_request
-* inform
-  - utter_closing
-
 ## auto_scenario_1790
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -23020,14 +17912,6 @@
   - utter_request
 * inform+multiple_choice{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_1792
-* request{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_inform
-* inform+multiple_choice{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_1793
@@ -23228,13 +18112,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_1809
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform+approve
-  - utter_closing
-
 ## auto_scenario_1810
 * greeting+multiple_choice{"greeting":"greeting", "opening_time":"opening_time"}
   - slot{"greeting":"greeting", "opening_time":"opening_time"}
@@ -23325,13 +18202,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_1817
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_closing
-
 ## auto_scenario_1818
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -23340,20 +18210,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 * inform+multiple_choice
-  - utter_closing
-
-## auto_scenario_1819
-* greeting+request{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform
-  - utter_closing
-
-## auto_scenario_1820
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
   - utter_closing
 
 ## auto_scenario_1821
@@ -23423,14 +18279,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_1826
-* request+multiple_choice{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform+approve
-  - utter_closing
-  - utter_greeting
-
 ## auto_scenario_1827
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -23472,28 +18320,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 * inform
-  - utter_closing
-
-## auto_scenario_1830
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_closing
-
-## auto_scenario_1831
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform+multiple_choice
-  - utter_closing
-
-## auto_scenario_1832
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
 ## auto_scenario_1833
@@ -23557,14 +18383,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_1838
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_1839
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -23608,14 +18426,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 * inform
-  - utter_closing
-
-## auto_scenario_1843
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_multiple_choice
-* inform+multiple_choice{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
   - utter_closing
 
 ## auto_scenario_1844
@@ -23696,13 +18506,6 @@
   - utter_closing
   - utter_request
 
-## auto_scenario_1850
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* confirm
-  - utter_greeting
-
 ## auto_scenario_1851
 * request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
@@ -23761,21 +18564,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_1855
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1856
-* greeting+multiple_choice{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* inform
-  - utter_inform
-
 ## auto_scenario_1857
 * request+multiple_choice{"rating":"rating", "opening_time":"opening_time", "district":"district", "opening_time":"opening_time"}
   - slot{"rating":"rating", "opening_time":"opening_time", "district":"district"}
@@ -23806,14 +18594,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_1859
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_1860
 * request{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
@@ -23838,37 +18618,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1862
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1863
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1864
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1865
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_closing
-
 ## auto_scenario_1866
 * request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
@@ -23891,15 +18640,6 @@
   - utter_request
 * inform
   - utter_closing
-
-## auto_scenario_1868
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_greeting
-  - utter_request
 
 ## auto_scenario_1869
 * request{"district":"district", "venue_type":"venue_type"}
@@ -23962,22 +18702,6 @@
 * confirm
   - utter_request
 * inform+approve
-  - utter_closing
-
-## auto_scenario_1874
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
-## auto_scenario_1875
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
 ## auto_scenario_1876
@@ -24043,14 +18767,6 @@
 * inform
   - utter_closing
   - utter_request
-
-## auto_scenario_1881
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
 
 ## auto_scenario_1882
 * request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
@@ -24119,13 +18835,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_1887
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* request
-  - utter_greeting
-
 ## auto_scenario_1888
 * greeting+inform{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -24179,14 +18888,6 @@
 * inform+approve
   - utter_closing
 
-## auto_scenario_1892
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_1893
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -24195,13 +18896,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 * inform
-  - utter_closing
-
-## auto_scenario_1894
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_greeting
-* confirm
   - utter_closing
 
 ## auto_scenario_1895
@@ -24223,13 +18917,6 @@
   - utter_request
 * inform
   - utter_inform
-
-## auto_scenario_1897
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_closing
 
 ## auto_scenario_1898
 * request{"district":"district", "city":"city", "cuisine":"cuisine"}
@@ -24330,13 +19017,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_1906
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_closing
-
 ## auto_scenario_1907
 * request{"rating":"rating", "cuisine":"cuisine", "district":"district"}
   - slot{"rating":"rating", "cuisine":"cuisine", "district":"district"}
@@ -24361,20 +19041,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-* inform
-  - utter_closing
-
-## auto_scenario_1909
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_closing
-
-## auto_scenario_1910
-* request+inform{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
 * inform
   - utter_closing
 
@@ -24427,22 +19093,6 @@
   - utter_request
 * inform
   - utter_closing
-
-## auto_scenario_1915
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_closing
-
-## auto_scenario_1916
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform+closing{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - slot{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - utter_inform
-  - utter_request
 
 ## auto_scenario_1917
 * greeting{"greeting":"greeting"}
@@ -24540,15 +19190,6 @@
   - slot{"closing":"closing"}
   - utter_inform
 
-## auto_scenario_1924
-* request+multiple_choice{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-* inform+closing{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - slot{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - utter_inform
-  - utter_request
-
 ## auto_scenario_1925
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -24560,15 +19201,6 @@
   - slot{"closing":"closing"}
   - utter_closing
   - utter_greeting
-
-## auto_scenario_1926
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
 
 ## auto_scenario_1927
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -24643,41 +19275,12 @@
 * confirm
   - utter_closing
 
-## auto_scenario_1933
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_closing
-
-## auto_scenario_1934
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_closing
-
-## auto_scenario_1935
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform+multiple_choice{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-
 ## auto_scenario_1936
 * request{"rating":"rating", "opening_time":"opening_time", "district":"district"}
   - slot{"rating":"rating", "opening_time":"opening_time", "district":"district"}
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
-* inform
-  - utter_closing
-
-## auto_scenario_1937
-* request+multiple_choice{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
   - utter_request
 * inform
   - utter_closing
@@ -24810,14 +19413,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
-## auto_scenario_1948
-* request{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
-  - slot{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
-  - utter_inform
-  - utter_closing
-* request
-  - utter_inform
-
 ## auto_scenario_1949
 * request+closing{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time", "closing":"closing"}
   - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time", "closing":"closing"}
@@ -24827,20 +19422,6 @@
   - utter_request
 * inform
   - utter_inform
-
-## auto_scenario_1950
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_closing
-
-## auto_scenario_1951
-* request+multiple_choice{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_closing
 
 ## auto_scenario_1952
 * request{"district":"district"}
@@ -24950,13 +19531,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_1961
-* request+multiple_choice{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_greeting
-* confirm
-  - utter_inform
-
 ## auto_scenario_1962
 * request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
@@ -25012,21 +19586,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_1966
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_1967
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_closing
-
 ## auto_scenario_1968
 * request{"opening_time":"opening_time", "cuisine":"cuisine", "rating":"rating", "district":"district", "city":"city"}
   - slot{"opening_time":"opening_time", "cuisine":"cuisine", "rating":"rating", "district":"district", "city":"city"}
@@ -25037,20 +19596,6 @@
 * inform+closing{"restaurant_name":"restaurant_name", "closing":"closing"}
   - slot{"restaurant_name":"restaurant_name", "closing":"closing"}
   - utter_inform
-
-## auto_scenario_1969
-* request+multiple_choice{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_greeting
-* confirm
-  - utter_inform
-
-## auto_scenario_1970
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_closing
 
 ## auto_scenario_1971
 * request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time", "city":"city"}
@@ -25063,13 +19608,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 * inform
-  - utter_closing
-
-## auto_scenario_1972
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform+multiple_choice
   - utter_closing
 
 ## auto_scenario_1973
@@ -25198,14 +19736,6 @@
 * confirm
   - utter_closing
 
-## auto_scenario_1984
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_1985
 * request
   - utter_request
@@ -25324,13 +19854,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1992
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-* inform
-  - utter_request
-
 ## auto_scenario_1993
 * request
   - utter_request
@@ -25362,14 +19885,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_1995
-* request{"venue_type":"venue_type", "district":"district"}
-  - slot{"venue_type":"venue_type", "district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_1996
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
@@ -25390,14 +19905,6 @@
 * inform
   - utter_inform
 * confirm+multiple_choice
-  - utter_request
-
-## auto_scenario_1998
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-* inform{"district":"district"}
-  - slot{"district":"district"}
   - utter_request
 
 ## auto_scenario_1999
@@ -25475,11 +19982,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2004
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_inform
-
 ## auto_scenario_2005
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -25524,16 +20026,6 @@
 * inform+approve{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
-
-## auto_scenario_2008
-* request+multiple_choice{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_request
-
-## auto_scenario_2009
-* request+inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_2010
 * greeting{"greeting":"greeting"}
@@ -25608,11 +20100,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2014
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-
 ## auto_scenario_2015
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -25657,11 +20144,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2018
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_request
-
 ## auto_scenario_2019
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -25690,11 +20172,6 @@
   - utter_inform
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2021
-* request{"cuisine":"cuisine", "district":"district", "venue_type":"venue_type"}
-  - slot{"cuisine":"cuisine", "district":"district", "venue_type":"venue_type"}
   - utter_inform
 
 ## auto_scenario_2022
@@ -25757,11 +20234,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_2026
-* request{"venue_type":"venue_type", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_2027
 * request+inform{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -25778,11 +20250,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2028
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-
 ## auto_scenario_2029
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -25793,32 +20260,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_multiple_choice
 * inform
-  - utter_inform
-
-## auto_scenario_2030
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform+request
-  - utter_inform
-
-## auto_scenario_2031
-* request{"rating":"rating", "district":"district", "opening_time":"opening_time"}
-  - slot{"rating":"rating", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
-## auto_scenario_2032
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
-## auto_scenario_2033
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_2034
@@ -25868,13 +20309,6 @@
 * request{"opening_time":"opening_time", "cuisine":"cuisine"}
   - slot{"opening_time":"opening_time", "cuisine":"cuisine"}
   - utter_inform
-* inform
-  - utter_inform
-
-## auto_scenario_2036
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_multiple_choice
 * inform
   - utter_inform
 
@@ -25933,13 +20367,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_2041
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform
-  - utter_inform
-
 ## auto_scenario_2042
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -25978,13 +20405,6 @@
 * inform
   - utter_inform
   - utter_request
-* confirm
-  - utter_inform
-
-## auto_scenario_2045
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
 * confirm
   - utter_inform
 
@@ -26035,13 +20455,6 @@
 * inform+multiple_choice
   - utter_inform
 
-## auto_scenario_2050
-* request+closing{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district", "closing":"closing"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district", "closing":"closing"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
 ## auto_scenario_2051
 * request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
   - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
@@ -26071,36 +20484,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2053
-* request+multiple_choice{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_inform
-  - utter_request
-* confirm+inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2054
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
-## auto_scenario_2055
-* request
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2056
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
 ## auto_scenario_2057
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -26119,21 +20502,6 @@
   - utter_multiple_choice
 * inform
   - utter_inform
-
-## auto_scenario_2059
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform+multiple_choice
-  - utter_inform
-
-## auto_scenario_2060
-* request+multiple_choice{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* confirm
-  - utter_inform
-  - utter_request
 
 ## auto_scenario_2061
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -26171,14 +20539,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2063
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-  - utter_request
-* inform
-  - utter_inform
-
 ## auto_scenario_2064
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -26199,37 +20559,6 @@
 * inform+multiple_choice
   - utter_inform
   - utter_approve
-* inform
-  - utter_inform
-
-## auto_scenario_2066
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform
-  - utter_inform
-
-## auto_scenario_2067
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_closing
-* inform
-  - utter_inform
-
-## auto_scenario_2068
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform+multiple_choice
-  - utter_inform
-  - utter_request
-
-## auto_scenario_2069
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
 * inform
   - utter_inform
 
@@ -26308,13 +20637,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2076
-* request{"cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-* confirm
-  - utter_inform
-
 ## auto_scenario_2077
 * request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
@@ -26358,14 +20680,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 * inform+multiple_choice
-  - utter_inform
-
-## auto_scenario_2081
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-* inform
   - utter_inform
 
 ## auto_scenario_2082
@@ -26432,27 +20746,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2088
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform
-  - utter_inform
-
-## auto_scenario_2089
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform
-  - utter_inform
-
-## auto_scenario_2090
-* request{"rating":"rating", "opening_time":"opening_time", "district":"district"}
-  - slot{"rating":"rating", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform
-  - utter_inform
-
 ## auto_scenario_2091
 * request
   - utter_request
@@ -26461,13 +20754,6 @@
   - utter_request
 * inform{"district":"district"}
   - slot{"district":"district"}
-  - utter_inform
-
-## auto_scenario_2092
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform
   - utter_inform
 
 ## auto_scenario_2093
@@ -26510,14 +20796,6 @@
   - utter_multiple_choice
 * inform
   - utter_inform
-
-## auto_scenario_2095
-* request+multiple_choice{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform
-  - utter_inform
-  - utter_request
 
 ## auto_scenario_2096
 * inform+multiple_choice{"opening_time":"opening_time"}
@@ -26640,23 +20918,10 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_2105
-* request{"region":"region"}
-  - slot{"region":"region"}
-  - utter_request
-
 ## auto_scenario_2106
 * request
   - utter_inform
 * confirm
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2107
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
@@ -26701,13 +20966,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2111
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* confirm
-  - utter_inform
-
 ## auto_scenario_2112
 * request{"cuisine":"cuisine", "rating":"rating", "district":"district"}
   - slot{"cuisine":"cuisine", "rating":"rating", "district":"district"}
@@ -26734,27 +20992,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2114
-* request+multiple_choice{"region":"region"}
-  - slot{"region":"region"}
-  - utter_request
-
-## auto_scenario_2115
-* request{"opening_time":"opening_time", "rating":"rating", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "rating":"rating", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2116
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2117
 * request{"price":"price"}
   - slot{"price":"price"}
@@ -26766,14 +21003,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 * inform
-  - utter_inform
-
-## auto_scenario_2118
-* request+multiple_choice{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_2119
@@ -26825,11 +21054,6 @@
   - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_2122
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-
 ## auto_scenario_2123
 * request
   - utter_inform
@@ -26857,14 +21081,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2125
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform+multiple_choice{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2126
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -26872,14 +21088,6 @@
 * confirm
   - utter_request
 * inform
-  - utter_inform
-
-## auto_scenario_2127
-* request{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - slot{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_2128
@@ -26898,30 +21106,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2129
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2130
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2131
-* request+multiple_choice{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2132
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -26933,24 +21117,12 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_2133
-* request
-  - utter_request
-
 ## auto_scenario_2134
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
   - utter_request
 * inform
   - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2135
-* request+multiple_choice{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
@@ -26964,27 +21136,6 @@
   - utter_inform
 * inform+multiple_choice{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
   - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2137
-* request{"region":"region"}
-  - slot{"region":"region"}
-  - utter_request
-
-## auto_scenario_2138
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2139
-* request+approve{"rating":"rating", "opening_time":"opening_time", "district":"district"}
-  - slot{"rating":"rating", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_2140
@@ -27036,18 +21187,6 @@
 * approve
   - utter_confirm
 
-## auto_scenario_2143
-* request
-  - utter_inform
-
-## auto_scenario_2144
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform+approve{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2145
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -27057,15 +21196,6 @@
   - utter_request
 * inform
   - utter_inform
-
-## auto_scenario_2146
-* request{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
-  - slot{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
-  - utter_inform
-* request+greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-  - utter_request
 
 ## auto_scenario_2147
 * request{"cuisine":"cuisine", "district":"district"}
@@ -27294,20 +21424,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2162
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-
-## auto_scenario_2163
-* request{"district":"district", "opening_time":"opening_time", "rating":"rating", "price":"price"}
-  - slot{"district":"district", "opening_time":"opening_time", "rating":"rating", "price":"price"}
-  - utter_inform
-* confirm
-  - utter_inform
-
 ## auto_scenario_2164
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -27317,11 +21433,6 @@
   - utter_request
 * inform
   - utter_inform
-
-## auto_scenario_2165
-* request{"region":"region"}
-  - slot{"region":"region"}
-  - utter_request
 
 ## auto_scenario_2166
 * request
@@ -27378,14 +21489,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2170
-* request+multiple_choice{"district":"district", "cuisine":"cuisine"}
-  - slot{"district":"district", "cuisine":"cuisine"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_2171
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -27396,22 +21499,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 * inform
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2172
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform+approve{"restaurant_name":"restaurant_name", "district":"district"}
-  - slot{"restaurant_name":"restaurant_name", "district":"district"}
-  - utter_inform
-
-## auto_scenario_2173
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
@@ -27430,31 +21517,6 @@
   - slot{"region":"region"}
   - utter_inform
 
-## auto_scenario_2175
-* request{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2176
-* inform{"restaurant_name":"restaurant_name", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-
-## auto_scenario_2177
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2178
-* request
-  - utter_inform
-
 ## auto_scenario_2179
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -27470,14 +21532,6 @@
   - utter_inform
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-  - utter_inform
-
-## auto_scenario_2180
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "price":"price"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "price":"price"}
-  - utter_inform
-* inform+request{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_2181
@@ -27509,29 +21563,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2183
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_inform
-* request
-  - utter_inform
-
-## auto_scenario_2184
-* inform{"restaurant_name":"restaurant_name", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2185
-* inform{"restaurant_name":"restaurant_name", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2186
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -27545,15 +21576,6 @@
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2187
-* request
-  - utter_inform
-
-## auto_scenario_2188
-* request{"region":"region", "district":"district"}
-  - slot{"region":"region", "district":"district"}
   - utter_inform
 
 ## auto_scenario_2189
@@ -27572,26 +21594,6 @@
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2190
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2191
-* request{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - slot{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2192
-* request
   - utter_inform
 
 ## auto_scenario_2193
@@ -27634,23 +21636,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2196
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2197
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_multiple_choice
-
 ## auto_scenario_2198
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -27678,10 +21663,6 @@
   - slot{"restaurant_name":"restaurant_name", "district":"district", "city":"city"}
   - utter_inform
 
-## auto_scenario_2200
-* request
-  - utter_request
-
 ## auto_scenario_2201
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -27695,10 +21676,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_2202
-* request
-  - utter_request
 
 ## auto_scenario_2203
 * request{"cuisine":"cuisine", "opening_time":"opening_time"}
@@ -27727,19 +21704,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2205
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-  - utter_request
-* inform
-  - utter_inform
-
-## auto_scenario_2206
-* request{"region":"region"}
-  - slot{"region":"region"}
-  - utter_request
-
 ## auto_scenario_2207
 * request
   - utter_request
@@ -27765,30 +21729,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_2208
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2209
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform
-  - utter_request
-
-## auto_scenario_2210
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2211
 * request{"venue_type":"venue_type", "cuisine":"cuisine", "district":"district"}
   - slot{"venue_type":"venue_type", "cuisine":"cuisine", "district":"district"}
@@ -27812,14 +21752,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 * inform
-  - utter_inform
-
-## auto_scenario_2213
-* request{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - slot{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_2214
@@ -27874,14 +21806,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2218
-* request{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - slot{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2219
 * request{"opening_time":"opening_time", "venue_type":"venue_type"}
   - slot{"opening_time":"opening_time", "venue_type":"venue_type"}
@@ -27893,32 +21817,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2220
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2221
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2222
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
-
 ## auto_scenario_2223
 * request{"district":"district", "venue_type":"venue_type"}
   - slot{"district":"district", "venue_type":"venue_type"}
@@ -27929,14 +21827,6 @@
   - utter_inform
   - utter_request
 * confirm
-  - utter_inform
-
-## auto_scenario_2224
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_2225
@@ -27976,23 +21866,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2228
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2229
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2230
 * request
   - utter_request
@@ -28011,11 +21884,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2231
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_2232
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -28032,30 +21900,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2233
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2234
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2235
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2236
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -28064,13 +21908,6 @@
   - utter_request
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2237
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-* inform
   - utter_inform
 
 ## auto_scenario_2238
@@ -28125,14 +21962,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_2242
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2243
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
   - slot{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -28153,23 +21982,6 @@
   - utter_request
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2245
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2246
-* request{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - slot{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_2247
@@ -28206,22 +22018,6 @@
   - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2250
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2251
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_inform
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_2252
@@ -28298,14 +22094,6 @@
   - slot{"restaurant_name":"restaurant_name", "greeting":"greeting"}
   - utter_inform
 
-## auto_scenario_2257
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
-
 ## auto_scenario_2258
 * request{"district":"district", "city":"city", "venue_type":"venue_type"}
   - slot{"district":"district", "city":"city", "venue_type":"venue_type"}
@@ -28314,22 +22102,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 * inform
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2259
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2260
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
@@ -28359,14 +22131,6 @@
   - utter_request
 * inform
   - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2263
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
@@ -28446,14 +22210,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2270
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2271
 * request{"cuisine":"cuisine", "rating":"rating", "district":"district"}
   - slot{"cuisine":"cuisine", "rating":"rating", "district":"district"}
@@ -28463,22 +22219,6 @@
   - slot{"opening_time":"opening_time", "cuisine":"cuisine"}
   - utter_request
 * inform
-  - utter_inform
-
-## auto_scenario_2272
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* request
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_2273
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_2274
@@ -28525,15 +22265,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2277
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_2278
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -28545,15 +22276,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_2279
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_multiple_choice
 
 ## auto_scenario_2280
 * closing{"closing":"closing"}
@@ -28707,28 +22429,6 @@
 * confirm
   - utter_request
 
-## auto_scenario_2291
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_confirm
-  - utter_multiple_choice
-
-## auto_scenario_2292
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2293
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_2294
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -28742,22 +22442,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
   - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2295
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform+greeting{"restaurant_name":"restaurant_name", "greeting":"greeting"}
-  - slot{"restaurant_name":"restaurant_name", "greeting":"greeting"}
-  - utter_inform
-
-## auto_scenario_2296
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
@@ -28815,23 +22499,6 @@
   - utter_request
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2301
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_2302
-* inform{"rating":"rating", "opening_time":"opening_time", "district":"district"}
-  - slot{"rating":"rating", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_2303
@@ -28903,14 +22570,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2308
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2309
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -28935,29 +22594,6 @@
   - utter_request
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2311
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-
-## auto_scenario_2312
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-
-## auto_scenario_2313
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_2314
@@ -28993,19 +22629,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 
-## auto_scenario_2316
-* request{"venue_type":"venue_type", "cuisine":"cuisine", "district":"district"}
-  - slot{"venue_type":"venue_type", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2317
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-
 ## auto_scenario_2318
 * request{"rating":"rating", "district":"district", "city":"city"}
   - slot{"rating":"rating", "district":"district", "city":"city"}
@@ -29017,14 +22640,6 @@
   - utter_inform
   - utter_multiple_choice
 * confirm
-  - utter_inform
-
-## auto_scenario_2319
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_2320
@@ -29062,13 +22677,6 @@
   - slot{"venue_type":"venue_type"}
   - utter_inform
 
-## auto_scenario_2322
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* confirm
-  - utter_inform
-
 ## auto_scenario_2323
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -29083,31 +22691,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_closing
-
-## auto_scenario_2324
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-
-## auto_scenario_2325
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2326
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_inform
-* request
-  - utter_inform
 
 ## auto_scenario_2327
 * request{"rating":"rating", "cuisine":"cuisine", "district":"district"}
@@ -29215,36 +22798,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_2334
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_2335
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2336
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2337
-* request{"rating":"rating"}
-  - slot{"rating":"rating"}
-  - utter_request
-
 ## auto_scenario_2338
 * request{"venue_type":"venue_type"}
   - slot{"venue_type":"venue_type"}
@@ -29341,14 +22894,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_2345
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform+request{"restaurant_name":"restaurant_name", "cuisine":"cuisine"}
-  - slot{"restaurant_name":"restaurant_name", "cuisine":"cuisine"}
-  - utter_inform
-
 ## auto_scenario_2346
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -29364,19 +22909,6 @@
   - utter_closing
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2347
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2348
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_2349
@@ -29409,30 +22941,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_2351
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2352
-* request{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - slot{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2353
-* request{"rating":"rating", "opening_time":"opening_time", "district":"district"}
-  - slot{"rating":"rating", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2354
 * request
   - utter_request
@@ -29450,35 +22958,6 @@
   - utter_inform
 * inform
   - utter_inform
-
-## auto_scenario_2355
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_2356
-* request{"venue_type":"venue_type", "opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"venue_type":"venue_type", "opening_time":"opening_time", "district":"district", "city":"city"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2357
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-
-## auto_scenario_2358
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_approve
-
-## auto_scenario_2359
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-  - utter_multiple_choice
 
 ## auto_scenario_2360
 * request
@@ -29509,11 +22988,6 @@
 * inform
   - utter_request
 
-## auto_scenario_2363
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_confirm
-
 ## auto_scenario_2364
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -29534,15 +23008,6 @@
   - slot{"cuisine":"cuisine"}
   - utter_request
   - utter_multiple_choice
-
-## auto_scenario_2366
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_approve
-  - utter_closing
-* confirm+request{"region":"region", "district":"district", "city":"city", "neighborhood":"neighborhood"}
-  - slot{"region":"region", "district":"district", "city":"city", "neighborhood":"neighborhood"}
-  - utter_inform
 
 ## auto_scenario_2367
 * request{"cuisine":"cuisine"}
@@ -29683,11 +23148,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_2379
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_2380
 * request
   - utter_request
@@ -29717,19 +23177,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 * inform
-  - utter_request
-
-## auto_scenario_2383
-* request+greeting{"district":"district", "city":"city", "greeting":"greeting"}
-  - slot{"district":"district", "city":"city", "greeting":"greeting"}
-  - utter_request
-
-## auto_scenario_2384
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
   - utter_request
 
 ## auto_scenario_2385
@@ -29804,30 +23251,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_2390
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-  - utter_approve
-
-## auto_scenario_2391
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-  - utter_multiple_choice
-
-## auto_scenario_2392
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_2393
-* request
-  - utter_request
-
 ## auto_scenario_2394
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -29850,26 +23273,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_2396
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_request
-* request
-  - utter_inform
-
-## auto_scenario_2397
-* request{"cuisine":"cuisine", "district":"district", "region":"region"}
-  - slot{"cuisine":"cuisine", "district":"district", "region":"region"}
-  - utter_request
-
-## auto_scenario_2398
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_request
-* inform+request{"opening_time":"opening_time", "region":"region", "district":"district", "city":"city", "neighborhood":"neighborhood"}
-  - slot{"opening_time":"opening_time", "region":"region", "district":"district", "city":"city", "neighborhood":"neighborhood"}
-  - utter_request
 
 ## auto_scenario_2399
 * request
@@ -29899,22 +23302,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_multiple_choice
 
-## auto_scenario_2401
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_request
-  - utter_closing
-
-## auto_scenario_2402
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2403
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_greeting
-
 ## auto_scenario_2404
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -29924,11 +23311,6 @@
   - utter_request
 * inform
   - utter_closing
-
-## auto_scenario_2405
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
 
 ## auto_scenario_2406
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -29947,42 +23329,6 @@
   - utter_inform
   - utter_request
 
-## auto_scenario_2407
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_2408
-* request{"venue_type":"venue_type", "district":"district"}
-  - slot{"venue_type":"venue_type", "district":"district"}
-  - utter_request
-
-## auto_scenario_2409
-* request{"cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_2410
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_2411
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-
-## auto_scenario_2412
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_2413
 * request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
   - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
@@ -29998,11 +23344,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-
-## auto_scenario_2414
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
 
 ## auto_scenario_2415
 * request{"rating":"rating", "district":"district"}
@@ -30040,12 +23381,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_2418
-* request{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - slot{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-
 ## auto_scenario_2419
 * request{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
@@ -30057,11 +23392,6 @@
   - slot{"cuisine":"cuisine"}
   - utter_greeting
   - utter_multiple_choice
-
-## auto_scenario_2420
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_request
 
 ## auto_scenario_2421
 * request
@@ -30088,16 +23418,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 
-## auto_scenario_2423
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_2424
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_multiple_choice
-
 ## auto_scenario_2425
 * request
   - utter_request
@@ -30108,34 +23428,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
   - utter_multiple_choice
-
-## auto_scenario_2426
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-
-## auto_scenario_2427
-* request{"district":"district", "city":"city", "cuisine":"cuisine"}
-  - slot{"district":"district", "city":"city", "cuisine":"cuisine"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_2428
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2429
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* confirm
-  - utter_request
 
 ## auto_scenario_2430
 * inform{"district":"district"}
@@ -30150,16 +23442,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_2431
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-
-## auto_scenario_2432
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_request
 
 ## auto_scenario_2433
 * greeting{"greeting":"greeting"}
@@ -30198,13 +23480,6 @@
   - slot{"closing":"closing"}
   - utter_closing
 
-## auto_scenario_2435
-* request
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-
 ## auto_scenario_2436
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -30218,13 +23493,6 @@
 * inform+request{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
-
-## auto_scenario_2437
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform
-  - utter_multiple_choice
 
 ## auto_scenario_2438
 * request{"district":"district"}
@@ -30334,21 +23602,6 @@
   - slot{"region":"region", "district":"district", "city":"city", "neighborhood":"neighborhood"}
   - utter_inform
 
-## auto_scenario_2446
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform
-  - utter_multiple_choice
-  - utter_approve
-
-## auto_scenario_2447
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform
-  - utter_inform
-
 ## auto_scenario_2448
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -30383,14 +23636,6 @@
   - utter_request
   - utter_multiple_choice
 
-## auto_scenario_2451
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2452
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -30401,11 +23646,6 @@
 * inform+closing{"closing":"closing"}
   - slot{"closing":"closing"}
   - utter_inform
-
-## auto_scenario_2453
-* greeting+request{"greeting":"greeting", "region":"region", "district":"district", "city":"city", "neighborhood":"neighborhood"}
-  - slot{"greeting":"greeting", "region":"region", "district":"district", "city":"city", "neighborhood":"neighborhood"}
-  - utter_request
 
 ## auto_scenario_2454
 * greeting{"greeting":"greeting"}
@@ -30418,25 +23658,6 @@
 * inform{"district":"district", "city":"city"}
   - slot{"district":"district", "city":"city"}
   - utter_request
-
-## auto_scenario_2455
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform
-  - utter_inform
-
-## auto_scenario_2456
-* request
-  - utter_request
-
-## auto_scenario_2457
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform
-  - utter_inform
-  - utter_multiple_choice
 
 ## auto_scenario_2458
 * request{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
@@ -30458,15 +23679,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_2460
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-  - utter_multiple_choice
 
 ## auto_scenario_2461
 * greeting{"greeting":"greeting"}
@@ -30619,14 +23831,6 @@
   - slot{"closing":"closing"}
   - utter_closing
 
-## auto_scenario_2473
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2474
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -30637,22 +23841,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
   - utter_closing
-
-## auto_scenario_2475
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2476
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform+closing{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - slot{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - utter_inform
 
 ## auto_scenario_2477
 * greeting{"greeting":"greeting"}
@@ -30665,32 +23853,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
   - utter_closing
-
-## auto_scenario_2478
-* request{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2479
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2480
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform+request{"restaurant_name":"restaurant_name", "opening_time":"opening_time", "cuisine":"cuisine", "cuisine":"cuisine", "district":"district"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
 
 ## auto_scenario_2481
 * request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
@@ -30753,24 +23915,6 @@
   - slot{"closing":"closing"}
   - utter_closing
 
-## auto_scenario_2486
-* request{"district":"district", "cuisine":"cuisine"}
-  - slot{"district":"district", "cuisine":"cuisine"}
-  - utter_inform
-  - utter_approve
-* inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2487
-* request{"cuisine":"cuisine", "cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2488
 * request{"district":"district", "cuisine":"cuisine"}
   - slot{"district":"district", "cuisine":"cuisine"}
@@ -30828,15 +23972,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_2492
-* request{"district":"district", "city":"city", "cuisine":"cuisine"}
-  - slot{"district":"district", "city":"city", "cuisine":"cuisine"}
-  - utter_inform
-* confirm+request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_approve
-
 ## auto_scenario_2493
 * request{"price":"price", "cuisine":"cuisine"}
   - slot{"price":"price", "cuisine":"cuisine"}
@@ -30873,14 +24008,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_approve
-
-## auto_scenario_2496
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood", "district":"district", "city":"city", "venue_type":"venue_type"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood", "district":"district", "city":"city", "venue_type":"venue_type"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_2497
 * request{"cuisine":"cuisine"}
@@ -30954,22 +24081,6 @@
 * inform
   - utter_request
 
-## auto_scenario_2503
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform
-  - utter_inform
-
-## auto_scenario_2504
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2505
 * request
   - utter_request
@@ -30980,38 +24091,6 @@
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
   - utter_request
-
-## auto_scenario_2506
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* request
-  - utter_inform
-  - utter_approve
-
-## auto_scenario_2507
-* request+closing{"opening_time":"opening_time", "venue_type":"venue_type", "district":"district", "closing":"closing"}
-  - slot{"opening_time":"opening_time", "venue_type":"venue_type", "district":"district", "closing":"closing"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2508
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-* inform+closing{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - slot{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - utter_inform
-
-## auto_scenario_2509
-* request
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-  - utter_multiple_choice
 
 ## auto_scenario_2510
 * request
@@ -31077,14 +24156,6 @@
   - utter_inform
   - utter_approve
 
-## auto_scenario_2515
-* request{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - utter_approve
-* confirm
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_2516
 * request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
@@ -31095,14 +24166,6 @@
 * confirm
   - utter_inform
   - utter_multiple_choice
-
-## auto_scenario_2517
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
 
 ## auto_scenario_2518
 * request{"opening_time":"opening_time"}
@@ -31143,14 +24206,6 @@
   - slot{"closing":"closing"}
   - utter_closing
 
-## auto_scenario_2521
-* request{"opening_time":"opening_time", "district":"district", "city":"city", "venue_type":"venue_type"}
-  - slot{"opening_time":"opening_time", "district":"district", "city":"city", "venue_type":"venue_type"}
-  - utter_request
-* inform
-  - utter_request
-  - utter_multiple_choice
-
 ## auto_scenario_2522
 * request+closing{"closing":"closing"}
   - slot{"closing":"closing"}
@@ -31174,21 +24229,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_2524
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* request
-  - utter_inform
-
-## auto_scenario_2525
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_2526
 * request
   - utter_request
@@ -31200,22 +24240,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
   - utter_approve
-
-## auto_scenario_2527
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_inform
-
-## auto_scenario_2528
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_2529
 * request{"cuisine":"cuisine"}
@@ -31231,22 +24255,6 @@
 * inform{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
   - utter_request
-
-## auto_scenario_2530
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
-## auto_scenario_2531
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_multiple_choice
 
 ## auto_scenario_2532
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -31305,22 +24313,6 @@
   - utter_request
   - utter_multiple_choice
 
-## auto_scenario_2537
-* request{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - slot{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - utter_inform
-* confirm
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_2538
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2539
 * request
   - utter_request
@@ -31372,23 +24364,6 @@
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2543
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-  - utter_closing
-* inform+request{"district":"district", "city":"city", "region":"region", "district":"district", "city":"city", "neighborhood":"neighborhood"}
-  - slot{"district":"district", "city":"city", "region":"region", "neighborhood":"neighborhood"}
-  - utter_request
-
-## auto_scenario_2544
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
   - utter_inform
 
 ## auto_scenario_2545
@@ -31444,14 +24419,6 @@
   - slot{"district":"district", "city":"city", "neighborhood":"neighborhood"}
   - utter_inform
 
-## auto_scenario_2549
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_2550
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
   - slot{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -31476,14 +24443,6 @@
   - utter_multiple_choice
 * inform
   - utter_inform
-
-## auto_scenario_2552
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
 
 ## auto_scenario_2553
 * request{"cuisine":"cuisine", "district":"district"}
@@ -31512,23 +24471,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_2555
-* request{"rating":"rating", "cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood"}
-  - slot{"rating":"rating", "cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood"}
-  - utter_request
-  - utter_multiple_choice
-* inform
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_2556
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
 
 ## auto_scenario_2557
 * request{"district":"district", "city":"city"}
@@ -31559,14 +24501,6 @@
   - slot{"rating":"rating", "cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood"}
   - utter_request
 * inform
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2560
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
@@ -31633,14 +24567,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_2566
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_closing
-
 ## auto_scenario_2567
 * request
   - utter_request
@@ -31663,35 +24589,12 @@
 * inform
   - utter_closing
 
-## auto_scenario_2569
-* request{"region":"region", "city":"city"}
-  - slot{"region":"region", "city":"city"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_inform
-
 ## auto_scenario_2570
 * request+inform{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time", "restaurant_name":"restaurant_name"}
   - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time", "restaurant_name":"restaurant_name"}
   - utter_request
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
-## auto_scenario_2571
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_multiple_choice
-* inform+closing{"closing":"closing"}
-  - slot{"closing":"closing"}
-  - utter_inform
-
-## auto_scenario_2572
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
   - utter_multiple_choice
 * inform
   - utter_inform
@@ -31703,13 +24606,6 @@
   - utter_greeting
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
-* inform
-  - utter_inform
-
-## auto_scenario_2574
-* request{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
-  - slot{"district":"district", "opening_time":"opening_time", "venue_type":"venue_type"}
   - utter_request
 * inform
   - utter_inform
@@ -31732,14 +24628,6 @@
 * confirm
   - utter_closing
 
-## auto_scenario_2576
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_2577
 * request{"cuisine":"cuisine", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "opening_time":"opening_time"}
@@ -31751,14 +24639,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-
-## auto_scenario_2578
-* request{"venue_type":"venue_type", "district":"district"}
-  - slot{"venue_type":"venue_type", "district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_multiple_choice
 
 ## auto_scenario_2579
 * request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
@@ -31798,28 +24678,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 * inform
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
-## auto_scenario_2583
-* request+inform{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_request
-
-## auto_scenario_2584
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_closing
-
-## auto_scenario_2585
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - utter_multiple_choice
 * inform
   - utter_inform
@@ -31889,37 +24747,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2592
-* request{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - utter_request
-* inform
-  - utter_inform
-
-## auto_scenario_2593
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-  - utter_request
-* inform+closing{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - slot{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_2594
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_multiple_choice
-* inform
-  - utter_request
-
-## auto_scenario_2595
-* request{"opening_time":"opening_time", "venue_type":"venue_type", "district":"district"}
-  - slot{"opening_time":"opening_time", "venue_type":"venue_type", "district":"district"}
-  - utter_multiple_choice
-* inform
-  - utter_request
-
 ## auto_scenario_2596
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -31937,29 +24764,6 @@
 * confirm
   - utter_closing
 
-## auto_scenario_2597
-* request{"opening_time":"opening_time", "rating":"rating", "neighborhood":"neighborhood"}
-  - slot{"opening_time":"opening_time", "rating":"rating", "neighborhood":"neighborhood"}
-  - utter_request
-* inform
-  - utter_inform
-
-## auto_scenario_2598
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform
-  - utter_inform
-
-## auto_scenario_2599
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_approve
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_closing
-  - utter_approve
-
 ## auto_scenario_2600
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -31971,13 +24775,6 @@
   - utter_multiple_choice
 * inform
   - utter_inform
-
-## auto_scenario_2601
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_inform
-* inform
-  - utter_request
 
 ## auto_scenario_2602
 * request{"district":"district", "cuisine":"cuisine"}
@@ -32016,14 +24813,6 @@
 * confirm
   - utter_closing
 
-## auto_scenario_2605
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-
 ## auto_scenario_2606
 * request{"district":"district", "cuisine":"cuisine"}
   - slot{"district":"district", "cuisine":"cuisine"}
@@ -32033,21 +24822,6 @@
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2607
-* request+closing{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time", "closing":"closing"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time", "closing":"closing"}
-  - utter_multiple_choice
-* inform+request
-  - utter_inform
-
-## auto_scenario_2608
-* request{"price":"price", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"price":"price", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_2609
@@ -32060,14 +24834,6 @@
   - utter_inform
   - utter_greeting
 
-## auto_scenario_2610
-* request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2611
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -32077,22 +24843,6 @@
   - utter_approve
 * confirm
   - utter_inform
-
-## auto_scenario_2612
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-
-## auto_scenario_2613
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform+request{"opening_time":"opening_time", "opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
 
 ## auto_scenario_2614
 * request{"cuisine":"cuisine", "district":"district"}
@@ -32159,22 +24909,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2619
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2620
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_2621
 * request{"district":"district", "opening_time":"opening_time"}
   - slot{"district":"district", "opening_time":"opening_time"}
@@ -32187,22 +24921,6 @@
 * request
   - utter_inform
 
-## auto_scenario_2622
-* request+greeting{"district":"district", "cuisine":"cuisine", "greeting":"greeting"}
-  - slot{"district":"district", "cuisine":"cuisine", "greeting":"greeting"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2623
-* request{"district":"district", "city":"city", "cuisine":"cuisine"}
-  - slot{"district":"district", "city":"city", "cuisine":"cuisine"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_2624
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -32212,37 +24930,6 @@
   - utter_request
 * inform
   - utter_closing
-
-## auto_scenario_2625
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* request
-  - utter_inform
-
-## auto_scenario_2626
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2627
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_multiple_choice
-* inform
-  - utter_multiple_choice
-
-## auto_scenario_2628
-* request{"venue_type":"venue_type", "opening_time":"opening_time", "district":"district"}
-  - slot{"venue_type":"venue_type", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
 
 ## auto_scenario_2629
 * request+multiple_choice{"district":"district"}
@@ -32290,13 +24977,6 @@
   - utter_inform
 * confirm{"district":"district", "city":"city"}
   - slot{"district":"district", "city":"city"}
-  - utter_inform
-
-## auto_scenario_2633
-* request{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
-  - slot{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
-  - utter_inform
-* request
   - utter_inform
 
 ## auto_scenario_2634
@@ -32377,14 +25057,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2641
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_2642
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -32435,15 +25107,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_request
 * inform
-  - utter_inform
-
-## auto_scenario_2646
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_2647
@@ -32529,22 +25192,6 @@
 * confirm+multiple_choice
   - utter_inform
 
-## auto_scenario_2653
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_approve
-* confirm
-  - utter_request
-
-## auto_scenario_2654
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_closing
-
 ## auto_scenario_2655
 * request{"cuisine":"cuisine", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "opening_time":"opening_time"}
@@ -32565,14 +25212,6 @@
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2657
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* inform+request{"restaurant_name":"restaurant_name", "cuisine":"cuisine", "district":"district"}
-  - slot{"restaurant_name":"restaurant_name", "cuisine":"cuisine", "district":"district"}
   - utter_inform
 
 ## auto_scenario_2658
@@ -32661,14 +25300,6 @@
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
   - utter_closing
-
-## auto_scenario_2665
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
 
 ## auto_scenario_2666
 * request
@@ -32812,15 +25443,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2678
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_2679
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -32844,22 +25466,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
-
-## auto_scenario_2681
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-
-## auto_scenario_2682
-* request+greeting{"venue_type":"venue_type", "greeting":"greeting"}
-  - slot{"venue_type":"venue_type", "greeting":"greeting"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
 
 ## auto_scenario_2683
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -32902,16 +25508,6 @@
   - utter_inform
 * confirm
   - utter_request
-
-## auto_scenario_2687
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-  - utter_inform
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-  - utter_greeting
 
 ## auto_scenario_2688
 * request{"cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood", "district":"district", "city":"city"}
@@ -33133,14 +25729,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2707
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform+request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_inform
-
 ## auto_scenario_2708
 * request{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
@@ -33233,14 +25821,6 @@
 * confirm+inform+multiple_choice
   - utter_inform
 
-## auto_scenario_2715
-* request+inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_2716
 * request{"opening_time":"opening_time", "district":"district"}
   - slot{"opening_time":"opening_time", "district":"district"}
@@ -33330,23 +25910,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2724
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood", "district":"district", "city":"city"}
-  - utter_inform
-* inform+approve{"opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_inform
-  - utter_approve
-
-## auto_scenario_2725
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_inform
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_2726
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -33376,14 +25939,6 @@
   - utter_request
 * inform
   - utter_inform
-
-## auto_scenario_2728
-* greeting+multiple_choice{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_greeting
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
 
 ## auto_scenario_2729
 * request{"district":"district"}
@@ -33455,13 +26010,6 @@
   - utter_closing
   - utter_multiple_choice
 
-## auto_scenario_2734
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
 ## auto_scenario_2735
 * request{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
@@ -33472,22 +26020,6 @@
 * inform
   - utter_request
 * inform
-  - utter_inform
-
-## auto_scenario_2736
-* inform{"restaurant_name":"restaurant_name", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_request
-  - utter_multiple_choice
-* inform
-  - utter_multiple_choice
-
-## auto_scenario_2737
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-* inform+multiple_choice{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
   - utter_inform
 
 ## auto_scenario_2738
@@ -33502,15 +26034,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2739
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood", "district":"district", "city":"city"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2740
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -33522,14 +26045,6 @@
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
   - utter_closing
-
-## auto_scenario_2741
-* request{"district":"district", "city":"city", "opening_time":"opening_time", "cuisine":"cuisine", "neighborhood":"neighborhood"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time", "cuisine":"cuisine", "neighborhood":"neighborhood"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
 
 ## auto_scenario_2742
 * request{"district":"district", "city":"city", "opening_time":"opening_time"}
@@ -33560,14 +26075,6 @@
 * inform+request{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
   - utter_closing
-
-## auto_scenario_2744
-* request{"district":"district", "cuisine":"cuisine", "cuisine":"cuisine"}
-  - slot{"district":"district", "cuisine":"cuisine"}
-  - utter_request
-* inform+request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_greeting
 
 ## auto_scenario_2745
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time", "price":"price"}
@@ -33631,15 +26138,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_closing
 
-## auto_scenario_2750
-* request+greeting{"district":"district", "greeting":"greeting"}
-  - slot{"district":"district", "greeting":"greeting"}
-  - utter_request
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_2751
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -33662,14 +26160,6 @@
   - utter_inform
 * confirm+closing{"closing":"closing"}
   - slot{"closing":"closing"}
-  - utter_request
-
-## auto_scenario_2753
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
   - utter_request
 
 ## auto_scenario_2754
@@ -33752,23 +26242,6 @@
   - slot{"district":"district", "venue_type":"venue_type"}
   - utter_inform
 
-## auto_scenario_2760
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_inform
-
-## auto_scenario_2761
-* request{"district":"district", "venue_type":"venue_type"}
-  - slot{"district":"district", "venue_type":"venue_type"}
-  - utter_request
-  - utter_closing
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_2762
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
   - slot{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -33784,14 +26257,6 @@
   - utter_request
 * inform
   - utter_closing
-
-## auto_scenario_2763
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood", "district":"district", "city":"city"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
 
 ## auto_scenario_2764
 * greeting{"greeting":"greeting"}
@@ -33892,14 +26357,6 @@
   - utter_closing
   - utter_approve
   - utter_inform
-
-## auto_scenario_2771
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_greeting
 
 ## auto_scenario_2772
 * greeting{"greeting":"greeting"}
@@ -34072,14 +26529,6 @@
 * inform+request
   - utter_inform
 
-## auto_scenario_2785
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-
 ## auto_scenario_2786
 * request{"cuisine":"cuisine", "rating":"rating", "district":"district"}
   - slot{"cuisine":"cuisine", "rating":"rating", "district":"district"}
@@ -34107,14 +26556,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_2788
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-
 ## auto_scenario_2789
 * request
   - utter_request
@@ -34132,14 +26573,6 @@
   - utter_request
 * inform
   - utter_inform
-
-## auto_scenario_2790
-* request{"price":"price", "opening_time":"opening_time"}
-  - slot{"price":"price", "opening_time":"opening_time"}
-  - utter_request
-* inform+multiple_choice{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_multiple_choice
 
 ## auto_scenario_2791
 * request
@@ -34195,14 +26628,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2795
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-
 ## auto_scenario_2796
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
   - slot{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -34250,14 +26675,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_2799
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "neighborhood":"neighborhood", "district":"district", "city":"city"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2800
 * request
   - utter_request
@@ -34274,14 +26691,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_2801
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-
 ## auto_scenario_2802
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -34295,14 +26704,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_2803
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
 
 ## auto_scenario_2804
 * request{"venue_type":"venue_type"}
@@ -34323,14 +26724,6 @@
   - slot{"cuisine":"cuisine"}
   - utter_inform
 * confirm
-  - utter_inform
-
-## auto_scenario_2806
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_2807
@@ -34392,14 +26785,6 @@
   - slot{"cuisine":"cuisine"}
   - utter_request
 
-## auto_scenario_2811
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_2812
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -34436,22 +26821,6 @@
   - slot{"cuisine":"cuisine"}
   - utter_request
 
-## auto_scenario_2814
-* request{"opening_time":"opening_time", "district":"district", "venue_type":"venue_type"}
-  - slot{"opening_time":"opening_time", "district":"district", "venue_type":"venue_type"}
-  - utter_request
-* inform+request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_inform
-
-## auto_scenario_2815
-* request{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-
 ## auto_scenario_2816
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -34464,15 +26833,6 @@
   - utter_request
 * inform
   - utter_inform
-
-## auto_scenario_2817
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform+request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
 
 ## auto_scenario_2818
 * request{"district":"district", "venue_type":"venue_type", "opening_time":"opening_time"}
@@ -34703,14 +27063,6 @@
   - utter_confirm
 * inform
   - utter_closing
-
-## auto_scenario_2833
-* request+inform{"cuisine":"cuisine", "restaurant_name":"restaurant_name"}
-  - slot{"cuisine":"cuisine", "restaurant_name":"restaurant_name"}
-  - utter_request
-* inform+closing{"district":"district", "city":"city", "closing":"closing"}
-  - slot{"district":"district", "city":"city", "closing":"closing"}
-  - utter_request
 
 ## auto_scenario_2834
 * request{"cuisine":"cuisine", "opening_time":"opening_time"}
@@ -35112,15 +27464,6 @@
   - slot{"district":"district"}
   - utter_inform
 
-## auto_scenario_2861
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-
 ## auto_scenario_2862
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -35136,40 +27479,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_2863
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2864
-* request{"opening_time":"opening_time", "venue_type":"venue_type", "district":"district"}
-  - slot{"opening_time":"opening_time", "venue_type":"venue_type", "district":"district"}
-  - utter_inform
-  - utter_request
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2865
-* request{"opening_time":"opening_time", "venue_type":"venue_type", "district":"district"}
-  - slot{"opening_time":"opening_time", "venue_type":"venue_type", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2866
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-* confirm
-  - utter_inform
-  - utter_request
 
 ## auto_scenario_2867
 * request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
@@ -35223,15 +27532,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2871
-* request+closing{"district":"district", "opening_time":"opening_time", "closing":"closing"}
-  - slot{"district":"district", "opening_time":"opening_time", "closing":"closing"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_2872
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -35241,56 +27541,6 @@
   - utter_multiple_choice
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_closing
-
-## auto_scenario_2873
-* request{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - utter_inform
-  - utter_closing
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2874
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-
-## auto_scenario_2875
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform+closing{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - slot{"restaurant_name":"restaurant_name", "closing":"closing"}
-  - utter_inform
-
-## auto_scenario_2876
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2877
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_2878
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_closing
 
 ## auto_scenario_2879
@@ -35472,14 +27722,6 @@
   - utter_inform
   - utter_request
 
-## auto_scenario_2890
-* request{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_2891
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -35526,13 +27768,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_2894
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform
-  - utter_inform
-
 ## auto_scenario_2895
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -35577,14 +27812,6 @@
   - utter_request
 * inform
   - utter_closing
-
-## auto_scenario_2898
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
 
 ## auto_scenario_2899
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -35659,14 +27886,6 @@
 * inform{"district":"district", "city":"city"}
   - slot{"district":"district", "city":"city"}
   - utter_request
-
-## auto_scenario_2905
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_2906
 * request+approve{"cuisine":"cuisine", "opening_time":"opening_time"}
@@ -35792,14 +28011,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2916
-* request+approve{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time", "restaurant_name":"restaurant_name"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time", "restaurant_name":"restaurant_name"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
-
 ## auto_scenario_2917
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -35852,22 +28063,6 @@
   - slot{"cuisine":"cuisine"}
   - utter_request
 
-## auto_scenario_2921
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-  - utter_approve
-
-## auto_scenario_2922
-* request{"cuisine":"cuisine", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_multiple_choice
-
 ## auto_scenario_2923
 * request{"venue_type":"venue_type"}
   - slot{"venue_type":"venue_type"}
@@ -35919,42 +28114,6 @@
 * confirm
   - utter_request
 
-## auto_scenario_2926
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_request
-
-## auto_scenario_2927
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - utter_request
-
-## auto_scenario_2928
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_approve
-* inform
-  - utter_inform
-
-## auto_scenario_2929
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
-## auto_scenario_2930
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
 ## auto_scenario_2931
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -35968,21 +28127,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_2932
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2933
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_multiple_choice
-
 ## auto_scenario_2934
 * request{"opening_time":"opening_time", "district":"district", "city":"city"}
   - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
@@ -35994,37 +28138,6 @@
   - utter_request
 * inform
   - utter_inform
-
-## auto_scenario_2935
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_2936
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
-## auto_scenario_2937
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_2938
-* request{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* request{"venue_type":"venue_type", "rating":"rating"}
-  - slot{"venue_type":"venue_type", "rating":"rating"}
-  - utter_request
 
 ## auto_scenario_2939
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -36049,14 +28162,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_request
 
-## auto_scenario_2941
-* request{"cuisine":"cuisine", "venue_type":"venue_type", "district":"district"}
-  - slot{"cuisine":"cuisine", "venue_type":"venue_type", "district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-
 ## auto_scenario_2942
 * request+closing{"district":"district", "city":"city", "venue_type":"venue_type", "closing":"closing"}
   - slot{"district":"district", "city":"city", "venue_type":"venue_type", "closing":"closing"}
@@ -36068,13 +28173,6 @@
   - utter_inform
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-  - utter_request
-
-## auto_scenario_2943
-* request{"district":"district", "cuisine":"cuisine"}
-  - slot{"district":"district", "cuisine":"cuisine"}
-  - utter_request
-* inform+approve
   - utter_request
 
 ## auto_scenario_2944
@@ -36520,15 +28618,6 @@
   - slot{"venue_type":"venue_type", "city":"city"}
   - utter_request
 
-## auto_scenario_2975
-* request{"district":"district", "cuisine":"cuisine"}
-  - slot{"district":"district", "cuisine":"cuisine"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_2976
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -36716,16 +28805,6 @@
 * inform
   - utter_closing
   - utter_approve
-
-## auto_scenario_2989
-* request+inform{"venue_type":"venue_type", "restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - utter_request
-  - utter_closing
-* inform{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-  - utter_greeting
 
 ## auto_scenario_2990
 * greeting{"greeting":"greeting"}
@@ -37757,14 +29836,6 @@
 * inform+closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3059
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform+multiple_choice{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_3060
 * request+closing{"cuisine":"cuisine", "cuisine":"cuisine", "closing":"closing"}
   - slot{"cuisine":"cuisine", "closing":"closing"}
@@ -38014,15 +30085,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
   - utter_closing
-
-## auto_scenario_3076
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_approve
 
 ## auto_scenario_3077
 * request{"district":"district", "city":"city"}
@@ -38282,13 +30344,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_3095
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_inform
-* request
-  - utter_inform
-
 ## auto_scenario_3096
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -38349,14 +30404,6 @@
 * inform
   - utter_inform
   - utter_closing
-
-## auto_scenario_3100
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_3101
 * request{"cuisine":"cuisine", "district":"district"}
@@ -38419,14 +30466,6 @@
   - utter_closing
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3105
-* request+multiple_choice{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_closing
 
 ## auto_scenario_3106
 * request{"cuisine":"cuisine", "district":"district", "cuisine":"cuisine"}
@@ -38493,22 +30532,6 @@
   - utter_request
 * closing+approve{"closing":"closing", "cuisine":"cuisine"}
   - slot{"closing":"closing", "cuisine":"cuisine"}
-
-## auto_scenario_3110
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_3111
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name", "price":"price", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "price":"price", "opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_3112
 * request{"cuisine":"cuisine"}
@@ -38639,14 +30662,6 @@
   - utter_inform
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3121
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_3122
 * request{"price":"price", "cuisine":"cuisine", "district":"district", "city":"city"}
@@ -38790,14 +30805,6 @@
   - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_3131
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-  - utter_greeting
-* request
-  - utter_inform
-
 ## auto_scenario_3132
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -38852,13 +30859,6 @@
   - utter_inform
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3136
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* request
-  - utter_inform
 
 ## auto_scenario_3137
 * greeting{"greeting":"greeting"}
@@ -39305,14 +31305,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3167
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_greeting
-  - utter_request
-* request+closing{"cuisine":"cuisine", "district":"district", "city":"city", "closing":"closing"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "closing":"closing"}
-
 ## auto_scenario_3168
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -39696,14 +31688,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3193
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_3194
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -40065,14 +32049,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 * confirm
-  - utter_inform
-
-## auto_scenario_3219
-* request+multiple_choice{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
   - utter_inform
 
 ## auto_scenario_3220
@@ -40823,14 +32799,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3272
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_3273
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -40940,14 +32908,6 @@
   - utter_inform
 * closing+request{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3280
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_3281
 * request{"cuisine":"cuisine", "district":"district"}
@@ -41303,14 +33263,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_3306
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_3307
 * request{"cuisine":"cuisine", "cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -41356,14 +33308,6 @@
   - slot{"district":"district", "city":"city"}
   - utter_request
 * inform
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_3310
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
   - utter_request
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
@@ -42628,22 +34572,6 @@
 * closing+request{"closing":"closing", "district":"district"}
   - slot{"closing":"closing", "district":"district"}
 
-## auto_scenario_3391
-* request+approve{"rating":"rating", "cuisine":"cuisine", "district":"district"}
-  - slot{"rating":"rating", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-* request{"district":"district"}
-  - slot{"district":"district"}
-
-## auto_scenario_3392
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-* request+closing{"district":"district", "closing":"closing"}
-  - slot{"district":"district", "closing":"closing"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-
 ## auto_scenario_3393
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
   - slot{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -42857,14 +34785,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3407
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_3408
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -43009,13 +34929,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_3417
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_greeting
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_3418
 * request+closing{"cuisine":"cuisine", "district":"district", "closing":"closing"}
   - slot{"cuisine":"cuisine", "district":"district", "closing":"closing"}
@@ -43108,14 +35021,6 @@
   - slot{"restaurant_name":"restaurant_name"}
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3423
-* request{"district":"district", "cuisine":"cuisine"}
-  - slot{"district":"district", "cuisine":"cuisine"}
-  - utter_request
-  - utter_closing
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
 
 ## auto_scenario_3424
 * request{"district":"district"}
@@ -43277,15 +35182,6 @@
   - utter_request
 * inform
 
-## auto_scenario_3434
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-* closing{"closing":"closing"}
-  - slot{"closing":"closing"}
-
 ## auto_scenario_3435
 * request{"venue_type":"venue_type"}
   - slot{"venue_type":"venue_type"}
@@ -43436,14 +35332,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3444
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-* inform
-
 ## auto_scenario_3445
 * request+approve{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
@@ -43555,14 +35443,6 @@
   - slot{"restaurant_name":"restaurant_name", "closing":"closing"}
   - utter_request
 * inform
-* inform
-
-## auto_scenario_3453
-* request{"rating":"rating", "district":"district", "opening_time":"opening_time"}
-  - slot{"rating":"rating", "district":"district", "opening_time":"opening_time"}
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-* request
 * inform
 
 ## auto_scenario_3454
@@ -43810,13 +35690,6 @@
 * inform
   - utter_closing
 
-## auto_scenario_3469
-* request+closing{"cuisine":"cuisine", "cuisine":"cuisine", "opening_time":"opening_time", "district":"district", "closing":"closing"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district", "closing":"closing"}
-* multiple_choice
-* request
-* inform
-
 ## auto_scenario_3470
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -43895,16 +35768,6 @@
 * inform+closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3475
-* request{"district":"district", "cuisine":"cuisine", "rating":"rating"}
-  - slot{"district":"district", "cuisine":"cuisine", "rating":"rating"}
-* inform+closing{"closing":"closing"}
-  - slot{"closing":"closing"}
-  - utter_request
-  - utter_inform
-  - utter_multiple_choice
-* request
-
 ## auto_scenario_3476
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -43925,13 +35788,6 @@
 * inform
   - utter_inform
   - utter_closing
-
-## auto_scenario_3477
-* greeting+closing{"greeting":"greeting", "closing":"closing"}
-  - slot{"greeting":"greeting", "closing":"closing"}
-  - utter_greeting
-* request{"district":"district"}
-  - slot{"district":"district"}
 
 ## auto_scenario_3478
 * request{"cuisine":"cuisine"}
@@ -43955,14 +35811,6 @@
 * inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
   - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
 
-## auto_scenario_3479
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_greeting
-  - utter_closing
-* inform+request{"restaurant_name":"restaurant_name", "rating":"rating", "cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"restaurant_name":"restaurant_name", "rating":"rating", "cuisine":"cuisine", "district":"district", "city":"city"}
-
 ## auto_scenario_3480
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -43978,13 +35826,6 @@
   - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
 * closing+greeting{"closing":"closing", "greeting":"greeting"}
   - slot{"closing":"closing", "greeting":"greeting"}
-
-## auto_scenario_3481
-* request{"venue_type":"venue_type", "district":"district"}
-  - slot{"venue_type":"venue_type", "district":"district"}
-  - utter_greeting
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
 
 ## auto_scenario_3482
 * request{"cuisine":"cuisine", "district":"district"}
@@ -44023,13 +35864,6 @@
   - utter_inform
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3484
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
 
 ## auto_scenario_3485
 * request{"venue_type":"venue_type", "district":"district"}
@@ -44129,16 +35963,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3490
-* request{"cuisine":"cuisine", "cuisine":"cuisine", "district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-* inform{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time"}
-
 ## auto_scenario_3491
 * request{"cuisine":"cuisine", "rating":"rating", "district":"district"}
   - slot{"cuisine":"cuisine", "rating":"rating", "district":"district"}
@@ -44218,12 +36042,6 @@
   - utter_inform
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-
-## auto_scenario_3496
-* request{"district":"district", "cuisine":"cuisine"}
-  - slot{"district":"district", "cuisine":"cuisine"}
-  - utter_inform
-* request
 
 ## auto_scenario_3497
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -44430,19 +36248,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3510
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-
-## auto_scenario_3511
-* request{"venue_type":"venue_type", "district":"district", "city":"city"}
-  - slot{"venue_type":"venue_type", "district":"district", "city":"city"}
-  - utter_request
-* inform
-
 ## auto_scenario_3512
 * request{"district":"district", "cuisine":"cuisine"}
   - slot{"district":"district", "cuisine":"cuisine"}
@@ -44497,13 +36302,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3516
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-* inform{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_request
-
 ## auto_scenario_3517
 * request{"district":"district", "city":"city", "opening_time":"opening_time"}
   - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
@@ -44532,21 +36330,6 @@
 * inform
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3519
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-
-## auto_scenario_3520
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-* inform{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "district":"district", "opening_time":"opening_time"}
 
 ## auto_scenario_3521
 * request{"district":"district", "city":"city"}
@@ -44663,20 +36446,6 @@
   - utter_inform
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3529
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-
-## auto_scenario_3530
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform
 
 ## auto_scenario_3531
 * request{"cuisine":"cuisine", "district":"district"}
@@ -44819,16 +36588,6 @@
 * inform
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3539
-* request{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
 
 ## auto_scenario_3540
 * request{"cuisine":"cuisine", "district":"district"}
@@ -45233,13 +36992,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_3564
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-* inform
-* inform
-
 ## auto_scenario_3565
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -45404,13 +37156,6 @@
   - utter_inform
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3577
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_request
-* inform{"district":"district"}
-  - slot{"district":"district"}
 
 ## auto_scenario_3578
 * request{"opening_time":"opening_time"}
@@ -45704,13 +37449,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_3596
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_confirm
-* inform
-  - utter_request
-
 ## auto_scenario_3597
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -45857,15 +37595,6 @@
 * closing+request{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3608
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_inform
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-
 ## auto_scenario_3609
 * request{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -45997,21 +37726,6 @@
   - utter_inform
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3618
-* request{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-
-## auto_scenario_3619
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform+multiple_choice{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_3620
 * request{"venue_type":"venue_type", "opening_time":"opening_time"}
@@ -46162,13 +37876,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3630
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-
 ## auto_scenario_3631
 * request{"cuisine":"cuisine"}
   - slot{"cuisine":"cuisine"}
@@ -46215,13 +37922,6 @@
   - utter_inform
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3634
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* inform
-  - utter_inform
 
 ## auto_scenario_3635
 * request{"cuisine":"cuisine"}
@@ -46328,13 +38028,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_3641
-* request{"venue_type":"venue_type", "district":"district"}
-  - slot{"venue_type":"venue_type", "district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-
 ## auto_scenario_3642
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -46372,13 +38065,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3644
-* request{"venue_type":"venue_type", "district":"district"}
-  - slot{"venue_type":"venue_type", "district":"district"}
-  - utter_request
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-
 ## auto_scenario_3645
 * request{"district":"district", "city":"city"}
   - slot{"district":"district", "city":"city"}
@@ -46389,13 +38075,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
   - utter_closing
-
-## auto_scenario_3646
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-* inform+request
-  - utter_inform
 
 ## auto_scenario_3647
 * greeting{"greeting":"greeting"}
@@ -46535,12 +38214,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_3657
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-* inform
-
 ## auto_scenario_3658
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -46644,13 +38317,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3665
-* request{"cuisine":"cuisine", "region":"region"}
-  - slot{"cuisine":"cuisine", "region":"region"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-
 ## auto_scenario_3666
 * request{"opening_time":"opening_time", "district":"district", "city":"city"}
   - slot{"opening_time":"opening_time", "district":"district", "city":"city"}
@@ -46750,13 +38416,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3675
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* inform+multiple_choice
-  - utter_inform
-
 ## auto_scenario_3676
 * request{"venue_type":"venue_type", "district":"district", "city":"city"}
   - slot{"venue_type":"venue_type", "district":"district", "city":"city"}
@@ -46794,15 +38453,6 @@
   - utter_inform
 * closing+request{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3679
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_3680
 * request{"district":"district", "city":"city"}
@@ -47191,15 +38841,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_3703
-* request+multiple_choice{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district", "city":"city"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
-
 ## auto_scenario_3704
 * request+multiple_choice{"district":"district", "city":"city"}
   - slot{"district":"district", "city":"city"}
@@ -47417,14 +39058,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3717
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* inform+request{"restaurant_name":"restaurant_name", "cuisine":"cuisine"}
-  - slot{"restaurant_name":"restaurant_name", "cuisine":"cuisine"}
-  - utter_inform
-
 ## auto_scenario_3718
 * request+inform+multiple_choice{"cuisine":"cuisine", "region":"region", "district":"district", "restaurant_name":"restaurant_name"}
   - slot{"cuisine":"cuisine", "region":"region", "district":"district", "restaurant_name":"restaurant_name"}
@@ -47598,15 +39231,6 @@
   - utter_inform
 * closing+inform{"closing":"closing", "venue_type":"venue_type"}
   - slot{"closing":"closing", "venue_type":"venue_type"}
-
-## auto_scenario_3728
-* request+multiple_choice{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-  - utter_closing
-* inform+closing{"opening_time":"opening_time", "closing":"closing"}
-  - slot{"opening_time":"opening_time", "closing":"closing"}
-  - utter_confirm
 
 ## auto_scenario_3729
 * greeting+request{"greeting":"greeting", "opening_time":"opening_time"}
@@ -47960,14 +39584,6 @@
   - utter_inform
   - utter_approve
 
-## auto_scenario_3750
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_request
-  - utter_inform
-* inform
-  - utter_inform
-
 ## auto_scenario_3751
 * request{"district":"district", "city":"city"}
   - slot{"district":"district", "city":"city"}
@@ -48194,14 +39810,6 @@
 * inform+approve
   - utter_closing
 
-## auto_scenario_3766
-* request+inform{"venue_type":"venue_type"}
-  - slot{"venue_type":"venue_type"}
-  - utter_request
-* inform{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_inform
-
 ## auto_scenario_3767
 * request{"rating":"rating", "cuisine":"cuisine", "district":"district"}
   - slot{"rating":"rating", "cuisine":"cuisine", "district":"district"}
@@ -48381,13 +39989,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3778
-* request+inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine"}
-
 ## auto_scenario_3779
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -48465,13 +40066,6 @@
 * closing+inform{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3784
-* request{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_request
-* inform
-  - utter_inform
-
 ## auto_scenario_3785
 * request{"cuisine":"cuisine", "cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -48495,13 +40089,6 @@
   - utter_request
 * inform
   - utter_inform
-
-## auto_scenario_3787
-* request+inform{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
 
 ## auto_scenario_3788
 * request{"cuisine":"cuisine", "district":"district"}
@@ -48541,13 +40128,6 @@
   - utter_approve
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
-
-## auto_scenario_3791
-* request{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
 
 ## auto_scenario_3792
 * request{"cuisine":"cuisine"}
@@ -48605,13 +40185,6 @@
   - utter_request
 * inform
   - utter_inform
-
-## auto_scenario_3796
-* greeting+request{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* request+multiple_choice{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
 
 ## auto_scenario_3797
 * request{"cuisine":"cuisine", "district":"district"}
@@ -48857,14 +40430,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3814
-* request{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - slot{"venue_type":"venue_type", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_3815
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -48881,12 +40446,6 @@
   - utter_inform
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3816
-* request+inform{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_request
-* inform+multiple_choice
 
 ## auto_scenario_3817
 * greeting{"greeting":"greeting"}
@@ -48969,23 +40528,6 @@
   - utter_multiple_choice
 * inform
   - utter_inform
-
-## auto_scenario_3822
-* request{"cuisine":"cuisine", "district":"district", "city":"city", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city", "opening_time":"opening_time"}
-  - utter_multiple_choice
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_3823
-* request{"cuisine":"cuisine", "district":"district"}
-  - slot{"cuisine":"cuisine", "district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
 
 ## auto_scenario_3824
 * request{"cuisine":"cuisine", "district":"district"}
@@ -49152,12 +40694,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_3833
-* request{"district":"district"}
-  - slot{"district":"district"}
-* request
-  - utter_request
-
 ## auto_scenario_3834
 * request+inform{"venue_type":"venue_type"}
   - slot{"venue_type":"venue_type"}
@@ -49199,14 +40735,6 @@
   - utter_inform
 * closing+multiple_choice{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3837
-* request{"opening_time":"opening_time", "price":"price", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "price":"price", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
 
 ## auto_scenario_3838
 * greeting{"greeting":"greeting"}
@@ -49436,14 +40964,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3853
-* request{"cuisine":"cuisine", "district":"district", "cuisine":"cuisine", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_3854
 * request+inform{"cuisine":"cuisine", "district":"district", "city":"city"}
   - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
@@ -49458,15 +40978,6 @@
   - utter_inform
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3855
-* request{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"district":"district", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_approve
 
 ## auto_scenario_3856
 * request{"district":"district", "opening_time":"opening_time"}
@@ -49526,39 +41037,6 @@
 * inform+request{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
   - slot{"opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
   - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_3860
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_inform
-* inform
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_3861
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-  - utter_inform
-* inform
-  - utter_inform
-
-## auto_scenario_3862
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-  - utter_closing
-* inform
-  - utter_inform
-  - utter_request
-
-## auto_scenario_3863
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_multiple_choice
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
@@ -49649,22 +41127,6 @@
 * confirm
   - utter_inform
 
-## auto_scenario_3870
-* request{"district":"district", "city":"city", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - slot{"district":"district", "city":"city", "opening_time":"opening_time", "cuisine":"cuisine"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_3871
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_3872
 * greeting{"greeting":"greeting"}
   - slot{"greeting":"greeting"}
@@ -49682,14 +41144,6 @@
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
 
-## auto_scenario_3873
-* request{"cuisine":"cuisine", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform+approve{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_3874
 * request{"price":"price", "venue_type":"venue_type", "district":"district"}
   - slot{"price":"price", "venue_type":"venue_type", "district":"district"}
@@ -49702,31 +41156,6 @@
   - utter_inform
 * closing+approve{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3875
-* request+inform{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_multiple_choice
-  - utter_inform
-* inform+request{"restaurant_name":"restaurant_name", "opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
-  - slot{"restaurant_name":"restaurant_name", "opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
-  - utter_inform
-
-## auto_scenario_3876
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_3877
-* request{"district":"district", "city":"city"}
-  - slot{"district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_3878
 * request{"district":"district", "city":"city"}
@@ -49788,14 +41217,6 @@
   - utter_inform
 * closing{"closing":"closing"}
   - slot{"closing":"closing"}
-
-## auto_scenario_3882
-* request+inform{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - slot{"cuisine":"cuisine", "district":"district", "city":"city"}
-  - utter_request
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_3883
 * request+inform{"cuisine":"cuisine", "district":"district"}
@@ -49869,13 +41290,6 @@
   - utter_inform
 * inform{"opening_time":"opening_time", "restaurant_name":"restaurant_name"}
   - slot{"opening_time":"opening_time", "restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_3888
-* request{"cuisine":"cuisine", "district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* request
   - utter_inform
 
 ## auto_scenario_3889
@@ -50081,14 +41495,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_3903
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
 ## auto_scenario_3904
 * request{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
@@ -50189,39 +41595,6 @@
   - utter_inform
 * request
   - utter_inform
-
-## auto_scenario_3911
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-  - utter_approve
-  - utter_request
-* inform
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_3912
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
-## auto_scenario_3913
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_multiple_choice
-* inform
-  - utter_inform
-
-## auto_scenario_3914
-* request{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - slot{"price":"price", "opening_time":"opening_time", "district":"district"}
-  - utter_multiple_choice
-  - utter_closing
-* inform
-  - utter_inform
-  - utter_request
 
 ## auto_scenario_3915
 * request{"cuisine":"cuisine", "district":"district"}
@@ -50550,16 +41923,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_3936
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_3937
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -50629,15 +41992,6 @@
   - utter_inform
   - utter_request
 
-## auto_scenario_3942
-* request{"rating":"rating", "opening_time":"opening_time"}
-  - slot{"rating":"rating", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_multiple_choice
-
 ## auto_scenario_3943
 * request{"cuisine":"cuisine", "district":"district"}
   - slot{"cuisine":"cuisine", "district":"district"}
@@ -50652,32 +42006,6 @@
   - utter_request
 * inform+request{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
   - slot{"district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_3944
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_3945
-* request{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - slot{"opening_time":"opening_time", "cuisine":"cuisine", "district":"district"}
-  - utter_inform
-  - utter_request
-* confirm
-  - utter_inform
-
-## auto_scenario_3946
-* request{"cuisine":"cuisine", "cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_multiple_choice
 
@@ -50708,90 +42036,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
   - utter_multiple_choice
-
-## auto_scenario_3949
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_3950
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_3951
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_request
-* confirm
-  - utter_inform
-
-## auto_scenario_3952
-* greeting{"greeting":"greeting"}
-  - slot{"greeting":"greeting"}
-  - utter_request
-  - utter_inform
-  - utter_closing
-* confirm
-  - utter_inform
-  - utter_approve
-
-## auto_scenario_3953
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_closing
-* inform+request{"restaurant_name":"restaurant_name", "district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - slot{"restaurant_name":"restaurant_name", "district":"district", "cuisine":"cuisine", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-
-## auto_scenario_3954
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_3955
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_3956
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-
-## auto_scenario_3957
-* request{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_request
 
 ## auto_scenario_3958
 * request{"district":"district"}
@@ -50842,12 +42086,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_3961
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_3962
 * request
@@ -51023,16 +42261,6 @@
   - utter_closing
 * inform
   - utter_inform
-
-## auto_scenario_3972
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
 
 ## auto_scenario_3973
 * request+closing{"district":"district", "closing":"closing"}
@@ -51258,15 +42486,6 @@
   - utter_inform
   - utter_multiple_choice
 
-## auto_scenario_3986
-* request
-  - utter_request
-  - utter_approve
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_3987
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -51297,12 +42516,6 @@
 * inform{"restaurant_name":"restaurant_name"}
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
-
-## auto_scenario_3989
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_3990
 * request{"district":"district"}
@@ -51474,12 +42687,6 @@
   - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_4001
-* inform{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - slot{"cuisine":"cuisine", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_4002
 * request{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
@@ -51641,15 +42848,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_4011
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_request
-* inform{"district":"district"}
-  - slot{"district":"district"}
-  - utter_inform
-  - utter_request
-
 ## auto_scenario_4012
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -51672,21 +42870,6 @@
   - utter_closing
 * inform
   - utter_request
-  - utter_multiple_choice
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_4014
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_4015
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
   - utter_multiple_choice
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
@@ -51744,12 +42927,6 @@
   - slot{"opening_time":"opening_time"}
   - utter_inform
 
-## auto_scenario_4019
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_4020
 * request{"district":"district"}
   - slot{"district":"district"}
@@ -51767,13 +42944,6 @@
   - utter_multiple_choice
 * confirm
   - utter_inform
-
-## auto_scenario_4021
-* request{"district":"district"}
-  - slot{"district":"district"}
-  - utter_request
-  - utter_inform
-  - utter_closing
 
 ## auto_scenario_4022
 * request{"district":"district"}
@@ -51860,14 +43030,6 @@
   - slot{"closing":"closing"}
   - utter_closing
   - utter_request
-
-## auto_scenario_4026
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
 
 ## auto_scenario_4027
 * request{"district":"district"}
@@ -51960,14 +43122,6 @@
   - slot{"opening_time":"opening_time", "restaurant_name":"restaurant_name"}
   - utter_inform
 
-## auto_scenario_4032
-* request{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-* inform{"opening_time":"opening_time"}
-  - slot{"opening_time":"opening_time"}
-  - utter_inform
-
 ## auto_scenario_4033
 * request+inform
   - utter_request
@@ -52029,14 +43183,6 @@
   - utter_request
 * inform{"opening_time":"opening_time"}
   - slot{"opening_time":"opening_time"}
-  - utter_inform
-
-## auto_scenario_4037
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
   - utter_inform
 
 ## auto_scenario_4038
@@ -52302,21 +43448,6 @@
 * inform
   - utter_inform
 
-## auto_scenario_4052
-* request{"district":"district", "opening_time":"opening_time"}
-  - slot{"district":"district", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_closing
-
-## auto_scenario_4053
-* request{"district":"district", "region":"region", "opening_time":"opening_time"}
-  - slot{"district":"district", "region":"region", "opening_time":"opening_time"}
-  - utter_inform
-  - utter_multiple_choice
-* request
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_4054
 * request{"price":"price", "district":"district"}
   - slot{"price":"price", "district":"district"}
@@ -52330,15 +43461,6 @@
   - utter_inform
 * confirm
   - utter_inform
-
-## auto_scenario_4055
-* request{"district":"district", "region":"region", "opening_time":"opening_time"}
-  - slot{"district":"district", "region":"region", "opening_time":"opening_time"}
-  - utter_inform
-* inform{"restaurant_name":"restaurant_name"}
-  - slot{"restaurant_name":"restaurant_name"}
-  - utter_inform
-  - utter_multiple_choice
 
 ## auto_scenario_4056
 * request{"venue_type":"venue_type", "district":"district", "cuisine":"cuisine"}
@@ -52531,15 +43653,6 @@
 * request
   - utter_inform
 
-## auto_scenario_4065
-* request{"opening_time":"opening_time", "district":"district"}
-  - slot{"opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* confirm
-  - utter_inform
-  - utter_closing
-
 ## auto_scenario_4066
 * request
   - utter_request
@@ -52688,15 +43801,6 @@
   - utter_inform
   - utter_closing
 
-## auto_scenario_4074
-* request{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district", "cuisine":"cuisine"}
-  - slot{"cuisine":"cuisine", "opening_time":"opening_time", "district":"district"}
-  - utter_inform
-  - utter_multiple_choice
-* confirm
-  - utter_inform
-  - utter_multiple_choice
-
 ## auto_scenario_4075
 * request{"venue_type":"venue_type", "district":"district"}
   - slot{"venue_type":"venue_type", "district":"district"}
@@ -52843,13 +43947,6 @@
 * confirm
   - utter_inform
   - utter_closing
-
-## auto_scenario_4082
-* request{"region":"region", "district":"district", "opening_time":"opening_time"}
-  - slot{"region":"region", "district":"district", "opening_time":"opening_time"}
-  - utter_inform
-* confirm
-  - utter_inform
 
 ## auto_scenario_4083
 * request{"cuisine":"cuisine"}
@@ -53290,7 +44387,9 @@
 * confirm
   - utter_inform
   - utter_closing
-  
+
+
+
 ## interactive_story_1
 * request{"greeting": "Merhaba", "price": "ortalama", "cuisine": "pizza"}
     - slot{"cuisine": "pizza"}
@@ -53322,3 +44421,20 @@
     - utter_inform
 * confirm_restaurant
     - utter_closing
+
+## interactive_story_1
+* request{"city": "Ankara", "district": "Kızılay", "price": "ucuz", "cuisine": "kebap"}
+    - slot{"city": "Ankara"}
+    - slot{"cuisine": "kebap"}
+    - slot{"district": "Kızılay"}
+    - slot{"price": "ucuz"}
+    - utter_inform
+* request{"rating": "yüksek", "cuisine": "kebap"}
+    - slot{"cuisine": "kebap"}
+    - slot{"rating": "yüksek"}
+    - utter_inform
+    - utter_multiple_choice
+* confirm{"rank": "ilk", "venue_type": "restoran"}
+    - slot{"rank": "ilk"}
+    - slot{"venue_type": "restoran"}
+    - utter_confirm

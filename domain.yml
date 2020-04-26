@@ -18,9 +18,14 @@ entities:
 - enough
 - greeting
 - meal
+- near
 - neighborhood
 - not_sure
 - opening_time
+- other_venues
+- other_venues_price
+- other_venues_rating
+- other_venues_restaurant_name
 - price
 - rank
 - rating
@@ -29,20 +34,15 @@ entities:
 - restaurant_name
 - time
 - venue_type
-- near
-- other_venues
-- other_venues_restaurant_name
-- other_venues_price
-- other_venues_rating
 intents:
+- confirm
+- request
 - greeting
 - confirm_restaurant
-- request
 - closing+confirm
 - inform+request
 - request+greeting
 - inform
-- confirm
 - inform+closing
 - confirm+request
 - request+confirm
