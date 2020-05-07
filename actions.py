@@ -15,7 +15,9 @@
 # http://localhost:5055/health
 # http://localhost:5055/actions
 
-# rasa interactive -m models/20200413-194927.tar.gz
+# rasa interactive --debug --skip-visualization
+
+# rasa train --augmentation 0
 
 # tensorboard --logdir <path-to-directory>
 # http://localhost:6006/
