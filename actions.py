@@ -19,6 +19,8 @@
 
 # rasa train --augmentation 0
 
+# rasa data validate stories --max-history 10
+
 # tensorboard --logdir <path-to-directory>
 # http://localhost:6006/
 
