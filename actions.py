@@ -21,6 +21,8 @@
 
 # rasa data validate stories --max-history 10
 
+# rasa test nlu -f 5 --cross-validation
+
 # tensorboard --logdir <path-to-directory>
 # http://localhost:6006/
 
