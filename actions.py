@@ -17,6 +17,8 @@
 
 # rasa interactive -m models/20200413-194927.tar.gz
 
+# tensorboard --logdir <path-to-directory>
+# http://localhost:6006/
 
 # This is a simple example for a custom action which utters "Hello World!"
 
