@@ -23,7 +23,7 @@
 
 # rasa test nlu -f 5 --cross-validation
 
-# tensorboard --logdir <path-to-directory>
+# tensorboard --logdir /Users/volkanozer/Documents/GitHub/VenueBot/tensorboard
 # http://localhost:6006/
 
 # This is a simple example for a custom action which utters "Hello World!"

@@ -112,6 +112,8 @@ intents:
 - deny+multiple_choice
 - confirm+inform+request
 responses:
+  utter_fallback:
+    - text: Fallback policy'e girdi.
   utter_approve:
   - text: İsteğiniz sisteme girildi.
   utter_closing:
