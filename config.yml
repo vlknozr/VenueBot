@@ -3,11 +3,9 @@
 language: tr
 
 pipeline:
-  - name: EntitySynonymMapper
   - name: WhitespaceTokenizer
     intent_tokenization_flag: True
     intent_split_symbol: "+"
-  - name: CRFEntityExtractor
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
@@ -16,7 +14,7 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 100
+    epochs: 150
     evaluate_on_number_of_examples: 50
     evaluate_every_number_of_epochs: 5
     tensorboard_log_directory: "./tensorboard"
@@ -28,8 +26,13 @@ pipeline:
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: TEDPolicy
+    featurizer:
+    - name: MaxHistoryTrackerFeaturizer
+      max_history: 5
+      state_featurizer:
+        - name: BinarySingleStateFeaturizer
     max_history: 10
-    epochs: 100
+    epochs: 150
     evaluate_on_number_of_examples: 50
     evaluate_every_number_of_epochs: 5
     tensorboard_log_directory: "./tensorboard"
