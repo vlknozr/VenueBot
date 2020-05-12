@@ -35,6 +35,8 @@
 
 ## synonym:ortalama
 - uygun
+
+## intent:
 - [Volkan büfe](restaurant_name), [ucuz](price) fiyatlandırması ile müşterilerini memnun etmeyi başarmıştır.
 - [konya](city)'nın [meram](district) ilçesinde, [Ohannes burger ve güven balık restaurant](near)'ın yanında bulunan [şükrü usta asırlık fırın kebap evi](restaurant_name), müşterilerinin çok memnun olduğu bir yerdir.
 - [istanbul](region)'un [ortaköy](region), [beşiktaş](region) bölgesinde [the house hotel bosphorus](region)'da bulunan [The house cafe](restaurant_name), [dünya mutfağı yemekleri](cuisine) ve [kafeterya ürünleri](cuisine) servis etmektedir.

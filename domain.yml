@@ -152,19 +152,16 @@ session_config:
   session_expiration_time: 60
 slots:
   city:
-    initial_value: İstanbul
     type: text
   closing:
     type: text
   cuisine:
-    initial_value: kebap
     type: text
   date:
     type: text
   deny:
     type: text
   district:
-    initial_value: Maslak
     type: text
   enough:
     type: text
@@ -179,23 +176,18 @@ slots:
   opening_time:
     type: text
   price:
-    initial_value: ucuz
     type: text
   rank:
     type: text
   rating:
-    initial_value: ortalama
     type: text
   region:
-    initial_value: bulunduğun bölgede
     type: text
   restaurant_id:
     type: text
   restaurant_name:
-    initial_value: Frango
     type: text
   time:
     type: text
   venue_type:
-    initial_value: restoran
-    type: text
+s    type: text
