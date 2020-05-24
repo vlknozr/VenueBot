@@ -23,6 +23,24 @@
         "synonyms": ["ev yapımı"]
       }
     ],
+    "lookup_tables": [
+      {
+          "name": "city",
+          "elements": "data/city.txt"
+      },
+      {
+        "name": "district",
+        "elements": "data/district.txt"
+      },
+      {
+        "name": "neighborhood",
+        "elements": "data/neighborhood.txt"
+      },
+      {
+        "name": "cuisine",
+        "elements": "data/cuisine.txt"
+      }
+    ],
     "common_examples": [
       {
         "text": "İstanbul Şişli'de bir Meksika restoranı arıyorum",

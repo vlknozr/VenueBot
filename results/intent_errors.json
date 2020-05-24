@@ -1,10 +1,42 @@
 [
   {
+    "text": "Mavi Deniz",
+    "intent": "confirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.9277819395065308
+    }
+  },
+  {
+    "text": "Kerim restoran",
+    "intent": "confirm",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8343731164932251
+    }
+  },
+  {
+    "text": "Evet, ucuz olsun.",
+    "intent": "approve",
+    "intent_prediction": {
+      "name": "inform",
+      "confidence": 0.8374828100204468
+    }
+  },
+  {
     "text": "Elbette",
     "intent": "approve",
     "intent_prediction": {
       "name": "confirm",
-      "confidence": 0.5024067759513855
+      "confidence": 0.6527724862098694
+    }
+  },
+  {
+    "text": "deniz ürünleri",
+    "intent": "inform",
+    "intent_prediction": {
+      "name": "inform+request",
+      "confidence": 0.5074152946472168
     }
   }
 ]

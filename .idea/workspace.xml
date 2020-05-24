@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d36038e4-3d64-471e-a3fe-cc0085a82c34" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/20200504-224603.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/nlu.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/nlu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/nlu.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/nlu.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stories.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/stories.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/domain.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/endpoints.yml" beforeDir="false" afterPath="$PROJECT_DIR$/endpoints.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/20200427-230139.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/20200508-180826.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/confmat.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/confmat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/hist.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/hist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/intent_errors.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/intent_errors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/intent_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/intent_report.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/story_graph.dot" beforeDir="false" afterPath="$PROJECT_DIR$/story_graph.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard/DIET/20200508-183227/model_summary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard/DIET/20200508-183227/test/events.out.tfevents.1588951947.DESKTOP-TOUJ958.13676.23.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard/DIET/20200508-183227/train/events.out.tfevents.1588951947.DESKTOP-TOUJ958.13676.15.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard/TED/20200508-183232/model_summary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard/TED/20200508-183232/test/events.out.tfevents.1588951952.DESKTOP-TOUJ958.13676.6621.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard/TED/20200508-183232/train/events.out.tfevents.1588951952.DESKTOP-TOUJ958.13676.6613.v2" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +48,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chatbot_v2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.actions">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\VenueBot" />
+      <recent name="E:\GitHub\VenueBot\actions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.actions (1)">
     <configuration name="actions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -44,7 +70,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/actions.py" />
+      <option name="SCRIPT_NAME" value="E:\GitHub\VenueBot\actions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="actions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/actions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\GitHub\VenueBot\actions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="connections" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connections.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,6 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.actions (1)" />
+        <item itemvalue="Python.connections" />
         <item itemvalue="Python.actions" />
         <item itemvalue="Python.nlu_model" />
       </list>
@@ -99,31 +169,51 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1587223096990" />
-    <state x="-1039" y="440" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587158198073">
-      <screen x="-1600" y="173" width="1600" height="860" />
+    <state x="673" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590357952577">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1039" y="440" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/-1600.173.1600.860@-1600.173.1600.860" timestamp="1587158198073" />
-    <state x="673" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585491196475" />
-    <state width="1899" height="379" key="GridCell.Tab.0.bottom" timestamp="1585554574969">
+    <state x="673" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590357952577" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590351809937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585554574969" />
-    <state width="1899" height="379" key="GridCell.Tab.0.center" timestamp="1585554574969">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590351809937" />
+    <state width="949" height="282" key="GridCell.Tab.0.bottom" timestamp="1590349358359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="379" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585554574969" />
-    <state width="1899" height="379" key="GridCell.Tab.0.left" timestamp="1585554574969">
+    <state width="949" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590349358359" />
+    <state width="949" height="282" key="GridCell.Tab.0.center" timestamp="1590349358359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="379" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585554574969" />
-    <state width="1899" height="379" key="GridCell.Tab.0.right" timestamp="1585554574969">
+    <state width="949" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590349358359" />
+    <state width="949" height="282" key="GridCell.Tab.0.left" timestamp="1590349358359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="379" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585554574969" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1585554903332">
+    <state width="949" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590349358359" />
+    <state width="949" height="282" key="GridCell.Tab.0.right" timestamp="1590349358359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585554903332" />
+    <state width="949" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590349358359" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1590331867943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590331867943" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1590331867943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590331867943" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1590331867943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590331867943" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1590331867943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590331867943" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1590342046726">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590342046726" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587209039382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -8,6 +8,7 @@ actions:
 - utter_inform
 - utter_multiple_choice
 - utter_request
+- action_inform_restaurant
 entities:
 - city
 - closing
@@ -190,4 +191,4 @@ slots:
   time:
     type: text
   venue_type:
-s    type: text
+    type: text

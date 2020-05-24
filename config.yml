@@ -6,7 +6,9 @@ pipeline:
   - name: WhitespaceTokenizer
     intent_tokenization_flag: True
     intent_split_symbol: "+"
+  - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
+  - name: EntitySynonymMapper
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
     strip_accents: "unicode"
@@ -14,32 +16,25 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 150
-    evaluate_on_number_of_examples: 50
-    evaluate_every_number_of_epochs: 5
-    tensorboard_log_directory: "./tensorboard"
-    tensorboard_log_level: "epoch"
+    epochs: 50
 
 
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
+  - name: AugmentedMemoizationPolicy
+    max_history: 6
+  - name: MappingPolicy
   - name: TEDPolicy
     featurizer:
     - name: MaxHistoryTrackerFeaturizer
       max_history: 5
       state_featurizer:
         - name: BinarySingleStateFeaturizer
-    max_history: 10
-    epochs: 150
-    evaluate_on_number_of_examples: 50
-    evaluate_every_number_of_epochs: 5
-    tensorboard_log_directory: "./tensorboard"
-  - name: AugmentedMemoizationPolicy
     max_history: 6
+    epochs: 50
   - name: FallbackPolicy
-    nlu_threshold: 0.3
-    core_threshold: 0.3
+    nlu_threshold: 0.1
+    core_threshold: 0.1
     fallback_action_name: 'utter_fallback'
-  - name: MappingPolicy

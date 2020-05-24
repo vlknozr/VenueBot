@@ -1,12 +1,8 @@
-# This files contains your custom actions which can be used to run
-# custom Python code.
-#
-# See this guide on how to implement these action:
-# https://rasa.com/docs/rasa/core/actions/#custom-actions/
-
 # .\venv\Scripts\activate
 
 # source venv/bin/activate
+
+# rasa run actions & rasa shell -m models --endpoints endpoints.yml
 
 # npx kill-port 5055
 
@@ -28,10 +24,18 @@
 
 # This is a simple example for a custom action which utters "Hello World!"
 
-from typing import Any, Text, Dict, List
+# -*- coding: utf-8 -*-
+import json
+import requests
 
-from rasa_sdk import Action, Tracker
+from typing import Dict, Text, Any, List, Union, Optional
+
+from rasa_sdk import Action, Tracker, ActionExecutionRejection
 from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import SlotSet
+from rasa_sdk.forms import FormAction, REQUESTED_SLOT
+
+
 
 class ActionHelloWorld(Action):
 
@@ -40,23 +44,16 @@ class ActionHelloWorld(Action):
 
     def run(self, dispatcher, tracker, domain):
 
-        ## prod = tracker.get_slot('product')
-        price = tracker.get_slot('price')
-        name =  "Mr.Hamza" # later generate through some process
+        host = 'http://127.0.0.1:8000/'
+        
+        url = host + "api/post/getVenuesAround/"
 
-        response = """Your price {} is ordered for you. It will be shipped to your address. Your confirmation number is {}""".format(
-            price, name)
+        data = json.dumps({"neighborhood": "40700", "cuisine": [1, 2, 3], "price": "4", "rating": "1"})
+        response = requests.post(url, data=data).json()
+        print("---->", response[0]["description"][0])
 
-        dispatcher.utter_message(text=response)
+        dispatcher.utter_message(text=response[0]["description"][0])
+
+        # utter submit template
+        dispatcher.utter_template('utter_submit', tracker)
         return []
-
-
-    '''
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(text="Hello World!")
-
-        return []
-    '''
