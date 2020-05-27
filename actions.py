@@ -52,13 +52,22 @@ class ActionHelloWorld(Action):
         region = tracker.get_slot('region')
         cuisines = tracker.get_slot('cuisines')
 
-        print(price,rating,city,district,neighborhood,restaurant_name,region)
+        print(price,rating,city,district,neighborhood,restaurant_name,region,cuisines)
 
         host = 'http://127.0.0.1:8000/'
         
         url = host + "post/rasaGetVenues/"
 
-        data = json.dumps({"neighborhood": "40700", "cuisine": [1, 2, 3], "price": "4", "rating": "1"})
+        data = json.dumps({
+            "price": price,
+            "rating": rating,
+            "city": city,
+            "district": district,
+            "neighborhood": neighborhood,
+            "restaurant_name": restaurant_name,
+            "region": region,
+            "cuisines": cuisines
+        })
         response = requests.post(url, data=data).json()
         print("---->", response[0]["description"][0])
 
