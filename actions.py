@@ -43,10 +43,20 @@ class ActionHelloWorld(Action):
         return "action_inform_restaurant"
 
     def run(self, dispatcher, tracker, domain):
+        price = tracker.get_slot('price')
+        rating = tracker.get_slot('rating')
+        city = tracker.get_slot('city')
+        district = tracker.get_slot('district')
+        neighborhood = tracker.get_slot('neighborhood')
+        restaurant_name = tracker.get_slot('restaurant_name')
+        region = tracker.get_slot('region')
+        cuisines = tracker.get_slot('cuisines')
+
+        print(price,rating,city,district,neighborhood,restaurant_name,region)
 
         host = 'http://127.0.0.1:8000/'
         
-        url = host + "api/post/getVenuesAround/"
+        url = host + "post/rasaGetVenues/"
 
         data = json.dumps({"neighborhood": "40700", "cuisine": [1, 2, 3], "price": "4", "rating": "1"})
         response = requests.post(url, data=data).json()
