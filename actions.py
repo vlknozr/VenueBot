@@ -56,7 +56,7 @@ class ActionHelloWorld(Action):
 
         host = 'http://127.0.0.1:8000/'
         
-        url = host + "post/rasaGetVenues/"
+        url = host + "api/post/rasaGetVenues/"
 
         data = json.dumps({
             "price": price,
@@ -69,9 +69,56 @@ class ActionHelloWorld(Action):
             "cuisines": cuisines
         })
         response = requests.post(url, data=data).json()
-        print("---->", response[0]["description"][0])
 
-        dispatcher.utter_message(text=response[0]["description"][0])
+        fields = "-".join([price, rating, city, district, neighborhood, restaurant_name, region, cuisines])
+
+        field_data = "inform:" + fields
+
+
+        print("---->", response[0]["description"][0]+";"+field_data)
+
+        fields = json.dumps({
+            "city_id": response[0]["city"],
+            "district_id": response[0]["district"],
+            "neighborhood_id": response[0]["neighborhood"],
+            "price": response[0]["price"],
+            "rating": response[0]["rating"],
+            "description": response[0]["description"][0]
+        })
+
+        dispatcher.utter_message(text=fields)
+
+        # utter submit template
+        dispatcher.utter_template('utter_submit', tracker)
+        return []
+
+
+class ActionFilter(Action):
+
+    def name(self) -> Text:
+        return "action_send_filter"
+
+    def run(self, dispatcher, tracker, domain):
+        price = tracker.get_slot('price')
+        rating = tracker.get_slot('rating')
+        city = tracker.get_slot('city')
+        district = tracker.get_slot('district')
+        neighborhood = tracker.get_slot('neighborhood')
+        restaurant_name = tracker.get_slot('restaurant_name')
+        region = tracker.get_slot('region')
+        cuisines = tracker.get_slot('cuisines')
+
+        print(price, rating, city, district, neighborhood, restaurant_name, region, cuisines)
+
+        host = 'http://127.0.0.1:8000/'
+
+        url = host + "post/rasaGetVenues/"
+
+        fields = "-".join([price, rating, city, district, neighborhood, restaurant_name, region, cuisines])
+        print(fields)
+        data = "inform:"+fields
+
+        dispatcher.utter_message(text=data)
 
         # utter submit template
         dispatcher.utter_template('utter_submit', tracker)
