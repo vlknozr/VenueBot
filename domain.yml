@@ -9,7 +9,6 @@ actions:
 - utter_multiple_choice
 - utter_request
 - action_inform_restaurant
-- action_send_filter
 entities:
 - city
 - closing
