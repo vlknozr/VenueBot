@@ -48,26 +48,26 @@ class ActionHelloWorld(Action):
         city = tracker.get_slot('city')
         district = tracker.get_slot('district')
         neighborhood = tracker.get_slot('neighborhood')
-        restaurant_name = tracker.get_slot('restaurant_name')
         region = tracker.get_slot('region')
-        cuisines = tracker.get_slot('cuisines')
+        cuisines = tracker.get_slot('cuisine')
 
-        print(price,rating,city,district,neighborhood,restaurant_name,region,cuisines)
 
         host = 'http://127.0.0.1:8000/'
         
         url = host + "api/post/rasaGetVenues/"
 
         data = json.dumps({
-            "price": price,
-            "rating": rating,
-            "city": city,
-            "district": district,
-            "neighborhood": neighborhood,
-            "restaurant_name": restaurant_name,
+            "price": (str(price)[:-3] if price else None),
+            "rating": (str(rating)[:-3] if rating else None),
+            "city": (str(city)[:-3] if city else None),
+            "district": (str(district)[:-3] if district else None),
+            "neighborhood": (str(neighborhood)[:-3] if neighborhood else None),
             "region": region,
-            "cuisines": cuisines
+            "cuisines": (str(cuisines)[:-3] if cuisines else None)
         })
+
+        print(data)
+
         response = requests.post(url, data=data).json()
 
         if len(response) > 0:
@@ -78,7 +78,8 @@ class ActionHelloWorld(Action):
                 "neighborhood_id": response[0]["neighborhood"],
                 "price": response[0]["price"],
                 "rating": response[0]["rating"],
-                "description": response[0]["description"][0]
+                "description": response[0]["description"][0],
+                "id": response[0]["id"]
             })
 
             dispatcher.utter_message(text=fields)
